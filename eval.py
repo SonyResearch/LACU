@@ -501,7 +501,7 @@ def main():
             ts = time.strftime("%Y%m%d_%H%M%S")
             args.wandb_run_name = f"eval_{base_model}_{ts}"
         wandb_kwargs = dict(
-            dir="/scratch2/naveen.george/wandb",
+            dir="/wandb/",
             project=args.wandb_project,
             entity=args.wandb_entity,
             group=args.wandb_group,
