@@ -430,12 +430,10 @@ def get_related_concepts(concept: str, model: str, max_tokens: int = 1000) -> Li
     # Split into lines and take up to 10 (in case model returns extra or fewer)
     concepts = [ln.strip() for ln in raw_output.splitlines() if ln.strip()]
     if len(concepts) < 10:
-        # If fewer than 10, try to infer missing ones by splitting commas or semi-colons if used
         combined = ",".join(concepts)
         parts = [x.strip() for x in combined.split(",") if x.strip()]
         if len(parts) >= 10:
             concepts = parts[:10]
-    # Ensure we have exactly 10 items; if more, truncate; if less, pad by repeating last item (or concept domain filler).
     concepts = concepts[:10]
     if len(concepts) < 10:
         concepts += ["placeholder"] * (10 - len(concepts))  # filler if needed (should not usually happen)
@@ -479,7 +477,7 @@ def main():
     ap.add_argument("--n", type=int, help="Number of TRAIN prompt pairs.")
     ap.add_argument("--model", default="gpt-5", help="OpenAI model (e.g., gpt-4o-mini, gpt-4o).")
     ap.add_argument("--max_tokens", type=int, default=25000, help="Max tokens for completion.")
-    ap.add_argument("--out_root", default="/home/naveen.george/CUL/prompts_new", help="Root output directory.")
+    ap.add_argument("--out_root", default="/prompts", help="Root output directory.")
     ap.add_argument("--map_to", help="Fixed target concept for mapped prompts (e.g., 'cat'). Required for --task mapped.")
     ap.add_argument("--suffix", help="Optional suffix to append to output filenames (e.g., train_50.csv).")
     args = ap.parse_args()
