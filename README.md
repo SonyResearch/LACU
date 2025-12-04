@@ -30,7 +30,7 @@ conda activate ldm
 
 ### Prompt Preparation
 Use the prompts listed in the paper’s Supplementary Section to generate the full prompt set.
-A script for generating them ```prompt_gen.py``` is included. Running it will produce the prompts and save them into a folder named prompts/. Change the ```--task``` argument to change the mapping technique and related prompts for training.
+A script for generating them ```prompt_gen.py``` is included. Running it will produce the prompts and save them into a folder named ```prompts/```. Change the ```--task``` argument to change the mapping technique and related prompts for training.
 
 Before running the script, ensure that your OpenAI API key is available in the environment (e.g., export OPENAI_API_KEY=...).
 
