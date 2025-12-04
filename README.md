@@ -13,7 +13,7 @@ Distill, Forget, Repeat proposes a distillation-based framework utilizing contex
 
 <div align="center">
   <img
-    src="Teaser_v2.pdf"
+    src="Teaser.png"
     alt="Continual Unlearning performance"
   >
 </div>
