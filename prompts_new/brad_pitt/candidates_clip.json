@@ -1,0 +1,6678 @@
+[
+  {
+    "id": "1",
+    "source": "Brad Pitt walks along a beach",
+    "candidates": [
+      {
+        "prompt": "A surfer walks along a beach",
+        "mapping_type": "replace",
+        "replacement": "surfer",
+        "clip_score": 0.6653
+      },
+      {
+        "prompt": "A child walks along a beach",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6949
+      },
+      {
+        "prompt": "A dog walks along a beach",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6989
+      },
+      {
+        "prompt": "A lifeguard walks along a beach",
+        "mapping_type": "replace",
+        "replacement": "lifeguard",
+        "clip_score": 0.6412
+      },
+      {
+        "prompt": "A couple walks along a beach",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6735
+      },
+      {
+        "prompt": "A fisherman walks along a beach",
+        "mapping_type": "replace",
+        "replacement": "fisherman",
+        "clip_score": 0.6598
+      },
+      {
+        "prompt": "An artist walks along a beach",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7268
+      },
+      {
+        "prompt": "A tourist walks along a beach",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.717
+      },
+      {
+        "prompt": "A person walks along a beach",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7329
+      },
+      {
+        "prompt": "Walks along a beach",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7138
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "2",
+    "source": "Brad Pitt sits on a park bench",
+    "candidates": [
+      {
+        "prompt": "A man sits on a park bench",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7258
+      },
+      {
+        "prompt": "A woman sits on a park bench",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6894
+      },
+      {
+        "prompt": "A dog sits on a park bench",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7097
+      },
+      {
+        "prompt": "A child sits on a park bench",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7035
+      },
+      {
+        "prompt": "A couple sits on a park bench",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.7061
+      },
+      {
+        "prompt": "An artist sits on a park bench",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7244
+      },
+      {
+        "prompt": "A musician sits on a park bench",
+        "mapping_type": "replace",
+        "replacement": "musician",
+        "clip_score": 0.6598
+      },
+      {
+        "prompt": "An old man sits on a park bench",
+        "mapping_type": "replace",
+        "replacement": "old man",
+        "clip_score": 0.729
+      },
+      {
+        "prompt": "A person sits on a park bench",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7373
+      },
+      {
+        "prompt": "Sits on a park bench",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6947
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "3",
+    "source": "Brad Pitt jogs through a city street",
+    "candidates": [
+      {
+        "prompt": "A runner jogs through a city street",
+        "mapping_type": "replace",
+        "replacement": "runner",
+        "clip_score": 0.6382
+      },
+      {
+        "prompt": "A cyclist jogs through a city street",
+        "mapping_type": "replace",
+        "replacement": "cyclist",
+        "clip_score": 0.5997
+      },
+      {
+        "prompt": "A dog jogs through a city street",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6087
+      },
+      {
+        "prompt": "A child jogs through a city street",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6302
+      },
+      {
+        "prompt": "A policeman jogs through a city street",
+        "mapping_type": "replace",
+        "replacement": "policeman",
+        "clip_score": 0.6192
+      },
+      {
+        "prompt": "An old woman jogs through a city street",
+        "mapping_type": "replace",
+        "replacement": "old woman",
+        "clip_score": 0.6219
+      },
+      {
+        "prompt": "A pedestrian jogs through a city street",
+        "mapping_type": "replace",
+        "replacement": "pedestrian",
+        "clip_score": 0.6358
+      },
+      {
+        "prompt": "A delivery person jogs through a city street",
+        "mapping_type": "replace",
+        "replacement": "delivery person",
+        "clip_score": 0.5979
+      },
+      {
+        "prompt": "A person jogs through a city street",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6531
+      },
+      {
+        "prompt": "Jog through a city street",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6293
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "4",
+    "source": "Brad Pitt drinks coffee at a cafe",
+    "candidates": [
+      {
+        "prompt": "A barista drinks coffee at a cafe",
+        "mapping_type": "replace",
+        "replacement": "barista",
+        "clip_score": 0.6817
+      },
+      {
+        "prompt": "A woman drinks coffee at a cafe",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6871
+      },
+      {
+        "prompt": "A student drinks coffee at a cafe",
+        "mapping_type": "replace",
+        "replacement": "student",
+        "clip_score": 0.6467
+      },
+      {
+        "prompt": "A man drinks coffee at a cafe",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7093
+      },
+      {
+        "prompt": "A dog drinks coffee at a cafe",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6589
+      },
+      {
+        "prompt": "A friend drinks coffee at a cafe",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6836
+      },
+      {
+        "prompt": "A couple drinks coffee at a cafe",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.669
+      },
+      {
+        "prompt": "An artist drinks coffee at a cafe",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7043
+      },
+      {
+        "prompt": "A person drinks coffee at a cafe",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6947
+      },
+      {
+        "prompt": "Drinks coffee at a cafe",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6582
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "5",
+    "source": "Brad Pitt reads a book in sunlight",
+    "candidates": [
+      {
+        "prompt": "A woman reads a book in sunlight",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.695
+      },
+      {
+        "prompt": "A child reads a book in sunlight",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6713
+      },
+      {
+        "prompt": "A dog reads a book in sunlight",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6703
+      },
+      {
+        "prompt": "An artist reads a book in sunlight",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7022
+      },
+      {
+        "prompt": "A student reads a book in sunlight",
+        "mapping_type": "replace",
+        "replacement": "student",
+        "clip_score": 0.6713
+      },
+      {
+        "prompt": "A couple reads a book in sunlight",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6556
+      },
+      {
+        "prompt": "A friend reads a book in sunlight",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7034
+      },
+      {
+        "prompt": "A person reads a book in sunlight",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7107
+      },
+      {
+        "prompt": "An old man reads a book in sunlight",
+        "mapping_type": "replace",
+        "replacement": "old man",
+        "clip_score": 0.6849
+      },
+      {
+        "prompt": "Reads a book in sunlight",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6629
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "6",
+    "source": "Brad Pitt poses on a red carpet",
+    "candidates": [
+      {
+        "prompt": "An actor poses on a red carpet",
+        "mapping_type": "replace",
+        "replacement": "actor",
+        "clip_score": 0.8142
+      },
+      {
+        "prompt": "A model poses on a red carpet",
+        "mapping_type": "replace",
+        "replacement": "model",
+        "clip_score": 0.8332
+      },
+      {
+        "prompt": "A celebrity poses on a red carpet",
+        "mapping_type": "replace",
+        "replacement": "celebrity",
+        "clip_score": 0.8357
+      },
+      {
+        "prompt": "A singer poses on a red carpet",
+        "mapping_type": "replace",
+        "replacement": "singer",
+        "clip_score": 0.7628
+      },
+      {
+        "prompt": "An artist poses on a red carpet",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.8047
+      },
+      {
+        "prompt": "A movie star poses on a red carpet",
+        "mapping_type": "replace",
+        "replacement": "movie star",
+        "clip_score": 0.8393
+      },
+      {
+        "prompt": "A fashionista poses on a red carpet",
+        "mapping_type": "replace",
+        "replacement": "fashionista",
+        "clip_score": 0.8178
+      },
+      {
+        "prompt": "A star poses on a red carpet",
+        "mapping_type": "replace",
+        "replacement": "star",
+        "clip_score": 0.81
+      },
+      {
+        "prompt": "A person poses on a red carpet",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7847
+      },
+      {
+        "prompt": "Poses on a red carpet",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7816
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "7",
+    "source": "Brad Pitt rides a bicycle downtown",
+    "candidates": [
+      {
+        "prompt": "A young man rides a bicycle downtown",
+        "mapping_type": "replace",
+        "replacement": "young man",
+        "clip_score": 0.733
+      },
+      {
+        "prompt": "A girl rides a bicycle downtown",
+        "mapping_type": "replace",
+        "replacement": "girl",
+        "clip_score": 0.7494
+      },
+      {
+        "prompt": "A dog rides a bicycle downtown",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6794
+      },
+      {
+        "prompt": "A woman rides a bicycle downtown",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6873
+      },
+      {
+        "prompt": "A delivery person rides a bicycle downtown",
+        "mapping_type": "replace",
+        "replacement": "delivery person",
+        "clip_score": 0.633
+      },
+      {
+        "prompt": "A child rides a bicycle downtown",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7024
+      },
+      {
+        "prompt": "An artist rides a bicycle downtown",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7213
+      },
+      {
+        "prompt": "A friend rides a bicycle downtown",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.73
+      },
+      {
+        "prompt": "A person rides a bicycle downtown",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7278
+      },
+      {
+        "prompt": "Rides a bicycle downtown",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7274
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "8",
+    "source": "Brad Pitt waits at a bus stop",
+    "candidates": [
+      {
+        "prompt": "A woman waits at a bus stop",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6461
+      },
+      {
+        "prompt": "A student waits at a bus stop",
+        "mapping_type": "replace",
+        "replacement": "student",
+        "clip_score": 0.631
+      },
+      {
+        "prompt": "A dog waits at a bus stop",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6467
+      },
+      {
+        "prompt": "A child waits at a bus stop",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6352
+      },
+      {
+        "prompt": "A couple waits at a bus stop",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6261
+      },
+      {
+        "prompt": "An elderly man waits at a bus stop",
+        "mapping_type": "replace",
+        "replacement": "elderly man",
+        "clip_score": 0.6154
+      },
+      {
+        "prompt": "A friend waits at a bus stop",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6734
+      },
+      {
+        "prompt": "A person waits at a bus stop",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6554
+      },
+      {
+        "prompt": "A teenager waits at a bus stop",
+        "mapping_type": "replace",
+        "replacement": "teenager",
+        "clip_score": 0.6515
+      },
+      {
+        "prompt": "Waits at a bus stop",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6299
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "9",
+    "source": "Brad Pitt holds an umbrella in rain",
+    "candidates": [
+      {
+        "prompt": "A person holds an umbrella in rain",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6968
+      },
+      {
+        "prompt": "A man holds an umbrella in rain",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.6941
+      },
+      {
+        "prompt": "A woman holds an umbrella in rain",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.663
+      },
+      {
+        "prompt": "A child holds an umbrella in rain",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6407
+      },
+      {
+        "prompt": "A dog holds an umbrella in rain",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.647
+      },
+      {
+        "prompt": "An artist holds an umbrella in rain",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.6858
+      },
+      {
+        "prompt": "A couple holds an umbrella in rain",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6622
+      },
+      {
+        "prompt": "A friend holds an umbrella in rain",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6876
+      },
+      {
+        "prompt": "A child holds an umbrella in rain",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6407
+      },
+      {
+        "prompt": "Holds an umbrella in rain",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6581
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "10",
+    "source": "Brad Pitt hikes up a forest trail",
+    "candidates": [
+      {
+        "prompt": "A hiker hikes up a forest trail",
+        "mapping_type": "replace",
+        "replacement": "hiker",
+        "clip_score": 0.6445
+      },
+      {
+        "prompt": "A dog hikes up a forest trail",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6161
+      },
+      {
+        "prompt": "A child hikes up a forest trail",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6412
+      },
+      {
+        "prompt": "A couple hikes up a forest trail",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6616
+      },
+      {
+        "prompt": "An artist hikes up a forest trail",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.6492
+      },
+      {
+        "prompt": "A runner hikes up a forest trail",
+        "mapping_type": "replace",
+        "replacement": "runner",
+        "clip_score": 0.6215
+      },
+      {
+        "prompt": "A group of friends hikes up a forest trail",
+        "mapping_type": "replace",
+        "replacement": "group of friends",
+        "clip_score": 0.632
+      },
+      {
+        "prompt": "An elderly woman hikes up a forest trail",
+        "mapping_type": "replace",
+        "replacement": "elderly woman",
+        "clip_score": 0.6284
+      },
+      {
+        "prompt": "A person hikes up a forest trail",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6507
+      },
+      {
+        "prompt": "Hikes up a forest trail",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6629
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "11",
+    "source": "Brad Pitt cooks in a home kitchen",
+    "candidates": [
+      {
+        "prompt": "A chef cooks in a home kitchen",
+        "mapping_type": "replace",
+        "replacement": "chef",
+        "clip_score": 0.756
+      },
+      {
+        "prompt": "A baker cooks in a home kitchen",
+        "mapping_type": "replace",
+        "replacement": "baker",
+        "clip_score": 0.7177
+      },
+      {
+        "prompt": "A grandmother cooks in a home kitchen",
+        "mapping_type": "replace",
+        "replacement": "grandmother",
+        "clip_score": 0.6624
+      },
+      {
+        "prompt": "A child cooks in a home kitchen",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6517
+      },
+      {
+        "prompt": "A father cooks in a home kitchen",
+        "mapping_type": "replace",
+        "replacement": "father",
+        "clip_score": 0.7183
+      },
+      {
+        "prompt": "A friend cooks in a home kitchen",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6985
+      },
+      {
+        "prompt": "A neighbor cooks in a home kitchen",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.7117
+      },
+      {
+        "prompt": "An adult cooks in a home kitchen",
+        "mapping_type": "replace",
+        "replacement": "adult",
+        "clip_score": 0.7021
+      },
+      {
+        "prompt": "A person cooks in a home kitchen",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6997
+      },
+      {
+        "prompt": "Cooks in a home kitchen",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6989
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "12",
+    "source": "Brad Pitt ties his shoe by stairs",
+    "candidates": [
+      {
+        "prompt": "A boy ties his shoe by stairs",
+        "mapping_type": "replace",
+        "replacement": "boy",
+        "clip_score": 0.6493
+      },
+      {
+        "prompt": "An athlete ties his shoe by stairs",
+        "mapping_type": "replace",
+        "replacement": "athlete",
+        "clip_score": 0.6452
+      },
+      {
+        "prompt": "A woman ties her shoe by stairs",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6392
+      },
+      {
+        "prompt": "A teacher ties her shoe by stairs",
+        "mapping_type": "replace",
+        "replacement": "teacher",
+        "clip_score": 0.6185
+      },
+      {
+        "prompt": "A girl ties her shoe by stairs",
+        "mapping_type": "replace",
+        "replacement": "girl",
+        "clip_score": 0.6403
+      },
+      {
+        "prompt": "A friend ties his shoe by stairs",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6581
+      },
+      {
+        "prompt": "A neighbor ties his shoe by stairs",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.6576
+      },
+      {
+        "prompt": "A parent ties their shoe by stairs",
+        "mapping_type": "replace",
+        "replacement": "parent",
+        "clip_score": 0.5948
+      },
+      {
+        "prompt": "A person ties their shoe by stairs",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6534
+      },
+      {
+        "prompt": "Someone ties their shoe by stairs",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6494
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "13",
+    "source": "Brad Pitt plays guitar on a porch",
+    "candidates": [
+      {
+        "prompt": "A musician plays guitar on a porch",
+        "mapping_type": "replace",
+        "replacement": "musician",
+        "clip_score": 0.7467
+      },
+      {
+        "prompt": "A girl plays guitar on a porch",
+        "mapping_type": "replace",
+        "replacement": "girl",
+        "clip_score": 0.7316
+      },
+      {
+        "prompt": "A friend plays guitar on a porch",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7589
+      },
+      {
+        "prompt": "An artist plays guitar on a porch",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7655
+      },
+      {
+        "prompt": "A boy plays guitar on a porch",
+        "mapping_type": "replace",
+        "replacement": "boy",
+        "clip_score": 0.756
+      },
+      {
+        "prompt": "A neighbor plays guitar on a porch",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.7773
+      },
+      {
+        "prompt": "A father plays guitar on a porch",
+        "mapping_type": "replace",
+        "replacement": "father",
+        "clip_score": 0.7581
+      },
+      {
+        "prompt": "A child plays guitar on a porch",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7331
+      },
+      {
+        "prompt": "A person plays guitar on a porch",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7681
+      },
+      {
+        "prompt": "Someone plays guitar on a porch",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7671
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "14",
+    "source": "Brad Pitt laughs with friends at dinner",
+    "candidates": [
+      {
+        "prompt": "A man laughs with friends at dinner",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.715
+      },
+      {
+        "prompt": "A woman laughs with friends at dinner",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6902
+      },
+      {
+        "prompt": "A child laughs with friends at dinner",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6796
+      },
+      {
+        "prompt": "A neighbor laughs with friends at dinner",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.699
+      },
+      {
+        "prompt": "A friend laughs with friends at dinner",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.723
+      },
+      {
+        "prompt": "A brother laughs with friends at dinner",
+        "mapping_type": "replace",
+        "replacement": "brother",
+        "clip_score": 0.7126
+      },
+      {
+        "prompt": "A sister laughs with friends at dinner",
+        "mapping_type": "replace",
+        "replacement": "sister",
+        "clip_score": 0.6862
+      },
+      {
+        "prompt": "A couple laughs with friends at dinner",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.7004
+      },
+      {
+        "prompt": "A person laughs with friends at dinner",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7177
+      },
+      {
+        "prompt": "People laugh with friends at dinner",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7027
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "15",
+    "source": "Brad Pitt looks at a city map",
+    "candidates": [
+      {
+        "prompt": "A tourist looks at a city map",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.6482
+      },
+      {
+        "prompt": "A woman looks at a city map",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6195
+      },
+      {
+        "prompt": "A child looks at a city map",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.5937
+      },
+      {
+        "prompt": "A friend looks at a city map",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.629
+      },
+      {
+        "prompt": "An artist looks at a city map",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.6336
+      },
+      {
+        "prompt": "A man looks at a city map",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.6626
+      },
+      {
+        "prompt": "A couple looks at a city map",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.5928
+      },
+      {
+        "prompt": "A neighbor looks at a city map",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.6265
+      },
+      {
+        "prompt": "A person looks at a city map",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6363
+      },
+      {
+        "prompt": "Someone looks at a city map",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.5854
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "16",
+    "source": "Brad Pitt talks with a street vendor",
+    "candidates": [
+      {
+        "prompt": "A customer talks with a street vendor",
+        "mapping_type": "replace",
+        "replacement": "customer",
+        "clip_score": 0.6995
+      },
+      {
+        "prompt": "A tourist talks with a street vendor",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.6962
+      },
+      {
+        "prompt": "A woman talks with a street vendor",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6839
+      },
+      {
+        "prompt": "A friend talks with a street vendor",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7191
+      },
+      {
+        "prompt": "A child talks with a street vendor",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6426
+      },
+      {
+        "prompt": "A shopper talks with a street vendor",
+        "mapping_type": "replace",
+        "replacement": "shopper",
+        "clip_score": 0.6769
+      },
+      {
+        "prompt": "A neighbor talks with a street vendor",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.7077
+      },
+      {
+        "prompt": "A man talks with a street vendor",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7193
+      },
+      {
+        "prompt": "A person talks with a street vendor",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7035
+      },
+      {
+        "prompt": "Someone talks with a street vendor",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6749
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "17",
+    "source": "Brad Pitt jogs on a treadmill at gym",
+    "candidates": [
+      {
+        "prompt": "A runner jogs on a treadmill at gym",
+        "mapping_type": "replace",
+        "replacement": "runner",
+        "clip_score": 0.7236
+      },
+      {
+        "prompt": "A woman jogs on a treadmill at gym",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.711
+      },
+      {
+        "prompt": "A child jogs on a treadmill at gym",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6909
+      },
+      {
+        "prompt": "A neighbor jogs on a treadmill at gym",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.7242
+      },
+      {
+        "prompt": "A friend jogs on a treadmill at gym",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7063
+      },
+      {
+        "prompt": "A man jogs on a treadmill at gym",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7473
+      },
+      {
+        "prompt": "An athlete jogs on a treadmill at gym",
+        "mapping_type": "replace",
+        "replacement": "athlete",
+        "clip_score": 0.7214
+      },
+      {
+        "prompt": "A person jogs on a treadmill at gym",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7302
+      },
+      {
+        "prompt": "A person jogs at gym",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.622
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "18",
+    "source": "Brad Pitt stretches before a morning run",
+    "candidates": [
+      {
+        "prompt": "A runner stretches before a morning run",
+        "mapping_type": "replace",
+        "replacement": "runner",
+        "clip_score": 0.6628
+      },
+      {
+        "prompt": "A child stretches before a morning run",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6565
+      },
+      {
+        "prompt": "A woman stretches before a morning run",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6591
+      },
+      {
+        "prompt": "A neighbor stretches before a morning run",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.6564
+      },
+      {
+        "prompt": "A friend stretches before a morning run",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6733
+      },
+      {
+        "prompt": "An athlete stretches before a morning run",
+        "mapping_type": "replace",
+        "replacement": "athlete",
+        "clip_score": 0.6941
+      },
+      {
+        "prompt": "A man stretches before a morning run",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.6992
+      },
+      {
+        "prompt": "A person stretches before a morning run",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6687
+      },
+      {
+        "prompt": "A person stretches before a run",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.5974
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "19",
+    "source": "Brad Pitt waves to fans outside theater",
+    "candidates": [
+      {
+        "prompt": "A fan waves to fans outside theater",
+        "mapping_type": "replace",
+        "replacement": "fan",
+        "clip_score": 0.6892
+      },
+      {
+        "prompt": "A kid waves to fans outside theater",
+        "mapping_type": "replace",
+        "replacement": "kid",
+        "clip_score": 0.6627
+      },
+      {
+        "prompt": "A woman waves to fans outside theater",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6651
+      },
+      {
+        "prompt": "A friend waves to fans outside theater",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6901
+      },
+      {
+        "prompt": "A boy waves to fans outside theater",
+        "mapping_type": "replace",
+        "replacement": "boy",
+        "clip_score": 0.666
+      },
+      {
+        "prompt": "A neighbor waves to fans outside theater",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.7058
+      },
+      {
+        "prompt": "A couple waves to fans outside theater",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.682
+      },
+      {
+        "prompt": "A person waves to fans outside theater",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6715
+      },
+      {
+        "prompt": "Someone waves to fans outside theater",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7154
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "20",
+    "source": "Brad Pitt signs autographs behind barriers",
+    "candidates": [
+      {
+        "prompt": "A celebrity signs autographs behind barriers",
+        "mapping_type": "replace",
+        "replacement": "celebrity",
+        "clip_score": 0.7107
+      },
+      {
+        "prompt": "A fan signs autographs behind barriers",
+        "mapping_type": "replace",
+        "replacement": "fan",
+        "clip_score": 0.6638
+      },
+      {
+        "prompt": "A kid signs autographs behind barriers",
+        "mapping_type": "replace",
+        "replacement": "kid",
+        "clip_score": 0.6452
+      },
+      {
+        "prompt": "A friend signs autographs behind barriers",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6656
+      },
+      {
+        "prompt": "A woman signs autographs behind barriers",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6219
+      },
+      {
+        "prompt": "A neighbor signs autographs behind barriers",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.667
+      },
+      {
+        "prompt": "A person signs autographs behind barriers",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6438
+      },
+      {
+        "prompt": "An actor signs autographs behind barriers",
+        "mapping_type": "replace",
+        "replacement": "actor",
+        "clip_score": 0.7055
+      },
+      {
+        "prompt": "Someone signs autographs behind barriers",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6774
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "21",
+    "source": "Brad Pitt takes selfies by a fountain",
+    "candidates": [
+      {
+        "prompt": "A photographer takes selfies by a fountain",
+        "mapping_type": "replace",
+        "replacement": "photographer",
+        "clip_score": 0.6957
+      },
+      {
+        "prompt": "A man wears sunglasses on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.2862
+      },
+      {
+        "prompt": "A tourist stands beside a yellow taxi",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.2437
+      },
+      {
+        "prompt": "A woman boards a train at night",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.123
+      },
+      {
+        "prompt": "A child waits in an airport lounge",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.2138
+      },
+      {
+        "prompt": "A friend carries groceries from a store",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.1956
+      },
+      {
+        "prompt": "An artist shops for fruit at market",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.2327
+      },
+      {
+        "prompt": "A couple feeds ducks at the pond",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.3302
+      },
+      {
+        "prompt": "A person takes selfies by a fountain",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.693
+      },
+      {
+        "prompt": "Takes selfies by a fountain",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6472
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "22",
+    "source": "Brad Pitt wears sunglasses on the sidewalk",
+    "candidates": [
+      {
+        "prompt": "A woman wears sunglasses on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.7446
+      },
+      {
+        "prompt": "A child wears sunglasses on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7368
+      },
+      {
+        "prompt": "A man wears a hat on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "hat",
+        "clip_score": 0.6184
+      },
+      {
+        "prompt": "A friend wears sunglasses on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7683
+      },
+      {
+        "prompt": "A model wears sunglasses on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "model",
+        "clip_score": 0.7553
+      },
+      {
+        "prompt": "A tourist wears sunglasses on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.7496
+      },
+      {
+        "prompt": "A person wears a backpack on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "backpack",
+        "clip_score": 0.5844
+      },
+      {
+        "prompt": "A cyclist wears sunglasses on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "cyclist",
+        "clip_score": 0.6813
+      },
+      {
+        "prompt": "A person wears sunglasses on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7692
+      },
+      {
+        "prompt": "Wears sunglasses on the sidewalk",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7649
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "23",
+    "source": "Brad Pitt stands beside a yellow taxi",
+    "candidates": [
+      {
+        "prompt": "A man stands beside a yellow taxi",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.8121
+      },
+      {
+        "prompt": "A woman stands beside a yellow taxi",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.7683
+      },
+      {
+        "prompt": "A child stands beside a yellow taxi",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7764
+      },
+      {
+        "prompt": "A tourist stands beside a blue taxi",
+        "mapping_type": "replace",
+        "replacement": "blue taxi",
+        "clip_score": 0.6611
+      },
+      {
+        "prompt": "A couple stands beside a yellow taxi",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.771
+      },
+      {
+        "prompt": "A friend stands beside a yellow taxi",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.8045
+      },
+      {
+        "prompt": "A parent stands beside a yellow taxi",
+        "mapping_type": "replace",
+        "replacement": "parent",
+        "clip_score": 0.7475
+      },
+      {
+        "prompt": "A cyclist stands beside a yellow taxi",
+        "mapping_type": "replace",
+        "replacement": "cyclist",
+        "clip_score": 0.7132
+      },
+      {
+        "prompt": "A person stands beside a yellow taxi",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7812
+      },
+      {
+        "prompt": "Stands beside a yellow taxi",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7705
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "24",
+    "source": "Brad Pitt boards a train at night",
+    "candidates": [
+      {
+        "prompt": "A traveler boards a train at night",
+        "mapping_type": "replace",
+        "replacement": "traveler",
+        "clip_score": 0.6615
+      },
+      {
+        "prompt": "A woman boards a train at night",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.637
+      },
+      {
+        "prompt": "A family boards a train at night",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.591
+      },
+      {
+        "prompt": "A child boards a train at night",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6404
+      },
+      {
+        "prompt": "A friend boards a train at night",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6838
+      },
+      {
+        "prompt": "An artist boards a train at night",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.6965
+      },
+      {
+        "prompt": "A group boards a train at night",
+        "mapping_type": "replace",
+        "replacement": "group",
+        "clip_score": 0.6243
+      },
+      {
+        "prompt": "A couple boards a train at night",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6203
+      },
+      {
+        "prompt": "A person boards a train at night",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6823
+      },
+      {
+        "prompt": "Boards a train at night",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6936
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "25",
+    "source": "Brad Pitt waits in an airport lounge",
+    "candidates": [
+      {
+        "prompt": "A traveler waits in an airport lounge",
+        "mapping_type": "replace",
+        "replacement": "traveler",
+        "clip_score": 0.7265
+      },
+      {
+        "prompt": "A couple waits in an airport lounge",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6919
+      },
+      {
+        "prompt": "A child waits in an airport lounge",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.692
+      },
+      {
+        "prompt": "A businessman waits in an airport lounge",
+        "mapping_type": "replace",
+        "replacement": "businessman",
+        "clip_score": 0.7242
+      },
+      {
+        "prompt": "A friend waits in an airport lounge",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7199
+      },
+      {
+        "prompt": "A family waits in an airport lounge",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.659
+      },
+      {
+        "prompt": "A model waits in an airport lounge",
+        "mapping_type": "replace",
+        "replacement": "model",
+        "clip_score": 0.7216
+      },
+      {
+        "prompt": "A musician waits in an airport lounge",
+        "mapping_type": "replace",
+        "replacement": "musician",
+        "clip_score": 0.7118
+      },
+      {
+        "prompt": "A person waits in an airport lounge",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7255
+      },
+      {
+        "prompt": "Waits in an airport lounge",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7099
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "26",
+    "source": "Brad Pitt carries groceries from a store",
+    "candidates": [
+      {
+        "prompt": "A woman carries groceries from a store",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6545
+      },
+      {
+        "prompt": "A child carries groceries from a store",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6385
+      },
+      {
+        "prompt": "A man carries groceries from a store",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.6973
+      },
+      {
+        "prompt": "A friend carries groceries from a market",
+        "mapping_type": "replace",
+        "replacement": "market",
+        "clip_score": 0.6063
+      },
+      {
+        "prompt": "A parent carries groceries from a store",
+        "mapping_type": "replace",
+        "replacement": "parent",
+        "clip_score": 0.6694
+      },
+      {
+        "prompt": "A couple carries groceries from a store",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6467
+      },
+      {
+        "prompt": "An artist carries groceries from a store",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.6656
+      },
+      {
+        "prompt": "A tourist carries groceries from a store",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.6414
+      },
+      {
+        "prompt": "A person carries groceries from a store",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6665
+      },
+      {
+        "prompt": "Carries groceries from a store",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6308
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "27",
+    "source": "Brad Pitt shops for fruit at market",
+    "candidates": [
+      {
+        "prompt": "A woman shops for fruit at market",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.5747
+      },
+      {
+        "prompt": "A child shops for fruit at market",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.5822
+      },
+      {
+        "prompt": "A friend shops for fruit at market",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6331
+      },
+      {
+        "prompt": "A couple shops for fruit at market",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6141
+      },
+      {
+        "prompt": "A family shops for fruit at market",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.5912
+      },
+      {
+        "prompt": "A tourist shops for fruit at market",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.6055
+      },
+      {
+        "prompt": "An artist shops for fruit at market",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.608
+      },
+      {
+        "prompt": "A person shops for fruit at market",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.65
+      },
+      {
+        "prompt": "A shopper shops for fruit at market",
+        "mapping_type": "replace",
+        "replacement": "shopper",
+        "clip_score": 0.6254
+      },
+      {
+        "prompt": "Shops for fruit at market",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6336
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "28",
+    "source": "Brad Pitt feeds ducks at the pond",
+    "candidates": [
+      {
+        "prompt": "A child feeds ducks at the pond",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6892
+      },
+      {
+        "prompt": "A woman feeds ducks at the pond",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6791
+      },
+      {
+        "prompt": "A parent feeds ducks at the pond",
+        "mapping_type": "replace",
+        "replacement": "parent",
+        "clip_score": 0.708
+      },
+      {
+        "prompt": "A friend feeds ducks at the pond",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7174
+      },
+      {
+        "prompt": "A couple feeds ducks at the pond",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6937
+      },
+      {
+        "prompt": "A tourist feeds ducks at the pond",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.6976
+      },
+      {
+        "prompt": "A family feeds ducks at the pond",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.693
+      },
+      {
+        "prompt": "A person feeds ducks at the pond",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7072
+      },
+      {
+        "prompt": "A caretaker feeds ducks at the pond",
+        "mapping_type": "replace",
+        "replacement": "caretaker",
+        "clip_score": 0.6574
+      },
+      {
+        "prompt": "Feeds ducks at the pond",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7162
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "29",
+    "source": "Brad Pitt paints a wall at home",
+    "candidates": [
+      {
+        "prompt": "A woman paints a wall at home",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6872
+      },
+      {
+        "prompt": "A child paints a wall at home",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6494
+      },
+      {
+        "prompt": "A family paints a wall at home",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.6774
+      },
+      {
+        "prompt": "An artist paints a wall at home",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7174
+      },
+      {
+        "prompt": "A couple paints a wall at home",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6755
+      },
+      {
+        "prompt": "A friend paints a wall at home",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6862
+      },
+      {
+        "prompt": "A contractor paints a wall at home",
+        "mapping_type": "replace",
+        "replacement": "contractor",
+        "clip_score": 0.6912
+      },
+      {
+        "prompt": "A person paints a wall at home",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6962
+      },
+      {
+        "prompt": "A homeowner paints a wall at home",
+        "mapping_type": "replace",
+        "replacement": "homeowner",
+        "clip_score": 0.7045
+      },
+      {
+        "prompt": "Paints a wall at home",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6682
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "30",
+    "source": "Brad Pitt waters plants on a balcony",
+    "candidates": [
+      {
+        "prompt": "A gardener waters plants on a balcony",
+        "mapping_type": "replace",
+        "replacement": "gardener",
+        "clip_score": 0.7282
+      },
+      {
+        "prompt": "A woman waters plants on a balcony",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6714
+      },
+      {
+        "prompt": "A child waters plants on a balcony",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7083
+      },
+      {
+        "prompt": "A friend waters plants on a balcony",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7161
+      },
+      {
+        "prompt": "A couple waters plants on a balcony",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6796
+      },
+      {
+        "prompt": "A parent waters plants on a balcony",
+        "mapping_type": "replace",
+        "replacement": "parent",
+        "clip_score": 0.7034
+      },
+      {
+        "prompt": "A tourist waters plants on a balcony",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.6742
+      },
+      {
+        "prompt": "A person waters plants on a balcony",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7024
+      },
+      {
+        "prompt": "A homeowner waters plants on a balcony",
+        "mapping_type": "replace",
+        "replacement": "homeowner",
+        "clip_score": 0.7105
+      },
+      {
+        "prompt": "Waters plants on a balcony",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6778
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "31",
+    "source": "Brad Pitt checks his phone while walking",
+    "candidates": [
+      {
+        "prompt": "A woman checks her phone while walking",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.7318
+      },
+      {
+        "prompt": "A man checks his phone while walking",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.759
+      },
+      {
+        "prompt": "A child checks their phone while walking",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7059
+      },
+      {
+        "prompt": "An artist checks their phone while walking",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7399
+      },
+      {
+        "prompt": "A teenager checks their phone while walking",
+        "mapping_type": "replace",
+        "replacement": "teenager",
+        "clip_score": 0.7357
+      },
+      {
+        "prompt": "A tourist checks their phone while walking",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.7356
+      },
+      {
+        "prompt": "A businessman checks his phone while walking",
+        "mapping_type": "replace",
+        "replacement": "businessman",
+        "clip_score": 0.7123
+      },
+      {
+        "prompt": "A librarian checks her phone while walking",
+        "mapping_type": "replace",
+        "replacement": "librarian",
+        "clip_score": 0.6626
+      },
+      {
+        "prompt": "A person checks their phone while walking",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7311
+      },
+      {
+        "prompt": "Checks his phone while walking",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.714
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "32",
+    "source": "Brad Pitt chats on a park path",
+    "candidates": [
+      {
+        "prompt": "A dog chats on a park path",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.683
+      },
+      {
+        "prompt": "A couple chats on a park path",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.7114
+      },
+      {
+        "prompt": "A group of friends chats on a park path",
+        "mapping_type": "replace",
+        "replacement": "group of friends",
+        "clip_score": 0.6578
+      },
+      {
+        "prompt": "A family chats on a park path",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.6627
+      },
+      {
+        "prompt": "An artist chats on a park path",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7483
+      },
+      {
+        "prompt": "A musician chats on a park path",
+        "mapping_type": "replace",
+        "replacement": "musician",
+        "clip_score": 0.6872
+      },
+      {
+        "prompt": "A jogger chats on a park path",
+        "mapping_type": "replace",
+        "replacement": "jogger",
+        "clip_score": 0.6622
+      },
+      {
+        "prompt": "A child chats on a park path",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6881
+      },
+      {
+        "prompt": "A person chats on a park path",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7296
+      },
+      {
+        "prompt": "Chats on a park path",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6872
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "33",
+    "source": "Brad Pitt throws a frisbee on grass",
+    "candidates": [
+      {
+        "prompt": "A child throws a frisbee on grass",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.746
+      },
+      {
+        "prompt": "A dog throws a frisbee on grass",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7394
+      },
+      {
+        "prompt": "A woman throws a frisbee on grass",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.7361
+      },
+      {
+        "prompt": "A group of kids throws a frisbee on grass",
+        "mapping_type": "replace",
+        "replacement": "group of kids",
+        "clip_score": 0.7169
+      },
+      {
+        "prompt": "A man throws a frisbee on grass",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7737
+      },
+      {
+        "prompt": "A cat throws a frisbee on grass",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7069
+      },
+      {
+        "prompt": "A family throws a frisbee on grass",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.7136
+      },
+      {
+        "prompt": "A couple throws a frisbee on grass",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.7407
+      },
+      {
+        "prompt": "A person throws a frisbee on grass",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7664
+      },
+      {
+        "prompt": "Throws a frisbee on grass",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6608
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "34",
+    "source": "Brad Pitt plays chess at a cafe",
+    "candidates": [
+      {
+        "prompt": "An old man plays chess at a cafe",
+        "mapping_type": "replace",
+        "replacement": "old man",
+        "clip_score": 0.6847
+      },
+      {
+        "prompt": "A child plays chess at a cafe",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6732
+      },
+      {
+        "prompt": "Two friends play chess at a cafe",
+        "mapping_type": "replace",
+        "replacement": "friends",
+        "clip_score": 0.6948
+      },
+      {
+        "prompt": "A woman plays chess at a cafe",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6839
+      },
+      {
+        "prompt": "A group plays chess at a cafe",
+        "mapping_type": "replace",
+        "replacement": "group",
+        "clip_score": 0.6713
+      },
+      {
+        "prompt": "An artist plays chess at a cafe",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7084
+      },
+      {
+        "prompt": "A retiree plays chess at a cafe",
+        "mapping_type": "replace",
+        "replacement": "retiree",
+        "clip_score": 0.6965
+      },
+      {
+        "prompt": "A businessman plays chess at a cafe",
+        "mapping_type": "replace",
+        "replacement": "businessman",
+        "clip_score": 0.6841
+      },
+      {
+        "prompt": "People play chess at a cafe",
+        "mapping_type": "replace",
+        "replacement": "people",
+        "clip_score": 0.7215
+      },
+      {
+        "prompt": "Plays chess at a cafe",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7029
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "35",
+    "source": "Brad Pitt fixes a bike in a garage",
+    "candidates": [
+      {
+        "prompt": "A girl fixes a bike in a garage",
+        "mapping_type": "replace",
+        "replacement": "girl",
+        "clip_score": 0.7543
+      },
+      {
+        "prompt": "A man fixes a bike in a garage",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7917
+      },
+      {
+        "prompt": "A mechanic fixes a bike in a garage",
+        "mapping_type": "replace",
+        "replacement": "mechanic",
+        "clip_score": 0.787
+      },
+      {
+        "prompt": "A woman fixes a bike in a garage",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.7465
+      },
+      {
+        "prompt": "A child fixes a bike in a garage",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.751
+      },
+      {
+        "prompt": "An artist fixes a bike in a garage",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7585
+      },
+      {
+        "prompt": "A neighbor fixes a bike in a garage",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.7709
+      },
+      {
+        "prompt": "A family fixes a bike in a garage",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.7508
+      },
+      {
+        "prompt": "A person fixes a bike in a garage",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7919
+      },
+      {
+        "prompt": "Fixes a bike in a garage",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7693
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "36",
+    "source": "Brad Pitt watches street performers at noon",
+    "candidates": [
+      {
+        "prompt": "A child watches street performers at noon",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6309
+      },
+      {
+        "prompt": "A family watches street performers at noon",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.6081
+      },
+      {
+        "prompt": "A couple watches street performers at noon",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6065
+      },
+      {
+        "prompt": "An artist watches street performers at noon",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.6859
+      },
+      {
+        "prompt": "A group watches street performers at noon",
+        "mapping_type": "replace",
+        "replacement": "group",
+        "clip_score": 0.6607
+      },
+      {
+        "prompt": "A teenager watches street performers at noon",
+        "mapping_type": "replace",
+        "replacement": "teenager",
+        "clip_score": 0.6557
+      },
+      {
+        "prompt": "A woman watches street performers at noon",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6603
+      },
+      {
+        "prompt": "A dog watches street performers at noon",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6523
+      },
+      {
+        "prompt": "A person watches street performers at noon",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6907
+      },
+      {
+        "prompt": "Watches street performers at noon",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6682
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "37",
+    "source": "Brad Pitt drinks water after a run",
+    "candidates": [
+      {
+        "prompt": "A runner drinks water after a run",
+        "mapping_type": "replace",
+        "replacement": "runner",
+        "clip_score": 0.7201
+      },
+      {
+        "prompt": "A child drinks water after a run",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6948
+      },
+      {
+        "prompt": "A cyclist drinks water after a run",
+        "mapping_type": "replace",
+        "replacement": "cyclist",
+        "clip_score": 0.6726
+      },
+      {
+        "prompt": "A woman drinks water after a run",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6963
+      },
+      {
+        "prompt": "A man drinks water after a run",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7338
+      },
+      {
+        "prompt": "A trainer drinks water after a run",
+        "mapping_type": "replace",
+        "replacement": "trainer",
+        "clip_score": 0.7199
+      },
+      {
+        "prompt": "A dog drinks water after a run",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6799
+      },
+      {
+        "prompt": "A friend drinks water after a run",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7108
+      },
+      {
+        "prompt": "A person drinks water after a run",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7146
+      },
+      {
+        "prompt": "Drinks water after a run",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6916
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "38",
+    "source": "Brad Pitt rests under a shady tree",
+    "candidates": [
+      {
+        "prompt": "A child rests under a shady tree",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7
+      },
+      {
+        "prompt": "A couple rests under a shady tree",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6631
+      },
+      {
+        "prompt": "A family rests under a shady tree",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.6903
+      },
+      {
+        "prompt": "A dog rests under a shady tree",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6792
+      },
+      {
+        "prompt": "An artist rests under a shady tree",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.711
+      },
+      {
+        "prompt": "A man rests under a shady tree",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7246
+      },
+      {
+        "prompt": "A woman rests under a shady tree",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6763
+      },
+      {
+        "prompt": "A group rests under a shady tree",
+        "mapping_type": "replace",
+        "replacement": "group",
+        "clip_score": 0.6852
+      },
+      {
+        "prompt": "A person rests under a shady tree",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7138
+      },
+      {
+        "prompt": "Rests under a shady tree",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6899
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "39",
+    "source": "Brad Pitt pets a dog on sidewalk",
+    "candidates": [
+      {
+        "prompt": "A person pets a cat on sidewalk",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6552
+      },
+      {
+        "prompt": "A child pets a cat on sidewalk",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6033
+      },
+      {
+        "prompt": "A woman pets a cat on sidewalk",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6111
+      },
+      {
+        "prompt": "A dog owner pets a dog on sidewalk",
+        "mapping_type": "replace",
+        "replacement": "dog owner",
+        "clip_score": 0.7083
+      },
+      {
+        "prompt": "A man pets a rabbit on sidewalk",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.611
+      },
+      {
+        "prompt": "A girl pets a dog on sidewalk",
+        "mapping_type": "replace",
+        "replacement": "girl",
+        "clip_score": 0.6614
+      },
+      {
+        "prompt": "A family pets a dog on sidewalk",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.6648
+      },
+      {
+        "prompt": "A neighbor pets a dog on sidewalk",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.6958
+      },
+      {
+        "prompt": "A person pets a dog on sidewalk",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7045
+      },
+      {
+        "prompt": "Pets a dog on sidewalk",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6799
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "40",
+    "source": "Brad Pitt takes photos of city skyline",
+    "candidates": [
+      {
+        "prompt": "A tourist takes photos of city skyline",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.6712
+      },
+      {
+        "prompt": "A child takes photos of city skyline",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6481
+      },
+      {
+        "prompt": "A couple takes photos of city skyline",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.637
+      },
+      {
+        "prompt": "An artist takes photos of city skyline",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.6766
+      },
+      {
+        "prompt": "A man takes photos of city skyline",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.6836
+      },
+      {
+        "prompt": "A photographer takes photos of city skyline",
+        "mapping_type": "replace",
+        "replacement": "photographer",
+        "clip_score": 0.6938
+      },
+      {
+        "prompt": "A friend takes photos of city skyline",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6512
+      },
+      {
+        "prompt": "A woman takes photos of city skyline",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.65
+      },
+      {
+        "prompt": "A person takes photos of city skyline",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6706
+      },
+      {
+        "prompt": "Takes photos of city skyline",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6374
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "41",
+    "source": "Brad Pitt admires paintings in a museum",
+    "candidates": [
+      {
+        "prompt": "A painter admires paintings in a museum",
+        "mapping_type": "replace",
+        "replacement": "painter",
+        "clip_score": 0.7173
+      },
+      {
+        "prompt": "A tourist admires paintings in a museum",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.704
+      },
+      {
+        "prompt": "An art critic admires paintings in a museum",
+        "mapping_type": "replace",
+        "replacement": "art critic",
+        "clip_score": 0.705
+      },
+      {
+        "prompt": "A curator admires paintings in a museum",
+        "mapping_type": "replace",
+        "replacement": "curator",
+        "clip_score": 0.7146
+      },
+      {
+        "prompt": "An artist admires paintings in a museum",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7342
+      },
+      {
+        "prompt": "A visitor admires paintings in a museum",
+        "mapping_type": "replace",
+        "replacement": "visitor",
+        "clip_score": 0.6972
+      },
+      {
+        "prompt": "A friend admires paintings in a museum",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7366
+      },
+      {
+        "prompt": "A critic admires paintings in a museum",
+        "mapping_type": "replace",
+        "replacement": "critic",
+        "clip_score": 0.7233
+      },
+      {
+        "prompt": "A person admires paintings in a museum",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7276
+      },
+      {
+        "prompt": "A museum visitor looks at art",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6419
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "42",
+    "source": "Brad Pitt waits in line for coffee",
+    "candidates": [
+      {
+        "prompt": "A man waits in line for coffee",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7144
+      },
+      {
+        "prompt": "A woman waits in line for coffee",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6723
+      },
+      {
+        "prompt": "A customer waits in line for coffee",
+        "mapping_type": "replace",
+        "replacement": "customer",
+        "clip_score": 0.697
+      },
+      {
+        "prompt": "A student waits in line for coffee",
+        "mapping_type": "replace",
+        "replacement": "student",
+        "clip_score": 0.6588
+      },
+      {
+        "prompt": "A barista waits in line for coffee",
+        "mapping_type": "replace",
+        "replacement": "barista",
+        "clip_score": 0.6752
+      },
+      {
+        "prompt": "A friend waits in line for coffee",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6847
+      },
+      {
+        "prompt": "A neighbor waits in line for coffee",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.683
+      },
+      {
+        "prompt": "A local waits in line for coffee",
+        "mapping_type": "replace",
+        "replacement": "local",
+        "clip_score": 0.6844
+      },
+      {
+        "prompt": "A person waits in line for coffee",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6963
+      },
+      {
+        "prompt": "A coffee shop has customers waiting",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6217
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "43",
+    "source": "Brad Pitt opens a window at home",
+    "candidates": [
+      {
+        "prompt": "A homeowner opens a window at home",
+        "mapping_type": "replace",
+        "replacement": "homeowner",
+        "clip_score": 0.6618
+      },
+      {
+        "prompt": "A parent opens a window at home",
+        "mapping_type": "replace",
+        "replacement": "parent",
+        "clip_score": 0.6645
+      },
+      {
+        "prompt": "A child opens a window at home",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6345
+      },
+      {
+        "prompt": "A relative opens a window at home",
+        "mapping_type": "replace",
+        "replacement": "relative",
+        "clip_score": 0.6492
+      },
+      {
+        "prompt": "A roommate opens a window at home",
+        "mapping_type": "replace",
+        "replacement": "roommate",
+        "clip_score": 0.6544
+      },
+      {
+        "prompt": "A friend opens a window at home",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6579
+      },
+      {
+        "prompt": "A visitor opens a window at home",
+        "mapping_type": "replace",
+        "replacement": "visitor",
+        "clip_score": 0.6196
+      },
+      {
+        "prompt": "A guest opens a window at home",
+        "mapping_type": "replace",
+        "replacement": "guest",
+        "clip_score": 0.6664
+      },
+      {
+        "prompt": "A person opens a window at home",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6598
+      },
+      {
+        "prompt": "The house has a window opening",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6138
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "44",
+    "source": "Brad Pitt sips tea near a window",
+    "candidates": [
+      {
+        "prompt": "A person sips tea near a window",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7251
+      },
+      {
+        "prompt": "A woman sips tea near a window",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6822
+      },
+      {
+        "prompt": "A man sips tea near a window",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.722
+      },
+      {
+        "prompt": "A friend sips tea near a window",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7091
+      },
+      {
+        "prompt": "A guest sips tea near a window",
+        "mapping_type": "replace",
+        "replacement": "guest",
+        "clip_score": 0.702
+      },
+      {
+        "prompt": "A neighbor sips tea near a window",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.7069
+      },
+      {
+        "prompt": "A relative sips tea near a window",
+        "mapping_type": "replace",
+        "replacement": "relative",
+        "clip_score": 0.7133
+      },
+      {
+        "prompt": "A child sips tea near a window",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6719
+      },
+      {
+        "prompt": "A person enjoys tea near a window",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6834
+      },
+      {
+        "prompt": "A cozy corner has a cup of tea",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.5212
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "45",
+    "source": "Brad Pitt types on a laptop in library",
+    "candidates": [
+      {
+        "prompt": "A student types on a laptop in library",
+        "mapping_type": "replace",
+        "replacement": "student",
+        "clip_score": 0.7581
+      },
+      {
+        "prompt": "A woman types on a laptop in library",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.8028
+      },
+      {
+        "prompt": "A man types on a laptop in library",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.8135
+      },
+      {
+        "prompt": "A researcher types on a laptop in library",
+        "mapping_type": "replace",
+        "replacement": "researcher",
+        "clip_score": 0.7335
+      },
+      {
+        "prompt": "A visitor types on a laptop in library",
+        "mapping_type": "replace",
+        "replacement": "visitor",
+        "clip_score": 0.7213
+      },
+      {
+        "prompt": "A scholar types on a laptop in library",
+        "mapping_type": "replace",
+        "replacement": "scholar",
+        "clip_score": 0.7818
+      },
+      {
+        "prompt": "A friend types on a laptop in library",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.8098
+      },
+      {
+        "prompt": "A neighbor types on a laptop in library",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.8104
+      },
+      {
+        "prompt": "A person types on a laptop in library",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.8132
+      },
+      {
+        "prompt": "A library has someone using a laptop",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8148
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "46",
+    "source": "Brad Pitt sketches in a quiet studio",
+    "candidates": [
+      {
+        "prompt": "An artist sketches in a quiet studio",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.6342
+      },
+      {
+        "prompt": "A designer sketches in a quiet studio",
+        "mapping_type": "replace",
+        "replacement": "designer",
+        "clip_score": 0.6312
+      },
+      {
+        "prompt": "A student sketches in a quiet studio",
+        "mapping_type": "replace",
+        "replacement": "student",
+        "clip_score": 0.5909
+      },
+      {
+        "prompt": "A painter sketches in a quiet studio",
+        "mapping_type": "replace",
+        "replacement": "painter",
+        "clip_score": 0.5985
+      },
+      {
+        "prompt": "A friend sketches in a quiet studio",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6301
+      },
+      {
+        "prompt": "An illustrator sketches in a quiet studio",
+        "mapping_type": "replace",
+        "replacement": "illustrator",
+        "clip_score": 0.6501
+      },
+      {
+        "prompt": "A teacher sketches in a quiet studio",
+        "mapping_type": "replace",
+        "replacement": "teacher",
+        "clip_score": 0.595
+      },
+      {
+        "prompt": "A writer sketches in a quiet studio",
+        "mapping_type": "replace",
+        "replacement": "writer",
+        "clip_score": 0.6032
+      },
+      {
+        "prompt": "A person sketches in a quiet studio",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6225
+      },
+      {
+        "prompt": "The studio is filled with art supplies",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.5612
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "47",
+    "source": "Brad Pitt practices lines on a stage",
+    "candidates": [
+      {
+        "prompt": "An actor practices lines on a stage",
+        "mapping_type": "replace",
+        "replacement": "actor",
+        "clip_score": 0.7131
+      },
+      {
+        "prompt": "A performer practices lines on a stage",
+        "mapping_type": "replace",
+        "replacement": "performer",
+        "clip_score": 0.7049
+      },
+      {
+        "prompt": "A student practices lines on a stage",
+        "mapping_type": "replace",
+        "replacement": "student",
+        "clip_score": 0.6459
+      },
+      {
+        "prompt": "A musician practices lines on a stage",
+        "mapping_type": "replace",
+        "replacement": "musician",
+        "clip_score": 0.6752
+      },
+      {
+        "prompt": "A dancer practices lines on a stage",
+        "mapping_type": "replace",
+        "replacement": "dancer",
+        "clip_score": 0.6374
+      },
+      {
+        "prompt": "A teacher practices lines on a stage",
+        "mapping_type": "replace",
+        "replacement": "teacher",
+        "clip_score": 0.6785
+      },
+      {
+        "prompt": "A friend practices lines on a stage",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6827
+      },
+      {
+        "prompt": "A crew member practices lines on a stage",
+        "mapping_type": "replace",
+        "replacement": "crew member",
+        "clip_score": 0.6401
+      },
+      {
+        "prompt": "A person practices lines on a stage",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6867
+      },
+      {
+        "prompt": "The stage is set for a performance",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.5565
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "48",
+    "source": "Brad Pitt lifts weights at the gym",
+    "candidates": [
+      {
+        "prompt": "A weightlifter lifts weights at the gym",
+        "mapping_type": "replace",
+        "replacement": "weightlifter",
+        "clip_score": 0.6477
+      },
+      {
+        "prompt": "A trainer lifts weights at the gym",
+        "mapping_type": "replace",
+        "replacement": "trainer",
+        "clip_score": 0.6894
+      },
+      {
+        "prompt": "A bodybuilder lifts weights at the gym",
+        "mapping_type": "replace",
+        "replacement": "bodybuilder",
+        "clip_score": 0.718
+      },
+      {
+        "prompt": "A fitness enthusiast lifts weights at the gym",
+        "mapping_type": "replace",
+        "replacement": "fitness enthusiast",
+        "clip_score": 0.6875
+      },
+      {
+        "prompt": "A coach lifts weights at the gym",
+        "mapping_type": "replace",
+        "replacement": "coach",
+        "clip_score": 0.6837
+      },
+      {
+        "prompt": "A friend lifts weights at the gym",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6769
+      },
+      {
+        "prompt": "A neighbor lifts weights at the gym",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.6814
+      },
+      {
+        "prompt": "A client lifts weights at the gym",
+        "mapping_type": "replace",
+        "replacement": "client",
+        "clip_score": 0.661
+      },
+      {
+        "prompt": "A person lifts weights at the gym",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6808
+      },
+      {
+        "prompt": "The gym has weights being lifted",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.5873
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "49",
+    "source": "Brad Pitt stretches on a yoga mat",
+    "candidates": [
+      {
+        "prompt": "A yogi stretches on a yoga mat",
+        "mapping_type": "replace",
+        "replacement": "yogi",
+        "clip_score": 0.6581
+      },
+      {
+        "prompt": "A teacher stretches on a yoga mat",
+        "mapping_type": "replace",
+        "replacement": "teacher",
+        "clip_score": 0.6416
+      },
+      {
+        "prompt": "A student stretches on a yoga mat",
+        "mapping_type": "replace",
+        "replacement": "student",
+        "clip_score": 0.6229
+      },
+      {
+        "prompt": "A friend stretches on a yoga mat",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6639
+      },
+      {
+        "prompt": "A neighbor stretches on a yoga mat",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.6474
+      },
+      {
+        "prompt": "A client stretches on a yoga mat",
+        "mapping_type": "replace",
+        "replacement": "client",
+        "clip_score": 0.6428
+      },
+      {
+        "prompt": "A person stretches on a yoga mat",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6382
+      },
+      {
+        "prompt": "A fitness enthusiast stretches on a yoga mat",
+        "mapping_type": "replace",
+        "replacement": "fitness enthusiast",
+        "clip_score": 0.6335
+      },
+      {
+        "prompt": "A person meditates on a yoga mat",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.5625
+      },
+      {
+        "prompt": "The yoga studio has mats laid out",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.5163
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "50",
+    "source": "Brad Pitt balances on a skateboard",
+    "candidates": [
+      {
+        "prompt": "A skater balances on a skateboard",
+        "mapping_type": "replace",
+        "replacement": "skater",
+        "clip_score": 0.6233
+      },
+      {
+        "prompt": "A child balances on a skateboard",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6167
+      },
+      {
+        "prompt": "A teenager balances on a skateboard",
+        "mapping_type": "replace",
+        "replacement": "teenager",
+        "clip_score": 0.6179
+      },
+      {
+        "prompt": "A performer balances on a skateboard",
+        "mapping_type": "replace",
+        "replacement": "performer",
+        "clip_score": 0.623
+      },
+      {
+        "prompt": "A friend balances on a skateboard",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6576
+      },
+      {
+        "prompt": "A neighbor balances on a skateboard",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.6259
+      },
+      {
+        "prompt": "A spectator balances on a skateboard",
+        "mapping_type": "replace",
+        "replacement": "spectator",
+        "clip_score": 0.6073
+      },
+      {
+        "prompt": "A person balances on a skateboard",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6472
+      },
+      {
+        "prompt": "A person rides on a skateboard",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.5687
+      },
+      {
+        "prompt": "The skate park is filled with skaters",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.4985
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "51",
+    "source": "Brad Pitt rides a scooter down the street",
+    "candidates": [
+      {
+        "prompt": "A cat rides a scooter down the street",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.672
+      },
+      {
+        "prompt": "A child rides a scooter down the street",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6963
+      },
+      {
+        "prompt": "A robot rides a scooter down the street",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.6968
+      },
+      {
+        "prompt": "A dog rides a scooter down the street",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6851
+      },
+      {
+        "prompt": "A delivery person rides a scooter down the street",
+        "mapping_type": "replace",
+        "replacement": "delivery person",
+        "clip_score": 0.6733
+      },
+      {
+        "prompt": "A fairy rides a scooter down the street",
+        "mapping_type": "replace",
+        "replacement": "fairy",
+        "clip_score": 0.6808
+      },
+      {
+        "prompt": "An alien rides a scooter down the street",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.6948
+      },
+      {
+        "prompt": "A rabbit rides a scooter down the street",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.6546
+      },
+      {
+        "prompt": "A person rides a scooter down the street",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7099
+      },
+      {
+        "prompt": "Rides a scooter down the street",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7122
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "52",
+    "source": "Brad Pitt stands on a rooftop at dusk",
+    "candidates": [
+      {
+        "prompt": "A man stands on a rooftop at dusk",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7661
+      },
+      {
+        "prompt": "A bird stands on a rooftop at dusk",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7127
+      },
+      {
+        "prompt": "A statue stands on a rooftop at dusk",
+        "mapping_type": "replace",
+        "replacement": "statue",
+        "clip_score": 0.688
+      },
+      {
+        "prompt": "A tree stands on a rooftop at dusk",
+        "mapping_type": "replace",
+        "replacement": "tree",
+        "clip_score": 0.6731
+      },
+      {
+        "prompt": "A couple stands on a rooftop at dusk",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.7145
+      },
+      {
+        "prompt": "A mannequin stands on a rooftop at dusk",
+        "mapping_type": "replace",
+        "replacement": "mannequin",
+        "clip_score": 0.7101
+      },
+      {
+        "prompt": "An owl stands on a rooftop at dusk",
+        "mapping_type": "replace",
+        "replacement": "owl",
+        "clip_score": 0.6807
+      },
+      {
+        "prompt": "A figure stands on a rooftop at dusk",
+        "mapping_type": "replace",
+        "replacement": "figure",
+        "clip_score": 0.7375
+      },
+      {
+        "prompt": "A person stands on a rooftop at dusk",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7505
+      },
+      {
+        "prompt": "Stands on a rooftop at dusk",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7143
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "53",
+    "source": "Brad Pitt watches fireworks by the river",
+    "candidates": [
+      {
+        "prompt": "A family watches fireworks by the river",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.6624
+      },
+      {
+        "prompt": "A couple watches fireworks by the river",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6898
+      },
+      {
+        "prompt": "A group of friends watches fireworks by the river",
+        "mapping_type": "replace",
+        "replacement": "group of friends",
+        "clip_score": 0.6729
+      },
+      {
+        "prompt": "A dog watches fireworks by the river",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6668
+      },
+      {
+        "prompt": "A child watches fireworks by the river",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6633
+      },
+      {
+        "prompt": "A cat watches fireworks by the river",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.6421
+      },
+      {
+        "prompt": "An artist watches fireworks by the river",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.6989
+      },
+      {
+        "prompt": "A tourist watches fireworks by the river",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.7119
+      },
+      {
+        "prompt": "A person watches fireworks by the river",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6971
+      },
+      {
+        "prompt": "Watches fireworks by the river",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.684
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "54",
+    "source": "Brad Pitt waits under streetlights at night",
+    "candidates": [
+      {
+        "prompt": "A man waits under streetlights at night",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7182
+      },
+      {
+        "prompt": "A cat waits under streetlights at night",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.6619
+      },
+      {
+        "prompt": "A dog waits under streetlights at night",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6701
+      },
+      {
+        "prompt": "A girl waits under streetlights at night",
+        "mapping_type": "replace",
+        "replacement": "girl",
+        "clip_score": 0.7138
+      },
+      {
+        "prompt": "An owl waits under streetlights at night",
+        "mapping_type": "replace",
+        "replacement": "owl",
+        "clip_score": 0.6212
+      },
+      {
+        "prompt": "A tree waits under streetlights at night",
+        "mapping_type": "replace",
+        "replacement": "tree",
+        "clip_score": 0.6272
+      },
+      {
+        "prompt": "A figure waits under streetlights at night",
+        "mapping_type": "replace",
+        "replacement": "figure",
+        "clip_score": 0.7026
+      },
+      {
+        "prompt": "A couple waits under streetlights at night",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6797
+      },
+      {
+        "prompt": "A person waits under streetlights at night",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7053
+      },
+      {
+        "prompt": "Waits under streetlights at night",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6835
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "55",
+    "source": "Brad Pitt sits by a campfire",
+    "candidates": [
+      {
+        "prompt": "A family sits by a campfire",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.6915
+      },
+      {
+        "prompt": "A couple sits by a campfire",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6714
+      },
+      {
+        "prompt": "A dog sits by a campfire",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6869
+      },
+      {
+        "prompt": "A child sits by a campfire",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6689
+      },
+      {
+        "prompt": "A bear sits by a campfire",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.6632
+      },
+      {
+        "prompt": "A rabbit sits by a campfire",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.6376
+      },
+      {
+        "prompt": "An explorer sits by a campfire",
+        "mapping_type": "replace",
+        "replacement": "explorer",
+        "clip_score": 0.6847
+      },
+      {
+        "prompt": "A lone wolf sits by a campfire",
+        "mapping_type": "replace",
+        "replacement": "wolf",
+        "clip_score": 0.6325
+      },
+      {
+        "prompt": "A person sits by a campfire",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.69
+      },
+      {
+        "prompt": "Sits by a campfire",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6771
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "56",
+    "source": "Brad Pitt roasts marshmallows with friends",
+    "candidates": [
+      {
+        "prompt": "A group of friends roasts marshmallows with friends",
+        "mapping_type": "replace",
+        "replacement": "group of friends",
+        "clip_score": 0.7354
+      },
+      {
+        "prompt": "A family roasts marshmallows with friends",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.711
+      },
+      {
+        "prompt": "A child roasts marshmallows with friends",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6641
+      },
+      {
+        "prompt": "A dog roasts marshmallows with friends",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.699
+      },
+      {
+        "prompt": "A bear roasts marshmallows with friends",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.6486
+      },
+      {
+        "prompt": "A tree roasts marshmallows with friends",
+        "mapping_type": "replace",
+        "replacement": "tree",
+        "clip_score": 0.6537
+      },
+      {
+        "prompt": "An alien roasts marshmallows with friends",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.6562
+      },
+      {
+        "prompt": "A kitten roasts marshmallows with friends",
+        "mapping_type": "replace",
+        "replacement": "kitten",
+        "clip_score": 0.6328
+      },
+      {
+        "prompt": "A person roasts marshmallows with friends",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.674
+      },
+      {
+        "prompt": "Roasts marshmallows with friends",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.692
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "57",
+    "source": "Brad Pitt rows a boat on a lake",
+    "candidates": [
+      {
+        "prompt": "A man rows a boat on a lake",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7356
+      },
+      {
+        "prompt": "A dog rows a boat on a lake",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7024
+      },
+      {
+        "prompt": "A child rows a boat on a lake",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.699
+      },
+      {
+        "prompt": "A cat rows a boat on a lake",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.6734
+      },
+      {
+        "prompt": "An explorer rows a boat on a lake",
+        "mapping_type": "replace",
+        "replacement": "explorer",
+        "clip_score": 0.6808
+      },
+      {
+        "prompt": "A rabbit rows a boat on a lake",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.6431
+      },
+      {
+        "prompt": "A couple rows a boat on a lake",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.7121
+      },
+      {
+        "prompt": "A bear rows a boat on a lake",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.6771
+      },
+      {
+        "prompt": "A person rows a boat on a lake",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7288
+      },
+      {
+        "prompt": "Rows a boat on a lake",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.715
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "58",
+    "source": "Brad Pitt paddles a kayak at sunrise",
+    "candidates": [
+      {
+        "prompt": "A man paddles a kayak at sunrise",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.6777
+      },
+      {
+        "prompt": "A child paddles a kayak at sunrise",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6325
+      },
+      {
+        "prompt": "A dog paddles a kayak at sunrise",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.628
+      },
+      {
+        "prompt": "A cat paddles a kayak at sunrise",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.6163
+      },
+      {
+        "prompt": "An explorer paddles a kayak at sunrise",
+        "mapping_type": "replace",
+        "replacement": "explorer",
+        "clip_score": 0.652
+      },
+      {
+        "prompt": "A couple paddles a kayak at sunrise",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6713
+      },
+      {
+        "prompt": "A rabbit paddles a kayak at sunrise",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.6045
+      },
+      {
+        "prompt": "A fish paddles a kayak at sunrise",
+        "mapping_type": "replace",
+        "replacement": "fish",
+        "clip_score": 0.6582
+      },
+      {
+        "prompt": "A person paddles a kayak at sunrise",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6629
+      },
+      {
+        "prompt": "Paddles a kayak at sunrise",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7015
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "59",
+    "source": "Brad Pitt builds a sandcastle on the beach",
+    "candidates": [
+      {
+        "prompt": "A child builds a sandcastle on the beach",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7254
+      },
+      {
+        "prompt": "A family builds a sandcastle on the beach",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.7326
+      },
+      {
+        "prompt": "A dog builds a sandcastle on the beach",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7155
+      },
+      {
+        "prompt": "A couple builds a sandcastle on the beach",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.7263
+      },
+      {
+        "prompt": "A bear builds a sandcastle on the beach",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.6698
+      },
+      {
+        "prompt": "A figure builds a sandcastle on the beach",
+        "mapping_type": "replace",
+        "replacement": "figure",
+        "clip_score": 0.7213
+      },
+      {
+        "prompt": "An artist builds a sandcastle on the beach",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7161
+      },
+      {
+        "prompt": "An alien builds a sandcastle on the beach",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.6993
+      },
+      {
+        "prompt": "A person builds a sandcastle on the beach",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7491
+      },
+      {
+        "prompt": "Builds a sandcastle on the beach",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.729
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "60",
+    "source": "Brad Pitt flies a kite in wind",
+    "candidates": [
+      {
+        "prompt": "A child flies a kite in wind",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6587
+      },
+      {
+        "prompt": "A dog flies a kite in wind",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.655
+      },
+      {
+        "prompt": "A couple flies a kite in wind",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.657
+      },
+      {
+        "prompt": "A cat flies a kite in wind",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.6583
+      },
+      {
+        "prompt": "A bird flies a kite in wind",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.6386
+      },
+      {
+        "prompt": "A rabbit flies a kite in wind",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.6284
+      },
+      {
+        "prompt": "An adult flies a kite in wind",
+        "mapping_type": "replace",
+        "replacement": "adult",
+        "clip_score": 0.6645
+      },
+      {
+        "prompt": "An alien flies a kite in wind",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.6614
+      },
+      {
+        "prompt": "A person flies a kite in wind",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6912
+      },
+      {
+        "prompt": "Flies a kite in wind",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6232
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "61",
+    "source": "Brad Pitt watches waves from a pier",
+    "candidates": [
+      {
+        "prompt": "A surfer watches waves from a pier",
+        "mapping_type": "replace",
+        "replacement": "surfer",
+        "clip_score": 0.6982
+      },
+      {
+        "prompt": "A fisherman watches waves from a pier",
+        "mapping_type": "replace",
+        "replacement": "fisherman",
+        "clip_score": 0.678
+      },
+      {
+        "prompt": "A child watches waves from a pier",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6605
+      },
+      {
+        "prompt": "A couple watches waves from a pier",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.645
+      },
+      {
+        "prompt": "A seagull watches waves from a pier",
+        "mapping_type": "replace",
+        "replacement": "seagull",
+        "clip_score": 0.5972
+      },
+      {
+        "prompt": "A tourist watches waves from a pier",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.6996
+      },
+      {
+        "prompt": "A lifeguard watches waves from a pier",
+        "mapping_type": "replace",
+        "replacement": "lifeguard",
+        "clip_score": 0.6517
+      },
+      {
+        "prompt": "A photographer watches waves from a pier",
+        "mapping_type": "replace",
+        "replacement": "photographer",
+        "clip_score": 0.6828
+      },
+      {
+        "prompt": "An observer watches waves from a pier",
+        "mapping_type": "replace",
+        "replacement": "observer",
+        "clip_score": 0.7047
+      },
+      {
+        "prompt": "Waves crash against the pier",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6201
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "62",
+    "source": "Brad Pitt reads a script on set",
+    "candidates": [
+      {
+        "prompt": "An actor reads a script on set",
+        "mapping_type": "replace",
+        "replacement": "actor",
+        "clip_score": 0.759
+      },
+      {
+        "prompt": "A director reads a script on set",
+        "mapping_type": "replace",
+        "replacement": "director",
+        "clip_score": 0.7635
+      },
+      {
+        "prompt": "A crew member reads a script on set",
+        "mapping_type": "replace",
+        "replacement": "crew member",
+        "clip_score": 0.726
+      },
+      {
+        "prompt": "A writer reads a script on set",
+        "mapping_type": "replace",
+        "replacement": "writer",
+        "clip_score": 0.7553
+      },
+      {
+        "prompt": "A producer reads a script on set",
+        "mapping_type": "replace",
+        "replacement": "producer",
+        "clip_score": 0.7506
+      },
+      {
+        "prompt": "An extra reads a script on set",
+        "mapping_type": "replace",
+        "replacement": "extra",
+        "clip_score": 0.7463
+      },
+      {
+        "prompt": "A stuntman reads a script on set",
+        "mapping_type": "replace",
+        "replacement": "stuntman",
+        "clip_score": 0.759
+      },
+      {
+        "prompt": "A stylist reads a script on set",
+        "mapping_type": "replace",
+        "replacement": "stylist",
+        "clip_score": 0.7337
+      },
+      {
+        "prompt": "A performer reads a script on set",
+        "mapping_type": "replace",
+        "replacement": "performer",
+        "clip_score": 0.7253
+      },
+      {
+        "prompt": "The crew prepares for a scene on set",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6318
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "63",
+    "source": "Brad Pitt holds flowers on a sidewalk",
+    "candidates": [
+      {
+        "prompt": "A woman holds flowers on a sidewalk",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6693
+      },
+      {
+        "prompt": "A child holds flowers on a sidewalk",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6429
+      },
+      {
+        "prompt": "A man holds flowers on a sidewalk",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.6988
+      },
+      {
+        "prompt": "A florist holds flowers on a sidewalk",
+        "mapping_type": "replace",
+        "replacement": "florist",
+        "clip_score": 0.6482
+      },
+      {
+        "prompt": "An elderly person holds flowers on a sidewalk",
+        "mapping_type": "replace",
+        "replacement": "elderly person",
+        "clip_score": 0.6308
+      },
+      {
+        "prompt": "A couple holds flowers on a sidewalk",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6496
+      },
+      {
+        "prompt": "A passerby holds flowers on a sidewalk",
+        "mapping_type": "replace",
+        "replacement": "passerby",
+        "clip_score": 0.6751
+      },
+      {
+        "prompt": "A girl holds flowers on a sidewalk",
+        "mapping_type": "replace",
+        "replacement": "girl",
+        "clip_score": 0.6655
+      },
+      {
+        "prompt": "A person holds flowers on a sidewalk",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.674
+      },
+      {
+        "prompt": "Flowers are arranged on a sidewalk",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.5791
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "64",
+    "source": "Brad Pitt stands in falling snow",
+    "candidates": [
+      {
+        "prompt": "A couple stands in falling snow",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6323
+      },
+      {
+        "prompt": "A child stands in falling snow",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6397
+      },
+      {
+        "prompt": "A dog stands in falling snow",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6376
+      },
+      {
+        "prompt": "A snowman stands in falling snow",
+        "mapping_type": "replace",
+        "replacement": "snowman",
+        "clip_score": 0.622
+      },
+      {
+        "prompt": "A family stands in falling snow",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.6176
+      },
+      {
+        "prompt": "A snow plow stands in falling snow",
+        "mapping_type": "replace",
+        "replacement": "snow plow",
+        "clip_score": 0.544
+      },
+      {
+        "prompt": "A tree stands in falling snow",
+        "mapping_type": "replace",
+        "replacement": "tree",
+        "clip_score": 0.6228
+      },
+      {
+        "prompt": "A person stands in falling snow",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6907
+      },
+      {
+        "prompt": "An animal stands in falling snow",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.6374
+      },
+      {
+        "prompt": "A quiet street is covered in falling snow",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.5751
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "65",
+    "source": "Brad Pitt wears a scarf in winter",
+    "candidates": [
+      {
+        "prompt": "A woman wears a scarf in winter",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.758
+      },
+      {
+        "prompt": "A child wears a scarf in winter",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7299
+      },
+      {
+        "prompt": "A man wears a scarf in winter",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7873
+      },
+      {
+        "prompt": "An elderly person wears a scarf in winter",
+        "mapping_type": "replace",
+        "replacement": "elderly person",
+        "clip_score": 0.6728
+      },
+      {
+        "prompt": "A couple wears a scarf in winter",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.7192
+      },
+      {
+        "prompt": "A model wears a scarf in winter",
+        "mapping_type": "replace",
+        "replacement": "model",
+        "clip_score": 0.7727
+      },
+      {
+        "prompt": "A friend wears a scarf in winter",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7625
+      },
+      {
+        "prompt": "A tourist wears a scarf in winter",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.7356
+      },
+      {
+        "prompt": "A person wears a scarf in winter",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7775
+      },
+      {
+        "prompt": "A winter landscape is beautiful",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.526
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "66",
+    "source": "Brad Pitt shovels snow on a driveway",
+    "candidates": [
+      {
+        "prompt": "A worker shovels snow on a driveway",
+        "mapping_type": "replace",
+        "replacement": "worker",
+        "clip_score": 0.6366
+      },
+      {
+        "prompt": "A child shovels snow on a driveway",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6497
+      },
+      {
+        "prompt": "A neighbor shovels snow on a driveway",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.6717
+      },
+      {
+        "prompt": "A man shovels snow on a driveway",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.6926
+      },
+      {
+        "prompt": "A woman shovels snow on a driveway",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6449
+      },
+      {
+        "prompt": "A family shovels snow on a driveway",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.6506
+      },
+      {
+        "prompt": "A teenager shovels snow on a driveway",
+        "mapping_type": "replace",
+        "replacement": "teenager",
+        "clip_score": 0.6607
+      },
+      {
+        "prompt": "A couple shovels snow on a driveway",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6528
+      },
+      {
+        "prompt": "Someone shovels snow on a driveway",
+        "mapping_type": "replace",
+        "replacement": "someone",
+        "clip_score": 0.6513
+      },
+      {
+        "prompt": "Snow covers the driveway",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.5854
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "67",
+    "source": "Brad Pitt warms hands by a heater",
+    "candidates": [
+      {
+        "prompt": "A person warms hands by a heater",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6885
+      },
+      {
+        "prompt": "A child warms hands by a heater",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.651
+      },
+      {
+        "prompt": "A woman warms hands by a heater",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6629
+      },
+      {
+        "prompt": "A man warms hands by a heater",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7104
+      },
+      {
+        "prompt": "An elderly person warms hands by a heater",
+        "mapping_type": "replace",
+        "replacement": "elderly person",
+        "clip_score": 0.5811
+      },
+      {
+        "prompt": "A friend warms hands by a heater",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6786
+      },
+      {
+        "prompt": "A couple warms hands by a heater",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.687
+      },
+      {
+        "prompt": "A pet warms hands by a heater",
+        "mapping_type": "replace",
+        "replacement": "pet",
+        "clip_score": 0.6556
+      },
+      {
+        "prompt": "An individual warms hands by a heater",
+        "mapping_type": "replace",
+        "replacement": "individual",
+        "clip_score": 0.6896
+      },
+      {
+        "prompt": "A warm glow fills the room",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.4735
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "68",
+    "source": "Brad Pitt watches rain from a doorway",
+    "candidates": [
+      {
+        "prompt": "A person watches rain from a doorway",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7033
+      },
+      {
+        "prompt": "A child watches rain from a doorway",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6623
+      },
+      {
+        "prompt": "A couple watches rain from a doorway",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6244
+      },
+      {
+        "prompt": "A dog watches rain from a doorway",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6735
+      },
+      {
+        "prompt": "A musician watches rain from a doorway",
+        "mapping_type": "replace",
+        "replacement": "musician",
+        "clip_score": 0.6551
+      },
+      {
+        "prompt": "A neighbor watches rain from a doorway",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.7059
+      },
+      {
+        "prompt": "A friend watches rain from a doorway",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6999
+      },
+      {
+        "prompt": "An animal watches rain from a doorway",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.66
+      },
+      {
+        "prompt": "An observer watches rain from a doorway",
+        "mapping_type": "replace",
+        "replacement": "observer",
+        "clip_score": 0.6634
+      },
+      {
+        "prompt": "Rain falls quietly outside the doorway",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6011
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "69",
+    "source": "Brad Pitt browses books in a bookstore",
+    "candidates": [
+      {
+        "prompt": "A reader browses books in a bookstore",
+        "mapping_type": "replace",
+        "replacement": "reader",
+        "clip_score": 0.6465
+      },
+      {
+        "prompt": "A child browses books in a bookstore",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6213
+      },
+      {
+        "prompt": "A woman browses books in a bookstore",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6407
+      },
+      {
+        "prompt": "A man browses books in a bookstore",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.6654
+      },
+      {
+        "prompt": "A teacher browses books in a bookstore",
+        "mapping_type": "replace",
+        "replacement": "teacher",
+        "clip_score": 0.6591
+      },
+      {
+        "prompt": "A couple browses books in a bookstore",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6446
+      },
+      {
+        "prompt": "A librarian browses books in a bookstore",
+        "mapping_type": "replace",
+        "replacement": "librarian",
+        "clip_score": 0.6307
+      },
+      {
+        "prompt": "A student browses books in a bookstore",
+        "mapping_type": "replace",
+        "replacement": "student",
+        "clip_score": 0.6135
+      },
+      {
+        "prompt": "A visitor browses books in a bookstore",
+        "mapping_type": "replace",
+        "replacement": "visitor",
+        "clip_score": 0.6331
+      },
+      {
+        "prompt": "Books line the shelves in a bookstore",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6173
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "70",
+    "source": "Brad Pitt laughs during a casual interview",
+    "candidates": [
+      {
+        "prompt": "A host laughs during a casual interview",
+        "mapping_type": "replace",
+        "replacement": "host",
+        "clip_score": 0.7288
+      },
+      {
+        "prompt": "A comedian laughs during a casual interview",
+        "mapping_type": "replace",
+        "replacement": "comedian",
+        "clip_score": 0.7547
+      },
+      {
+        "prompt": "A friend laughs during a casual interview",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7513
+      },
+      {
+        "prompt": "A guest laughs during a casual interview",
+        "mapping_type": "replace",
+        "replacement": "guest",
+        "clip_score": 0.7285
+      },
+      {
+        "prompt": "A journalist laughs during a casual interview",
+        "mapping_type": "replace",
+        "replacement": "journalist",
+        "clip_score": 0.7463
+      },
+      {
+        "prompt": "An interviewer laughs during a casual interview",
+        "mapping_type": "replace",
+        "replacement": "interviewer",
+        "clip_score": 0.7489
+      },
+      {
+        "prompt": "A panelist laughs during a casual interview",
+        "mapping_type": "replace",
+        "replacement": "panelist",
+        "clip_score": 0.7194
+      },
+      {
+        "prompt": "A celebrity laughs during a casual interview",
+        "mapping_type": "replace",
+        "replacement": "celebrity",
+        "clip_score": 0.7724
+      },
+      {
+        "prompt": "A person laughs during a casual interview",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7532
+      },
+      {
+        "prompt": "The room is filled with laughter during the interview",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6742
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "71",
+    "source": "Brad Pitt waves from a balcony",
+    "candidates": [
+      {
+        "prompt": "A celebrity waves from a balcony",
+        "mapping_type": "replace",
+        "replacement": "celebrity",
+        "clip_score": 0.7871
+      },
+      {
+        "prompt": "A man waves from a balcony",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7628
+      },
+      {
+        "prompt": "A dog waves from a balcony",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7203
+      },
+      {
+        "prompt": "A woman waves from a balcony",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.7306
+      },
+      {
+        "prompt": "A musician waves from a balcony",
+        "mapping_type": "replace",
+        "replacement": "musician",
+        "clip_score": 0.7084
+      },
+      {
+        "prompt": "A kid waves from a balcony",
+        "mapping_type": "replace",
+        "replacement": "kid",
+        "clip_score": 0.7209
+      },
+      {
+        "prompt": "A bird waves from a balcony",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7099
+      },
+      {
+        "prompt": "An artist waves from a balcony",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7317
+      },
+      {
+        "prompt": "A person waves from a balcony",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7524
+      },
+      {
+        "prompt": "Waves from a balcony",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7172
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "72",
+    "source": "Brad Pitt stands beside a movie poster",
+    "candidates": [
+      {
+        "prompt": "A celebrity stands beside a movie poster",
+        "mapping_type": "replace",
+        "replacement": "celebrity",
+        "clip_score": 0.7628
+      },
+      {
+        "prompt": "A woman stands beside a movie poster",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.7481
+      },
+      {
+        "prompt": "A child stands beside a movie poster",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7194
+      },
+      {
+        "prompt": "A mannequin stands beside a movie poster",
+        "mapping_type": "replace",
+        "replacement": "mannequin",
+        "clip_score": 0.6854
+      },
+      {
+        "prompt": "A model stands beside a movie poster",
+        "mapping_type": "replace",
+        "replacement": "model",
+        "clip_score": 0.7196
+      },
+      {
+        "prompt": "A photographer stands beside a movie poster",
+        "mapping_type": "replace",
+        "replacement": "photographer",
+        "clip_score": 0.7204
+      },
+      {
+        "prompt": "A fan stands beside a movie poster",
+        "mapping_type": "replace",
+        "replacement": "fan",
+        "clip_score": 0.7218
+      },
+      {
+        "prompt": "A director stands beside a movie poster",
+        "mapping_type": "replace",
+        "replacement": "director",
+        "clip_score": 0.7271
+      },
+      {
+        "prompt": "An actor stands beside a movie poster",
+        "mapping_type": "replace",
+        "replacement": "actor",
+        "clip_score": 0.7517
+      },
+      {
+        "prompt": "Stands beside a movie poster",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.648
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "73",
+    "source": "Brad Pitt chats with a taxi driver",
+    "candidates": [
+      {
+        "prompt": "A man chats with a taxi driver",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7551
+      },
+      {
+        "prompt": "A woman chats with a taxi driver",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6984
+      },
+      {
+        "prompt": "A tourist chats with a taxi driver",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.6705
+      },
+      {
+        "prompt": "A chef chats with a taxi driver",
+        "mapping_type": "replace",
+        "replacement": "chef",
+        "clip_score": 0.7419
+      },
+      {
+        "prompt": "A pedestrian chats with a taxi driver",
+        "mapping_type": "replace",
+        "replacement": "pedestrian",
+        "clip_score": 0.6867
+      },
+      {
+        "prompt": "A student chats with a taxi driver",
+        "mapping_type": "replace",
+        "replacement": "student",
+        "clip_score": 0.7072
+      },
+      {
+        "prompt": "A singer chats with a taxi driver",
+        "mapping_type": "replace",
+        "replacement": "singer",
+        "clip_score": 0.7442
+      },
+      {
+        "prompt": "A businessperson chats with a taxi driver",
+        "mapping_type": "replace",
+        "replacement": "businessperson",
+        "clip_score": 0.6925
+      },
+      {
+        "prompt": "A person chats with a taxi driver",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7348
+      },
+      {
+        "prompt": "Chats with a taxi driver",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6542
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "74",
+    "source": "Brad Pitt rides a horse at sunset",
+    "candidates": [
+      {
+        "prompt": "A rider rides a horse at sunset",
+        "mapping_type": "replace",
+        "replacement": "rider",
+        "clip_score": 0.7322
+      },
+      {
+        "prompt": "A woman rides a horse at sunset",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.715
+      },
+      {
+        "prompt": "A cowboy rides a horse at sunset",
+        "mapping_type": "replace",
+        "replacement": "cowboy",
+        "clip_score": 0.7569
+      },
+      {
+        "prompt": "A girl rides a horse at sunset",
+        "mapping_type": "replace",
+        "replacement": "girl",
+        "clip_score": 0.7125
+      },
+      {
+        "prompt": "A knight rides a horse at sunset",
+        "mapping_type": "replace",
+        "replacement": "knight",
+        "clip_score": 0.7272
+      },
+      {
+        "prompt": "A farmer rides a horse at sunset",
+        "mapping_type": "replace",
+        "replacement": "farmer",
+        "clip_score": 0.732
+      },
+      {
+        "prompt": "A child rides a horse at sunset",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7142
+      },
+      {
+        "prompt": "A jockey rides a horse at sunset",
+        "mapping_type": "replace",
+        "replacement": "jockey",
+        "clip_score": 0.7291
+      },
+      {
+        "prompt": "A person rides a horse at sunset",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7539
+      },
+      {
+        "prompt": "Rides a horse at sunset",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7321
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "75",
+    "source": "Brad Pitt pets a cat at home",
+    "candidates": [
+      {
+        "prompt": "A person pets a cat at home",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6455
+      },
+      {
+        "prompt": "A child pets a cat at home",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.5642
+      },
+      {
+        "prompt": "A woman pets a cat at home",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.5932
+      },
+      {
+        "prompt": "A man pets a dog at home",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.5681
+      },
+      {
+        "prompt": "An owner pets a cat at home",
+        "mapping_type": "replace",
+        "replacement": "owner",
+        "clip_score": 0.5998
+      },
+      {
+        "prompt": "A friend pets a cat at home",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6409
+      },
+      {
+        "prompt": "A neighbor pets a cat at home",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.6369
+      },
+      {
+        "prompt": "A teenager pets a cat at home",
+        "mapping_type": "replace",
+        "replacement": "teenager",
+        "clip_score": 0.5855
+      },
+      {
+        "prompt": "Someone pets a cat at home",
+        "mapping_type": "replace",
+        "replacement": "someone",
+        "clip_score": 0.6381
+      },
+      {
+        "prompt": "Pets a cat at home",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6246
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "76",
+    "source": "Brad Pitt feeds pigeons in the square",
+    "candidates": [
+      {
+        "prompt": "A person feeds pigeons in the square",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.776
+      },
+      {
+        "prompt": "A child feeds pigeons in the square",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7398
+      },
+      {
+        "prompt": "A woman feeds pigeons in the square",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.7316
+      },
+      {
+        "prompt": "An artist feeds pigeons in the square",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7688
+      },
+      {
+        "prompt": "A tourist feeds pigeons in the square",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.7271
+      },
+      {
+        "prompt": "A friend feeds pigeons in the square",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7625
+      },
+      {
+        "prompt": "A photographer feeds pigeons in the square",
+        "mapping_type": "replace",
+        "replacement": "photographer",
+        "clip_score": 0.7422
+      },
+      {
+        "prompt": "A man feeds pigeons in the square",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7879
+      },
+      {
+        "prompt": "Someone feeds pigeons in the square",
+        "mapping_type": "replace",
+        "replacement": "someone",
+        "clip_score": 0.7972
+      },
+      {
+        "prompt": "Feeds pigeons in the square",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7875
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "77",
+    "source": "Brad Pitt eats noodles at a stall",
+    "candidates": [
+      {
+        "prompt": "A person eats noodles at a stall",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7217
+      },
+      {
+        "prompt": "A child eats noodles at a stall",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6839
+      },
+      {
+        "prompt": "A woman eats noodles at a stall",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6849
+      },
+      {
+        "prompt": "A man eats dumplings at a stall",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.6073
+      },
+      {
+        "prompt": "A chef eats noodles at a stall",
+        "mapping_type": "replace",
+        "replacement": "chef",
+        "clip_score": 0.7214
+      },
+      {
+        "prompt": "A local eats noodles at a stall",
+        "mapping_type": "replace",
+        "replacement": "local",
+        "clip_score": 0.6992
+      },
+      {
+        "prompt": "A friend eats noodles at a stall",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7065
+      },
+      {
+        "prompt": "A traveler eats noodles at a stall",
+        "mapping_type": "replace",
+        "replacement": "traveler",
+        "clip_score": 0.6763
+      },
+      {
+        "prompt": "Someone eats noodles at a stall",
+        "mapping_type": "replace",
+        "replacement": "someone",
+        "clip_score": 0.748
+      },
+      {
+        "prompt": "Eats noodles at a stall",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6971
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "78",
+    "source": "Brad Pitt orders coffee at the counter",
+    "candidates": [
+      {
+        "prompt": "A person orders coffee at the counter",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7034
+      },
+      {
+        "prompt": "A woman orders coffee at the counter",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6935
+      },
+      {
+        "prompt": "A man orders tea at the counter",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.6839
+      },
+      {
+        "prompt": "A customer orders coffee at the counter",
+        "mapping_type": "replace",
+        "replacement": "customer",
+        "clip_score": 0.692
+      },
+      {
+        "prompt": "A barista orders coffee at the counter",
+        "mapping_type": "replace",
+        "replacement": "barista",
+        "clip_score": 0.6862
+      },
+      {
+        "prompt": "A friend orders coffee at the counter",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.702
+      },
+      {
+        "prompt": "A teenager orders coffee at the counter",
+        "mapping_type": "replace",
+        "replacement": "teenager",
+        "clip_score": 0.6795
+      },
+      {
+        "prompt": "A local orders coffee at the counter",
+        "mapping_type": "replace",
+        "replacement": "local",
+        "clip_score": 0.7232
+      },
+      {
+        "prompt": "Someone orders coffee at the counter",
+        "mapping_type": "replace",
+        "replacement": "someone",
+        "clip_score": 0.7195
+      },
+      {
+        "prompt": "Orders coffee at the counter",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7041
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "79",
+    "source": "Brad Pitt pays at a grocery checkout",
+    "candidates": [
+      {
+        "prompt": "A person pays at a grocery checkout",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7482
+      },
+      {
+        "prompt": "A woman pays at a grocery checkout",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.7252
+      },
+      {
+        "prompt": "A man pays at a grocery checkout",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7575
+      },
+      {
+        "prompt": "A customer pays at a grocery checkout",
+        "mapping_type": "replace",
+        "replacement": "customer",
+        "clip_score": 0.7368
+      },
+      {
+        "prompt": "A cashier pays at a grocery checkout",
+        "mapping_type": "replace",
+        "replacement": "cashier",
+        "clip_score": 0.7273
+      },
+      {
+        "prompt": "A friend pays at a grocery checkout",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7229
+      },
+      {
+        "prompt": "A shopper pays at a grocery checkout",
+        "mapping_type": "replace",
+        "replacement": "shopper",
+        "clip_score": 0.702
+      },
+      {
+        "prompt": "A teenager pays at a grocery checkout",
+        "mapping_type": "replace",
+        "replacement": "teenager",
+        "clip_score": 0.729
+      },
+      {
+        "prompt": "Someone pays at a grocery checkout",
+        "mapping_type": "replace",
+        "replacement": "someone",
+        "clip_score": 0.7373
+      },
+      {
+        "prompt": "Pays at a grocery checkout",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7092
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "80",
+    "source": "Brad Pitt tries on a gray suit",
+    "candidates": [
+      {
+        "prompt": "A person tries on a gray suit",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7362
+      },
+      {
+        "prompt": "A model tries on a gray suit",
+        "mapping_type": "replace",
+        "replacement": "model",
+        "clip_score": 0.7329
+      },
+      {
+        "prompt": "A woman tries on a gray suit",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.684
+      },
+      {
+        "prompt": "A customer tries on a gray suit",
+        "mapping_type": "replace",
+        "replacement": "customer",
+        "clip_score": 0.7034
+      },
+      {
+        "prompt": "A mannequin tries on a gray suit",
+        "mapping_type": "replace",
+        "replacement": "mannequin",
+        "clip_score": 0.6706
+      },
+      {
+        "prompt": "A friend tries on a gray suit",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7378
+      },
+      {
+        "prompt": "A teenager tries on a gray suit",
+        "mapping_type": "replace",
+        "replacement": "teenager",
+        "clip_score": 0.6752
+      },
+      {
+        "prompt": "A tailor tries on a gray suit",
+        "mapping_type": "replace",
+        "replacement": "tailor",
+        "clip_score": 0.7527
+      },
+      {
+        "prompt": "A person tries on a suit",
+        "mapping_type": "replace",
+        "replacement": "suit",
+        "clip_score": 0.7328
+      },
+      {
+        "prompt": "Tries on a gray suit",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7327
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "81",
+    "source": "Brad Pitt browses jackets in a boutique",
+    "candidates": [
+      {
+        "prompt": "A man browses jackets in a boutique",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7524
+      },
+      {
+        "prompt": "A celebrity browses jackets in a boutique",
+        "mapping_type": "replace",
+        "replacement": "celebrity",
+        "clip_score": 0.8199
+      },
+      {
+        "prompt": "An actress browses jackets in a boutique",
+        "mapping_type": "replace",
+        "replacement": "actress",
+        "clip_score": 0.7977
+      },
+      {
+        "prompt": "A fashionista browses jackets in a boutique",
+        "mapping_type": "replace",
+        "replacement": "fashionista",
+        "clip_score": 0.7772
+      },
+      {
+        "prompt": "A buyer browses jackets in a boutique",
+        "mapping_type": "replace",
+        "replacement": "buyer",
+        "clip_score": 0.7881
+      },
+      {
+        "prompt": "A model browses jackets in a boutique",
+        "mapping_type": "replace",
+        "replacement": "model",
+        "clip_score": 0.7424
+      },
+      {
+        "prompt": "A shopper browses jackets in a boutique",
+        "mapping_type": "replace",
+        "replacement": "shopper",
+        "clip_score": 0.6874
+      },
+      {
+        "prompt": "A guest browses jackets in a boutique",
+        "mapping_type": "replace",
+        "replacement": "guest",
+        "clip_score": 0.7649
+      },
+      {
+        "prompt": "An item is browsed in a boutique",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.6491
+      },
+      {
+        "prompt": "Browsers check out the boutique",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.5648
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "82",
+    "source": "Brad Pitt examines a watch under lights",
+    "candidates": [
+      {
+        "prompt": "A man examines a watch under lights",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7015
+      },
+      {
+        "prompt": "A collector examines a watch under lights",
+        "mapping_type": "replace",
+        "replacement": "collector",
+        "clip_score": 0.6867
+      },
+      {
+        "prompt": "A jeweler examines a watch under lights",
+        "mapping_type": "replace",
+        "replacement": "jeweler",
+        "clip_score": 0.6662
+      },
+      {
+        "prompt": "An expert examines a watch under lights",
+        "mapping_type": "replace",
+        "replacement": "expert",
+        "clip_score": 0.6964
+      },
+      {
+        "prompt": "A friend examines a watch under lights",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6853
+      },
+      {
+        "prompt": "A gentleman examines a watch under lights",
+        "mapping_type": "replace",
+        "replacement": "gentleman",
+        "clip_score": 0.7164
+      },
+      {
+        "prompt": "A businessman examines a watch under lights",
+        "mapping_type": "replace",
+        "replacement": "businessman",
+        "clip_score": 0.6571
+      },
+      {
+        "prompt": "A shopper examines a watch under lights",
+        "mapping_type": "replace",
+        "replacement": "shopper",
+        "clip_score": 0.6222
+      },
+      {
+        "prompt": "An object is examined under lights",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.5381
+      },
+      {
+        "prompt": "Lights illuminate a watch on display",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.5831
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "83",
+    "source": "Brad Pitt crosses a busy intersection",
+    "candidates": [
+      {
+        "prompt": "A man crosses a busy intersection",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.6667
+      },
+      {
+        "prompt": "A woman crosses a busy intersection",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6257
+      },
+      {
+        "prompt": "A pedestrian crosses a busy intersection",
+        "mapping_type": "replace",
+        "replacement": "pedestrian",
+        "clip_score": 0.6303
+      },
+      {
+        "prompt": "A cyclist crosses a busy intersection",
+        "mapping_type": "replace",
+        "replacement": "cyclist",
+        "clip_score": 0.6018
+      },
+      {
+        "prompt": "A child crosses a busy intersection",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6052
+      },
+      {
+        "prompt": "An elderly person crosses a busy intersection",
+        "mapping_type": "replace",
+        "replacement": "elderly person",
+        "clip_score": 0.5837
+      },
+      {
+        "prompt": "A truck crosses a busy intersection",
+        "mapping_type": "replace",
+        "replacement": "truck",
+        "clip_score": 0.6147
+      },
+      {
+        "prompt": "A group crosses a busy intersection",
+        "mapping_type": "replace",
+        "replacement": "group",
+        "clip_score": 0.6133
+      },
+      {
+        "prompt": "A thing crosses a busy intersection",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.6276
+      },
+      {
+        "prompt": "Traffic flows at a busy intersection",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6167
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "84",
+    "source": "Brad Pitt waits for an elevator",
+    "candidates": [
+      {
+        "prompt": "A man waits for an elevator",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7122
+      },
+      {
+        "prompt": "A woman waits for an elevator",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6899
+      },
+      {
+        "prompt": "A guest waits for an elevator",
+        "mapping_type": "replace",
+        "replacement": "guest",
+        "clip_score": 0.6779
+      },
+      {
+        "prompt": "A visitor waits for an elevator",
+        "mapping_type": "replace",
+        "replacement": "visitor",
+        "clip_score": 0.6521
+      },
+      {
+        "prompt": "A staff member waits for an elevator",
+        "mapping_type": "replace",
+        "replacement": "staff member",
+        "clip_score": 0.6179
+      },
+      {
+        "prompt": "A businessperson waits for an elevator",
+        "mapping_type": "replace",
+        "replacement": "businessperson",
+        "clip_score": 0.6542
+      },
+      {
+        "prompt": "A colleague waits for an elevator",
+        "mapping_type": "replace",
+        "replacement": "colleague",
+        "clip_score": 0.7029
+      },
+      {
+        "prompt": "A tenant waits for an elevator",
+        "mapping_type": "replace",
+        "replacement": "tenant",
+        "clip_score": 0.6947
+      },
+      {
+        "prompt": "A person waits for an elevator",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6898
+      },
+      {
+        "prompt": "An elevator arrives at the floor",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.5933
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "85",
+    "source": "Brad Pitt walks a dog at dusk",
+    "candidates": [
+      {
+        "prompt": "A man walks a dog at dusk",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7255
+      },
+      {
+        "prompt": "A woman walks a dog at dusk",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.684
+      },
+      {
+        "prompt": "A couple walks a dog at dusk",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.694
+      },
+      {
+        "prompt": "A boy walks a dog at dusk",
+        "mapping_type": "replace",
+        "replacement": "boy",
+        "clip_score": 0.7237
+      },
+      {
+        "prompt": "An owner walks a dog at dusk",
+        "mapping_type": "replace",
+        "replacement": "owner",
+        "clip_score": 0.6967
+      },
+      {
+        "prompt": "A neighbor walks a dog at dusk",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.6967
+      },
+      {
+        "prompt": "A friend walks a dog at dusk",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7092
+      },
+      {
+        "prompt": "A child walks a dog at dusk",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6926
+      },
+      {
+        "prompt": "A thing walks a dog at dusk",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.6549
+      },
+      {
+        "prompt": "A dog is walked at dusk",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6844
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "86",
+    "source": "Brad Pitt chats beside a garden fence",
+    "candidates": [
+      {
+        "prompt": "A man chats beside a garden fence",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7888
+      },
+      {
+        "prompt": "A woman chats beside a garden fence",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.7489
+      },
+      {
+        "prompt": "A friend chats beside a garden fence",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7663
+      },
+      {
+        "prompt": "A neighbor chats beside a garden fence",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.7676
+      },
+      {
+        "prompt": "A couple chats beside a garden fence",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.7442
+      },
+      {
+        "prompt": "A child chats beside a garden fence",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7268
+      },
+      {
+        "prompt": "A visitor chats beside a garden fence",
+        "mapping_type": "replace",
+        "replacement": "visitor",
+        "clip_score": 0.7103
+      },
+      {
+        "prompt": "A relative chats beside a garden fence",
+        "mapping_type": "replace",
+        "replacement": "relative",
+        "clip_score": 0.7083
+      },
+      {
+        "prompt": "A person chats beside a garden fence",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.762
+      },
+      {
+        "prompt": "A garden fence stands in the yard",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6458
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "87",
+    "source": "Brad Pitt grills vegetables on a patio",
+    "candidates": [
+      {
+        "prompt": "A man grills vegetables on a patio",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7586
+      },
+      {
+        "prompt": "A woman grills vegetables on a patio",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.722
+      },
+      {
+        "prompt": "A chef grills vegetables on a patio",
+        "mapping_type": "replace",
+        "replacement": "chef",
+        "clip_score": 0.7944
+      },
+      {
+        "prompt": "A neighbor grills vegetables on a patio",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.7593
+      },
+      {
+        "prompt": "A friend grills vegetables on a patio",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7536
+      },
+      {
+        "prompt": "A couple grills vegetables on a patio",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.7644
+      },
+      {
+        "prompt": "A family grills vegetables on a patio",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.7429
+      },
+      {
+        "prompt": "An artist grills vegetables on a patio",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7334
+      },
+      {
+        "prompt": "A thing grills vegetables on a patio",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.762
+      },
+      {
+        "prompt": "Vegetables sizzle on the patio grill",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7228
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "88",
+    "source": "Brad Pitt serves salad at a table",
+    "candidates": [
+      {
+        "prompt": "A man serves salad at a table",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.6804
+      },
+      {
+        "prompt": "A woman serves salad at a table",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6324
+      },
+      {
+        "prompt": "A friend serves salad at a table",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.6701
+      },
+      {
+        "prompt": "A waiter serves salad at a table",
+        "mapping_type": "replace",
+        "replacement": "waiter",
+        "clip_score": 0.6715
+      },
+      {
+        "prompt": "A chef serves salad at a table",
+        "mapping_type": "replace",
+        "replacement": "chef",
+        "clip_score": 0.6745
+      },
+      {
+        "prompt": "A guest serves salad at a table",
+        "mapping_type": "replace",
+        "replacement": "guest",
+        "clip_score": 0.6799
+      },
+      {
+        "prompt": "A couple serves salad at a table",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.6429
+      },
+      {
+        "prompt": "A family serves salad at a table",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.6374
+      },
+      {
+        "prompt": "A thing serves salad at a table",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.6569
+      },
+      {
+        "prompt": "Salad is served at the table",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6224
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "89",
+    "source": "Brad Pitt wipes a window with a cloth",
+    "candidates": [
+      {
+        "prompt": "A man wipes a window with a cloth",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.7459
+      },
+      {
+        "prompt": "A woman wipes a window with a cloth",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6696
+      },
+      {
+        "prompt": "A cleaner wipes a window with a cloth",
+        "mapping_type": "replace",
+        "replacement": "cleaner",
+        "clip_score": 0.7084
+      },
+      {
+        "prompt": "A staff member wipes a window with a cloth",
+        "mapping_type": "replace",
+        "replacement": "staff member",
+        "clip_score": 0.6574
+      },
+      {
+        "prompt": "A friend wipes a window with a cloth",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7397
+      },
+      {
+        "prompt": "A neighbor wipes a window with a cloth",
+        "mapping_type": "replace",
+        "replacement": "neighbor",
+        "clip_score": 0.7182
+      },
+      {
+        "prompt": "A relative wipes a window with a cloth",
+        "mapping_type": "replace",
+        "replacement": "relative",
+        "clip_score": 0.6902
+      },
+      {
+        "prompt": "A volunteer wipes a window with a cloth",
+        "mapping_type": "replace",
+        "replacement": "volunteer",
+        "clip_score": 0.6797
+      },
+      {
+        "prompt": "A thing wipes a window with a cloth",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.6565
+      },
+      {
+        "prompt": "A window is wiped with a cloth",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6248
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "90",
+    "source": "Brad Pitt stands at a classroom door",
+    "candidates": [
+      {
+        "prompt": "A man stands at a classroom door",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.6443
+      },
+      {
+        "prompt": "A teacher stands at a classroom door",
+        "mapping_type": "replace",
+        "replacement": "teacher",
+        "clip_score": 0.6487
+      },
+      {
+        "prompt": "A student stands at a classroom door",
+        "mapping_type": "replace",
+        "replacement": "student",
+        "clip_score": 0.6162
+      },
+      {
+        "prompt": "A parent stands at a classroom door",
+        "mapping_type": "replace",
+        "replacement": "parent",
+        "clip_score": 0.6138
+      },
+      {
+        "prompt": "A principal stands at a classroom door",
+        "mapping_type": "replace",
+        "replacement": "principal",
+        "clip_score": 0.6475
+      },
+      {
+        "prompt": "A visitor stands at a classroom door",
+        "mapping_type": "replace",
+        "replacement": "visitor",
+        "clip_score": 0.5957
+      },
+      {
+        "prompt": "A staff member stands at a classroom door",
+        "mapping_type": "replace",
+        "replacement": "staff member",
+        "clip_score": 0.5811
+      },
+      {
+        "prompt": "A group stands at a classroom door",
+        "mapping_type": "replace",
+        "replacement": "group",
+        "clip_score": 0.5874
+      },
+      {
+        "prompt": "A thing stands at a classroom door",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.6057
+      },
+      {
+        "prompt": "The classroom door is open",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.5528
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "91",
+    "source": "Brad Pitt writes notes on a whiteboard",
+    "candidates": [
+      {
+        "prompt": "A director writes notes on a whiteboard",
+        "mapping_type": "replace",
+        "replacement": "director",
+        "clip_score": 0.6955
+      },
+      {
+        "prompt": "A teacher hands papers to a student",
+        "mapping_type": "replace",
+        "replacement": "teacher",
+        "clip_score": 0.3543
+      },
+      {
+        "prompt": "A photographer reviews photos on a camera",
+        "mapping_type": "replace",
+        "replacement": "photographer",
+        "clip_score": 0.324
+      },
+      {
+        "prompt": "A businessman adjusts a tie in a mirror",
+        "mapping_type": "replace",
+        "replacement": "businessman",
+        "clip_score": 0.3183
+      },
+      {
+        "prompt": "A student waits at a crosswalk signal",
+        "mapping_type": "replace",
+        "replacement": "student",
+        "clip_score": 0.2191
+      },
+      {
+        "prompt": "A tourist boards a bus in the rain",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.2319
+      },
+      {
+        "prompt": "A man steps from a yellow cab",
+        "mapping_type": "replace",
+        "replacement": "man",
+        "clip_score": 0.2187
+      },
+      {
+        "prompt": "A runner jogs beside a river path",
+        "mapping_type": "replace",
+        "replacement": "runner",
+        "clip_score": 0.1838
+      },
+      {
+        "prompt": "A person stands in a newsroom",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.31
+      },
+      {
+        "prompt": "Someone writes notes on a whiteboard",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6813
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "92",
+    "source": "Brad Pitt hands papers to a colleague",
+    "candidates": [
+      {
+        "prompt": "A manager hands papers to a colleague",
+        "mapping_type": "replace",
+        "replacement": "manager",
+        "clip_score": 0.7318
+      },
+      {
+        "prompt": "A friend hands papers to another friend",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7043
+      },
+      {
+        "prompt": "An assistant hands papers to a supervisor",
+        "mapping_type": "replace",
+        "replacement": "assistant",
+        "clip_score": 0.6785
+      },
+      {
+        "prompt": "An actor hands papers to a crew member",
+        "mapping_type": "replace",
+        "replacement": "actor",
+        "clip_score": 0.6502
+      },
+      {
+        "prompt": "A clerk hands papers to a customer",
+        "mapping_type": "replace",
+        "replacement": "clerk",
+        "clip_score": 0.6346
+      },
+      {
+        "prompt": "A scholar hands papers to a peer",
+        "mapping_type": "replace",
+        "replacement": "scholar",
+        "clip_score": 0.6503
+      },
+      {
+        "prompt": "A lawyer hands papers to a client",
+        "mapping_type": "replace",
+        "replacement": "lawyer",
+        "clip_score": 0.671
+      },
+      {
+        "prompt": "A scientist hands papers to an intern",
+        "mapping_type": "replace",
+        "replacement": "scientist",
+        "clip_score": 0.6828
+      },
+      {
+        "prompt": "A person hands papers to another person",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6633
+      },
+      {
+        "prompt": "Someone hands papers to a colleague",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7412
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "93",
+    "source": "Brad Pitt reviews photos on a camera",
+    "candidates": [
+      {
+        "prompt": "A director reviews photos on a camera",
+        "mapping_type": "replace",
+        "replacement": "director",
+        "clip_score": 0.6854
+      },
+      {
+        "prompt": "A designer reviews photos on a camera",
+        "mapping_type": "replace",
+        "replacement": "designer",
+        "clip_score": 0.6971
+      },
+      {
+        "prompt": "An artist reviews photos on a camera",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.6954
+      },
+      {
+        "prompt": "A journalist reviews photos on a camera",
+        "mapping_type": "replace",
+        "replacement": "journalist",
+        "clip_score": 0.6874
+      },
+      {
+        "prompt": "A traveler reviews photos on a camera",
+        "mapping_type": "replace",
+        "replacement": "traveler",
+        "clip_score": 0.6567
+      },
+      {
+        "prompt": "A participant reviews photos on a camera",
+        "mapping_type": "replace",
+        "replacement": "participant",
+        "clip_score": 0.6127
+      },
+      {
+        "prompt": "An enthusiast reviews photos on a camera",
+        "mapping_type": "replace",
+        "replacement": "enthusiast",
+        "clip_score": 0.6988
+      },
+      {
+        "prompt": "A parent reviews photos on a camera",
+        "mapping_type": "replace",
+        "replacement": "parent",
+        "clip_score": 0.6749
+      },
+      {
+        "prompt": "A person reviews photos on a camera",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.695
+      },
+      {
+        "prompt": "Someone reviews photos on a camera",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6959
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "94",
+    "source": "Brad Pitt adjusts a tie in a mirror",
+    "candidates": [
+      {
+        "prompt": "A gentleman adjusts a tie in a mirror",
+        "mapping_type": "replace",
+        "replacement": "gentleman",
+        "clip_score": 0.7493
+      },
+      {
+        "prompt": "A groom adjusts a tie in a mirror",
+        "mapping_type": "replace",
+        "replacement": "groom",
+        "clip_score": 0.6667
+      },
+      {
+        "prompt": "A businessman adjusts a tie in a mirror",
+        "mapping_type": "replace",
+        "replacement": "businessman",
+        "clip_score": 0.7003
+      },
+      {
+        "prompt": "A model adjusts a tie in a mirror",
+        "mapping_type": "replace",
+        "replacement": "model",
+        "clip_score": 0.6985
+      },
+      {
+        "prompt": "A dad adjusts a tie in a mirror",
+        "mapping_type": "replace",
+        "replacement": "dad",
+        "clip_score": 0.7278
+      },
+      {
+        "prompt": "A performer adjusts a tie in a mirror",
+        "mapping_type": "replace",
+        "replacement": "performer",
+        "clip_score": 0.6805
+      },
+      {
+        "prompt": "A teacher adjusts a tie in a mirror",
+        "mapping_type": "replace",
+        "replacement": "teacher",
+        "clip_score": 0.6893
+      },
+      {
+        "prompt": "A friend adjusts a tie in a mirror",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7417
+      },
+      {
+        "prompt": "A person adjusts a tie in a mirror",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7341
+      },
+      {
+        "prompt": "Someone adjusts a tie in a mirror",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7463
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "95",
+    "source": "Brad Pitt waits at a crosswalk signal",
+    "candidates": [
+      {
+        "prompt": "A pedestrian waits at a crosswalk signal",
+        "mapping_type": "replace",
+        "replacement": "pedestrian",
+        "clip_score": 0.6629
+      },
+      {
+        "prompt": "A woman waits at a crosswalk signal",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6614
+      },
+      {
+        "prompt": "A child waits at a crosswalk signal",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6441
+      },
+      {
+        "prompt": "A cyclist waits at a crosswalk signal",
+        "mapping_type": "replace",
+        "replacement": "cyclist",
+        "clip_score": 0.65
+      },
+      {
+        "prompt": "A commuter waits at a crosswalk signal",
+        "mapping_type": "replace",
+        "replacement": "commuter",
+        "clip_score": 0.6617
+      },
+      {
+        "prompt": "A tourist waits at a crosswalk signal",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.6735
+      },
+      {
+        "prompt": "A businessman waits at a crosswalk signal",
+        "mapping_type": "replace",
+        "replacement": "businessman",
+        "clip_score": 0.6452
+      },
+      {
+        "prompt": "A runner waits at a crosswalk signal",
+        "mapping_type": "replace",
+        "replacement": "runner",
+        "clip_score": 0.6406
+      },
+      {
+        "prompt": "A person waits at a crosswalk signal",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6763
+      },
+      {
+        "prompt": "Someone waits at a crosswalk signal",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.686
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "96",
+    "source": "Brad Pitt boards a bus in the rain",
+    "candidates": [
+      {
+        "prompt": "A traveler boards a bus in the rain",
+        "mapping_type": "replace",
+        "replacement": "traveler",
+        "clip_score": 0.6823
+      },
+      {
+        "prompt": "A commuter boards a bus in the rain",
+        "mapping_type": "replace",
+        "replacement": "commuter",
+        "clip_score": 0.6884
+      },
+      {
+        "prompt": "A student boards a bus in the rain",
+        "mapping_type": "replace",
+        "replacement": "student",
+        "clip_score": 0.6678
+      },
+      {
+        "prompt": "A woman boards a bus in the rain",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6899
+      },
+      {
+        "prompt": "A bus driver boards a bus in the rain",
+        "mapping_type": "replace",
+        "replacement": "bus driver",
+        "clip_score": 0.6945
+      },
+      {
+        "prompt": "A family boards a bus in the rain",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.6453
+      },
+      {
+        "prompt": "A friend boards a bus in the rain",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7017
+      },
+      {
+        "prompt": "A group boards a bus in the rain",
+        "mapping_type": "replace",
+        "replacement": "group",
+        "clip_score": 0.6813
+      },
+      {
+        "prompt": "A person boards a bus in the rain",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7086
+      },
+      {
+        "prompt": "Someone boards a bus in the rain",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7129
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "97",
+    "source": "Brad Pitt steps from a yellow cab",
+    "candidates": [
+      {
+        "prompt": "A passenger steps from a yellow cab",
+        "mapping_type": "replace",
+        "replacement": "passenger",
+        "clip_score": 0.7445
+      },
+      {
+        "prompt": "A tourist steps from a yellow cab",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.7419
+      },
+      {
+        "prompt": "A stranger steps from a yellow cab",
+        "mapping_type": "replace",
+        "replacement": "stranger",
+        "clip_score": 0.7444
+      },
+      {
+        "prompt": "A woman steps from a yellow cab",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.6992
+      },
+      {
+        "prompt": "A friend steps from a yellow cab",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7417
+      },
+      {
+        "prompt": "An employee steps from a yellow cab",
+        "mapping_type": "replace",
+        "replacement": "employee",
+        "clip_score": 0.7039
+      },
+      {
+        "prompt": "A driver steps from a yellow cab",
+        "mapping_type": "replace",
+        "replacement": "driver",
+        "clip_score": 0.7314
+      },
+      {
+        "prompt": "A model steps from a yellow cab",
+        "mapping_type": "replace",
+        "replacement": "model",
+        "clip_score": 0.7495
+      },
+      {
+        "prompt": "A person steps from a yellow cab",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7493
+      },
+      {
+        "prompt": "Someone steps from a yellow cab",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7679
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "98",
+    "source": "Brad Pitt jogs beside a river path",
+    "candidates": [
+      {
+        "prompt": "A runner jogs beside a river path",
+        "mapping_type": "replace",
+        "replacement": "runner",
+        "clip_score": 0.6759
+      },
+      {
+        "prompt": "A couple jogs beside a river path",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.651
+      },
+      {
+        "prompt": "A dog jogs beside a river path",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6353
+      },
+      {
+        "prompt": "A cyclist jogs beside a river path",
+        "mapping_type": "replace",
+        "replacement": "cyclist",
+        "clip_score": 0.6469
+      },
+      {
+        "prompt": "An athlete jogs beside a river path",
+        "mapping_type": "replace",
+        "replacement": "athlete",
+        "clip_score": 0.6934
+      },
+      {
+        "prompt": "A child jogs beside a river path",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6559
+      },
+      {
+        "prompt": "A friend jogs beside a river path",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.663
+      },
+      {
+        "prompt": "A group jogs beside a river path",
+        "mapping_type": "replace",
+        "replacement": "group",
+        "clip_score": 0.64
+      },
+      {
+        "prompt": "A person jogs beside a river path",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6975
+      },
+      {
+        "prompt": "Someone jogs beside a river path",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.681
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "99",
+    "source": "Brad Pitt stands in a newsroom",
+    "candidates": [
+      {
+        "prompt": "An anchor stands in a newsroom",
+        "mapping_type": "replace",
+        "replacement": "anchor",
+        "clip_score": 0.5942
+      },
+      {
+        "prompt": "A reporter stands in a newsroom",
+        "mapping_type": "replace",
+        "replacement": "reporter",
+        "clip_score": 0.6557
+      },
+      {
+        "prompt": "A journalist stands in a newsroom",
+        "mapping_type": "replace",
+        "replacement": "journalist",
+        "clip_score": 0.6534
+      },
+      {
+        "prompt": "A producer stands in a newsroom",
+        "mapping_type": "replace",
+        "replacement": "producer",
+        "clip_score": 0.6515
+      },
+      {
+        "prompt": "An editor stands in a newsroom",
+        "mapping_type": "replace",
+        "replacement": "editor",
+        "clip_score": 0.6627
+      },
+      {
+        "prompt": "A broadcaster stands in a newsroom",
+        "mapping_type": "replace",
+        "replacement": "broadcaster",
+        "clip_score": 0.6174
+      },
+      {
+        "prompt": "A technician stands in a newsroom",
+        "mapping_type": "replace",
+        "replacement": "technician",
+        "clip_score": 0.5837
+      },
+      {
+        "prompt": "A news correspondent stands in a newsroom",
+        "mapping_type": "replace",
+        "replacement": "news correspondent",
+        "clip_score": 0.6541
+      },
+      {
+        "prompt": "A person stands in a newsroom",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.6497
+      },
+      {
+        "prompt": "Someone stands in a newsroom",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6722
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "100",
+    "source": "Brad Pitt eats breakfast on a balcony",
+    "candidates": [
+      {
+        "prompt": "A person eats breakfast on a balcony",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.801
+      },
+      {
+        "prompt": "A family eats breakfast on a balcony",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.7562
+      },
+      {
+        "prompt": "A friend eats breakfast on a balcony",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7741
+      },
+      {
+        "prompt": "A couple eats breakfast on a balcony",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.7695
+      },
+      {
+        "prompt": "A woman eats breakfast on a balcony",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.7643
+      },
+      {
+        "prompt": "A child eats breakfast on a balcony",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7633
+      },
+      {
+        "prompt": "A chef eats breakfast on a balcony",
+        "mapping_type": "replace",
+        "replacement": "chef",
+        "clip_score": 0.7955
+      },
+      {
+        "prompt": "A guest eats breakfast on a balcony",
+        "mapping_type": "replace",
+        "replacement": "guest",
+        "clip_score": 0.7848
+      },
+      {
+        "prompt": "A person eats breakfast on a balcony",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.801
+      },
+      {
+        "prompt": "Someone eats breakfast on a balcony",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8127
+      }
+    ],
+    "selected": 10
+  }
+]

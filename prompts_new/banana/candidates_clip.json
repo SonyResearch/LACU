@@ -1,0 +1,6702 @@
+[
+  {
+    "id": "1",
+    "source": "A banana on a wooden table",
+    "candidates": [
+      {
+        "prompt": "An apple on a wooden table",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8664
+      },
+      {
+        "prompt": "A loaf of bread on a wooden table",
+        "mapping_type": "replace",
+        "replacement": "loaf of bread",
+        "clip_score": 0.7839
+      },
+      {
+        "prompt": "A mug on a wooden table",
+        "mapping_type": "replace",
+        "replacement": "mug",
+        "clip_score": 0.7303
+      },
+      {
+        "prompt": "A pencil on a wooden table",
+        "mapping_type": "replace",
+        "replacement": "pencil",
+        "clip_score": 0.7682
+      },
+      {
+        "prompt": "A toy car on a wooden table",
+        "mapping_type": "replace",
+        "replacement": "toy car",
+        "clip_score": 0.6863
+      },
+      {
+        "prompt": "A flower vase on a wooden table",
+        "mapping_type": "replace",
+        "replacement": "flower vase",
+        "clip_score": 0.6832
+      },
+      {
+        "prompt": "A smartphone on a wooden table",
+        "mapping_type": "replace",
+        "replacement": "smartphone",
+        "clip_score": 0.7304
+      },
+      {
+        "prompt": "A stack of books on a wooden table",
+        "mapping_type": "replace",
+        "replacement": "stack of books",
+        "clip_score": 0.7049
+      },
+      {
+        "prompt": "A thing on a wooden table",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7934
+      },
+      {
+        "prompt": "A wooden table",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7956
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "2",
+    "source": "A banana rests on a white plate",
+    "candidates": [
+      {
+        "prompt": "A sandwich rests on a white plate",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7858
+      },
+      {
+        "prompt": "A cupcake rests on a white plate",
+        "mapping_type": "replace",
+        "replacement": "cupcake",
+        "clip_score": 0.746
+      },
+      {
+        "prompt": "A cookie rests on a white plate",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.7861
+      },
+      {
+        "prompt": "A steak rests on a white plate",
+        "mapping_type": "replace",
+        "replacement": "steak",
+        "clip_score": 0.7695
+      },
+      {
+        "prompt": "A salad rests on a white plate",
+        "mapping_type": "replace",
+        "replacement": "salad",
+        "clip_score": 0.7911
+      },
+      {
+        "prompt": "A dumpling rests on a white plate",
+        "mapping_type": "replace",
+        "replacement": "dumpling",
+        "clip_score": 0.7373
+      },
+      {
+        "prompt": "A piece of cheese rests on a white plate",
+        "mapping_type": "replace",
+        "replacement": "piece of cheese",
+        "clip_score": 0.8146
+      },
+      {
+        "prompt": "A piece of fish rests on a white plate",
+        "mapping_type": "replace",
+        "replacement": "piece of fish",
+        "clip_score": 0.7929
+      },
+      {
+        "prompt": "A food item rests on a white plate",
+        "mapping_type": "replace",
+        "replacement": "food item",
+        "clip_score": 0.7868
+      },
+      {
+        "prompt": "A white plate",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7564
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "3",
+    "source": "A banana sits in a fruit bowl",
+    "candidates": [
+      {
+        "prompt": "An orange sits in a fruit bowl",
+        "mapping_type": "replace",
+        "replacement": "orange",
+        "clip_score": 0.8762
+      },
+      {
+        "prompt": "A mango sits in a fruit bowl",
+        "mapping_type": "replace",
+        "replacement": "mango",
+        "clip_score": 0.8587
+      },
+      {
+        "prompt": "A kiwi sits in a fruit bowl",
+        "mapping_type": "replace",
+        "replacement": "kiwi",
+        "clip_score": 0.7865
+      },
+      {
+        "prompt": "A watermelon sits in a fruit bowl",
+        "mapping_type": "replace",
+        "replacement": "watermelon",
+        "clip_score": 0.8498
+      },
+      {
+        "prompt": "A bunch of grapes sits in a fruit bowl",
+        "mapping_type": "replace",
+        "replacement": "bunch of grapes",
+        "clip_score": 0.8048
+      },
+      {
+        "prompt": "A pear sits in a fruit bowl",
+        "mapping_type": "replace",
+        "replacement": "pear",
+        "clip_score": 0.8448
+      },
+      {
+        "prompt": "A pomegranate sits in a fruit bowl",
+        "mapping_type": "replace",
+        "replacement": "pomegranate",
+        "clip_score": 0.7646
+      },
+      {
+        "prompt": "A peach sits in a fruit bowl",
+        "mapping_type": "replace",
+        "replacement": "peach",
+        "clip_score": 0.8303
+      },
+      {
+        "prompt": "A fruit in a fruit bowl",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.9185
+      },
+      {
+        "prompt": "A fruit bowl",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8865
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "4",
+    "source": "A banana on a kitchen counter",
+    "candidates": [
+      {
+        "prompt": "An avocado on a kitchen counter",
+        "mapping_type": "replace",
+        "replacement": "avocado",
+        "clip_score": 0.8373
+      },
+      {
+        "prompt": "A bottle of water on a kitchen counter",
+        "mapping_type": "replace",
+        "replacement": "bottle of water",
+        "clip_score": 0.746
+      },
+      {
+        "prompt": "A coffee maker on a kitchen counter",
+        "mapping_type": "replace",
+        "replacement": "coffee maker",
+        "clip_score": 0.7157
+      },
+      {
+        "prompt": "A toaster on a kitchen counter",
+        "mapping_type": "replace",
+        "replacement": "toaster",
+        "clip_score": 0.7584
+      },
+      {
+        "prompt": "A knife on a kitchen counter",
+        "mapping_type": "replace",
+        "replacement": "knife",
+        "clip_score": 0.7981
+      },
+      {
+        "prompt": "A bowl of cereal on a kitchen counter",
+        "mapping_type": "replace",
+        "replacement": "bowl of cereal",
+        "clip_score": 0.7246
+      },
+      {
+        "prompt": "A cutting board on a kitchen counter",
+        "mapping_type": "replace",
+        "replacement": "cutting board",
+        "clip_score": 0.722
+      },
+      {
+        "prompt": "A cookbook on a kitchen counter",
+        "mapping_type": "replace",
+        "replacement": "cookbook",
+        "clip_score": 0.6757
+      },
+      {
+        "prompt": "An item on a kitchen counter",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7775
+      },
+      {
+        "prompt": "A kitchen counter",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7541
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "5",
+    "source": "A banana on a picnic blanket",
+    "candidates": [
+      {
+        "prompt": "A sandwich on a picnic blanket",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7946
+      },
+      {
+        "prompt": "A bottle of lemonade on a picnic blanket",
+        "mapping_type": "replace",
+        "replacement": "bottle of lemonade",
+        "clip_score": 0.7455
+      },
+      {
+        "prompt": "A picnic basket on a picnic blanket",
+        "mapping_type": "replace",
+        "replacement": "picnic basket",
+        "clip_score": 0.7545
+      },
+      {
+        "prompt": "A frisbee on a picnic blanket",
+        "mapping_type": "replace",
+        "replacement": "frisbee",
+        "clip_score": 0.7233
+      },
+      {
+        "prompt": "A blanket on a picnic blanket",
+        "mapping_type": "replace",
+        "replacement": "blanket",
+        "clip_score": 0.778
+      },
+      {
+        "prompt": "A book on a picnic blanket",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7058
+      },
+      {
+        "prompt": "A cookie on a picnic blanket",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.7846
+      },
+      {
+        "prompt": "A thermos on a picnic blanket",
+        "mapping_type": "replace",
+        "replacement": "thermos",
+        "clip_score": 0.7127
+      },
+      {
+        "prompt": "A thing on a picnic blanket",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.722
+      },
+      {
+        "prompt": "A picnic blanket",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7416
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "6",
+    "source": "A banana on a market stall",
+    "candidates": [
+      {
+        "prompt": "A watermelon on a market stall",
+        "mapping_type": "replace",
+        "replacement": "watermelon",
+        "clip_score": 0.8032
+      },
+      {
+        "prompt": "A pumpkin on a market stall",
+        "mapping_type": "replace",
+        "replacement": "pumpkin",
+        "clip_score": 0.8018
+      },
+      {
+        "prompt": "A basket of apples on a market stall",
+        "mapping_type": "replace",
+        "replacement": "basket of apples",
+        "clip_score": 0.6892
+      },
+      {
+        "prompt": "A bunch of carrots on a market stall",
+        "mapping_type": "replace",
+        "replacement": "bunch of carrots",
+        "clip_score": 0.7123
+      },
+      {
+        "prompt": "A tomato on a market stall",
+        "mapping_type": "replace",
+        "replacement": "tomato",
+        "clip_score": 0.8229
+      },
+      {
+        "prompt": "A selection of herbs on a market stall",
+        "mapping_type": "replace",
+        "replacement": "selection of herbs",
+        "clip_score": 0.6073
+      },
+      {
+        "prompt": "A cucumber on a market stall",
+        "mapping_type": "replace",
+        "replacement": "cucumber",
+        "clip_score": 0.8408
+      },
+      {
+        "prompt": "A basket of strawberries on a market stall",
+        "mapping_type": "replace",
+        "replacement": "basket of strawberries",
+        "clip_score": 0.6133
+      },
+      {
+        "prompt": "A food item on a market stall",
+        "mapping_type": "replace",
+        "replacement": "food item",
+        "clip_score": 0.7826
+      },
+      {
+        "prompt": "A market stall",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7543
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "7",
+    "source": "A banana on a cutting board",
+    "candidates": [
+      {
+        "prompt": "A cucumber on a cutting board",
+        "mapping_type": "replace",
+        "replacement": "cucumber",
+        "clip_score": 0.8404
+      },
+      {
+        "prompt": "A tomato on a cutting board",
+        "mapping_type": "replace",
+        "replacement": "tomato",
+        "clip_score": 0.8149
+      },
+      {
+        "prompt": "A slice of bread on a cutting board",
+        "mapping_type": "replace",
+        "replacement": "slice of bread",
+        "clip_score": 0.7866
+      },
+      {
+        "prompt": "A piece of cheese on a cutting board",
+        "mapping_type": "replace",
+        "replacement": "piece of cheese",
+        "clip_score": 0.8332
+      },
+      {
+        "prompt": "A piece of chicken on a cutting board",
+        "mapping_type": "replace",
+        "replacement": "piece of chicken",
+        "clip_score": 0.774
+      },
+      {
+        "prompt": "A carrot on a cutting board",
+        "mapping_type": "replace",
+        "replacement": "carrot",
+        "clip_score": 0.78
+      },
+      {
+        "prompt": "A potato on a cutting board",
+        "mapping_type": "replace",
+        "replacement": "potato",
+        "clip_score": 0.83
+      },
+      {
+        "prompt": "A green pepper on a cutting board",
+        "mapping_type": "replace",
+        "replacement": "green pepper",
+        "clip_score": 0.703
+      },
+      {
+        "prompt": "An ingredient on a cutting board",
+        "mapping_type": "replace",
+        "replacement": "ingredient",
+        "clip_score": 0.7069
+      },
+      {
+        "prompt": "A cutting board",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7619
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "8",
+    "source": "A banana on a cafe table",
+    "candidates": [
+      {
+        "prompt": "A coffee cup on a cafe table",
+        "mapping_type": "replace",
+        "replacement": "coffee cup",
+        "clip_score": 0.7498
+      },
+      {
+        "prompt": "A pastry on a cafe table",
+        "mapping_type": "replace",
+        "replacement": "pastry",
+        "clip_score": 0.8024
+      },
+      {
+        "prompt": "A slice of cake on a cafe table",
+        "mapping_type": "replace",
+        "replacement": "slice of cake",
+        "clip_score": 0.7667
+      },
+      {
+        "prompt": "A sandwich on a cafe table",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7632
+      },
+      {
+        "prompt": "A glass of juice on a cafe table",
+        "mapping_type": "replace",
+        "replacement": "glass of juice",
+        "clip_score": 0.7217
+      },
+      {
+        "prompt": "A book on a cafe table",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.6982
+      },
+      {
+        "prompt": "A flower vase on a cafe table",
+        "mapping_type": "replace",
+        "replacement": "flower vase",
+        "clip_score": 0.6954
+      },
+      {
+        "prompt": "A smoothie on a cafe table",
+        "mapping_type": "replace",
+        "replacement": "smoothie",
+        "clip_score": 0.7541
+      },
+      {
+        "prompt": "An item on a cafe table",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7472
+      },
+      {
+        "prompt": "A cafe table",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7326
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "9",
+    "source": "A banana on a windowsill",
+    "candidates": [
+      {
+        "prompt": "A potted plant on a windowsill",
+        "mapping_type": "replace",
+        "replacement": "potted plant",
+        "clip_score": 0.7662
+      },
+      {
+        "prompt": "A candle on a windowsill",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.7826
+      },
+      {
+        "prompt": "A photo frame on a windowsill",
+        "mapping_type": "replace",
+        "replacement": "photo frame",
+        "clip_score": 0.6587
+      },
+      {
+        "prompt": "A small statue on a windowsill",
+        "mapping_type": "replace",
+        "replacement": "small statue",
+        "clip_score": 0.713
+      },
+      {
+        "prompt": "A flowerpot on a windowsill",
+        "mapping_type": "replace",
+        "replacement": "flowerpot",
+        "clip_score": 0.7696
+      },
+      {
+        "prompt": "A book on a windowsill",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7283
+      },
+      {
+        "prompt": "A mug on a windowsill",
+        "mapping_type": "replace",
+        "replacement": "mug",
+        "clip_score": 0.7508
+      },
+      {
+        "prompt": "A glass of water on a windowsill",
+        "mapping_type": "replace",
+        "replacement": "glass of water",
+        "clip_score": 0.7381
+      },
+      {
+        "prompt": "An object on a windowsill",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8108
+      },
+      {
+        "prompt": "A windowsill",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7991
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "10",
+    "source": "A banana on a beach towel",
+    "candidates": [
+      {
+        "prompt": "A beach ball on a beach towel",
+        "mapping_type": "replace",
+        "replacement": "beach ball",
+        "clip_score": 0.7581
+      },
+      {
+        "prompt": "A book on a beach towel",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7208
+      },
+      {
+        "prompt": "A sunscreen bottle on a beach towel",
+        "mapping_type": "replace",
+        "replacement": "sunscreen bottle",
+        "clip_score": 0.7537
+      },
+      {
+        "prompt": "A towel on a beach towel",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.8083
+      },
+      {
+        "prompt": "A cooler on a beach towel",
+        "mapping_type": "replace",
+        "replacement": "cooler",
+        "clip_score": 0.7475
+      },
+      {
+        "prompt": "A pair of sunglasses on a beach towel",
+        "mapping_type": "replace",
+        "replacement": "pair of sunglasses",
+        "clip_score": 0.7324
+      },
+      {
+        "prompt": "A flip-flop on a beach towel",
+        "mapping_type": "replace",
+        "replacement": "flip-flop",
+        "clip_score": 0.7792
+      },
+      {
+        "prompt": "A snack on a beach towel",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.7637
+      },
+      {
+        "prompt": "An item on a beach towel",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7415
+      },
+      {
+        "prompt": "A beach towel",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7775
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "11",
+    "source": "A banana on a school desk",
+    "candidates": [
+      {
+        "prompt": "An apple on a school desk",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8777
+      },
+      {
+        "prompt": "A notebook on a school desk",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.742
+      },
+      {
+        "prompt": "A pencil on a school desk",
+        "mapping_type": "replace",
+        "replacement": "pencil",
+        "clip_score": 0.8244
+      },
+      {
+        "prompt": "A cat on a school desk",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7778
+      },
+      {
+        "prompt": "A sandwich on a school desk",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7958
+      },
+      {
+        "prompt": "A plant on a school desk",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7814
+      },
+      {
+        "prompt": "A toy car on a school desk",
+        "mapping_type": "replace",
+        "replacement": "toy car",
+        "clip_score": 0.7205
+      },
+      {
+        "prompt": "A water bottle on a school desk",
+        "mapping_type": "replace",
+        "replacement": "water bottle",
+        "clip_score": 0.7542
+      },
+      {
+        "prompt": "An object on a school desk",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8044
+      },
+      {
+        "prompt": "On a school desk",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7839
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "12",
+    "source": "A banana on a car seat",
+    "candidates": [
+      {
+        "prompt": "An apple on a car seat",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8269
+      },
+      {
+        "prompt": "A sandwich on a car seat",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7625
+      },
+      {
+        "prompt": "A cat on a car seat",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7304
+      },
+      {
+        "prompt": "A book on a car seat",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.6983
+      },
+      {
+        "prompt": "A bottle on a car seat",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7206
+      },
+      {
+        "prompt": "A plant on a car seat",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7405
+      },
+      {
+        "prompt": "A toy on a car seat",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7202
+      },
+      {
+        "prompt": "A wallet on a car seat",
+        "mapping_type": "replace",
+        "replacement": "wallet",
+        "clip_score": 0.7135
+      },
+      {
+        "prompt": "An item on a car seat",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7521
+      },
+      {
+        "prompt": "A car seat",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7527
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "13",
+    "source": "A banana on a park bench",
+    "candidates": [
+      {
+        "prompt": "An apple on a park bench",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8571
+      },
+      {
+        "prompt": "A sandwich on a park bench",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8141
+      },
+      {
+        "prompt": "A dog on a park bench",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7793
+      },
+      {
+        "prompt": "A bicycle on a park bench",
+        "mapping_type": "replace",
+        "replacement": "bicycle",
+        "clip_score": 0.7573
+      },
+      {
+        "prompt": "A flower on a park bench",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7742
+      },
+      {
+        "prompt": "A book on a park bench",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7315
+      },
+      {
+        "prompt": "A hat on a park bench",
+        "mapping_type": "replace",
+        "replacement": "hat",
+        "clip_score": 0.7329
+      },
+      {
+        "prompt": "A bottle on a park bench",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7596
+      },
+      {
+        "prompt": "An item on a park bench",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8018
+      },
+      {
+        "prompt": "On a park bench",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7677
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "14",
+    "source": "A banana on a nightstand",
+    "candidates": [
+      {
+        "prompt": "An apple on a nightstand",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8829
+      },
+      {
+        "prompt": "A book on a nightstand",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7914
+      },
+      {
+        "prompt": "A candle on a nightstand",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.831
+      },
+      {
+        "prompt": "A glass of water on a nightstand",
+        "mapping_type": "replace",
+        "replacement": "glass of water",
+        "clip_score": 0.7721
+      },
+      {
+        "prompt": "A toy on a nightstand",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8173
+      },
+      {
+        "prompt": "A flower pot on a nightstand",
+        "mapping_type": "replace",
+        "replacement": "flower pot",
+        "clip_score": 0.8194
+      },
+      {
+        "prompt": "A clock on a nightstand",
+        "mapping_type": "replace",
+        "replacement": "clock",
+        "clip_score": 0.806
+      },
+      {
+        "prompt": "A phone on a nightstand",
+        "mapping_type": "replace",
+        "replacement": "phone",
+        "clip_score": 0.8179
+      },
+      {
+        "prompt": "An item on a nightstand",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8297
+      },
+      {
+        "prompt": "On a nightstand",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8128
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "15",
+    "source": "A banana on a grocery scale",
+    "candidates": [
+      {
+        "prompt": "An apple on a grocery scale",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8848
+      },
+      {
+        "prompt": "A loaf of bread on a grocery scale",
+        "mapping_type": "replace",
+        "replacement": "loaf of bread",
+        "clip_score": 0.8038
+      },
+      {
+        "prompt": "A cucumber on a grocery scale",
+        "mapping_type": "replace",
+        "replacement": "cucumber",
+        "clip_score": 0.8664
+      },
+      {
+        "prompt": "A toy car on a grocery scale",
+        "mapping_type": "replace",
+        "replacement": "toy car",
+        "clip_score": 0.765
+      },
+      {
+        "prompt": "A bunch of grapes on a grocery scale",
+        "mapping_type": "replace",
+        "replacement": "bunch of grapes",
+        "clip_score": 0.7419
+      },
+      {
+        "prompt": "A cactus on a grocery scale",
+        "mapping_type": "replace",
+        "replacement": "cactus",
+        "clip_score": 0.768
+      },
+      {
+        "prompt": "A chocolate cake on a grocery scale",
+        "mapping_type": "replace",
+        "replacement": "chocolate cake",
+        "clip_score": 0.7395
+      },
+      {
+        "prompt": "A pineapple on a grocery scale",
+        "mapping_type": "replace",
+        "replacement": "pineapple",
+        "clip_score": 0.8722
+      },
+      {
+        "prompt": "An item on a grocery scale",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8308
+      },
+      {
+        "prompt": "A grocery scale is in the kitchen",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7589
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "16",
+    "source": "A banana on a blue plate",
+    "candidates": [
+      {
+        "prompt": "A pear on a blue plate",
+        "mapping_type": "replace",
+        "replacement": "pear",
+        "clip_score": 0.8425
+      },
+      {
+        "prompt": "A book on a blue plate",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.785
+      },
+      {
+        "prompt": "An apple on a blue plate",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8815
+      },
+      {
+        "prompt": "A toy on a blue plate",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8144
+      },
+      {
+        "prompt": "A sandwich on a blue plate",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.81
+      },
+      {
+        "prompt": "A flower on a blue plate",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8217
+      },
+      {
+        "prompt": "A car on a blue plate",
+        "mapping_type": "replace",
+        "replacement": "car",
+        "clip_score": 0.8122
+      },
+      {
+        "prompt": "A pencil on a blue plate",
+        "mapping_type": "replace",
+        "replacement": "pencil",
+        "clip_score": 0.7712
+      },
+      {
+        "prompt": "A thing on a blue plate",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8245
+      },
+      {
+        "prompt": "On a blue plate",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8235
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "17",
+    "source": "A banana on a picnic table",
+    "candidates": [
+      {
+        "prompt": "An apple on a picnic table",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.879
+      },
+      {
+        "prompt": "A sandwich on a picnic table",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8208
+      },
+      {
+        "prompt": "A book on a picnic table",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.739
+      },
+      {
+        "prompt": "A bottle of water on a picnic table",
+        "mapping_type": "replace",
+        "replacement": "bottle of water",
+        "clip_score": 0.7547
+      },
+      {
+        "prompt": "A kite on a picnic table",
+        "mapping_type": "replace",
+        "replacement": "kite",
+        "clip_score": 0.6872
+      },
+      {
+        "prompt": "A flower in a vase on a picnic table",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7038
+      },
+      {
+        "prompt": "A mug on a picnic table",
+        "mapping_type": "replace",
+        "replacement": "mug",
+        "clip_score": 0.753
+      },
+      {
+        "prompt": "A toy car on a picnic table",
+        "mapping_type": "replace",
+        "replacement": "toy car",
+        "clip_score": 0.7347
+      },
+      {
+        "prompt": "An item on a picnic table",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7893
+      },
+      {
+        "prompt": "On a picnic table",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7711
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "18",
+    "source": "A banana on a marble counter",
+    "candidates": [
+      {
+        "prompt": "An apple on a marble counter",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8862
+      },
+      {
+        "prompt": "A loaf of bread on a marble counter",
+        "mapping_type": "replace",
+        "replacement": "loaf of bread",
+        "clip_score": 0.7893
+      },
+      {
+        "prompt": "A mango on a marble counter",
+        "mapping_type": "replace",
+        "replacement": "mango",
+        "clip_score": 0.8657
+      },
+      {
+        "prompt": "A bowl of grapes on a marble counter",
+        "mapping_type": "replace",
+        "replacement": "bowl of grapes",
+        "clip_score": 0.7285
+      },
+      {
+        "prompt": "A toy truck on a marble counter",
+        "mapping_type": "replace",
+        "replacement": "toy truck",
+        "clip_score": 0.6655
+      },
+      {
+        "prompt": "A potted cactus on a marble counter",
+        "mapping_type": "replace",
+        "replacement": "potted cactus",
+        "clip_score": 0.6687
+      },
+      {
+        "prompt": "A piece of cheese on a marble counter",
+        "mapping_type": "replace",
+        "replacement": "piece of cheese",
+        "clip_score": 0.8686
+      },
+      {
+        "prompt": "A sandwich on a marble counter",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8048
+      },
+      {
+        "prompt": "An item on a marble counter",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8034
+      },
+      {
+        "prompt": "A marble counter with various objects",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6373
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "19",
+    "source": "A banana on a paper napkin",
+    "candidates": [
+      {
+        "prompt": "An apple on a paper napkin",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8779
+      },
+      {
+        "prompt": "A cupcake on a paper napkin",
+        "mapping_type": "replace",
+        "replacement": "cupcake",
+        "clip_score": 0.7739
+      },
+      {
+        "prompt": "A carrot on a paper napkin",
+        "mapping_type": "replace",
+        "replacement": "carrot",
+        "clip_score": 0.8255
+      },
+      {
+        "prompt": "A sandwich on a paper napkin",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8086
+      },
+      {
+        "prompt": "A flower on a paper napkin",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8095
+      },
+      {
+        "prompt": "A toy on a paper napkin",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7923
+      },
+      {
+        "prompt": "A book on a paper napkin",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7596
+      },
+      {
+        "prompt": "A cat on a paper napkin",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7677
+      },
+      {
+        "prompt": "An item on a paper napkin",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8092
+      },
+      {
+        "prompt": "A paper napkin on a table",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7824
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "20",
+    "source": "A banana on a folded towel",
+    "candidates": [
+      {
+        "prompt": "An apple on a folded towel",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8508
+      },
+      {
+        "prompt": "A lemon on a folded towel",
+        "mapping_type": "replace",
+        "replacement": "lemon",
+        "clip_score": 0.8926
+      },
+      {
+        "prompt": "A book on a folded towel",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7187
+      },
+      {
+        "prompt": "A cat on a folded towel",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7353
+      },
+      {
+        "prompt": "A flower on a folded towel",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7825
+      },
+      {
+        "prompt": "A toy car on a folded towel",
+        "mapping_type": "replace",
+        "replacement": "toy car",
+        "clip_score": 0.675
+      },
+      {
+        "prompt": "A sandwich on a folded towel",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7908
+      },
+      {
+        "prompt": "A pair of glasses on a folded towel",
+        "mapping_type": "replace",
+        "replacement": "pair of glasses",
+        "clip_score": 0.671
+      },
+      {
+        "prompt": "An object on a folded towel",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8038
+      },
+      {
+        "prompt": "On a folded towel",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7225
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "21",
+    "source": "A banana on a chessboard",
+    "candidates": [
+      {
+        "prompt": "A pear on a chessboard",
+        "mapping_type": "replace",
+        "replacement": "pear",
+        "clip_score": 0.8606
+      },
+      {
+        "prompt": "A bell pepper on a chessboard",
+        "mapping_type": "replace",
+        "replacement": "bell pepper",
+        "clip_score": 0.8124
+      },
+      {
+        "prompt": "A toy car on a chessboard",
+        "mapping_type": "replace",
+        "replacement": "toy car",
+        "clip_score": 0.762
+      },
+      {
+        "prompt": "A squirrel on a chessboard",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.7847
+      },
+      {
+        "prompt": "A book on a chessboard",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7918
+      },
+      {
+        "prompt": "A flower pot on a chessboard",
+        "mapping_type": "replace",
+        "replacement": "flower pot",
+        "clip_score": 0.7976
+      },
+      {
+        "prompt": "A smartphone on a chessboard",
+        "mapping_type": "replace",
+        "replacement": "smartphone",
+        "clip_score": 0.7682
+      },
+      {
+        "prompt": "A mug on a chessboard",
+        "mapping_type": "replace",
+        "replacement": "mug",
+        "clip_score": 0.7956
+      },
+      {
+        "prompt": "A thing on a chessboard",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8418
+      },
+      {
+        "prompt": "A on a chessboard",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.815
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "22",
+    "source": "A banana on a wooden tray",
+    "candidates": [
+      {
+        "prompt": "A muffin on a wooden tray",
+        "mapping_type": "replace",
+        "replacement": "muffin",
+        "clip_score": 0.748
+      },
+      {
+        "prompt": "A sandwich on a wooden tray",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7665
+      },
+      {
+        "prompt": "A small plant on a wooden tray",
+        "mapping_type": "replace",
+        "replacement": "small plant",
+        "clip_score": 0.7485
+      },
+      {
+        "prompt": "A cat on a wooden tray",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7325
+      },
+      {
+        "prompt": "A toy robot on a wooden tray",
+        "mapping_type": "replace",
+        "replacement": "toy robot",
+        "clip_score": 0.6763
+      },
+      {
+        "prompt": "A candle on a wooden tray",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.7557
+      },
+      {
+        "prompt": "A watch on a wooden tray",
+        "mapping_type": "replace",
+        "replacement": "watch",
+        "clip_score": 0.7498
+      },
+      {
+        "prompt": "A pencil case on a wooden tray",
+        "mapping_type": "replace",
+        "replacement": "pencil case",
+        "clip_score": 0.7236
+      },
+      {
+        "prompt": "A item on a wooden tray",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7806
+      },
+      {
+        "prompt": "A on a wooden tray",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7297
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "23",
+    "source": "A banana on a metal tray",
+    "candidates": [
+      {
+        "prompt": "A plate on a metal tray",
+        "mapping_type": "replace",
+        "replacement": "plate",
+        "clip_score": 0.7213
+      },
+      {
+        "prompt": "A car key on a metal tray",
+        "mapping_type": "replace",
+        "replacement": "car key",
+        "clip_score": 0.6694
+      },
+      {
+        "prompt": "A figurine on a metal tray",
+        "mapping_type": "replace",
+        "replacement": "figurine",
+        "clip_score": 0.6742
+      },
+      {
+        "prompt": "A laptop on a metal tray",
+        "mapping_type": "replace",
+        "replacement": "laptop",
+        "clip_score": 0.703
+      },
+      {
+        "prompt": "A cucumber on a metal tray",
+        "mapping_type": "replace",
+        "replacement": "cucumber",
+        "clip_score": 0.8008
+      },
+      {
+        "prompt": "A dog toy on a metal tray",
+        "mapping_type": "replace",
+        "replacement": "dog toy",
+        "clip_score": 0.6909
+      },
+      {
+        "prompt": "A notebook on a metal tray",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.6978
+      },
+      {
+        "prompt": "An apple on a metal tray",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8359
+      },
+      {
+        "prompt": "A thing on a metal tray",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7421
+      },
+      {
+        "prompt": "A on a metal tray",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7146
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "24",
+    "source": "A banana on a snowbank",
+    "candidates": [
+      {
+        "prompt": "A snowman on a snowbank",
+        "mapping_type": "replace",
+        "replacement": "snowman",
+        "clip_score": 0.752
+      },
+      {
+        "prompt": "A twig on a snowbank",
+        "mapping_type": "replace",
+        "replacement": "twig",
+        "clip_score": 0.7548
+      },
+      {
+        "prompt": "A mitten on a snowbank",
+        "mapping_type": "replace",
+        "replacement": "mitten",
+        "clip_score": 0.6661
+      },
+      {
+        "prompt": "A rabbit on a snowbank",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7232
+      },
+      {
+        "prompt": "A snowflake on a snowbank",
+        "mapping_type": "replace",
+        "replacement": "snowflake",
+        "clip_score": 0.7265
+      },
+      {
+        "prompt": "A sled on a snowbank",
+        "mapping_type": "replace",
+        "replacement": "sled",
+        "clip_score": 0.7014
+      },
+      {
+        "prompt": "A pair of goggles on a snowbank",
+        "mapping_type": "replace",
+        "replacement": "pair of goggles",
+        "clip_score": 0.5835
+      },
+      {
+        "prompt": "A scarf on a snowbank",
+        "mapping_type": "replace",
+        "replacement": "scarf",
+        "clip_score": 0.7038
+      },
+      {
+        "prompt": "A item on a snowbank",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7598
+      },
+      {
+        "prompt": "A on a snowbank",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7413
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "25",
+    "source": "A banana on a garden table",
+    "candidates": [
+      {
+        "prompt": "A vase on a garden table",
+        "mapping_type": "replace",
+        "replacement": "vase",
+        "clip_score": 0.7419
+      },
+      {
+        "prompt": "A watering can on a garden table",
+        "mapping_type": "replace",
+        "replacement": "watering can",
+        "clip_score": 0.7145
+      },
+      {
+        "prompt": "A butterfly on a garden table",
+        "mapping_type": "replace",
+        "replacement": "butterfly",
+        "clip_score": 0.7419
+      },
+      {
+        "prompt": "A sun hat on a garden table",
+        "mapping_type": "replace",
+        "replacement": "sun hat",
+        "clip_score": 0.7126
+      },
+      {
+        "prompt": "A spade on a garden table",
+        "mapping_type": "replace",
+        "replacement": "spade",
+        "clip_score": 0.7793
+      },
+      {
+        "prompt": "A tomato on a garden table",
+        "mapping_type": "replace",
+        "replacement": "tomato",
+        "clip_score": 0.8182
+      },
+      {
+        "prompt": "A picnic basket on a garden table",
+        "mapping_type": "replace",
+        "replacement": "picnic basket",
+        "clip_score": 0.6904
+      },
+      {
+        "prompt": "A sun umbrella on a garden table",
+        "mapping_type": "replace",
+        "replacement": "sun umbrella",
+        "clip_score": 0.7419
+      },
+      {
+        "prompt": "A thing on a garden table",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7586
+      },
+      {
+        "prompt": "A on a garden table",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7429
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "26",
+    "source": "A banana on a hiking trail",
+    "candidates": [
+      {
+        "prompt": "A squirrel on a hiking trail",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.748
+      },
+      {
+        "prompt": "A water bottle on a hiking trail",
+        "mapping_type": "replace",
+        "replacement": "water bottle",
+        "clip_score": 0.7452
+      },
+      {
+        "prompt": "A flower on a hiking trail",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7744
+      },
+      {
+        "prompt": "A stick on a hiking trail",
+        "mapping_type": "replace",
+        "replacement": "stick",
+        "clip_score": 0.7272
+      },
+      {
+        "prompt": "A backpack on a hiking trail",
+        "mapping_type": "replace",
+        "replacement": "backpack",
+        "clip_score": 0.7143
+      },
+      {
+        "prompt": "A bird on a hiking trail",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7626
+      },
+      {
+        "prompt": "A map on a hiking trail",
+        "mapping_type": "replace",
+        "replacement": "map",
+        "clip_score": 0.6859
+      },
+      {
+        "prompt": "A rock on a hiking trail",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.7286
+      },
+      {
+        "prompt": "A item on a hiking trail",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.741
+      },
+      {
+        "prompt": "A on a hiking trail",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7297
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "27",
+    "source": "A banana on a treadmill console",
+    "candidates": [
+      {
+        "prompt": "A water bottle on a treadmill console",
+        "mapping_type": "replace",
+        "replacement": "water bottle",
+        "clip_score": 0.7252
+      },
+      {
+        "prompt": "A smartwatch on a treadmill console",
+        "mapping_type": "replace",
+        "replacement": "smartwatch",
+        "clip_score": 0.6213
+      },
+      {
+        "prompt": "A towel on a treadmill console",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.7089
+      },
+      {
+        "prompt": "A remote control on a treadmill console",
+        "mapping_type": "replace",
+        "replacement": "remote control",
+        "clip_score": 0.7412
+      },
+      {
+        "prompt": "A magazine on a treadmill console",
+        "mapping_type": "replace",
+        "replacement": "magazine",
+        "clip_score": 0.6866
+      },
+      {
+        "prompt": "A phone on a treadmill console",
+        "mapping_type": "replace",
+        "replacement": "phone",
+        "clip_score": 0.7315
+      },
+      {
+        "prompt": "A pair of headphones on a treadmill console",
+        "mapping_type": "replace",
+        "replacement": "pair of headphones",
+        "clip_score": 0.7085
+      },
+      {
+        "prompt": "A snack on a treadmill console",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.7366
+      },
+      {
+        "prompt": "A thing on a treadmill console",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7276
+      },
+      {
+        "prompt": "A on a treadmill console",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7282
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "28",
+    "source": "A banana on a library table",
+    "candidates": [
+      {
+        "prompt": "A notebook on a library table",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.7176
+      },
+      {
+        "prompt": "A lamp on a library table",
+        "mapping_type": "replace",
+        "replacement": "lamp",
+        "clip_score": 0.7296
+      },
+      {
+        "prompt": "A stack of books on a library table",
+        "mapping_type": "replace",
+        "replacement": "stack of books",
+        "clip_score": 0.7123
+      },
+      {
+        "prompt": "A coffee cup on a library table",
+        "mapping_type": "replace",
+        "replacement": "coffee cup",
+        "clip_score": 0.7296
+      },
+      {
+        "prompt": "A pencil on a library table",
+        "mapping_type": "replace",
+        "replacement": "pencil",
+        "clip_score": 0.7651
+      },
+      {
+        "prompt": "A pair of glasses on a library table",
+        "mapping_type": "replace",
+        "replacement": "pair of glasses",
+        "clip_score": 0.6806
+      },
+      {
+        "prompt": "A ruler on a library table",
+        "mapping_type": "replace",
+        "replacement": "ruler",
+        "clip_score": 0.7197
+      },
+      {
+        "prompt": "A binder on a library table",
+        "mapping_type": "replace",
+        "replacement": "binder",
+        "clip_score": 0.6706
+      },
+      {
+        "prompt": "A object on a library table",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7735
+      },
+      {
+        "prompt": "A on a library table",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7438
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "29",
+    "source": "A banana on a cafe saucer",
+    "candidates": [
+      {
+        "prompt": "A dish on a cafe saucer",
+        "mapping_type": "replace",
+        "replacement": "dish",
+        "clip_score": 0.7083
+      },
+      {
+        "prompt": "A cookie on a cafe saucer",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.7644
+      },
+      {
+        "prompt": "A small cake on a cafe saucer",
+        "mapping_type": "replace",
+        "replacement": "small cake",
+        "clip_score": 0.7638
+      },
+      {
+        "prompt": "A sugar cube on a cafe saucer",
+        "mapping_type": "replace",
+        "replacement": "sugar cube",
+        "clip_score": 0.7213
+      },
+      {
+        "prompt": "A napkin on a cafe saucer",
+        "mapping_type": "replace",
+        "replacement": "napkin",
+        "clip_score": 0.7374
+      },
+      {
+        "prompt": "A biscuit on a cafe saucer",
+        "mapping_type": "replace",
+        "replacement": "biscuit",
+        "clip_score": 0.7554
+      },
+      {
+        "prompt": "A piece of fruit on a cafe saucer",
+        "mapping_type": "replace",
+        "replacement": "piece of fruit",
+        "clip_score": 0.8279
+      },
+      {
+        "prompt": "A small flower pot on a cafe saucer",
+        "mapping_type": "replace",
+        "replacement": "small flower pot",
+        "clip_score": 0.7231
+      },
+      {
+        "prompt": "A item on a cafe saucer",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7028
+      },
+      {
+        "prompt": "A on a cafe saucer",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7107
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "30",
+    "source": "A banana on a skateboard",
+    "candidates": [
+      {
+        "prompt": "A skateboard on a skateboard",
+        "mapping_type": "replace",
+        "replacement": "skateboard",
+        "clip_score": 0.8151
+      },
+      {
+        "prompt": "A toy on a skateboard",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7959
+      },
+      {
+        "prompt": "A backpack on a skateboard",
+        "mapping_type": "replace",
+        "replacement": "backpack",
+        "clip_score": 0.7398
+      },
+      {
+        "prompt": "A dog on a skateboard",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7772
+      },
+      {
+        "prompt": "A helmet on a skateboard",
+        "mapping_type": "replace",
+        "replacement": "helmet",
+        "clip_score": 0.7546
+      },
+      {
+        "prompt": "A piece of art on a skateboard",
+        "mapping_type": "replace",
+        "replacement": "piece of art",
+        "clip_score": 0.7221
+      },
+      {
+        "prompt": "A shoe on a skateboard",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.812
+      },
+      {
+        "prompt": "A skateboard deck on a skateboard",
+        "mapping_type": "replace",
+        "replacement": "skateboard deck",
+        "clip_score": 0.7884
+      },
+      {
+        "prompt": "A thing on a skateboard",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.781
+      },
+      {
+        "prompt": "A on a skateboard",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7516
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "31",
+    "source": "A banana on a grill grate",
+    "candidates": [
+      {
+        "prompt": "A peach on a grill grate",
+        "mapping_type": "replace",
+        "replacement": "peach",
+        "clip_score": 0.7617
+      },
+      {
+        "prompt": "A pineapple on a grill grate",
+        "mapping_type": "replace",
+        "replacement": "pineapple",
+        "clip_score": 0.8616
+      },
+      {
+        "prompt": "A cucumber on a grill grate",
+        "mapping_type": "replace",
+        "replacement": "cucumber",
+        "clip_score": 0.8148
+      },
+      {
+        "prompt": "A donut on a grill grate",
+        "mapping_type": "replace",
+        "replacement": "donut",
+        "clip_score": 0.8031
+      },
+      {
+        "prompt": "A steak on a grill grate",
+        "mapping_type": "replace",
+        "replacement": "steak",
+        "clip_score": 0.7748
+      },
+      {
+        "prompt": "A bottle on a grill grate",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7292
+      },
+      {
+        "prompt": "A toy on a grill grate",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7359
+      },
+      {
+        "prompt": "A cat on a grill grate",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7442
+      },
+      {
+        "prompt": "An object on a grill grate",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7814
+      },
+      {
+        "prompt": "A grill grate",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.763
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "32",
+    "source": "A banana on a sandy path",
+    "candidates": [
+      {
+        "prompt": "A rock on a sandy path",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.7734
+      },
+      {
+        "prompt": "A shell on a sandy path",
+        "mapping_type": "replace",
+        "replacement": "shell",
+        "clip_score": 0.7936
+      },
+      {
+        "prompt": "A stick on a sandy path",
+        "mapping_type": "replace",
+        "replacement": "stick",
+        "clip_score": 0.7355
+      },
+      {
+        "prompt": "A crab on a sandy path",
+        "mapping_type": "replace",
+        "replacement": "crab",
+        "clip_score": 0.7435
+      },
+      {
+        "prompt": "A shoe on a sandy path",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.7927
+      },
+      {
+        "prompt": "A towel on a sandy path",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.7214
+      },
+      {
+        "prompt": "A sandcastle on a sandy path",
+        "mapping_type": "replace",
+        "replacement": "sandcastle",
+        "clip_score": 0.7924
+      },
+      {
+        "prompt": "A flip-flop on a sandy path",
+        "mapping_type": "replace",
+        "replacement": "flip-flop",
+        "clip_score": 0.7924
+      },
+      {
+        "prompt": "A thing on a sandy path",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7985
+      },
+      {
+        "prompt": "A sandy path",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7823
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "33",
+    "source": "A banana on a red plate",
+    "candidates": [
+      {
+        "prompt": "A cake on a red plate",
+        "mapping_type": "replace",
+        "replacement": "cake",
+        "clip_score": 0.8006
+      },
+      {
+        "prompt": "A cookie on a red plate",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.8215
+      },
+      {
+        "prompt": "A salad on a red plate",
+        "mapping_type": "replace",
+        "replacement": "salad",
+        "clip_score": 0.7888
+      },
+      {
+        "prompt": "A fruit tart on a red plate",
+        "mapping_type": "replace",
+        "replacement": "fruit tart",
+        "clip_score": 0.7089
+      },
+      {
+        "prompt": "A sandwich on a red plate",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7845
+      },
+      {
+        "prompt": "A bowl on a red plate",
+        "mapping_type": "replace",
+        "replacement": "bowl",
+        "clip_score": 0.7879
+      },
+      {
+        "prompt": "A flower on a red plate",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8141
+      },
+      {
+        "prompt": "A toy on a red plate",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7914
+      },
+      {
+        "prompt": "An item on a red plate",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8188
+      },
+      {
+        "prompt": "A red plate",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8352
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "34",
+    "source": "A banana on a train seat",
+    "candidates": [
+      {
+        "prompt": "A book on a train seat",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.6985
+      },
+      {
+        "prompt": "A backpack on a train seat",
+        "mapping_type": "replace",
+        "replacement": "backpack",
+        "clip_score": 0.7273
+      },
+      {
+        "prompt": "A jacket on a train seat",
+        "mapping_type": "replace",
+        "replacement": "jacket",
+        "clip_score": 0.6973
+      },
+      {
+        "prompt": "A phone on a train seat",
+        "mapping_type": "replace",
+        "replacement": "phone",
+        "clip_score": 0.7332
+      },
+      {
+        "prompt": "A hat on a train seat",
+        "mapping_type": "replace",
+        "replacement": "hat",
+        "clip_score": 0.7201
+      },
+      {
+        "prompt": "A pillow on a train seat",
+        "mapping_type": "replace",
+        "replacement": "pillow",
+        "clip_score": 0.7036
+      },
+      {
+        "prompt": "A bottle on a train seat",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.707
+      },
+      {
+        "prompt": "A toy on a train seat",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7362
+      },
+      {
+        "prompt": "An item on a train seat",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7466
+      },
+      {
+        "prompt": "A train seat",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7468
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "35",
+    "source": "A banana on a bicycle basket",
+    "candidates": [
+      {
+        "prompt": "A cat in a bicycle basket",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7363
+      },
+      {
+        "prompt": "A puppy in a bicycle basket",
+        "mapping_type": "replace",
+        "replacement": "puppy",
+        "clip_score": 0.7259
+      },
+      {
+        "prompt": "A bag in a bicycle basket",
+        "mapping_type": "replace",
+        "replacement": "bag",
+        "clip_score": 0.7735
+      },
+      {
+        "prompt": "A book in a bicycle basket",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7254
+      },
+      {
+        "prompt": "A plant in a bicycle basket",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7848
+      },
+      {
+        "prompt": "A toy in a bicycle basket",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7605
+      },
+      {
+        "prompt": "A hat in a bicycle basket",
+        "mapping_type": "replace",
+        "replacement": "hat",
+        "clip_score": 0.7381
+      },
+      {
+        "prompt": "A bottle in a bicycle basket",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.741
+      },
+      {
+        "prompt": "An object in a bicycle basket",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8075
+      },
+      {
+        "prompt": "A bicycle basket",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7921
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "36",
+    "source": "A banana on a stack of books",
+    "candidates": [
+      {
+        "prompt": "A notebook on a stack of books",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.7681
+      },
+      {
+        "prompt": "A toy on a stack of books",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7946
+      },
+      {
+        "prompt": "A pencil on a stack of books",
+        "mapping_type": "replace",
+        "replacement": "pencil",
+        "clip_score": 0.785
+      },
+      {
+        "prompt": "A cup on a stack of books",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.7731
+      },
+      {
+        "prompt": "A flower on a stack of books",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7826
+      },
+      {
+        "prompt": "A blanket on a stack of books",
+        "mapping_type": "replace",
+        "replacement": "blanket",
+        "clip_score": 0.8003
+      },
+      {
+        "prompt": "A tablet on a stack of books",
+        "mapping_type": "replace",
+        "replacement": "tablet",
+        "clip_score": 0.744
+      },
+      {
+        "prompt": "A clock on a stack of books",
+        "mapping_type": "replace",
+        "replacement": "clock",
+        "clip_score": 0.7555
+      },
+      {
+        "prompt": "An item on a stack of books",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7942
+      },
+      {
+        "prompt": "A stack of books",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7892
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "37",
+    "source": "A banana on a bathroom counter",
+    "candidates": [
+      {
+        "prompt": "A soap on a bathroom counter",
+        "mapping_type": "replace",
+        "replacement": "soap",
+        "clip_score": 0.7173
+      },
+      {
+        "prompt": "A toothbrush on a bathroom counter",
+        "mapping_type": "replace",
+        "replacement": "toothbrush",
+        "clip_score": 0.7955
+      },
+      {
+        "prompt": "A towel on a bathroom counter",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.7346
+      },
+      {
+        "prompt": "A razor on a bathroom counter",
+        "mapping_type": "replace",
+        "replacement": "razor",
+        "clip_score": 0.7266
+      },
+      {
+        "prompt": "A comb on a bathroom counter",
+        "mapping_type": "replace",
+        "replacement": "comb",
+        "clip_score": 0.7433
+      },
+      {
+        "prompt": "A candle on a bathroom counter",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.7478
+      },
+      {
+        "prompt": "A bottle on a bathroom counter",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7385
+      },
+      {
+        "prompt": "A mirror on a bathroom counter",
+        "mapping_type": "replace",
+        "replacement": "mirror",
+        "clip_score": 0.7119
+      },
+      {
+        "prompt": "An item on a bathroom counter",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7439
+      },
+      {
+        "prompt": "A bathroom counter",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7263
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "38",
+    "source": "A banana on a picnic bench",
+    "candidates": [
+      {
+        "prompt": "A sandwich on a picnic bench",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8152
+      },
+      {
+        "prompt": "A drink on a picnic bench",
+        "mapping_type": "replace",
+        "replacement": "drink",
+        "clip_score": 0.7639
+      },
+      {
+        "prompt": "A basket on a picnic bench",
+        "mapping_type": "replace",
+        "replacement": "basket",
+        "clip_score": 0.7156
+      },
+      {
+        "prompt": "A cake on a picnic bench",
+        "mapping_type": "replace",
+        "replacement": "cake",
+        "clip_score": 0.7878
+      },
+      {
+        "prompt": "A salad on a picnic bench",
+        "mapping_type": "replace",
+        "replacement": "salad",
+        "clip_score": 0.7796
+      },
+      {
+        "prompt": "A book on a picnic bench",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7408
+      },
+      {
+        "prompt": "A blanket on a picnic bench",
+        "mapping_type": "replace",
+        "replacement": "blanket",
+        "clip_score": 0.7071
+      },
+      {
+        "prompt": "A toy on a picnic bench",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7653
+      },
+      {
+        "prompt": "An item on a picnic bench",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.791
+      },
+      {
+        "prompt": "A picnic bench",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7805
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "39",
+    "source": "A banana on a blue mat",
+    "candidates": [
+      {
+        "prompt": "A rug on a blue mat",
+        "mapping_type": "replace",
+        "replacement": "rug",
+        "clip_score": 0.767
+      },
+      {
+        "prompt": "A towel on a blue mat",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.7681
+      },
+      {
+        "prompt": "A toy on a blue mat",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.795
+      },
+      {
+        "prompt": "A pillow on a blue mat",
+        "mapping_type": "replace",
+        "replacement": "pillow",
+        "clip_score": 0.7479
+      },
+      {
+        "prompt": "A blanket on a blue mat",
+        "mapping_type": "replace",
+        "replacement": "blanket",
+        "clip_score": 0.7602
+      },
+      {
+        "prompt": "A basket on a blue mat",
+        "mapping_type": "replace",
+        "replacement": "basket",
+        "clip_score": 0.6998
+      },
+      {
+        "prompt": "A chair on a blue mat",
+        "mapping_type": "replace",
+        "replacement": "chair",
+        "clip_score": 0.7173
+      },
+      {
+        "prompt": "A clock on a blue mat",
+        "mapping_type": "replace",
+        "replacement": "clock",
+        "clip_score": 0.7633
+      },
+      {
+        "prompt": "An object on a blue mat",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.825
+      },
+      {
+        "prompt": "A blue mat",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.795
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "40",
+    "source": "A banana on the sidewalk",
+    "candidates": [
+      {
+        "prompt": "A dog on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7959
+      },
+      {
+        "prompt": "A cat on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7764
+      },
+      {
+        "prompt": "A bicycle on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "bicycle",
+        "clip_score": 0.753
+      },
+      {
+        "prompt": "A child on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7605
+      },
+      {
+        "prompt": "A bench on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "bench",
+        "clip_score": 0.6946
+      },
+      {
+        "prompt": "A skateboard on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "skateboard",
+        "clip_score": 0.7451
+      },
+      {
+        "prompt": "A flower on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7916
+      },
+      {
+        "prompt": "A trash can on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "trash can",
+        "clip_score": 0.7406
+      },
+      {
+        "prompt": "A thing on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7676
+      },
+      {
+        "prompt": "The sidewalk",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.723
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "41",
+    "source": "A banana on a stone wall",
+    "candidates": [
+      {
+        "prompt": "A pineapple on a stone wall",
+        "mapping_type": "replace",
+        "replacement": "pineapple",
+        "clip_score": 0.8559
+      },
+      {
+        "prompt": "A grapefruit on a stone wall",
+        "mapping_type": "replace",
+        "replacement": "grapefruit",
+        "clip_score": 0.7762
+      },
+      {
+        "prompt": "A bicycle on a stone wall",
+        "mapping_type": "replace",
+        "replacement": "bicycle",
+        "clip_score": 0.7104
+      },
+      {
+        "prompt": "A book on a stone wall",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7138
+      },
+      {
+        "prompt": "A flower on a stone wall",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7782
+      },
+      {
+        "prompt": "A stone on a stone wall",
+        "mapping_type": "replace",
+        "replacement": "stone",
+        "clip_score": 0.8139
+      },
+      {
+        "prompt": "A cat on a stone wall",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7332
+      },
+      {
+        "prompt": "A cup on a stone wall",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.7549
+      },
+      {
+        "prompt": "A object on a stone wall",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7878
+      },
+      {
+        "prompt": "A on a stone wall",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.742
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "42",
+    "source": "A banana on a windowsill at night",
+    "candidates": [
+      {
+        "prompt": "A pear on a windowsill at night",
+        "mapping_type": "replace",
+        "replacement": "pear",
+        "clip_score": 0.8
+      },
+      {
+        "prompt": "A candle on a windowsill at night",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.794
+      },
+      {
+        "prompt": "A painting on a windowsill at night",
+        "mapping_type": "replace",
+        "replacement": "painting",
+        "clip_score": 0.705
+      },
+      {
+        "prompt": "A clock on a windowsill at night",
+        "mapping_type": "replace",
+        "replacement": "clock",
+        "clip_score": 0.7548
+      },
+      {
+        "prompt": "A potted plant on a windowsill at night",
+        "mapping_type": "replace",
+        "replacement": "potted plant",
+        "clip_score": 0.7726
+      },
+      {
+        "prompt": "A smartphone on a windowsill at night",
+        "mapping_type": "replace",
+        "replacement": "smartphone",
+        "clip_score": 0.7331
+      },
+      {
+        "prompt": "A piece of paper on a windowsill at night",
+        "mapping_type": "replace",
+        "replacement": "piece of paper",
+        "clip_score": 0.7527
+      },
+      {
+        "prompt": "A mug on a windowsill at night",
+        "mapping_type": "replace",
+        "replacement": "mug",
+        "clip_score": 0.7562
+      },
+      {
+        "prompt": "A thing on a windowsill at night",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7653
+      },
+      {
+        "prompt": "A on a windowsill at night",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7709
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "43",
+    "source": "A banana under a desk lamp",
+    "candidates": [
+      {
+        "prompt": "A book under a desk lamp",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.721
+      },
+      {
+        "prompt": "A toy under a desk lamp",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7326
+      },
+      {
+        "prompt": "A notebook under a desk lamp",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.7241
+      },
+      {
+        "prompt": "A picture frame under a desk lamp",
+        "mapping_type": "replace",
+        "replacement": "picture frame",
+        "clip_score": 0.7044
+      },
+      {
+        "prompt": "A globe under a desk lamp",
+        "mapping_type": "replace",
+        "replacement": "globe",
+        "clip_score": 0.674
+      },
+      {
+        "prompt": "A cup under a desk lamp",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.7699
+      },
+      {
+        "prompt": "A candle under a desk lamp",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.8006
+      },
+      {
+        "prompt": "A remote control under a desk lamp",
+        "mapping_type": "replace",
+        "replacement": "remote control",
+        "clip_score": 0.7305
+      },
+      {
+        "prompt": "An item under a desk lamp",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7839
+      },
+      {
+        "prompt": "A under a desk lamp",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7635
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "44",
+    "source": "A banana on a sunny balcony",
+    "candidates": [
+      {
+        "prompt": "A chair on a sunny balcony",
+        "mapping_type": "replace",
+        "replacement": "chair",
+        "clip_score": 0.7475
+      },
+      {
+        "prompt": "A dog on a sunny balcony",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7709
+      },
+      {
+        "prompt": "A table on a sunny balcony",
+        "mapping_type": "replace",
+        "replacement": "table",
+        "clip_score": 0.7464
+      },
+      {
+        "prompt": "A potted plant on a sunny balcony",
+        "mapping_type": "replace",
+        "replacement": "potted plant",
+        "clip_score": 0.7657
+      },
+      {
+        "prompt": "A sun hat on a sunny balcony",
+        "mapping_type": "replace",
+        "replacement": "sun hat",
+        "clip_score": 0.6995
+      },
+      {
+        "prompt": "A drink on a sunny balcony",
+        "mapping_type": "replace",
+        "replacement": "drink",
+        "clip_score": 0.7514
+      },
+      {
+        "prompt": "A towel on a sunny balcony",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.7298
+      },
+      {
+        "prompt": "A pillow on a sunny balcony",
+        "mapping_type": "replace",
+        "replacement": "pillow",
+        "clip_score": 0.7316
+      },
+      {
+        "prompt": "A thing on a sunny balcony",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7885
+      },
+      {
+        "prompt": "A on a sunny balcony",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7697
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "45",
+    "source": "A banana near a campfire",
+    "candidates": [
+      {
+        "prompt": "A camp stove near a campfire",
+        "mapping_type": "replace",
+        "replacement": "camp stove",
+        "clip_score": 0.657
+      },
+      {
+        "prompt": "A log near a campfire",
+        "mapping_type": "replace",
+        "replacement": "log",
+        "clip_score": 0.7579
+      },
+      {
+        "prompt": "A guitar near a campfire",
+        "mapping_type": "replace",
+        "replacement": "guitar",
+        "clip_score": 0.7358
+      },
+      {
+        "prompt": "A cooler near a campfire",
+        "mapping_type": "replace",
+        "replacement": "cooler",
+        "clip_score": 0.6608
+      },
+      {
+        "prompt": "A backpack near a campfire",
+        "mapping_type": "replace",
+        "replacement": "backpack",
+        "clip_score": 0.6801
+      },
+      {
+        "prompt": "A lantern near a campfire",
+        "mapping_type": "replace",
+        "replacement": "lantern",
+        "clip_score": 0.6999
+      },
+      {
+        "prompt": "A blanket near a campfire",
+        "mapping_type": "replace",
+        "replacement": "blanket",
+        "clip_score": 0.6877
+      },
+      {
+        "prompt": "A pot near a campfire",
+        "mapping_type": "replace",
+        "replacement": "pot",
+        "clip_score": 0.7134
+      },
+      {
+        "prompt": "An object near a campfire",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7596
+      },
+      {
+        "prompt": "A near a campfire",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.741
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "46",
+    "source": "A banana beside a chess clock",
+    "candidates": [
+      {
+        "prompt": "A chess piece beside a chess clock",
+        "mapping_type": "replace",
+        "replacement": "chess piece",
+        "clip_score": 0.8051
+      },
+      {
+        "prompt": "A timer beside a chess clock",
+        "mapping_type": "replace",
+        "replacement": "timer",
+        "clip_score": 0.7927
+      },
+      {
+        "prompt": "A notepad beside a chess clock",
+        "mapping_type": "replace",
+        "replacement": "notepad",
+        "clip_score": 0.7653
+      },
+      {
+        "prompt": "A drink beside a chess clock",
+        "mapping_type": "replace",
+        "replacement": "drink",
+        "clip_score": 0.7501
+      },
+      {
+        "prompt": "A pen beside a chess clock",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.7922
+      },
+      {
+        "prompt": "A score sheet beside a chess clock",
+        "mapping_type": "replace",
+        "replacement": "score sheet",
+        "clip_score": 0.6925
+      },
+      {
+        "prompt": "A snack beside a chess clock",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.7634
+      },
+      {
+        "prompt": "A piece of paper beside a chess clock",
+        "mapping_type": "replace",
+        "replacement": "piece of paper",
+        "clip_score": 0.7642
+      },
+      {
+        "prompt": "A thing beside a chess clock",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7449
+      },
+      {
+        "prompt": "A beside a chess clock",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7667
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "47",
+    "source": "A banana next to a laptop",
+    "candidates": [
+      {
+        "prompt": "A phone next to a laptop",
+        "mapping_type": "replace",
+        "replacement": "phone",
+        "clip_score": 0.7433
+      },
+      {
+        "prompt": "A notebook next to a laptop",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.7548
+      },
+      {
+        "prompt": "A mouse next to a laptop",
+        "mapping_type": "replace",
+        "replacement": "mouse",
+        "clip_score": 0.7711
+      },
+      {
+        "prompt": "A charger next to a laptop",
+        "mapping_type": "replace",
+        "replacement": "charger",
+        "clip_score": 0.7303
+      },
+      {
+        "prompt": "A cup next to a laptop",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.7231
+      },
+      {
+        "prompt": "A piece of paper next to a laptop",
+        "mapping_type": "replace",
+        "replacement": "piece of paper",
+        "clip_score": 0.7554
+      },
+      {
+        "prompt": "A pen next to a laptop",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.751
+      },
+      {
+        "prompt": "A plant next to a laptop",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7539
+      },
+      {
+        "prompt": "An item next to a laptop",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7739
+      },
+      {
+        "prompt": "A next to a laptop",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7243
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "48",
+    "source": "A banana beside a tennis racket",
+    "candidates": [
+      {
+        "prompt": "A racket beside a tennis racket",
+        "mapping_type": "replace",
+        "replacement": "racket",
+        "clip_score": 0.8385
+      },
+      {
+        "prompt": "A water bottle beside a tennis racket",
+        "mapping_type": "replace",
+        "replacement": "water bottle",
+        "clip_score": 0.7796
+      },
+      {
+        "prompt": "A towel beside a tennis racket",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.7787
+      },
+      {
+        "prompt": "A ball beside a tennis racket",
+        "mapping_type": "replace",
+        "replacement": "ball",
+        "clip_score": 0.8414
+      },
+      {
+        "prompt": "A hat beside a tennis racket",
+        "mapping_type": "replace",
+        "replacement": "hat",
+        "clip_score": 0.7639
+      },
+      {
+        "prompt": "A snack beside a tennis racket",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.8001
+      },
+      {
+        "prompt": "A backpack beside a tennis racket",
+        "mapping_type": "replace",
+        "replacement": "backpack",
+        "clip_score": 0.807
+      },
+      {
+        "prompt": "A chair beside a tennis racket",
+        "mapping_type": "replace",
+        "replacement": "chair",
+        "clip_score": 0.7877
+      },
+      {
+        "prompt": "A thing beside a tennis racket",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7912
+      },
+      {
+        "prompt": "A beside a tennis racket",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8013
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "49",
+    "source": "A banana beside a sewing machine",
+    "candidates": [
+      {
+        "prompt": "A sewing kit beside a sewing machine",
+        "mapping_type": "replace",
+        "replacement": "sewing kit",
+        "clip_score": 0.6539
+      },
+      {
+        "prompt": "A fabric piece beside a sewing machine",
+        "mapping_type": "replace",
+        "replacement": "fabric piece",
+        "clip_score": 0.7163
+      },
+      {
+        "prompt": "A thread spool beside a sewing machine",
+        "mapping_type": "replace",
+        "replacement": "thread spool",
+        "clip_score": 0.6927
+      },
+      {
+        "prompt": "A scissors beside a sewing machine",
+        "mapping_type": "replace",
+        "replacement": "scissors",
+        "clip_score": 0.7703
+      },
+      {
+        "prompt": "A measuring tape beside a sewing machine",
+        "mapping_type": "replace",
+        "replacement": "measuring tape",
+        "clip_score": 0.7419
+      },
+      {
+        "prompt": "A button box beside a sewing machine",
+        "mapping_type": "replace",
+        "replacement": "button box",
+        "clip_score": 0.6306
+      },
+      {
+        "prompt": "A pin cushion beside a sewing machine",
+        "mapping_type": "replace",
+        "replacement": "pin cushion",
+        "clip_score": 0.6811
+      },
+      {
+        "prompt": "A ruler beside a sewing machine",
+        "mapping_type": "replace",
+        "replacement": "ruler",
+        "clip_score": 0.7133
+      },
+      {
+        "prompt": "An object beside a sewing machine",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7885
+      },
+      {
+        "prompt": "A beside a sewing machine",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7495
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "50",
+    "source": "A banana near a skateboard ramp",
+    "candidates": [
+      {
+        "prompt": "A skateboard near a skateboard ramp",
+        "mapping_type": "replace",
+        "replacement": "skateboard",
+        "clip_score": 0.8159
+      },
+      {
+        "prompt": "A helmet near a skateboard ramp",
+        "mapping_type": "replace",
+        "replacement": "helmet",
+        "clip_score": 0.7161
+      },
+      {
+        "prompt": "A scooter near a skateboard ramp",
+        "mapping_type": "replace",
+        "replacement": "scooter",
+        "clip_score": 0.6937
+      },
+      {
+        "prompt": "A bike near a skateboard ramp",
+        "mapping_type": "replace",
+        "replacement": "bike",
+        "clip_score": 0.7551
+      },
+      {
+        "prompt": "A skateboard deck near a skateboard ramp",
+        "mapping_type": "replace",
+        "replacement": "skateboard deck",
+        "clip_score": 0.7791
+      },
+      {
+        "prompt": "A bag near a skateboard ramp",
+        "mapping_type": "replace",
+        "replacement": "bag",
+        "clip_score": 0.6821
+      },
+      {
+        "prompt": "A water bottle near a skateboard ramp",
+        "mapping_type": "replace",
+        "replacement": "water bottle",
+        "clip_score": 0.7394
+      },
+      {
+        "prompt": "A bench near a skateboard ramp",
+        "mapping_type": "replace",
+        "replacement": "bench",
+        "clip_score": 0.6889
+      },
+      {
+        "prompt": "A thing near a skateboard ramp",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.6732
+      },
+      {
+        "prompt": "A near a skateboard ramp",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7177
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "51",
+    "source": "He peels a banana at lunch",
+    "candidates": [
+      {
+        "prompt": "He peels an apple at lunch",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8774
+      },
+      {
+        "prompt": "He peels a cucumber at lunch",
+        "mapping_type": "replace",
+        "replacement": "cucumber",
+        "clip_score": 0.8471
+      },
+      {
+        "prompt": "He peels a carrot at lunch",
+        "mapping_type": "replace",
+        "replacement": "carrot",
+        "clip_score": 0.8045
+      },
+      {
+        "prompt": "He peels a kiwi at lunch",
+        "mapping_type": "replace",
+        "replacement": "kiwi",
+        "clip_score": 0.7696
+      },
+      {
+        "prompt": "He peels a mango at lunch",
+        "mapping_type": "replace",
+        "replacement": "mango",
+        "clip_score": 0.8922
+      },
+      {
+        "prompt": "He peels a grapefruit at lunch",
+        "mapping_type": "replace",
+        "replacement": "grapefruit",
+        "clip_score": 0.779
+      },
+      {
+        "prompt": "He peels a peach at lunch",
+        "mapping_type": "replace",
+        "replacement": "peach",
+        "clip_score": 0.7992
+      },
+      {
+        "prompt": "He peels a potato at lunch",
+        "mapping_type": "replace",
+        "replacement": "potato",
+        "clip_score": 0.8604
+      },
+      {
+        "prompt": "He peels a fruit at lunch",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.8947
+      },
+      {
+        "prompt": "He prepares food at lunch",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7655
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "52",
+    "source": "She holds a banana while walking",
+    "candidates": [
+      {
+        "prompt": "She holds an apple while walking",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8865
+      },
+      {
+        "prompt": "She holds a sandwich while walking",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8426
+      },
+      {
+        "prompt": "She holds a water bottle while walking",
+        "mapping_type": "replace",
+        "replacement": "water bottle",
+        "clip_score": 0.794
+      },
+      {
+        "prompt": "She holds a notebook while walking",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.7747
+      },
+      {
+        "prompt": "She holds a bag while walking",
+        "mapping_type": "replace",
+        "replacement": "bag",
+        "clip_score": 0.7875
+      },
+      {
+        "prompt": "She holds a flower while walking",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7919
+      },
+      {
+        "prompt": "She holds a toy while walking",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8299
+      },
+      {
+        "prompt": "She holds a camera while walking",
+        "mapping_type": "replace",
+        "replacement": "camera",
+        "clip_score": 0.7554
+      },
+      {
+        "prompt": "She holds something while walking",
+        "mapping_type": "replace",
+        "replacement": "something",
+        "clip_score": 0.8326
+      },
+      {
+        "prompt": "She walks in the park",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6397
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "53",
+    "source": "A runner eats a banana after practice",
+    "candidates": [
+      {
+        "prompt": "A runner eats an apple after practice",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8909
+      },
+      {
+        "prompt": "A runner eats a sandwich after practice",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8559
+      },
+      {
+        "prompt": "A runner eats yogurt after practice",
+        "mapping_type": "replace",
+        "replacement": "yogurt",
+        "clip_score": 0.8172
+      },
+      {
+        "prompt": "A runner eats a snack after practice",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.8549
+      },
+      {
+        "prompt": "A runner eats a protein bar after practice",
+        "mapping_type": "replace",
+        "replacement": "protein bar",
+        "clip_score": 0.8394
+      },
+      {
+        "prompt": "A runner eats a fruit after practice",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.9149
+      },
+      {
+        "prompt": "A runner eats a salad after practice",
+        "mapping_type": "replace",
+        "replacement": "salad",
+        "clip_score": 0.831
+      },
+      {
+        "prompt": "A runner eats a cookie after practice",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.8478
+      },
+      {
+        "prompt": "A runner eats something after practice",
+        "mapping_type": "replace",
+        "replacement": "something",
+        "clip_score": 0.8417
+      },
+      {
+        "prompt": "A runner relaxes after practice",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7198
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "54",
+    "source": "Kids share bananas at the picnic",
+    "candidates": [
+      {
+        "prompt": "Kids share apples at the picnic",
+        "mapping_type": "replace",
+        "replacement": "apples",
+        "clip_score": 0.8661
+      },
+      {
+        "prompt": "Kids share sandwiches at the picnic",
+        "mapping_type": "replace",
+        "replacement": "sandwiches",
+        "clip_score": 0.8126
+      },
+      {
+        "prompt": "Kids share cookies at the picnic",
+        "mapping_type": "replace",
+        "replacement": "cookies",
+        "clip_score": 0.8047
+      },
+      {
+        "prompt": "Kids share drinks at the picnic",
+        "mapping_type": "replace",
+        "replacement": "drinks",
+        "clip_score": 0.7734
+      },
+      {
+        "prompt": "Kids share cupcakes at the picnic",
+        "mapping_type": "replace",
+        "replacement": "cupcakes",
+        "clip_score": 0.7862
+      },
+      {
+        "prompt": "Kids share fruit at the picnic",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.892
+      },
+      {
+        "prompt": "Kids share toys at the picnic",
+        "mapping_type": "replace",
+        "replacement": "toys",
+        "clip_score": 0.7686
+      },
+      {
+        "prompt": "Kids share blankets at the picnic",
+        "mapping_type": "replace",
+        "replacement": "blankets",
+        "clip_score": 0.6845
+      },
+      {
+        "prompt": "Kids share something at the picnic",
+        "mapping_type": "replace",
+        "replacement": "something",
+        "clip_score": 0.8237
+      },
+      {
+        "prompt": "Kids enjoy the picnic",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7384
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "55",
+    "source": "A chef slices a banana for dessert",
+    "candidates": [
+      {
+        "prompt": "A chef slices an apple for dessert",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8426
+      },
+      {
+        "prompt": "A chef slices a cake for dessert",
+        "mapping_type": "replace",
+        "replacement": "cake",
+        "clip_score": 0.8374
+      },
+      {
+        "prompt": "A chef slices a peach for dessert",
+        "mapping_type": "replace",
+        "replacement": "peach",
+        "clip_score": 0.7789
+      },
+      {
+        "prompt": "A chef slices a chocolate for dessert",
+        "mapping_type": "replace",
+        "replacement": "chocolate",
+        "clip_score": 0.8166
+      },
+      {
+        "prompt": "A chef slices a pie for dessert",
+        "mapping_type": "replace",
+        "replacement": "pie",
+        "clip_score": 0.7941
+      },
+      {
+        "prompt": "A chef slices a loaf for dessert",
+        "mapping_type": "replace",
+        "replacement": "loaf",
+        "clip_score": 0.8102
+      },
+      {
+        "prompt": "A chef slices a tart for dessert",
+        "mapping_type": "replace",
+        "replacement": "tart",
+        "clip_score": 0.8118
+      },
+      {
+        "prompt": "A chef slices a brownie for dessert",
+        "mapping_type": "replace",
+        "replacement": "brownie",
+        "clip_score": 0.7502
+      },
+      {
+        "prompt": "A chef slices food for dessert",
+        "mapping_type": "replace",
+        "replacement": "food",
+        "clip_score": 0.8528
+      },
+      {
+        "prompt": "A chef prepares for dessert",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6843
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "56",
+    "source": "A child offers a banana to dad",
+    "candidates": [
+      {
+        "prompt": "A child offers an apple to dad",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.9037
+      },
+      {
+        "prompt": "A child offers a flower to dad",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8156
+      },
+      {
+        "prompt": "A child offers a toy to dad",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8554
+      },
+      {
+        "prompt": "A child offers a book to dad",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.8192
+      },
+      {
+        "prompt": "A child offers a snack to dad",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.8822
+      },
+      {
+        "prompt": "A child offers a card to dad",
+        "mapping_type": "replace",
+        "replacement": "card",
+        "clip_score": 0.798
+      },
+      {
+        "prompt": "A child offers a gift to dad",
+        "mapping_type": "replace",
+        "replacement": "gift",
+        "clip_score": 0.8358
+      },
+      {
+        "prompt": "A child offers a drink to dad",
+        "mapping_type": "replace",
+        "replacement": "drink",
+        "clip_score": 0.829
+      },
+      {
+        "prompt": "A child offers something to dad",
+        "mapping_type": "replace",
+        "replacement": "something",
+        "clip_score": 0.8614
+      },
+      {
+        "prompt": "A child interacts with dad",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8136
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "57",
+    "source": "A shopper weighs bananas at checkout",
+    "candidates": [
+      {
+        "prompt": "A shopper weighs apples at checkout",
+        "mapping_type": "replace",
+        "replacement": "apples",
+        "clip_score": 0.8852
+      },
+      {
+        "prompt": "A shopper weighs potatoes at checkout",
+        "mapping_type": "replace",
+        "replacement": "potatoes",
+        "clip_score": 0.8575
+      },
+      {
+        "prompt": "A shopper weighs oranges at checkout",
+        "mapping_type": "replace",
+        "replacement": "oranges",
+        "clip_score": 0.8693
+      },
+      {
+        "prompt": "A shopper weighs tomatoes at checkout",
+        "mapping_type": "replace",
+        "replacement": "tomatoes",
+        "clip_score": 0.8442
+      },
+      {
+        "prompt": "A shopper weighs grapes at checkout",
+        "mapping_type": "replace",
+        "replacement": "grapes",
+        "clip_score": 0.8315
+      },
+      {
+        "prompt": "A shopper weighs carrots at checkout",
+        "mapping_type": "replace",
+        "replacement": "carrots",
+        "clip_score": 0.8535
+      },
+      {
+        "prompt": "A shopper weighs snacks at checkout",
+        "mapping_type": "replace",
+        "replacement": "snacks",
+        "clip_score": 0.8533
+      },
+      {
+        "prompt": "A shopper weighs items at checkout",
+        "mapping_type": "replace",
+        "replacement": "items",
+        "clip_score": 0.8217
+      },
+      {
+        "prompt": "A shopper weighs something at checkout",
+        "mapping_type": "replace",
+        "replacement": "something",
+        "clip_score": 0.8696
+      },
+      {
+        "prompt": "A shopper checks out at the store",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7403
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "58",
+    "source": "A student packs a banana for school",
+    "candidates": [
+      {
+        "prompt": "A student packs an apple for school",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8618
+      },
+      {
+        "prompt": "A student packs a sandwich for school",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8161
+      },
+      {
+        "prompt": "A student packs a drink for school",
+        "mapping_type": "replace",
+        "replacement": "drink",
+        "clip_score": 0.7624
+      },
+      {
+        "prompt": "A student packs a book for school",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7866
+      },
+      {
+        "prompt": "A student packs a snack for school",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.8231
+      },
+      {
+        "prompt": "A student packs fruit for school",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.8558
+      },
+      {
+        "prompt": "A student packs supplies for school",
+        "mapping_type": "replace",
+        "replacement": "supplies",
+        "clip_score": 0.7713
+      },
+      {
+        "prompt": "A student packs something for school",
+        "mapping_type": "replace",
+        "replacement": "something",
+        "clip_score": 0.7668
+      },
+      {
+        "prompt": "A student prepares for school",
+        "mapping_type": "replace",
+        "replacement": "prepare",
+        "clip_score": 0.6879
+      },
+      {
+        "prompt": "A student gets ready for class",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6697
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "59",
+    "source": "A hiker carries a banana uphill",
+    "candidates": [
+      {
+        "prompt": "A hiker carries an apple uphill",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8247
+      },
+      {
+        "prompt": "A hiker carries a backpack uphill",
+        "mapping_type": "replace",
+        "replacement": "backpack",
+        "clip_score": 0.7888
+      },
+      {
+        "prompt": "A hiker carries a water bottle uphill",
+        "mapping_type": "replace",
+        "replacement": "water bottle",
+        "clip_score": 0.7635
+      },
+      {
+        "prompt": "A hiker carries a snack uphill",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.7906
+      },
+      {
+        "prompt": "A hiker carries a camera uphill",
+        "mapping_type": "replace",
+        "replacement": "camera",
+        "clip_score": 0.7645
+      },
+      {
+        "prompt": "A hiker carries gear uphill",
+        "mapping_type": "replace",
+        "replacement": "gear",
+        "clip_score": 0.7792
+      },
+      {
+        "prompt": "A hiker carries supplies uphill",
+        "mapping_type": "replace",
+        "replacement": "supplies",
+        "clip_score": 0.792
+      },
+      {
+        "prompt": "A hiker carries something uphill",
+        "mapping_type": "replace",
+        "replacement": "something",
+        "clip_score": 0.8027
+      },
+      {
+        "prompt": "A hiker carries food uphill",
+        "mapping_type": "replace",
+        "replacement": "food",
+        "clip_score": 0.798
+      },
+      {
+        "prompt": "A hiker enjoys a view uphill",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6657
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "60",
+    "source": "A vendor displays bananas in rows",
+    "candidates": [
+      {
+        "prompt": "A vendor displays apples in rows",
+        "mapping_type": "replace",
+        "replacement": "apples",
+        "clip_score": 0.8431
+      },
+      {
+        "prompt": "A vendor displays vegetables in rows",
+        "mapping_type": "replace",
+        "replacement": "vegetables",
+        "clip_score": 0.8086
+      },
+      {
+        "prompt": "A vendor displays flowers in rows",
+        "mapping_type": "replace",
+        "replacement": "flowers",
+        "clip_score": 0.7376
+      },
+      {
+        "prompt": "A vendor displays toys in rows",
+        "mapping_type": "replace",
+        "replacement": "toys",
+        "clip_score": 0.7145
+      },
+      {
+        "prompt": "A vendor displays fruits in rows",
+        "mapping_type": "replace",
+        "replacement": "fruits",
+        "clip_score": 0.8618
+      },
+      {
+        "prompt": "A vendor displays items in rows",
+        "mapping_type": "replace",
+        "replacement": "items",
+        "clip_score": 0.7401
+      },
+      {
+        "prompt": "A vendor displays snacks in rows",
+        "mapping_type": "replace",
+        "replacement": "snacks",
+        "clip_score": 0.7943
+      },
+      {
+        "prompt": "A vendor displays products in rows",
+        "mapping_type": "replace",
+        "replacement": "products",
+        "clip_score": 0.7307
+      },
+      {
+        "prompt": "A vendor displays something in rows",
+        "mapping_type": "replace",
+        "replacement": "something",
+        "clip_score": 0.7108
+      },
+      {
+        "prompt": "A vendor arranges the market",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6084
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "61",
+    "source": "A toddler eats a banana messily",
+    "candidates": [
+      {
+        "prompt": "A toddler eats an apple messily",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8781
+      },
+      {
+        "prompt": "A toddler eats a sandwich messily",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8456
+      },
+      {
+        "prompt": "A toddler eats a cupcake messily",
+        "mapping_type": "replace",
+        "replacement": "cupcake",
+        "clip_score": 0.7866
+      },
+      {
+        "prompt": "A toddler eats some grapes messily",
+        "mapping_type": "replace",
+        "replacement": "grapes",
+        "clip_score": 0.8002
+      },
+      {
+        "prompt": "A toddler eats a cookie messily",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.8345
+      },
+      {
+        "prompt": "A toddler eats a carrot messily",
+        "mapping_type": "replace",
+        "replacement": "carrot",
+        "clip_score": 0.8102
+      },
+      {
+        "prompt": "A toddler eats a donut messily",
+        "mapping_type": "replace",
+        "replacement": "donut",
+        "clip_score": 0.8403
+      },
+      {
+        "prompt": "A toddler eats a toy messily",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8567
+      },
+      {
+        "prompt": "A toddler eats food messily",
+        "mapping_type": "replace",
+        "replacement": "food",
+        "clip_score": 0.8619
+      },
+      {
+        "prompt": "A toddler eats messily",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.859
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "62",
+    "source": "A cyclist grabs a banana mid-ride",
+    "candidates": [
+      {
+        "prompt": "A cyclist grabs an energy bar mid-ride",
+        "mapping_type": "replace",
+        "replacement": "energy bar",
+        "clip_score": 0.8344
+      },
+      {
+        "prompt": "A cyclist grabs a water bottle mid-ride",
+        "mapping_type": "replace",
+        "replacement": "water bottle",
+        "clip_score": 0.8358
+      },
+      {
+        "prompt": "A cyclist grabs a sandwich mid-ride",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8806
+      },
+      {
+        "prompt": "A cyclist grabs a snack mid-ride",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.857
+      },
+      {
+        "prompt": "A cyclist grabs a bagel mid-ride",
+        "mapping_type": "replace",
+        "replacement": "bagel",
+        "clip_score": 0.8334
+      },
+      {
+        "prompt": "A cyclist grabs a granola bar mid-ride",
+        "mapping_type": "replace",
+        "replacement": "granola bar",
+        "clip_score": 0.8802
+      },
+      {
+        "prompt": "A cyclist grabs a tea mid-ride",
+        "mapping_type": "replace",
+        "replacement": "tea",
+        "clip_score": 0.793
+      },
+      {
+        "prompt": "A cyclist grabs an apple mid-ride",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8613
+      },
+      {
+        "prompt": "A cyclist grabs a snack while riding",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.8127
+      },
+      {
+        "prompt": "A cyclist rides his bike",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7228
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "63",
+    "source": "A friend hands over a banana",
+    "candidates": [
+      {
+        "prompt": "A friend hands over an orange",
+        "mapping_type": "replace",
+        "replacement": "orange",
+        "clip_score": 0.8276
+      },
+      {
+        "prompt": "A friend hands over a toy",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8139
+      },
+      {
+        "prompt": "A friend hands over a book",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7874
+      },
+      {
+        "prompt": "A friend hands over a ticket",
+        "mapping_type": "replace",
+        "replacement": "ticket",
+        "clip_score": 0.7586
+      },
+      {
+        "prompt": "A friend hands over a bottle",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.8073
+      },
+      {
+        "prompt": "A friend hands over a pen",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.7924
+      },
+      {
+        "prompt": "A friend hands over a sandwich",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.828
+      },
+      {
+        "prompt": "A friend hands over a drink",
+        "mapping_type": "replace",
+        "replacement": "drink",
+        "clip_score": 0.8147
+      },
+      {
+        "prompt": "A friend hands over a thing",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7988
+      },
+      {
+        "prompt": "A friend hands over an item",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8228
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "64",
+    "source": "A woman buys bananas at sunrise",
+    "candidates": [
+      {
+        "prompt": "A woman buys apples at sunrise",
+        "mapping_type": "replace",
+        "replacement": "apples",
+        "clip_score": 0.8765
+      },
+      {
+        "prompt": "A woman buys oranges at sunrise",
+        "mapping_type": "replace",
+        "replacement": "oranges",
+        "clip_score": 0.8561
+      },
+      {
+        "prompt": "A woman buys flowers at sunrise",
+        "mapping_type": "replace",
+        "replacement": "flowers",
+        "clip_score": 0.8318
+      },
+      {
+        "prompt": "A woman buys tomatoes at sunrise",
+        "mapping_type": "replace",
+        "replacement": "tomatoes",
+        "clip_score": 0.8575
+      },
+      {
+        "prompt": "A woman buys vegetables at sunrise",
+        "mapping_type": "replace",
+        "replacement": "vegetables",
+        "clip_score": 0.8616
+      },
+      {
+        "prompt": "A woman buys bread at sunrise",
+        "mapping_type": "replace",
+        "replacement": "bread",
+        "clip_score": 0.8664
+      },
+      {
+        "prompt": "A woman buys groceries at sunrise",
+        "mapping_type": "replace",
+        "replacement": "groceries",
+        "clip_score": 0.8683
+      },
+      {
+        "prompt": "A woman buys snacks at sunrise",
+        "mapping_type": "replace",
+        "replacement": "snacks",
+        "clip_score": 0.8799
+      },
+      {
+        "prompt": "A woman buys items at sunrise",
+        "mapping_type": "replace",
+        "replacement": "items",
+        "clip_score": 0.8396
+      },
+      {
+        "prompt": "A woman shops at sunrise",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8052
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "65",
+    "source": "A cook caramelizes banana in a pan",
+    "candidates": [
+      {
+        "prompt": "A cook caramelizes apples in a pan",
+        "mapping_type": "replace",
+        "replacement": "apples",
+        "clip_score": 0.7989
+      },
+      {
+        "prompt": "A cook caramelizes onions in a pan",
+        "mapping_type": "replace",
+        "replacement": "onions",
+        "clip_score": 0.7687
+      },
+      {
+        "prompt": "A cook caramelizes sugar in a pan",
+        "mapping_type": "replace",
+        "replacement": "sugar",
+        "clip_score": 0.7695
+      },
+      {
+        "prompt": "A cook caramelizes carrots in a pan",
+        "mapping_type": "replace",
+        "replacement": "carrots",
+        "clip_score": 0.6906
+      },
+      {
+        "prompt": "A cook caramelizes vegetables in a pan",
+        "mapping_type": "replace",
+        "replacement": "vegetables",
+        "clip_score": 0.7538
+      },
+      {
+        "prompt": "A cook caramelizes nuts in a pan",
+        "mapping_type": "replace",
+        "replacement": "nuts",
+        "clip_score": 0.7768
+      },
+      {
+        "prompt": "A cook caramelizes marshmallows in a pan",
+        "mapping_type": "replace",
+        "replacement": "marshmallows",
+        "clip_score": 0.6995
+      },
+      {
+        "prompt": "A cook caramelizes mushrooms in a pan",
+        "mapping_type": "replace",
+        "replacement": "mushrooms",
+        "clip_score": 0.7377
+      },
+      {
+        "prompt": "A cook caramelizes food in a pan",
+        "mapping_type": "replace",
+        "replacement": "food",
+        "clip_score": 0.7902
+      },
+      {
+        "prompt": "A cook works in a pan",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.656
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "66",
+    "source": "A boy peels a banana slowly",
+    "candidates": [
+      {
+        "prompt": "A boy peels an orange slowly",
+        "mapping_type": "replace",
+        "replacement": "orange",
+        "clip_score": 0.8375
+      },
+      {
+        "prompt": "A boy peels a potato slowly",
+        "mapping_type": "replace",
+        "replacement": "potato",
+        "clip_score": 0.8497
+      },
+      {
+        "prompt": "A boy peels an apple slowly",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8649
+      },
+      {
+        "prompt": "A boy peels a carrot slowly",
+        "mapping_type": "replace",
+        "replacement": "carrot",
+        "clip_score": 0.8089
+      },
+      {
+        "prompt": "A boy peels a cucumber slowly",
+        "mapping_type": "replace",
+        "replacement": "cucumber",
+        "clip_score": 0.8247
+      },
+      {
+        "prompt": "A boy peels a mango slowly",
+        "mapping_type": "replace",
+        "replacement": "mango",
+        "clip_score": 0.8715
+      },
+      {
+        "prompt": "A boy peels a kiwifruit slowly",
+        "mapping_type": "replace",
+        "replacement": "kiwifruit",
+        "clip_score": 0.7391
+      },
+      {
+        "prompt": "A boy peels a vegetable slowly",
+        "mapping_type": "replace",
+        "replacement": "vegetable",
+        "clip_score": 0.8583
+      },
+      {
+        "prompt": "A boy peels food slowly",
+        "mapping_type": "replace",
+        "replacement": "food",
+        "clip_score": 0.8299
+      },
+      {
+        "prompt": "A boy sits slowly",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6739
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "67",
+    "source": "A girl draws a banana from memory",
+    "candidates": [
+      {
+        "prompt": "A girl draws an apple from memory",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8561
+      },
+      {
+        "prompt": "A girl draws a flower from memory",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8098
+      },
+      {
+        "prompt": "A girl draws a tree from memory",
+        "mapping_type": "replace",
+        "replacement": "tree",
+        "clip_score": 0.8239
+      },
+      {
+        "prompt": "A girl draws a mountain from memory",
+        "mapping_type": "replace",
+        "replacement": "mountain",
+        "clip_score": 0.7972
+      },
+      {
+        "prompt": "A girl draws a car from memory",
+        "mapping_type": "replace",
+        "replacement": "car",
+        "clip_score": 0.8182
+      },
+      {
+        "prompt": "A girl draws a house from memory",
+        "mapping_type": "replace",
+        "replacement": "house",
+        "clip_score": 0.7916
+      },
+      {
+        "prompt": "A girl draws a cat from memory",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.8004
+      },
+      {
+        "prompt": "A girl draws a dog from memory",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7942
+      },
+      {
+        "prompt": "A girl draws a thing from memory",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8029
+      },
+      {
+        "prompt": "A girl draws from memory",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8024
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "68",
+    "source": "A waiter serves a banana with oatmeal",
+    "candidates": [
+      {
+        "prompt": "A waiter serves an apple with oatmeal",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8964
+      },
+      {
+        "prompt": "A waiter serves a cookie with oatmeal",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.8773
+      },
+      {
+        "prompt": "A waiter serves toast with oatmeal",
+        "mapping_type": "replace",
+        "replacement": "toast",
+        "clip_score": 0.862
+      },
+      {
+        "prompt": "A waiter serves yogurt with oatmeal",
+        "mapping_type": "replace",
+        "replacement": "yogurt",
+        "clip_score": 0.8652
+      },
+      {
+        "prompt": "A waiter serves pancakes with oatmeal",
+        "mapping_type": "replace",
+        "replacement": "pancakes",
+        "clip_score": 0.8671
+      },
+      {
+        "prompt": "A waiter serves fruit with oatmeal",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.8933
+      },
+      {
+        "prompt": "A waiter serves a snack with oatmeal",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.8617
+      },
+      {
+        "prompt": "A waiter serves a dish with oatmeal",
+        "mapping_type": "replace",
+        "replacement": "dish",
+        "clip_score": 0.8944
+      },
+      {
+        "prompt": "A waiter serves food with oatmeal",
+        "mapping_type": "replace",
+        "replacement": "food",
+        "clip_score": 0.8988
+      },
+      {
+        "prompt": "A waiter serves breakfast",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7355
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "69",
+    "source": "A kid shows a banana proudly",
+    "candidates": [
+      {
+        "prompt": "A kid shows an apple proudly",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8575
+      },
+      {
+        "prompt": "A kid shows a trophy proudly",
+        "mapping_type": "replace",
+        "replacement": "trophy",
+        "clip_score": 0.7627
+      },
+      {
+        "prompt": "A kid shows a picture proudly",
+        "mapping_type": "replace",
+        "replacement": "picture",
+        "clip_score": 0.7871
+      },
+      {
+        "prompt": "A kid shows a toy proudly",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7798
+      },
+      {
+        "prompt": "A kid shows a medal proudly",
+        "mapping_type": "replace",
+        "replacement": "medal",
+        "clip_score": 0.7238
+      },
+      {
+        "prompt": "A kid shows a book proudly",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7398
+      },
+      {
+        "prompt": "A kid shows a painting proudly",
+        "mapping_type": "replace",
+        "replacement": "painting",
+        "clip_score": 0.7504
+      },
+      {
+        "prompt": "A kid shows a thing proudly",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7806
+      },
+      {
+        "prompt": "A kid shows an item proudly",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.777
+      },
+      {
+        "prompt": "A kid shows proudly",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7593
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "70",
+    "source": "A man packs bananas into bags",
+    "candidates": [
+      {
+        "prompt": "A man packs apples into bags",
+        "mapping_type": "replace",
+        "replacement": "apples",
+        "clip_score": 0.8221
+      },
+      {
+        "prompt": "A man packs groceries into bags",
+        "mapping_type": "replace",
+        "replacement": "groceries",
+        "clip_score": 0.8519
+      },
+      {
+        "prompt": "A man packs toys into bags",
+        "mapping_type": "replace",
+        "replacement": "toys",
+        "clip_score": 0.8199
+      },
+      {
+        "prompt": "A man packs clothes into bags",
+        "mapping_type": "replace",
+        "replacement": "clothes",
+        "clip_score": 0.8564
+      },
+      {
+        "prompt": "A man packs items into bags",
+        "mapping_type": "replace",
+        "replacement": "items",
+        "clip_score": 0.8741
+      },
+      {
+        "prompt": "A man packs food into bags",
+        "mapping_type": "replace",
+        "replacement": "food",
+        "clip_score": 0.8686
+      },
+      {
+        "prompt": "A man packs camping gear into bags",
+        "mapping_type": "replace",
+        "replacement": "camping gear",
+        "clip_score": 0.7827
+      },
+      {
+        "prompt": "A man packs electronics into bags",
+        "mapping_type": "replace",
+        "replacement": "electronics",
+        "clip_score": 0.8049
+      },
+      {
+        "prompt": "A man packs things into bags",
+        "mapping_type": "replace",
+        "replacement": "things",
+        "clip_score": 0.8766
+      },
+      {
+        "prompt": "A man packs bags",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7846
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "71",
+    "source": "A parent slices a banana for baby",
+    "candidates": [
+      {
+        "prompt": "A parent slices an apple for baby",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8631
+      },
+      {
+        "prompt": "A parent slices a cucumber for baby",
+        "mapping_type": "replace",
+        "replacement": "cucumber",
+        "clip_score": 0.8098
+      },
+      {
+        "prompt": "A parent slices a piece of bread for baby",
+        "mapping_type": "replace",
+        "replacement": "bread",
+        "clip_score": 0.8363
+      },
+      {
+        "prompt": "A parent slices a carrot for baby",
+        "mapping_type": "replace",
+        "replacement": "carrot",
+        "clip_score": 0.7961
+      },
+      {
+        "prompt": "A parent slices a pear for baby",
+        "mapping_type": "replace",
+        "replacement": "pear",
+        "clip_score": 0.8478
+      },
+      {
+        "prompt": "A parent slices a watermelon for baby",
+        "mapping_type": "replace",
+        "replacement": "watermelon",
+        "clip_score": 0.7657
+      },
+      {
+        "prompt": "A parent slices a peach for baby",
+        "mapping_type": "replace",
+        "replacement": "peach",
+        "clip_score": 0.7944
+      },
+      {
+        "prompt": "A parent slices a potato for baby",
+        "mapping_type": "replace",
+        "replacement": "potato",
+        "clip_score": 0.8355
+      },
+      {
+        "prompt": "A parent slices a fruit for baby",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.8799
+      },
+      {
+        "prompt": "A parent prepares food for baby",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6751
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "72",
+    "source": "A teacher holds a banana during lesson",
+    "candidates": [
+      {
+        "prompt": "A teacher holds a pencil during lesson",
+        "mapping_type": "replace",
+        "replacement": "pencil",
+        "clip_score": 0.7766
+      },
+      {
+        "prompt": "A teacher holds an apple during lesson",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8624
+      },
+      {
+        "prompt": "A teacher holds a textbook during lesson",
+        "mapping_type": "replace",
+        "replacement": "textbook",
+        "clip_score": 0.7251
+      },
+      {
+        "prompt": "A teacher holds a globe during lesson",
+        "mapping_type": "replace",
+        "replacement": "globe",
+        "clip_score": 0.6872
+      },
+      {
+        "prompt": "A teacher holds a toy during lesson",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7988
+      },
+      {
+        "prompt": "A teacher holds a flower during lesson",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7367
+      },
+      {
+        "prompt": "A teacher holds a cup during lesson",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.7561
+      },
+      {
+        "prompt": "A teacher holds a notebook during lesson",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.7207
+      },
+      {
+        "prompt": "A teacher holds an item during lesson",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7724
+      },
+      {
+        "prompt": "A teacher demonstrates something during lesson",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7255
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "73",
+    "source": "A clerk stacks bananas at noon",
+    "candidates": [
+      {
+        "prompt": "A clerk stacks apples at noon",
+        "mapping_type": "replace",
+        "replacement": "apples",
+        "clip_score": 0.8387
+      },
+      {
+        "prompt": "A clerk stacks oranges at noon",
+        "mapping_type": "replace",
+        "replacement": "oranges",
+        "clip_score": 0.8073
+      },
+      {
+        "prompt": "A clerk stacks boxes at noon",
+        "mapping_type": "replace",
+        "replacement": "boxes",
+        "clip_score": 0.8134
+      },
+      {
+        "prompt": "A clerk stacks magazines at noon",
+        "mapping_type": "replace",
+        "replacement": "magazines",
+        "clip_score": 0.7618
+      },
+      {
+        "prompt": "A clerk stacks toys at noon",
+        "mapping_type": "replace",
+        "replacement": "toys",
+        "clip_score": 0.8144
+      },
+      {
+        "prompt": "A clerk stacks flowers at noon",
+        "mapping_type": "replace",
+        "replacement": "flowers",
+        "clip_score": 0.7785
+      },
+      {
+        "prompt": "A clerk stacks bottles at noon",
+        "mapping_type": "replace",
+        "replacement": "bottles",
+        "clip_score": 0.83
+      },
+      {
+        "prompt": "A clerk stacks books at noon",
+        "mapping_type": "replace",
+        "replacement": "books",
+        "clip_score": 0.8188
+      },
+      {
+        "prompt": "A clerk stacks items at noon",
+        "mapping_type": "replace",
+        "replacement": "items",
+        "clip_score": 0.7825
+      },
+      {
+        "prompt": "A clerk works at noon",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7433
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "74",
+    "source": "A teammate tosses a banana gently",
+    "candidates": [
+      {
+        "prompt": "A teammate tosses an apple gently",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.9182
+      },
+      {
+        "prompt": "A teammate tosses a ball gently",
+        "mapping_type": "replace",
+        "replacement": "ball",
+        "clip_score": 0.8696
+      },
+      {
+        "prompt": "A teammate tosses a frisbee gently",
+        "mapping_type": "replace",
+        "replacement": "frisbee",
+        "clip_score": 0.8247
+      },
+      {
+        "prompt": "A teammate tosses a book gently",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.8638
+      },
+      {
+        "prompt": "A teammate tosses a flower gently",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8429
+      },
+      {
+        "prompt": "A teammate tosses a toy gently",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.9049
+      },
+      {
+        "prompt": "A teammate tosses a sandwich gently",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8859
+      },
+      {
+        "prompt": "A teammate tosses a pencil gently",
+        "mapping_type": "replace",
+        "replacement": "pencil",
+        "clip_score": 0.8628
+      },
+      {
+        "prompt": "A teammate tosses an object gently",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.9007
+      },
+      {
+        "prompt": "A teammate tosses gently",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8949
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "75",
+    "source": "Banana slices in a cereal bowl",
+    "candidates": [
+      {
+        "prompt": "Apple slices in a cereal bowl",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.7923
+      },
+      {
+        "prompt": "Peach slices in a cereal bowl",
+        "mapping_type": "replace",
+        "replacement": "peach",
+        "clip_score": 0.7526
+      },
+      {
+        "prompt": "Strawberry slices in a cereal bowl",
+        "mapping_type": "replace",
+        "replacement": "strawberry",
+        "clip_score": 0.7033
+      },
+      {
+        "prompt": "Kiwi slices in a cereal bowl",
+        "mapping_type": "replace",
+        "replacement": "kiwi",
+        "clip_score": 0.7142
+      },
+      {
+        "prompt": "Carrot sticks in a cereal bowl",
+        "mapping_type": "replace",
+        "replacement": "carrot",
+        "clip_score": 0.6239
+      },
+      {
+        "prompt": "Chocolate pieces in a cereal bowl",
+        "mapping_type": "replace",
+        "replacement": "chocolate",
+        "clip_score": 0.6727
+      },
+      {
+        "prompt": "Granola clusters in a cereal bowl",
+        "mapping_type": "replace",
+        "replacement": "granola",
+        "clip_score": 0.6378
+      },
+      {
+        "prompt": "Nuts in a cereal bowl",
+        "mapping_type": "replace",
+        "replacement": "nuts",
+        "clip_score": 0.6498
+      },
+      {
+        "prompt": "Fruit slices in a cereal bowl",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.7903
+      },
+      {
+        "prompt": "Slices in a cereal bowl",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7077
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "76",
+    "source": "A painter studies a banana still life",
+    "candidates": [
+      {
+        "prompt": "A painter studies a pear still life",
+        "mapping_type": "replace",
+        "replacement": "pear",
+        "clip_score": 0.8062
+      },
+      {
+        "prompt": "A painter studies a vase still life",
+        "mapping_type": "replace",
+        "replacement": "vase",
+        "clip_score": 0.7504
+      },
+      {
+        "prompt": "A painter studies an apple still life",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8244
+      },
+      {
+        "prompt": "A painter studies a bunch of grapes still life",
+        "mapping_type": "replace",
+        "replacement": "bunch of grapes",
+        "clip_score": 0.7281
+      },
+      {
+        "prompt": "A painter studies a flower still life",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7797
+      },
+      {
+        "prompt": "A painter studies a loaf of bread still life",
+        "mapping_type": "replace",
+        "replacement": "loaf of bread",
+        "clip_score": 0.7523
+      },
+      {
+        "prompt": "A painter studies a watermelon still life",
+        "mapping_type": "replace",
+        "replacement": "watermelon",
+        "clip_score": 0.7437
+      },
+      {
+        "prompt": "A painter studies a bowl of nuts still life",
+        "mapping_type": "replace",
+        "replacement": "bowl of nuts",
+        "clip_score": 0.7397
+      },
+      {
+        "prompt": "A painter studies a fruit still life",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.8678
+      },
+      {
+        "prompt": "A painter studies the still life",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7922
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "77",
+    "source": "A tourist buys a banana from vendor",
+    "candidates": [
+      {
+        "prompt": "A tourist buys an apple from vendor",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8823
+      },
+      {
+        "prompt": "A tourist buys a sandwich from vendor",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8556
+      },
+      {
+        "prompt": "A tourist buys a drink from vendor",
+        "mapping_type": "replace",
+        "replacement": "drink",
+        "clip_score": 0.8252
+      },
+      {
+        "prompt": "A tourist buys a hat from vendor",
+        "mapping_type": "replace",
+        "replacement": "hat",
+        "clip_score": 0.7653
+      },
+      {
+        "prompt": "A tourist buys a slice of pizza from vendor",
+        "mapping_type": "replace",
+        "replacement": "slice of pizza",
+        "clip_score": 0.799
+      },
+      {
+        "prompt": "A tourist buys a flower from vendor",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.783
+      },
+      {
+        "prompt": "A tourist buys a toy from vendor",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8022
+      },
+      {
+        "prompt": "A tourist buys a keychain from vendor",
+        "mapping_type": "replace",
+        "replacement": "keychain",
+        "clip_score": 0.7869
+      },
+      {
+        "prompt": "A tourist buys an item from vendor",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8054
+      },
+      {
+        "prompt": "A tourist interacts with a vendor",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7905
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "78",
+    "source": "A neighbor brings bananas to brunch",
+    "candidates": [
+      {
+        "prompt": "A neighbor brings apples to brunch",
+        "mapping_type": "replace",
+        "replacement": "apples",
+        "clip_score": 0.8571
+      },
+      {
+        "prompt": "A neighbor brings oranges to brunch",
+        "mapping_type": "replace",
+        "replacement": "oranges",
+        "clip_score": 0.8406
+      },
+      {
+        "prompt": "A neighbor brings grapes to brunch",
+        "mapping_type": "replace",
+        "replacement": "grapes",
+        "clip_score": 0.8088
+      },
+      {
+        "prompt": "A neighbor brings muffins to brunch",
+        "mapping_type": "replace",
+        "replacement": "muffins",
+        "clip_score": 0.7945
+      },
+      {
+        "prompt": "A neighbor brings croissants to brunch",
+        "mapping_type": "replace",
+        "replacement": "croissants",
+        "clip_score": 0.8123
+      },
+      {
+        "prompt": "A neighbor brings flowers to brunch",
+        "mapping_type": "replace",
+        "replacement": "flowers",
+        "clip_score": 0.807
+      },
+      {
+        "prompt": "A neighbor brings juice to brunch",
+        "mapping_type": "replace",
+        "replacement": "juice",
+        "clip_score": 0.8399
+      },
+      {
+        "prompt": "A neighbor brings cereal to brunch",
+        "mapping_type": "replace",
+        "replacement": "cereal",
+        "clip_score": 0.8307
+      },
+      {
+        "prompt": "A neighbor brings food to brunch",
+        "mapping_type": "replace",
+        "replacement": "food",
+        "clip_score": 0.854
+      },
+      {
+        "prompt": "A neighbor arrives at brunch",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7974
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "79",
+    "source": "A chef torches banana for topping",
+    "candidates": [
+      {
+        "prompt": "A chef torches apple for topping",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.7825
+      },
+      {
+        "prompt": "A chef torches peach for topping",
+        "mapping_type": "replace",
+        "replacement": "peach",
+        "clip_score": 0.7152
+      },
+      {
+        "prompt": "A chef torches strawberry for topping",
+        "mapping_type": "replace",
+        "replacement": "strawberry",
+        "clip_score": 0.7019
+      },
+      {
+        "prompt": "A chef torches kiwi for topping",
+        "mapping_type": "replace",
+        "replacement": "kiwi",
+        "clip_score": 0.6986
+      },
+      {
+        "prompt": "A chef torches mango for topping",
+        "mapping_type": "replace",
+        "replacement": "mango",
+        "clip_score": 0.8042
+      },
+      {
+        "prompt": "A chef torches orange for topping",
+        "mapping_type": "replace",
+        "replacement": "orange",
+        "clip_score": 0.7676
+      },
+      {
+        "prompt": "A chef torches cake for topping",
+        "mapping_type": "replace",
+        "replacement": "cake",
+        "clip_score": 0.7754
+      },
+      {
+        "prompt": "A chef torches chocolate for topping",
+        "mapping_type": "replace",
+        "replacement": "chocolate",
+        "clip_score": 0.7769
+      },
+      {
+        "prompt": "A chef torches fruit for topping",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.8279
+      },
+      {
+        "prompt": "A chef works on the topping",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6014
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "80",
+    "source": "A baker folds banana into batter",
+    "candidates": [
+      {
+        "prompt": "A baker folds apple into batter",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8561
+      },
+      {
+        "prompt": "A baker folds chocolate into batter",
+        "mapping_type": "replace",
+        "replacement": "chocolate",
+        "clip_score": 0.836
+      },
+      {
+        "prompt": "A baker folds blueberry into batter",
+        "mapping_type": "replace",
+        "replacement": "blueberry",
+        "clip_score": 0.7572
+      },
+      {
+        "prompt": "A baker folds peach into batter",
+        "mapping_type": "replace",
+        "replacement": "peach",
+        "clip_score": 0.7838
+      },
+      {
+        "prompt": "A baker folds walnut into batter",
+        "mapping_type": "replace",
+        "replacement": "walnut",
+        "clip_score": 0.7861
+      },
+      {
+        "prompt": "A baker folds yogurt into batter",
+        "mapping_type": "replace",
+        "replacement": "yogurt",
+        "clip_score": 0.8215
+      },
+      {
+        "prompt": "A baker folds honey into batter",
+        "mapping_type": "replace",
+        "replacement": "honey",
+        "clip_score": 0.8345
+      },
+      {
+        "prompt": "A baker folds vanilla into batter",
+        "mapping_type": "replace",
+        "replacement": "vanilla",
+        "clip_score": 0.8293
+      },
+      {
+        "prompt": "A baker folds fruit into batter",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.8594
+      },
+      {
+        "prompt": "A baker mixes the ingredients into batter",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7613
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "81",
+    "source": "A smoothie includes banana and spinach",
+    "candidates": [
+      {
+        "prompt": "A smoothie includes mango and spinach",
+        "mapping_type": "replace",
+        "replacement": "mango",
+        "clip_score": 0.9309
+      },
+      {
+        "prompt": "A smoothie includes kiwi and spinach",
+        "mapping_type": "replace",
+        "replacement": "kiwi",
+        "clip_score": 0.9047
+      },
+      {
+        "prompt": "A smoothie includes berries and spinach",
+        "mapping_type": "replace",
+        "replacement": "berries",
+        "clip_score": 0.9098
+      },
+      {
+        "prompt": "A smoothie includes avocado and spinach",
+        "mapping_type": "replace",
+        "replacement": "avocado",
+        "clip_score": 0.9269
+      },
+      {
+        "prompt": "A smoothie includes apple and spinach",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.9421
+      },
+      {
+        "prompt": "A smoothie includes peach and spinach",
+        "mapping_type": "replace",
+        "replacement": "peach",
+        "clip_score": 0.9138
+      },
+      {
+        "prompt": "A smoothie includes orange and spinach",
+        "mapping_type": "replace",
+        "replacement": "orange",
+        "clip_score": 0.9297
+      },
+      {
+        "prompt": "A smoothie includes melon and spinach",
+        "mapping_type": "replace",
+        "replacement": "melon",
+        "clip_score": 0.9037
+      },
+      {
+        "prompt": "A smoothie includes fruit and spinach",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.9411
+      },
+      {
+        "prompt": "A smoothie includes and spinach",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.9317
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "82",
+    "source": "A recipe lists banana as ingredient",
+    "candidates": [
+      {
+        "prompt": "A recipe lists kiwi as ingredient",
+        "mapping_type": "replace",
+        "replacement": "kiwi",
+        "clip_score": 0.8086
+      },
+      {
+        "prompt": "A recipe lists apple as ingredient",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8384
+      },
+      {
+        "prompt": "A recipe lists chocolate as ingredient",
+        "mapping_type": "replace",
+        "replacement": "chocolate",
+        "clip_score": 0.8448
+      },
+      {
+        "prompt": "A recipe lists carrots as ingredient",
+        "mapping_type": "replace",
+        "replacement": "carrots",
+        "clip_score": 0.8305
+      },
+      {
+        "prompt": "A recipe lists almonds as ingredient",
+        "mapping_type": "replace",
+        "replacement": "almonds",
+        "clip_score": 0.8118
+      },
+      {
+        "prompt": "A recipe lists beans as ingredient",
+        "mapping_type": "replace",
+        "replacement": "beans",
+        "clip_score": 0.846
+      },
+      {
+        "prompt": "A recipe lists cucumber as ingredient",
+        "mapping_type": "replace",
+        "replacement": "cucumber",
+        "clip_score": 0.8417
+      },
+      {
+        "prompt": "A recipe lists butter as ingredient",
+        "mapping_type": "replace",
+        "replacement": "butter",
+        "clip_score": 0.8579
+      },
+      {
+        "prompt": "A recipe lists food as ingredient",
+        "mapping_type": "replace",
+        "replacement": "food",
+        "clip_score": 0.8871
+      },
+      {
+        "prompt": "A recipe lists as ingredient",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8837
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "83",
+    "source": "A child hides a banana behind back",
+    "candidates": [
+      {
+        "prompt": "A child hides a toy behind back",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8277
+      },
+      {
+        "prompt": "A child hides a book behind back",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.8112
+      },
+      {
+        "prompt": "A child hides a ball behind back",
+        "mapping_type": "replace",
+        "replacement": "ball",
+        "clip_score": 0.8045
+      },
+      {
+        "prompt": "A child hides a snack behind back",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.8458
+      },
+      {
+        "prompt": "A child hides a doll behind back",
+        "mapping_type": "replace",
+        "replacement": "doll",
+        "clip_score": 0.8016
+      },
+      {
+        "prompt": "A child hides a game behind back",
+        "mapping_type": "replace",
+        "replacement": "game",
+        "clip_score": 0.7922
+      },
+      {
+        "prompt": "A child hides a drawing behind back",
+        "mapping_type": "replace",
+        "replacement": "drawing",
+        "clip_score": 0.7788
+      },
+      {
+        "prompt": "A child hides a balloon behind back",
+        "mapping_type": "replace",
+        "replacement": "balloon",
+        "clip_score": 0.7961
+      },
+      {
+        "prompt": "A child hides a thing behind back",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7981
+      },
+      {
+        "prompt": "A child hides behind back",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7839
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "84",
+    "source": "A vendor bags bananas for customers",
+    "candidates": [
+      {
+        "prompt": "A vendor bags apples for customers",
+        "mapping_type": "replace",
+        "replacement": "apples",
+        "clip_score": 0.8393
+      },
+      {
+        "prompt": "A vendor bags oranges for customers",
+        "mapping_type": "replace",
+        "replacement": "oranges",
+        "clip_score": 0.7921
+      },
+      {
+        "prompt": "A vendor bags nuts for customers",
+        "mapping_type": "replace",
+        "replacement": "nuts",
+        "clip_score": 0.7873
+      },
+      {
+        "prompt": "A vendor bags cookies for customers",
+        "mapping_type": "replace",
+        "replacement": "cookies",
+        "clip_score": 0.7696
+      },
+      {
+        "prompt": "A vendor bags vegetables for customers",
+        "mapping_type": "replace",
+        "replacement": "vegetables",
+        "clip_score": 0.7795
+      },
+      {
+        "prompt": "A vendor bags bread for customers",
+        "mapping_type": "replace",
+        "replacement": "bread",
+        "clip_score": 0.7796
+      },
+      {
+        "prompt": "A vendor bags snacks for customers",
+        "mapping_type": "replace",
+        "replacement": "snacks",
+        "clip_score": 0.7973
+      },
+      {
+        "prompt": "A vendor bags candy for customers",
+        "mapping_type": "replace",
+        "replacement": "candy",
+        "clip_score": 0.7931
+      },
+      {
+        "prompt": "A vendor bags food for customers",
+        "mapping_type": "replace",
+        "replacement": "food",
+        "clip_score": 0.782
+      },
+      {
+        "prompt": "A vendor bags for customers",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7549
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "85",
+    "source": "A woman washes bananas in sink",
+    "candidates": [
+      {
+        "prompt": "A woman washes apples in sink",
+        "mapping_type": "replace",
+        "replacement": "apples",
+        "clip_score": 0.846
+      },
+      {
+        "prompt": "A woman washes grapes in sink",
+        "mapping_type": "replace",
+        "replacement": "grapes",
+        "clip_score": 0.7905
+      },
+      {
+        "prompt": "A woman washes carrots in sink",
+        "mapping_type": "replace",
+        "replacement": "carrots",
+        "clip_score": 0.7419
+      },
+      {
+        "prompt": "A woman washes beans in sink",
+        "mapping_type": "replace",
+        "replacement": "beans",
+        "clip_score": 0.7726
+      },
+      {
+        "prompt": "A woman washes spinach in sink",
+        "mapping_type": "replace",
+        "replacement": "spinach",
+        "clip_score": 0.7702
+      },
+      {
+        "prompt": "A woman washes lettuce in sink",
+        "mapping_type": "replace",
+        "replacement": "lettuce",
+        "clip_score": 0.8182
+      },
+      {
+        "prompt": "A woman washes food in sink",
+        "mapping_type": "replace",
+        "replacement": "food",
+        "clip_score": 0.8399
+      },
+      {
+        "prompt": "A woman washes vegetables in sink",
+        "mapping_type": "replace",
+        "replacement": "vegetables",
+        "clip_score": 0.8211
+      },
+      {
+        "prompt": "A woman washes items in sink",
+        "mapping_type": "replace",
+        "replacement": "items",
+        "clip_score": 0.8001
+      },
+      {
+        "prompt": "A woman washes in sink",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8001
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "86",
+    "source": "A coach hands a banana to player",
+    "candidates": [
+      {
+        "prompt": "A coach hands an apple to player",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8888
+      },
+      {
+        "prompt": "A coach hands a snack to player",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.8576
+      },
+      {
+        "prompt": "A coach hands a drink to player",
+        "mapping_type": "replace",
+        "replacement": "drink",
+        "clip_score": 0.7936
+      },
+      {
+        "prompt": "A coach hands a towel to player",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.7732
+      },
+      {
+        "prompt": "A coach hands a ball to player",
+        "mapping_type": "replace",
+        "replacement": "ball",
+        "clip_score": 0.8113
+      },
+      {
+        "prompt": "A coach hands a game to player",
+        "mapping_type": "replace",
+        "replacement": "game",
+        "clip_score": 0.7978
+      },
+      {
+        "prompt": "A coach hands a trophy to player",
+        "mapping_type": "replace",
+        "replacement": "trophy",
+        "clip_score": 0.7676
+      },
+      {
+        "prompt": "A coach hands a note to player",
+        "mapping_type": "replace",
+        "replacement": "note",
+        "clip_score": 0.752
+      },
+      {
+        "prompt": "A coach hands something to player",
+        "mapping_type": "replace",
+        "replacement": "something",
+        "clip_score": 0.8011
+      },
+      {
+        "prompt": "A coach hands to player",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7675
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "87",
+    "source": "A boy juggles three bananas poorly",
+    "candidates": [
+      {
+        "prompt": "A boy juggles three apples poorly",
+        "mapping_type": "replace",
+        "replacement": "apples",
+        "clip_score": 0.8525
+      },
+      {
+        "prompt": "A boy juggles three balls poorly",
+        "mapping_type": "replace",
+        "replacement": "balls",
+        "clip_score": 0.7843
+      },
+      {
+        "prompt": "A boy juggles three oranges poorly",
+        "mapping_type": "replace",
+        "replacement": "oranges",
+        "clip_score": 0.8126
+      },
+      {
+        "prompt": "A boy juggles three hats poorly",
+        "mapping_type": "replace",
+        "replacement": "hats",
+        "clip_score": 0.7684
+      },
+      {
+        "prompt": "A boy juggles three toys poorly",
+        "mapping_type": "replace",
+        "replacement": "toys",
+        "clip_score": 0.7998
+      },
+      {
+        "prompt": "A boy juggles three balls poorly",
+        "mapping_type": "replace",
+        "replacement": "balls",
+        "clip_score": 0.7843
+      },
+      {
+        "prompt": "A boy juggles three items poorly",
+        "mapping_type": "replace",
+        "replacement": "items",
+        "clip_score": 0.7986
+      },
+      {
+        "prompt": "A boy juggles three sandwiches poorly",
+        "mapping_type": "replace",
+        "replacement": "sandwiches",
+        "clip_score": 0.7698
+      },
+      {
+        "prompt": "A boy juggles three things poorly",
+        "mapping_type": "replace",
+        "replacement": "things",
+        "clip_score": 0.7458
+      },
+      {
+        "prompt": "A boy juggles poorly",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7425
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "88",
+    "source": "A girl chooses a banana at store",
+    "candidates": [
+      {
+        "prompt": "A girl chooses an apple at store",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8662
+      },
+      {
+        "prompt": "A girl chooses a toy at store",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8252
+      },
+      {
+        "prompt": "A girl chooses an orange at store",
+        "mapping_type": "replace",
+        "replacement": "orange",
+        "clip_score": 0.8625
+      },
+      {
+        "prompt": "A girl chooses a book at store",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.8182
+      },
+      {
+        "prompt": "A girl chooses a snack at store",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.8703
+      },
+      {
+        "prompt": "A girl chooses a game at store",
+        "mapping_type": "replace",
+        "replacement": "game",
+        "clip_score": 0.8112
+      },
+      {
+        "prompt": "A girl chooses a thing at store",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8552
+      },
+      {
+        "prompt": "A girl chooses food at store",
+        "mapping_type": "replace",
+        "replacement": "food",
+        "clip_score": 0.8729
+      },
+      {
+        "prompt": "A girl chooses items at store",
+        "mapping_type": "replace",
+        "replacement": "items",
+        "clip_score": 0.8301
+      },
+      {
+        "prompt": "A girl chooses at store",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8561
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "89",
+    "source": "A clerk prices bananas for display",
+    "candidates": [
+      {
+        "prompt": "A clerk prices apples for display",
+        "mapping_type": "replace",
+        "replacement": "apples",
+        "clip_score": 0.8627
+      },
+      {
+        "prompt": "A clerk prices oranges for display",
+        "mapping_type": "replace",
+        "replacement": "oranges",
+        "clip_score": 0.8274
+      },
+      {
+        "prompt": "A clerk prices items for display",
+        "mapping_type": "replace",
+        "replacement": "items",
+        "clip_score": 0.8535
+      },
+      {
+        "prompt": "A clerk prices snacks for display",
+        "mapping_type": "replace",
+        "replacement": "snacks",
+        "clip_score": 0.8553
+      },
+      {
+        "prompt": "A clerk prices products for display",
+        "mapping_type": "replace",
+        "replacement": "products",
+        "clip_score": 0.8368
+      },
+      {
+        "prompt": "A clerk prices food for display",
+        "mapping_type": "replace",
+        "replacement": "food",
+        "clip_score": 0.8553
+      },
+      {
+        "prompt": "A clerk prices vegetables for display",
+        "mapping_type": "replace",
+        "replacement": "vegetables",
+        "clip_score": 0.8381
+      },
+      {
+        "prompt": "A clerk prices toys for display",
+        "mapping_type": "replace",
+        "replacement": "toys",
+        "clip_score": 0.7911
+      },
+      {
+        "prompt": "A clerk prices snacks for display",
+        "mapping_type": "replace",
+        "replacement": "snacks",
+        "clip_score": 0.8553
+      },
+      {
+        "prompt": "A clerk prices for display",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8305
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "90",
+    "source": "A dad packs a banana for work",
+    "candidates": [
+      {
+        "prompt": "A dad packs an apple for work",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8624
+      },
+      {
+        "prompt": "A dad packs a sandwich for work",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8338
+      },
+      {
+        "prompt": "A dad packs a drink for work",
+        "mapping_type": "replace",
+        "replacement": "drink",
+        "clip_score": 0.7856
+      },
+      {
+        "prompt": "A dad packs a snack for work",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.8218
+      },
+      {
+        "prompt": "A dad packs a toy for work",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8147
+      },
+      {
+        "prompt": "A dad packs lunch for work",
+        "mapping_type": "replace",
+        "replacement": "lunch",
+        "clip_score": 0.8053
+      },
+      {
+        "prompt": "A dad packs food for work",
+        "mapping_type": "replace",
+        "replacement": "food",
+        "clip_score": 0.8136
+      },
+      {
+        "prompt": "A dad packs items for work",
+        "mapping_type": "replace",
+        "replacement": "items",
+        "clip_score": 0.7696
+      },
+      {
+        "prompt": "A dad packs something for work",
+        "mapping_type": "replace",
+        "replacement": "something",
+        "clip_score": 0.8028
+      },
+      {
+        "prompt": "A dad packs for work",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7894
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "91",
+    "source": "A teen eats a banana on bus",
+    "candidates": [
+      {
+        "prompt": "A teen eats an apple on bus",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.9037
+      },
+      {
+        "prompt": "A teen eats a sandwich on bus",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.878
+      },
+      {
+        "prompt": "A teen eats a cookie on bus",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.8675
+      },
+      {
+        "prompt": "A teen eats a pear on bus",
+        "mapping_type": "replace",
+        "replacement": "pear",
+        "clip_score": 0.8856
+      },
+      {
+        "prompt": "A teen eats a candy on bus",
+        "mapping_type": "replace",
+        "replacement": "candy",
+        "clip_score": 0.8832
+      },
+      {
+        "prompt": "A teen eats a muffin on bus",
+        "mapping_type": "replace",
+        "replacement": "muffin",
+        "clip_score": 0.8396
+      },
+      {
+        "prompt": "A teen eats a donut on bus",
+        "mapping_type": "replace",
+        "replacement": "donut",
+        "clip_score": 0.8626
+      },
+      {
+        "prompt": "A teen eats a fruit on bus",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.9201
+      },
+      {
+        "prompt": "A teen eats a snack on bus",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.8928
+      },
+      {
+        "prompt": "A teen eats on bus",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8873
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "92",
+    "source": "A cook plates banana with pancakes",
+    "candidates": [
+      {
+        "prompt": "A cook plates strawberries with pancakes",
+        "mapping_type": "replace",
+        "replacement": "strawberries",
+        "clip_score": 0.7409
+      },
+      {
+        "prompt": "A cook plates blueberries with pancakes",
+        "mapping_type": "replace",
+        "replacement": "blueberries",
+        "clip_score": 0.7509
+      },
+      {
+        "prompt": "A cook plates cherries with pancakes",
+        "mapping_type": "replace",
+        "replacement": "cherries",
+        "clip_score": 0.7656
+      },
+      {
+        "prompt": "A cook plates chocolate with pancakes",
+        "mapping_type": "replace",
+        "replacement": "chocolate",
+        "clip_score": 0.8121
+      },
+      {
+        "prompt": "A cook plates nuts with pancakes",
+        "mapping_type": "replace",
+        "replacement": "nuts",
+        "clip_score": 0.8035
+      },
+      {
+        "prompt": "A cook plates syrup with pancakes",
+        "mapping_type": "replace",
+        "replacement": "syrup",
+        "clip_score": 0.8313
+      },
+      {
+        "prompt": "A cook plates cream with pancakes",
+        "mapping_type": "replace",
+        "replacement": "cream",
+        "clip_score": 0.8339
+      },
+      {
+        "prompt": "A cook plates fruit with pancakes",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.8396
+      },
+      {
+        "prompt": "A cook plates a fruit on the pancakes",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.8283
+      },
+      {
+        "prompt": "A cook plates with pancakes",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8034
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "93",
+    "source": "A farmer loads bananas onto truck",
+    "candidates": [
+      {
+        "prompt": "A farmer loads apples onto truck",
+        "mapping_type": "replace",
+        "replacement": "apples",
+        "clip_score": 0.8454
+      },
+      {
+        "prompt": "A farmer loads oranges onto truck",
+        "mapping_type": "replace",
+        "replacement": "oranges",
+        "clip_score": 0.8027
+      },
+      {
+        "prompt": "A farmer loads carrots onto truck",
+        "mapping_type": "replace",
+        "replacement": "carrots",
+        "clip_score": 0.7976
+      },
+      {
+        "prompt": "A farmer loads vegetables onto truck",
+        "mapping_type": "replace",
+        "replacement": "vegetables",
+        "clip_score": 0.8436
+      },
+      {
+        "prompt": "A farmer loads boxes onto truck",
+        "mapping_type": "replace",
+        "replacement": "boxes",
+        "clip_score": 0.789
+      },
+      {
+        "prompt": "A farmer loads crates onto truck",
+        "mapping_type": "replace",
+        "replacement": "crates",
+        "clip_score": 0.7631
+      },
+      {
+        "prompt": "A farmer loads pumpkins onto truck",
+        "mapping_type": "replace",
+        "replacement": "pumpkins",
+        "clip_score": 0.7497
+      },
+      {
+        "prompt": "A farmer loads tools onto truck",
+        "mapping_type": "replace",
+        "replacement": "tools",
+        "clip_score": 0.7834
+      },
+      {
+        "prompt": "A farmer loads items onto truck",
+        "mapping_type": "replace",
+        "replacement": "items",
+        "clip_score": 0.8089
+      },
+      {
+        "prompt": "A farmer loads onto truck",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8167
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "94",
+    "source": "A kid sketches a banana in class",
+    "candidates": [
+      {
+        "prompt": "A kid sketches an apple in class",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8644
+      },
+      {
+        "prompt": "A kid sketches a tree in class",
+        "mapping_type": "replace",
+        "replacement": "tree",
+        "clip_score": 0.7789
+      },
+      {
+        "prompt": "A kid sketches a toy in class",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8114
+      },
+      {
+        "prompt": "A kid sketches a dog in class",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7779
+      },
+      {
+        "prompt": "A kid sketches a cat in class",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7688
+      },
+      {
+        "prompt": "A kid sketches a flower in class",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7898
+      },
+      {
+        "prompt": "A kid sketches a car in class",
+        "mapping_type": "replace",
+        "replacement": "car",
+        "clip_score": 0.7814
+      },
+      {
+        "prompt": "A kid sketches a house in class",
+        "mapping_type": "replace",
+        "replacement": "house",
+        "clip_score": 0.7525
+      },
+      {
+        "prompt": "A kid sketches an object in class",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8355
+      },
+      {
+        "prompt": "A kid sketches in class",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.802
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "95",
+    "source": "A student studies a banana in art",
+    "candidates": [
+      {
+        "prompt": "A student studies an apple in art",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8436
+      },
+      {
+        "prompt": "A student studies a sculpture in art",
+        "mapping_type": "replace",
+        "replacement": "sculpture",
+        "clip_score": 0.7078
+      },
+      {
+        "prompt": "A student studies a painting in art",
+        "mapping_type": "replace",
+        "replacement": "painting",
+        "clip_score": 0.7445
+      },
+      {
+        "prompt": "A student studies a flower in art",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7394
+      },
+      {
+        "prompt": "A student studies a sketch in art",
+        "mapping_type": "replace",
+        "replacement": "sketch",
+        "clip_score": 0.7443
+      },
+      {
+        "prompt": "A student studies a canvas in art",
+        "mapping_type": "replace",
+        "replacement": "canvas",
+        "clip_score": 0.7332
+      },
+      {
+        "prompt": "A student studies a model in art",
+        "mapping_type": "replace",
+        "replacement": "model",
+        "clip_score": 0.7257
+      },
+      {
+        "prompt": "A student studies an object in art",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7632
+      },
+      {
+        "prompt": "A student studies a thing in art",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7467
+      },
+      {
+        "prompt": "A student studies in art",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6948
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "96",
+    "source": "A barista blends banana into smoothie",
+    "candidates": [
+      {
+        "prompt": "A barista blends strawberries into smoothie",
+        "mapping_type": "replace",
+        "replacement": "strawberries",
+        "clip_score": 0.761
+      },
+      {
+        "prompt": "A barista blends blueberries into smoothie",
+        "mapping_type": "replace",
+        "replacement": "blueberries",
+        "clip_score": 0.7479
+      },
+      {
+        "prompt": "A barista blends spinach into smoothie",
+        "mapping_type": "replace",
+        "replacement": "spinach",
+        "clip_score": 0.747
+      },
+      {
+        "prompt": "A barista blends yogurt into smoothie",
+        "mapping_type": "replace",
+        "replacement": "yogurt",
+        "clip_score": 0.8363
+      },
+      {
+        "prompt": "A barista blends milk into smoothie",
+        "mapping_type": "replace",
+        "replacement": "milk",
+        "clip_score": 0.833
+      },
+      {
+        "prompt": "A barista blends nuts into smoothie",
+        "mapping_type": "replace",
+        "replacement": "nuts",
+        "clip_score": 0.8278
+      },
+      {
+        "prompt": "A barista blends chocolate into smoothie",
+        "mapping_type": "replace",
+        "replacement": "chocolate",
+        "clip_score": 0.8224
+      },
+      {
+        "prompt": "A barista blends oat into smoothie",
+        "mapping_type": "replace",
+        "replacement": "oat",
+        "clip_score": 0.7996
+      },
+      {
+        "prompt": "A barista blends an item into smoothie",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8143
+      },
+      {
+        "prompt": "A barista blends into smoothie",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7971
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "97",
+    "source": "A girl peels a banana outside",
+    "candidates": [
+      {
+        "prompt": "A girl peels an orange outside",
+        "mapping_type": "replace",
+        "replacement": "orange",
+        "clip_score": 0.8133
+      },
+      {
+        "prompt": "A girl peels an apple outside",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8574
+      },
+      {
+        "prompt": "A girl peels a mango outside",
+        "mapping_type": "replace",
+        "replacement": "mango",
+        "clip_score": 0.8552
+      },
+      {
+        "prompt": "A girl peels a carrot outside",
+        "mapping_type": "replace",
+        "replacement": "carrot",
+        "clip_score": 0.8049
+      },
+      {
+        "prompt": "A girl peels a potato outside",
+        "mapping_type": "replace",
+        "replacement": "potato",
+        "clip_score": 0.8475
+      },
+      {
+        "prompt": "A girl peels a fruit outside",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.8737
+      },
+      {
+        "prompt": "A girl peels a vegetable outside",
+        "mapping_type": "replace",
+        "replacement": "vegetable",
+        "clip_score": 0.847
+      },
+      {
+        "prompt": "A girl peels a thing outside",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8161
+      },
+      {
+        "prompt": "A girl peels an item outside",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.817
+      },
+      {
+        "prompt": "A girl peels outside",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8083
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "98",
+    "source": "A friend brings a banana to gym",
+    "candidates": [
+      {
+        "prompt": "A friend brings an apple to gym",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.8988
+      },
+      {
+        "prompt": "A friend brings a sandwich to gym",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8711
+      },
+      {
+        "prompt": "A friend brings a protein bar to gym",
+        "mapping_type": "replace",
+        "replacement": "protein bar",
+        "clip_score": 0.8572
+      },
+      {
+        "prompt": "A friend brings a drink to gym",
+        "mapping_type": "replace",
+        "replacement": "drink",
+        "clip_score": 0.8595
+      },
+      {
+        "prompt": "A friend brings a snack to gym",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.8786
+      },
+      {
+        "prompt": "A friend brings a smoothie to gym",
+        "mapping_type": "replace",
+        "replacement": "smoothie",
+        "clip_score": 0.8422
+      },
+      {
+        "prompt": "A friend brings a fruit to gym",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.9258
+      },
+      {
+        "prompt": "A friend brings a thing to gym",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8591
+      },
+      {
+        "prompt": "A friend brings an item to gym",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8478
+      },
+      {
+        "prompt": "A friend brings to gym",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8523
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "99",
+    "source": "A parent buys bananas for snacks",
+    "candidates": [
+      {
+        "prompt": "A parent buys apples for snacks",
+        "mapping_type": "replace",
+        "replacement": "apples",
+        "clip_score": 0.9004
+      },
+      {
+        "prompt": "A parent buys oranges for snacks",
+        "mapping_type": "replace",
+        "replacement": "oranges",
+        "clip_score": 0.8641
+      },
+      {
+        "prompt": "A parent buys cookies for snacks",
+        "mapping_type": "replace",
+        "replacement": "cookies",
+        "clip_score": 0.8579
+      },
+      {
+        "prompt": "A parent buys crackers for snacks",
+        "mapping_type": "replace",
+        "replacement": "crackers",
+        "clip_score": 0.8372
+      },
+      {
+        "prompt": "A parent buys chips for snacks",
+        "mapping_type": "replace",
+        "replacement": "chips",
+        "clip_score": 0.8756
+      },
+      {
+        "prompt": "A parent buys candy for snacks",
+        "mapping_type": "replace",
+        "replacement": "candy",
+        "clip_score": 0.8794
+      },
+      {
+        "prompt": "A parent buys snacks for snacks",
+        "mapping_type": "replace",
+        "replacement": "snacks",
+        "clip_score": 0.9009
+      },
+      {
+        "prompt": "A parent buys an item for snacks",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8473
+      },
+      {
+        "prompt": "A parent buys things for snacks",
+        "mapping_type": "replace",
+        "replacement": "things",
+        "clip_score": 0.8964
+      },
+      {
+        "prompt": "A parent buys for snacks",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8647
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "100",
+    "source": "A singer holds a banana onstage",
+    "candidates": [
+      {
+        "prompt": "A singer holds an apple onstage",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.849
+      },
+      {
+        "prompt": "A singer holds a microphone onstage",
+        "mapping_type": "replace",
+        "replacement": "microphone",
+        "clip_score": 0.7295
+      },
+      {
+        "prompt": "A singer holds a flower onstage",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7528
+      },
+      {
+        "prompt": "A singer holds a trophy onstage",
+        "mapping_type": "replace",
+        "replacement": "trophy",
+        "clip_score": 0.7229
+      },
+      {
+        "prompt": "A singer holds a drink onstage",
+        "mapping_type": "replace",
+        "replacement": "drink",
+        "clip_score": 0.7482
+      },
+      {
+        "prompt": "A singer holds a guitar onstage",
+        "mapping_type": "replace",
+        "replacement": "guitar",
+        "clip_score": 0.7709
+      },
+      {
+        "prompt": "A singer holds a thing onstage",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.767
+      },
+      {
+        "prompt": "A singer holds an item onstage",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7872
+      },
+      {
+        "prompt": "A singer holds a prop onstage",
+        "mapping_type": "replace",
+        "replacement": "prop",
+        "clip_score": 0.7498
+      },
+      {
+        "prompt": "A singer holds onstage",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7543
+      }
+    ],
+    "selected": 1
+  }
+]

@@ -1,0 +1,6702 @@
+[
+  {
+    "id": "1",
+    "source": "An apple sits on the plate.",
+    "candidates": [
+      {
+        "prompt": "A banana sits on the plate.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8663
+      },
+      {
+        "prompt": "A pear sits on the plate.",
+        "mapping_type": "replace",
+        "replacement": "pear",
+        "clip_score": 0.8846
+      },
+      {
+        "prompt": "A cookie sits on the plate.",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.8508
+      },
+      {
+        "prompt": "A napkin sits on the plate.",
+        "mapping_type": "replace",
+        "replacement": "napkin",
+        "clip_score": 0.8095
+      },
+      {
+        "prompt": "A book sits on the plate.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.824
+      },
+      {
+        "prompt": "A toy sits on the plate.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8215
+      },
+      {
+        "prompt": "A flower sits on the plate.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8136
+      },
+      {
+        "prompt": "A cup sits on the plate.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.8449
+      },
+      {
+        "prompt": "A thing sits on the plate.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8171
+      },
+      {
+        "prompt": "Sits on the plate.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7951
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "2",
+    "source": "An apple rests on the windowsill.",
+    "candidates": [
+      {
+        "prompt": "A lemon rests on the windowsill.",
+        "mapping_type": "replace",
+        "replacement": "lemon",
+        "clip_score": 0.8582
+      },
+      {
+        "prompt": "A plant rests on the windowsill.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.8148
+      },
+      {
+        "prompt": "A cup rests on the windowsill.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.811
+      },
+      {
+        "prompt": "A toy rests on the windowsill.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8059
+      },
+      {
+        "prompt": "A book rests on the windowsill.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7783
+      },
+      {
+        "prompt": "A candle rests on the windowsill.",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.7455
+      },
+      {
+        "prompt": "A spoon rests on the windowsill.",
+        "mapping_type": "replace",
+        "replacement": "spoon",
+        "clip_score": 0.781
+      },
+      {
+        "prompt": "A picture frame rests on the windowsill.",
+        "mapping_type": "replace",
+        "replacement": "picture frame",
+        "clip_score": 0.7053
+      },
+      {
+        "prompt": "A thing rests on the windowsill.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8273
+      },
+      {
+        "prompt": "Rests on the windowsill.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7831
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "3",
+    "source": "An apple lies on a wooden table.",
+    "candidates": [
+      {
+        "prompt": "A book lies on a wooden table.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.8268
+      },
+      {
+        "prompt": "A candle lies on a wooden table.",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.7723
+      },
+      {
+        "prompt": "A toy lies on a wooden table.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8056
+      },
+      {
+        "prompt": "A bowl lies on a wooden table.",
+        "mapping_type": "replace",
+        "replacement": "bowl",
+        "clip_score": 0.8079
+      },
+      {
+        "prompt": "A flower pot lies on a wooden table.",
+        "mapping_type": "replace",
+        "replacement": "flower pot",
+        "clip_score": 0.7706
+      },
+      {
+        "prompt": "A menu lies on a wooden table.",
+        "mapping_type": "replace",
+        "replacement": "menu",
+        "clip_score": 0.674
+      },
+      {
+        "prompt": "A magazine lies on a wooden table.",
+        "mapping_type": "replace",
+        "replacement": "magazine",
+        "clip_score": 0.7189
+      },
+      {
+        "prompt": "A plate lies on a wooden table.",
+        "mapping_type": "replace",
+        "replacement": "plate",
+        "clip_score": 0.7655
+      },
+      {
+        "prompt": "A thing lies on a wooden table.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8366
+      },
+      {
+        "prompt": "Lies on a wooden table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8157
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "4",
+    "source": "A hand holds an apple.",
+    "candidates": [
+      {
+        "prompt": "A hand holds a banana.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8653
+      },
+      {
+        "prompt": "A hand holds a toy.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8388
+      },
+      {
+        "prompt": "A hand holds a cup.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.8219
+      },
+      {
+        "prompt": "A hand holds a flower.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8329
+      },
+      {
+        "prompt": "A hand holds a pen.",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.7905
+      },
+      {
+        "prompt": "A hand holds a book.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.8207
+      },
+      {
+        "prompt": "A hand holds a spoon.",
+        "mapping_type": "replace",
+        "replacement": "spoon",
+        "clip_score": 0.7787
+      },
+      {
+        "prompt": "A hand holds a pencil.",
+        "mapping_type": "replace",
+        "replacement": "pencil",
+        "clip_score": 0.7784
+      },
+      {
+        "prompt": "A hand holds an item.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8506
+      },
+      {
+        "prompt": "A hand holds.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8236
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "5",
+    "source": "A child eats an apple.",
+    "candidates": [
+      {
+        "prompt": "A child eats a banana.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8782
+      },
+      {
+        "prompt": "A child eats a sandwich.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8337
+      },
+      {
+        "prompt": "A child eats a cookie.",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.8477
+      },
+      {
+        "prompt": "A child eats a piece of cake.",
+        "mapping_type": "replace",
+        "replacement": "piece of cake",
+        "clip_score": 0.8389
+      },
+      {
+        "prompt": "A child eats some popcorn.",
+        "mapping_type": "replace",
+        "replacement": "popcorn",
+        "clip_score": 0.8119
+      },
+      {
+        "prompt": "A child eats a carrot.",
+        "mapping_type": "replace",
+        "replacement": "carrot",
+        "clip_score": 0.8563
+      },
+      {
+        "prompt": "A child eats a snack.",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.8779
+      },
+      {
+        "prompt": "A child eats a fruit.",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.9411
+      },
+      {
+        "prompt": "A child eats an item.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8598
+      },
+      {
+        "prompt": "A child eats.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8447
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "6",
+    "source": "An apple floats in the sink.",
+    "candidates": [
+      {
+        "prompt": "A lemon floats in the sink.",
+        "mapping_type": "replace",
+        "replacement": "lemon",
+        "clip_score": 0.8099
+      },
+      {
+        "prompt": "A toy floats in the sink.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8045
+      },
+      {
+        "prompt": "A ball floats in the sink.",
+        "mapping_type": "replace",
+        "replacement": "ball",
+        "clip_score": 0.8355
+      },
+      {
+        "prompt": "A sponge floats in the sink.",
+        "mapping_type": "replace",
+        "replacement": "sponge",
+        "clip_score": 0.7756
+      },
+      {
+        "prompt": "A soap dish floats in the sink.",
+        "mapping_type": "replace",
+        "replacement": "soap dish",
+        "clip_score": 0.7435
+      },
+      {
+        "prompt": "A cup floats in the sink.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.8266
+      },
+      {
+        "prompt": "A brush floats in the sink.",
+        "mapping_type": "replace",
+        "replacement": "brush",
+        "clip_score": 0.7485
+      },
+      {
+        "prompt": "A dish floats in the sink.",
+        "mapping_type": "replace",
+        "replacement": "dish",
+        "clip_score": 0.8113
+      },
+      {
+        "prompt": "A thing floats in the sink.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8177
+      },
+      {
+        "prompt": "Floats in the sink.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7817
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "7",
+    "source": "An apple sits in a fruit bowl.",
+    "candidates": [
+      {
+        "prompt": "A banana sits in a fruit bowl.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8988
+      },
+      {
+        "prompt": "A pear sits in a fruit bowl.",
+        "mapping_type": "replace",
+        "replacement": "pear",
+        "clip_score": 0.8702
+      },
+      {
+        "prompt": "A kiwi sits in a fruit bowl.",
+        "mapping_type": "replace",
+        "replacement": "kiwi",
+        "clip_score": 0.7998
+      },
+      {
+        "prompt": "A mango sits in a fruit bowl.",
+        "mapping_type": "replace",
+        "replacement": "mango",
+        "clip_score": 0.8546
+      },
+      {
+        "prompt": "A plant sits in a fruit bowl.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.8847
+      },
+      {
+        "prompt": "A bowl sits in a fruit bowl.",
+        "mapping_type": "replace",
+        "replacement": "bowl",
+        "clip_score": 0.8894
+      },
+      {
+        "prompt": "A toy sits in a fruit bowl.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8513
+      },
+      {
+        "prompt": "A dish sits in a fruit bowl.",
+        "mapping_type": "replace",
+        "replacement": "dish",
+        "clip_score": 0.8848
+      },
+      {
+        "prompt": "A thing sits in a fruit bowl.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8814
+      },
+      {
+        "prompt": "Sits in a fruit bowl.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8713
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "8",
+    "source": "An apple sits on a cutting board.",
+    "candidates": [
+      {
+        "prompt": "A banana sits on a cutting board.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8487
+      },
+      {
+        "prompt": "A cucumber sits on a cutting board.",
+        "mapping_type": "replace",
+        "replacement": "cucumber",
+        "clip_score": 0.8209
+      },
+      {
+        "prompt": "A carrot sits on a cutting board.",
+        "mapping_type": "replace",
+        "replacement": "carrot",
+        "clip_score": 0.7845
+      },
+      {
+        "prompt": "A tomato sits on a cutting board.",
+        "mapping_type": "replace",
+        "replacement": "tomato",
+        "clip_score": 0.8542
+      },
+      {
+        "prompt": "A knife sits on a cutting board.",
+        "mapping_type": "replace",
+        "replacement": "knife",
+        "clip_score": 0.8174
+      },
+      {
+        "prompt": "A bowl sits on a cutting board.",
+        "mapping_type": "replace",
+        "replacement": "bowl",
+        "clip_score": 0.7981
+      },
+      {
+        "prompt": "A dish sits on a cutting board.",
+        "mapping_type": "replace",
+        "replacement": "dish",
+        "clip_score": 0.8154
+      },
+      {
+        "prompt": "A glove sits on a cutting board.",
+        "mapping_type": "replace",
+        "replacement": "glove",
+        "clip_score": 0.6581
+      },
+      {
+        "prompt": "A thing sits on a cutting board.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7891
+      },
+      {
+        "prompt": "Sits on a cutting board.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7704
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "9",
+    "source": "An apple rests under a desk lamp.",
+    "candidates": [
+      {
+        "prompt": "A book rests under a desk lamp.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7446
+      },
+      {
+        "prompt": "A cup rests under a desk lamp.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.8174
+      },
+      {
+        "prompt": "A toy rests under a desk lamp.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7596
+      },
+      {
+        "prompt": "A notebook rests under a desk lamp.",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.7475
+      },
+      {
+        "prompt": "A pen rests under a desk lamp.",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.776
+      },
+      {
+        "prompt": "A plant rests under a desk lamp.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7924
+      },
+      {
+        "prompt": "A phone rests under a desk lamp.",
+        "mapping_type": "replace",
+        "replacement": "phone",
+        "clip_score": 0.7565
+      },
+      {
+        "prompt": "A dish rests under a desk lamp.",
+        "mapping_type": "replace",
+        "replacement": "dish",
+        "clip_score": 0.7658
+      },
+      {
+        "prompt": "A thing rests under a desk lamp.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7801
+      },
+      {
+        "prompt": "Rests under a desk lamp.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6925
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "10",
+    "source": "An apple lies on a picnic blanket.",
+    "candidates": [
+      {
+        "prompt": "A blanket lies on a picnic blanket.",
+        "mapping_type": "replace",
+        "replacement": "blanket",
+        "clip_score": 0.7933
+      },
+      {
+        "prompt": "A basket lies on a picnic blanket.",
+        "mapping_type": "replace",
+        "replacement": "basket",
+        "clip_score": 0.7296
+      },
+      {
+        "prompt": "A toy lies on a picnic blanket.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7955
+      },
+      {
+        "prompt": "A book lies on a picnic blanket.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.735
+      },
+      {
+        "prompt": "A bottle lies on a picnic blanket.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7323
+      },
+      {
+        "prompt": "A plate lies on a picnic blanket.",
+        "mapping_type": "replace",
+        "replacement": "plate",
+        "clip_score": 0.7432
+      },
+      {
+        "prompt": "A dish lies on a picnic blanket.",
+        "mapping_type": "replace",
+        "replacement": "dish",
+        "clip_score": 0.7713
+      },
+      {
+        "prompt": "A cup lies on a picnic blanket.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.7704
+      },
+      {
+        "prompt": "A thing lies on a picnic blanket.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7673
+      },
+      {
+        "prompt": "Lies on a picnic blanket.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7732
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "11",
+    "source": "An apple sits on fresh snow.",
+    "candidates": [
+      {
+        "prompt": "A orange sits on fresh snow.",
+        "mapping_type": "replace",
+        "replacement": "orange",
+        "clip_score": 0.773
+      },
+      {
+        "prompt": "A banana rests on fresh snow.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.7584
+      },
+      {
+        "prompt": "A book sits on fresh snow.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7031
+      },
+      {
+        "prompt": "A dog sits on fresh snow.",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6814
+      },
+      {
+        "prompt": "A bicycle sits on fresh snow.",
+        "mapping_type": "replace",
+        "replacement": "bicycle",
+        "clip_score": 0.6727
+      },
+      {
+        "prompt": "A cloud sits on fresh snow.",
+        "mapping_type": "replace",
+        "replacement": "cloud",
+        "clip_score": 0.7033
+      },
+      {
+        "prompt": "A chair sits on fresh snow.",
+        "mapping_type": "replace",
+        "replacement": "chair",
+        "clip_score": 0.6763
+      },
+      {
+        "prompt": "A flower sits on fresh snow.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7471
+      },
+      {
+        "prompt": "A fruit rests on fresh snow.",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.7749
+      },
+      {
+        "prompt": "A sits on fresh snow.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7122
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "12",
+    "source": "An apple rests on a park bench.",
+    "candidates": [
+      {
+        "prompt": "A banana rests on a park bench.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8326
+      },
+      {
+        "prompt": "A sandwich rests on a park bench.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8189
+      },
+      {
+        "prompt": "A cat rests on a park bench.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.756
+      },
+      {
+        "prompt": "A ball rests on a park bench.",
+        "mapping_type": "replace",
+        "replacement": "ball",
+        "clip_score": 0.8248
+      },
+      {
+        "prompt": "A bottle rests on a park bench.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7386
+      },
+      {
+        "prompt": "A hat rests on a park bench.",
+        "mapping_type": "replace",
+        "replacement": "hat",
+        "clip_score": 0.7411
+      },
+      {
+        "prompt": "A newspaper rests on a park bench.",
+        "mapping_type": "replace",
+        "replacement": "newspaper",
+        "clip_score": 0.7449
+      },
+      {
+        "prompt": "A dog rests on a park bench.",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7716
+      },
+      {
+        "prompt": "A thing rests on a park bench.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8272
+      },
+      {
+        "prompt": "Rests on a park bench.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7909
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "13",
+    "source": "An apple sits beside a mug.",
+    "candidates": [
+      {
+        "prompt": "A banana sits beside a mug.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8329
+      },
+      {
+        "prompt": "A cookie sits beside a mug.",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.8156
+      },
+      {
+        "prompt": "A toy sits beside a mug.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7967
+      },
+      {
+        "prompt": "A pencil sits beside a mug.",
+        "mapping_type": "replace",
+        "replacement": "pencil",
+        "clip_score": 0.7634
+      },
+      {
+        "prompt": "A flower sits beside a mug.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7786
+      },
+      {
+        "prompt": "A remote sits beside a mug.",
+        "mapping_type": "replace",
+        "replacement": "remote",
+        "clip_score": 0.759
+      },
+      {
+        "prompt": "A spoon sits beside a mug.",
+        "mapping_type": "replace",
+        "replacement": "spoon",
+        "clip_score": 0.7839
+      },
+      {
+        "prompt": "A phone sits beside a mug.",
+        "mapping_type": "replace",
+        "replacement": "phone",
+        "clip_score": 0.7854
+      },
+      {
+        "prompt": "An item sits beside a mug.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8338
+      },
+      {
+        "prompt": "Sits beside a mug.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7996
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "14",
+    "source": "An apple hangs from a branch.",
+    "candidates": [
+      {
+        "prompt": "A bird hangs from a branch.",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.8187
+      },
+      {
+        "prompt": "A lantern hangs from a branch.",
+        "mapping_type": "replace",
+        "replacement": "lantern",
+        "clip_score": 0.731
+      },
+      {
+        "prompt": "A swing hangs from a branch.",
+        "mapping_type": "replace",
+        "replacement": "swing",
+        "clip_score": 0.7711
+      },
+      {
+        "prompt": "A kite hangs from a branch.",
+        "mapping_type": "replace",
+        "replacement": "kite",
+        "clip_score": 0.7142
+      },
+      {
+        "prompt": "A hammock hangs from a branch.",
+        "mapping_type": "replace",
+        "replacement": "hammock",
+        "clip_score": 0.7221
+      },
+      {
+        "prompt": "A flag hangs from a branch.",
+        "mapping_type": "replace",
+        "replacement": "flag",
+        "clip_score": 0.762
+      },
+      {
+        "prompt": "A bell hangs from a branch.",
+        "mapping_type": "replace",
+        "replacement": "bell",
+        "clip_score": 0.8175
+      },
+      {
+        "prompt": "A flower hangs from a branch.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8382
+      },
+      {
+        "prompt": "A thing hangs from a branch.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8541
+      },
+      {
+        "prompt": "Hangs from a branch.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8389
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "15",
+    "source": "An apple rests on a grocery scale.",
+    "candidates": [
+      {
+        "prompt": "A banana rests on a grocery scale.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8396
+      },
+      {
+        "prompt": "A packet rests on a grocery scale.",
+        "mapping_type": "replace",
+        "replacement": "packet",
+        "clip_score": 0.7987
+      },
+      {
+        "prompt": "A cookie rests on a grocery scale.",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.8254
+      },
+      {
+        "prompt": "A toy rests on a grocery scale.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8148
+      },
+      {
+        "prompt": "A flower rests on a grocery scale.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7802
+      },
+      {
+        "prompt": "A bottle rests on a grocery scale.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7957
+      },
+      {
+        "prompt": "A card rests on a grocery scale.",
+        "mapping_type": "replace",
+        "replacement": "card",
+        "clip_score": 0.8043
+      },
+      {
+        "prompt": "A pen rests on a grocery scale.",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.7907
+      },
+      {
+        "prompt": "An object rests on a grocery scale.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.868
+      },
+      {
+        "prompt": "Rests on a grocery scale.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8183
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "16",
+    "source": "An apple sits in a lunchbox.",
+    "candidates": [
+      {
+        "prompt": "A sandwich sits in a lunchbox.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8562
+      },
+      {
+        "prompt": "A cookie sits in a lunchbox.",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.8668
+      },
+      {
+        "prompt": "A toy sits in a lunchbox.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8534
+      },
+      {
+        "prompt": "A drink sits in a lunchbox.",
+        "mapping_type": "replace",
+        "replacement": "drink",
+        "clip_score": 0.8407
+      },
+      {
+        "prompt": "A notebook sits in a lunchbox.",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.8506
+      },
+      {
+        "prompt": "A pencil sits in a lunchbox.",
+        "mapping_type": "replace",
+        "replacement": "pencil",
+        "clip_score": 0.857
+      },
+      {
+        "prompt": "A brush sits in a lunchbox.",
+        "mapping_type": "replace",
+        "replacement": "brush",
+        "clip_score": 0.7756
+      },
+      {
+        "prompt": "A pen sits in a lunchbox.",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.8636
+      },
+      {
+        "prompt": "An item sits in a lunchbox.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8854
+      },
+      {
+        "prompt": "Sits in a lunchbox.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8234
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "17",
+    "source": "An apple rests on a classroom desk.",
+    "candidates": [
+      {
+        "prompt": "A book rests on a classroom desk.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7853
+      },
+      {
+        "prompt": "A pencil rests on a classroom desk.",
+        "mapping_type": "replace",
+        "replacement": "pencil",
+        "clip_score": 0.7972
+      },
+      {
+        "prompt": "A notebook rests on a classroom desk.",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.7599
+      },
+      {
+        "prompt": "A laptop rests on a classroom desk.",
+        "mapping_type": "replace",
+        "replacement": "laptop",
+        "clip_score": 0.7753
+      },
+      {
+        "prompt": "A ruler rests on a classroom desk.",
+        "mapping_type": "replace",
+        "replacement": "ruler",
+        "clip_score": 0.7313
+      },
+      {
+        "prompt": "A bag rests on a classroom desk.",
+        "mapping_type": "replace",
+        "replacement": "bag",
+        "clip_score": 0.7164
+      },
+      {
+        "prompt": "A phone rests on a classroom desk.",
+        "mapping_type": "replace",
+        "replacement": "phone",
+        "clip_score": 0.7696
+      },
+      {
+        "prompt": "A snack rests on a classroom desk.",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.8161
+      },
+      {
+        "prompt": "An item rests on a classroom desk.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8192
+      },
+      {
+        "prompt": "Rests on a classroom desk.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7896
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "18",
+    "source": "An apple sits on a car dashboard.",
+    "candidates": [
+      {
+        "prompt": "A phone sits on a car dashboard.",
+        "mapping_type": "replace",
+        "replacement": "phone",
+        "clip_score": 0.7514
+      },
+      {
+        "prompt": "A bottle sits on a car dashboard.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.712
+      },
+      {
+        "prompt": "A toy sits on a car dashboard.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7394
+      },
+      {
+        "prompt": "A wallet sits on a car dashboard.",
+        "mapping_type": "replace",
+        "replacement": "wallet",
+        "clip_score": 0.742
+      },
+      {
+        "prompt": "A snack sits on a car dashboard.",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.7629
+      },
+      {
+        "prompt": "A map sits on a car dashboard.",
+        "mapping_type": "replace",
+        "replacement": "map",
+        "clip_score": 0.6857
+      },
+      {
+        "prompt": "A cup sits on a car dashboard.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.7512
+      },
+      {
+        "prompt": "A key sits on a car dashboard.",
+        "mapping_type": "replace",
+        "replacement": "key",
+        "clip_score": 0.6349
+      },
+      {
+        "prompt": "An item sits on a car dashboard.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.769
+      },
+      {
+        "prompt": "Sits on a car dashboard.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6892
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "19",
+    "source": "An apple rests inside a clear bag.",
+    "candidates": [
+      {
+        "prompt": "A banana rests inside a clear bag.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8354
+      },
+      {
+        "prompt": "A sweater rests inside a clear bag.",
+        "mapping_type": "replace",
+        "replacement": "sweater",
+        "clip_score": 0.7638
+      },
+      {
+        "prompt": "A book rests inside a clear bag.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7916
+      },
+      {
+        "prompt": "A toy rests inside a clear bag.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8197
+      },
+      {
+        "prompt": "A perfume rests inside a clear bag.",
+        "mapping_type": "replace",
+        "replacement": "perfume",
+        "clip_score": 0.805
+      },
+      {
+        "prompt": "A gift rests inside a clear bag.",
+        "mapping_type": "replace",
+        "replacement": "gift",
+        "clip_score": 0.796
+      },
+      {
+        "prompt": "A wallet rests inside a clear bag.",
+        "mapping_type": "replace",
+        "replacement": "wallet",
+        "clip_score": 0.8281
+      },
+      {
+        "prompt": "A mask rests inside a clear bag.",
+        "mapping_type": "replace",
+        "replacement": "mask",
+        "clip_score": 0.8004
+      },
+      {
+        "prompt": "An item rests inside a clear bag.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8391
+      },
+      {
+        "prompt": "Rests inside a clear bag.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8039
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "20",
+    "source": "An apple sits on wet grass.",
+    "candidates": [
+      {
+        "prompt": "A flower sits on wet grass.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8026
+      },
+      {
+        "prompt": "A toy sits on wet grass.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7803
+      },
+      {
+        "prompt": "A stone sits on wet grass.",
+        "mapping_type": "replace",
+        "replacement": "stone",
+        "clip_score": 0.7948
+      },
+      {
+        "prompt": "A leaf sits on wet grass.",
+        "mapping_type": "replace",
+        "replacement": "leaf",
+        "clip_score": 0.8005
+      },
+      {
+        "prompt": "A bottle sits on wet grass.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7007
+      },
+      {
+        "prompt": "A cup sits on wet grass.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.7602
+      },
+      {
+        "prompt": "A newspaper sits on wet grass.",
+        "mapping_type": "replace",
+        "replacement": "newspaper",
+        "clip_score": 0.6695
+      },
+      {
+        "prompt": "A key sits on wet grass.",
+        "mapping_type": "replace",
+        "replacement": "key",
+        "clip_score": 0.6564
+      },
+      {
+        "prompt": "An item sits on wet grass.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7838
+      },
+      {
+        "prompt": "Sits on wet grass.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7321
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "21",
+    "source": "An apple rests on a metal tray.",
+    "candidates": [
+      {
+        "prompt": "A banana rests on a metal tray.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.7895
+      },
+      {
+        "prompt": "A pear rests on a metal tray.",
+        "mapping_type": "replace",
+        "replacement": "pear",
+        "clip_score": 0.8094
+      },
+      {
+        "prompt": "A toy car rests on a metal tray.",
+        "mapping_type": "replace",
+        "replacement": "toy car",
+        "clip_score": 0.6557
+      },
+      {
+        "prompt": "A book rests on a metal tray.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7244
+      },
+      {
+        "prompt": "A sunflower rests on a metal tray.",
+        "mapping_type": "replace",
+        "replacement": "sunflower",
+        "clip_score": 0.6998
+      },
+      {
+        "prompt": "A slice of pie rests on a metal tray.",
+        "mapping_type": "replace",
+        "replacement": "slice of pie",
+        "clip_score": 0.7308
+      },
+      {
+        "prompt": "A coffee mug rests on a metal tray.",
+        "mapping_type": "replace",
+        "replacement": "coffee mug",
+        "clip_score": 0.7294
+      },
+      {
+        "prompt": "A clock rests on a metal tray.",
+        "mapping_type": "replace",
+        "replacement": "clock",
+        "clip_score": 0.7418
+      },
+      {
+        "prompt": "A fruit rests on a metal tray.",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.8857
+      },
+      {
+        "prompt": "A metal tray is on the table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6834
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "22",
+    "source": "An apple lies on a beach towel.",
+    "candidates": [
+      {
+        "prompt": "A banana lies on a beach towel.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8309
+      },
+      {
+        "prompt": "A shell lies on a beach towel.",
+        "mapping_type": "replace",
+        "replacement": "shell",
+        "clip_score": 0.8049
+      },
+      {
+        "prompt": "A seashell lies on a beach towel.",
+        "mapping_type": "replace",
+        "replacement": "seashell",
+        "clip_score": 0.7768
+      },
+      {
+        "prompt": "A bottle lies on a beach towel.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7451
+      },
+      {
+        "prompt": "A starfish lies on a beach towel.",
+        "mapping_type": "replace",
+        "replacement": "starfish",
+        "clip_score": 0.7194
+      },
+      {
+        "prompt": "A frisbee lies on a beach towel.",
+        "mapping_type": "replace",
+        "replacement": "frisbee",
+        "clip_score": 0.7277
+      },
+      {
+        "prompt": "A towel lies on a beach towel.",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.7875
+      },
+      {
+        "prompt": "A beach ball lies on a beach towel.",
+        "mapping_type": "replace",
+        "replacement": "beach ball",
+        "clip_score": 0.7579
+      },
+      {
+        "prompt": "A fruit lies on a beach towel.",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.8891
+      },
+      {
+        "prompt": "A beach towel is spread on the sand.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7155
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "23",
+    "source": "An apple rests near a running faucet.",
+    "candidates": [
+      {
+        "prompt": "A banana rests near a running faucet.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.7977
+      },
+      {
+        "prompt": "A glass rests near a running faucet.",
+        "mapping_type": "replace",
+        "replacement": "glass",
+        "clip_score": 0.7407
+      },
+      {
+        "prompt": "A sponge rests near a running faucet.",
+        "mapping_type": "replace",
+        "replacement": "sponge",
+        "clip_score": 0.7491
+      },
+      {
+        "prompt": "A dish rests near a running faucet.",
+        "mapping_type": "replace",
+        "replacement": "dish",
+        "clip_score": 0.7485
+      },
+      {
+        "prompt": "A brush rests near a running faucet.",
+        "mapping_type": "replace",
+        "replacement": "brush",
+        "clip_score": 0.7753
+      },
+      {
+        "prompt": "A soap bar rests near a running faucet.",
+        "mapping_type": "replace",
+        "replacement": "soap bar",
+        "clip_score": 0.7581
+      },
+      {
+        "prompt": "A towel rests near a running faucet.",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.7226
+      },
+      {
+        "prompt": "A tray rests near a running faucet.",
+        "mapping_type": "replace",
+        "replacement": "tray",
+        "clip_score": 0.7181
+      },
+      {
+        "prompt": "An object rests near a running faucet.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8002
+      },
+      {
+        "prompt": "Water flows from the running faucet.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6524
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "24",
+    "source": "An apple balances on a book.",
+    "candidates": [
+      {
+        "prompt": "A lemon balances on a book.",
+        "mapping_type": "replace",
+        "replacement": "lemon",
+        "clip_score": 0.8301
+      },
+      {
+        "prompt": "A cup balances on a book.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.8415
+      },
+      {
+        "prompt": "A candle balances on a book.",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.778
+      },
+      {
+        "prompt": "A toy balances on a book.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8283
+      },
+      {
+        "prompt": "A pen balances on a book.",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.7917
+      },
+      {
+        "prompt": "A notebook balances on a book.",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.8083
+      },
+      {
+        "prompt": "A paperweight balances on a book.",
+        "mapping_type": "replace",
+        "replacement": "paperweight",
+        "clip_score": 0.8295
+      },
+      {
+        "prompt": "An eraser balances on a book.",
+        "mapping_type": "replace",
+        "replacement": "eraser",
+        "clip_score": 0.765
+      },
+      {
+        "prompt": "An item balances on a book.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8336
+      },
+      {
+        "prompt": "A book is on the table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6899
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "25",
+    "source": "An apple sits on a cafe table.",
+    "candidates": [
+      {
+        "prompt": "A sandwich sits on a cafe table.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7926
+      },
+      {
+        "prompt": "A coffee cup sits on a cafe table.",
+        "mapping_type": "replace",
+        "replacement": "coffee cup",
+        "clip_score": 0.799
+      },
+      {
+        "prompt": "A book sits on a cafe table.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.787
+      },
+      {
+        "prompt": "A pastry sits on a cafe table.",
+        "mapping_type": "replace",
+        "replacement": "pastry",
+        "clip_score": 0.8263
+      },
+      {
+        "prompt": "A vase sits on a cafe table.",
+        "mapping_type": "replace",
+        "replacement": "vase",
+        "clip_score": 0.7396
+      },
+      {
+        "prompt": "A flower pot sits on a cafe table.",
+        "mapping_type": "replace",
+        "replacement": "flower pot",
+        "clip_score": 0.7636
+      },
+      {
+        "prompt": "A plate sits on a cafe table.",
+        "mapping_type": "replace",
+        "replacement": "plate",
+        "clip_score": 0.7437
+      },
+      {
+        "prompt": "A napkin sits on a cafe table.",
+        "mapping_type": "replace",
+        "replacement": "napkin",
+        "clip_score": 0.748
+      },
+      {
+        "prompt": "A thing sits on a cafe table.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8016
+      },
+      {
+        "prompt": "A cafe table is set for meals.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7478
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "26",
+    "source": "An apple sits on a kitchen counter.",
+    "candidates": [
+      {
+        "prompt": "A mango sits on a kitchen counter.",
+        "mapping_type": "replace",
+        "replacement": "mango",
+        "clip_score": 0.8312
+      },
+      {
+        "prompt": "A bowl sits on a kitchen counter.",
+        "mapping_type": "replace",
+        "replacement": "bowl",
+        "clip_score": 0.781
+      },
+      {
+        "prompt": "A pot sits on a kitchen counter.",
+        "mapping_type": "replace",
+        "replacement": "pot",
+        "clip_score": 0.7781
+      },
+      {
+        "prompt": "A knife sits on a kitchen counter.",
+        "mapping_type": "replace",
+        "replacement": "knife",
+        "clip_score": 0.7768
+      },
+      {
+        "prompt": "A blender sits on a kitchen counter.",
+        "mapping_type": "replace",
+        "replacement": "blender",
+        "clip_score": 0.7369
+      },
+      {
+        "prompt": "A cutting board sits on a kitchen counter.",
+        "mapping_type": "replace",
+        "replacement": "cutting board",
+        "clip_score": 0.7588
+      },
+      {
+        "prompt": "A spice jar sits on a kitchen counter.",
+        "mapping_type": "replace",
+        "replacement": "spice jar",
+        "clip_score": 0.6496
+      },
+      {
+        "prompt": "A towel sits on a kitchen counter.",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.7324
+      },
+      {
+        "prompt": "An item sits on a kitchen counter.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8154
+      },
+      {
+        "prompt": "The kitchen counter is organized.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.673
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "27",
+    "source": "Two apples rest on a white plate.",
+    "candidates": [
+      {
+        "prompt": "Two oranges rest on a white plate.",
+        "mapping_type": "replace",
+        "replacement": "oranges",
+        "clip_score": 0.8679
+      },
+      {
+        "prompt": "Two cookies rest on a white plate.",
+        "mapping_type": "replace",
+        "replacement": "cookies",
+        "clip_score": 0.8154
+      },
+      {
+        "prompt": "Two donuts rest on a white plate.",
+        "mapping_type": "replace",
+        "replacement": "donuts",
+        "clip_score": 0.8264
+      },
+      {
+        "prompt": "Two cherries rest on a white plate.",
+        "mapping_type": "replace",
+        "replacement": "cherries",
+        "clip_score": 0.8339
+      },
+      {
+        "prompt": "Two candies rest on a white plate.",
+        "mapping_type": "replace",
+        "replacement": "candies",
+        "clip_score": 0.7802
+      },
+      {
+        "prompt": "Two cupcakes rest on a white plate.",
+        "mapping_type": "replace",
+        "replacement": "cupcakes",
+        "clip_score": 0.7607
+      },
+      {
+        "prompt": "Two muffins rest on a white plate.",
+        "mapping_type": "replace",
+        "replacement": "muffins",
+        "clip_score": 0.772
+      },
+      {
+        "prompt": "Two strawberries rest on a white plate.",
+        "mapping_type": "replace",
+        "replacement": "strawberries",
+        "clip_score": 0.824
+      },
+      {
+        "prompt": "Two fruits rest on a white plate.",
+        "mapping_type": "replace",
+        "replacement": "fruits",
+        "clip_score": 0.8898
+      },
+      {
+        "prompt": "A white plate is on the table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8098
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "28",
+    "source": "An apple rolls across the floor.",
+    "candidates": [
+      {
+        "prompt": "A ball rolls across the floor.",
+        "mapping_type": "replace",
+        "replacement": "ball",
+        "clip_score": 0.8631
+      },
+      {
+        "prompt": "A toy rolls across the floor.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8203
+      },
+      {
+        "prompt": "A marble rolls across the floor.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.8253
+      },
+      {
+        "prompt": "A coin rolls across the floor.",
+        "mapping_type": "replace",
+        "replacement": "coin",
+        "clip_score": 0.8243
+      },
+      {
+        "prompt": "A bottle rolls across the floor.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.8066
+      },
+      {
+        "prompt": "A leaf rolls across the floor.",
+        "mapping_type": "replace",
+        "replacement": "leaf",
+        "clip_score": 0.8143
+      },
+      {
+        "prompt": "A pencil rolls across the floor.",
+        "mapping_type": "replace",
+        "replacement": "pencil",
+        "clip_score": 0.7392
+      },
+      {
+        "prompt": "A block rolls across the floor.",
+        "mapping_type": "replace",
+        "replacement": "block",
+        "clip_score": 0.81
+      },
+      {
+        "prompt": "An item rolls across the floor.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8238
+      },
+      {
+        "prompt": "The floor is clean and tidy.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.718
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "29",
+    "source": "An apple rests beside a keyboard.",
+    "candidates": [
+      {
+        "prompt": "A banana rests beside a keyboard.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.846
+      },
+      {
+        "prompt": "A notebook rests beside a keyboard.",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.8363
+      },
+      {
+        "prompt": "A mouse rests beside a keyboard.",
+        "mapping_type": "replace",
+        "replacement": "mouse",
+        "clip_score": 0.8305
+      },
+      {
+        "prompt": "A pen rests beside a keyboard.",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.8318
+      },
+      {
+        "prompt": "A cellphone rests beside a keyboard.",
+        "mapping_type": "replace",
+        "replacement": "cellphone",
+        "clip_score": 0.7622
+      },
+      {
+        "prompt": "A coffee cup rests beside a keyboard.",
+        "mapping_type": "replace",
+        "replacement": "coffee cup",
+        "clip_score": 0.7862
+      },
+      {
+        "prompt": "A charger rests beside a keyboard.",
+        "mapping_type": "replace",
+        "replacement": "charger",
+        "clip_score": 0.8086
+      },
+      {
+        "prompt": "A stack of papers rests beside a keyboard.",
+        "mapping_type": "replace",
+        "replacement": "stack of papers",
+        "clip_score": 0.7875
+      },
+      {
+        "prompt": "An object rests beside a keyboard.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8392
+      },
+      {
+        "prompt": "A keyboard is on the desk.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7634
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "30",
+    "source": "An apple sits in a bicycle basket.",
+    "candidates": [
+      {
+        "prompt": "A bag sits in a bicycle basket.",
+        "mapping_type": "replace",
+        "replacement": "bag",
+        "clip_score": 0.8117
+      },
+      {
+        "prompt": "A dog sits in a bicycle basket.",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7585
+      },
+      {
+        "prompt": "A blanket sits in a bicycle basket.",
+        "mapping_type": "replace",
+        "replacement": "blanket",
+        "clip_score": 0.7209
+      },
+      {
+        "prompt": "A bottle sits in a bicycle basket.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7723
+      },
+      {
+        "prompt": "A lunchbox sits in a bicycle basket.",
+        "mapping_type": "replace",
+        "replacement": "lunchbox",
+        "clip_score": 0.7911
+      },
+      {
+        "prompt": "A flower pot sits in a bicycle basket.",
+        "mapping_type": "replace",
+        "replacement": "flower pot",
+        "clip_score": 0.7691
+      },
+      {
+        "prompt": "A newspaper sits in a bicycle basket.",
+        "mapping_type": "replace",
+        "replacement": "newspaper",
+        "clip_score": 0.7548
+      },
+      {
+        "prompt": "A camera sits in a bicycle basket.",
+        "mapping_type": "replace",
+        "replacement": "camera",
+        "clip_score": 0.7935
+      },
+      {
+        "prompt": "An item sits in a bicycle basket.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8483
+      },
+      {
+        "prompt": "A bicycle basket is on the bike.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8255
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "31",
+    "source": "An apple rests on a stone wall.",
+    "candidates": [
+      {
+        "prompt": "A pear rests on a stone wall.",
+        "mapping_type": "replace",
+        "replacement": "pear",
+        "clip_score": 0.8463
+      },
+      {
+        "prompt": "A book rests on a stone wall.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7128
+      },
+      {
+        "prompt": "A cat rests on a stone wall.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7241
+      },
+      {
+        "prompt": "A bicycle rests on a stone wall.",
+        "mapping_type": "replace",
+        "replacement": "bicycle",
+        "clip_score": 0.6525
+      },
+      {
+        "prompt": "A donut rests on a stone wall.",
+        "mapping_type": "replace",
+        "replacement": "donut",
+        "clip_score": 0.7802
+      },
+      {
+        "prompt": "A flower rests on a stone wall.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.798
+      },
+      {
+        "prompt": "A dog rests on a stone wall.",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7195
+      },
+      {
+        "prompt": "A sandwich rests on a stone wall.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7626
+      },
+      {
+        "prompt": "An object rests on a stone wall.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7381
+      },
+      {
+        "prompt": "A stone wall stands under a clear sky.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6394
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "32",
+    "source": "An apple sits under a blue umbrella.",
+    "candidates": [
+      {
+        "prompt": "A banana sits under a blue umbrella.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8494
+      },
+      {
+        "prompt": "A book sits under a blue umbrella.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7958
+      },
+      {
+        "prompt": "A cat sits under a blue umbrella.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.685
+      },
+      {
+        "prompt": "A bicycle sits under a blue umbrella.",
+        "mapping_type": "replace",
+        "replacement": "bicycle",
+        "clip_score": 0.6873
+      },
+      {
+        "prompt": "A sandwich sits under a blue umbrella.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7837
+      },
+      {
+        "prompt": "A tree sits under a blue umbrella.",
+        "mapping_type": "replace",
+        "replacement": "tree",
+        "clip_score": 0.7928
+      },
+      {
+        "prompt": "A dog sits under a blue umbrella.",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6798
+      },
+      {
+        "prompt": "A laptop sits under a blue umbrella.",
+        "mapping_type": "replace",
+        "replacement": "laptop",
+        "clip_score": 0.7313
+      },
+      {
+        "prompt": "A thing sits under a blue umbrella.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8088
+      },
+      {
+        "prompt": "An umbrella stands in a sunny park.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.4871
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "33",
+    "source": "An apple rests near a sleeping cat.",
+    "candidates": [
+      {
+        "prompt": "A banana rests near a sleeping cat.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.7966
+      },
+      {
+        "prompt": "A book rests near a sleeping cat.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7145
+      },
+      {
+        "prompt": "A flower rests near a sleeping cat.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7591
+      },
+      {
+        "prompt": "A toy rests near a sleeping cat.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7437
+      },
+      {
+        "prompt": "A chair rests near a sleeping cat.",
+        "mapping_type": "replace",
+        "replacement": "chair",
+        "clip_score": 0.7055
+      },
+      {
+        "prompt": "A sandwich rests near a sleeping cat.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7542
+      },
+      {
+        "prompt": "A dog rests near a sleeping cat.",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7561
+      },
+      {
+        "prompt": "A car rests near a sleeping cat.",
+        "mapping_type": "replace",
+        "replacement": "car",
+        "clip_score": 0.7173
+      },
+      {
+        "prompt": "An object rests near a sleeping cat.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7852
+      },
+      {
+        "prompt": "Something rests near a sleeping cat.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7486
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "34",
+    "source": "An apple lies on a newspaper.",
+    "candidates": [
+      {
+        "prompt": "A banana lies on a newspaper.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8404
+      },
+      {
+        "prompt": "A book lies on a newspaper.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.8412
+      },
+      {
+        "prompt": "A cat lies on a newspaper.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7523
+      },
+      {
+        "prompt": "A toy lies on a newspaper.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8067
+      },
+      {
+        "prompt": "A sandwich lies on a newspaper.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8171
+      },
+      {
+        "prompt": "A flower lies on a newspaper.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.832
+      },
+      {
+        "prompt": "A car lies on a newspaper.",
+        "mapping_type": "replace",
+        "replacement": "car",
+        "clip_score": 0.7673
+      },
+      {
+        "prompt": "A bicycle lies on a newspaper.",
+        "mapping_type": "replace",
+        "replacement": "bicycle",
+        "clip_score": 0.7673
+      },
+      {
+        "prompt": "A thing lies on a newspaper.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8561
+      },
+      {
+        "prompt": "A newspaper is spread out on a table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7822
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "35",
+    "source": "An apple rests on a wooden stool.",
+    "candidates": [
+      {
+        "prompt": "A banana rests on a wooden stool.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8243
+      },
+      {
+        "prompt": "A tomato rests on a wooden stool.",
+        "mapping_type": "replace",
+        "replacement": "tomato",
+        "clip_score": 0.8382
+      },
+      {
+        "prompt": "A book rests on a wooden stool.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7784
+      },
+      {
+        "prompt": "A cat rests on a wooden stool.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7649
+      },
+      {
+        "prompt": "A bicycle rests on a wooden stool.",
+        "mapping_type": "replace",
+        "replacement": "bicycle",
+        "clip_score": 0.7151
+      },
+      {
+        "prompt": "A flower rests on a wooden stool.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8038
+      },
+      {
+        "prompt": "A sandwich rests on a wooden stool.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.786
+      },
+      {
+        "prompt": "A dog rests on a wooden stool.",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7577
+      },
+      {
+        "prompt": "A thing rests on a wooden stool.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7787
+      },
+      {
+        "prompt": "A wooden stool stands in a sunny room.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7207
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "36",
+    "source": "An apple sits in a clear bowl.",
+    "candidates": [
+      {
+        "prompt": "A banana sits in a clear bowl.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.822
+      },
+      {
+        "prompt": "A lemon sits in a clear bowl.",
+        "mapping_type": "replace",
+        "replacement": "lemon",
+        "clip_score": 0.8449
+      },
+      {
+        "prompt": "A tomato sits in a clear bowl.",
+        "mapping_type": "replace",
+        "replacement": "tomato",
+        "clip_score": 0.849
+      },
+      {
+        "prompt": "A carrot sits in a clear bowl.",
+        "mapping_type": "replace",
+        "replacement": "carrot",
+        "clip_score": 0.75
+      },
+      {
+        "prompt": "A book sits in a clear bowl.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7761
+      },
+      {
+        "prompt": "A toy sits in a clear bowl.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7656
+      },
+      {
+        "prompt": "A flower sits in a clear bowl.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8004
+      },
+      {
+        "prompt": "A stone sits in a clear bowl.",
+        "mapping_type": "replace",
+        "replacement": "stone",
+        "clip_score": 0.811
+      },
+      {
+        "prompt": "A thing sits in a clear bowl.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7767
+      },
+      {
+        "prompt": "A clear bowl is sitting on the table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7926
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "37",
+    "source": "An apple rests on a picnic table.",
+    "candidates": [
+      {
+        "prompt": "A banana rests on a picnic table.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8314
+      },
+      {
+        "prompt": "A sandwich rests on a picnic table.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8083
+      },
+      {
+        "prompt": "A book rests on a picnic table.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7247
+      },
+      {
+        "prompt": "A dog rests on a picnic table.",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.776
+      },
+      {
+        "prompt": "A flower rests on a picnic table.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7942
+      },
+      {
+        "prompt": "A bicycle rests on a picnic table.",
+        "mapping_type": "replace",
+        "replacement": "bicycle",
+        "clip_score": 0.7387
+      },
+      {
+        "prompt": "A cup rests on a picnic table.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.7703
+      },
+      {
+        "prompt": "A cat rests on a picnic table.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7639
+      },
+      {
+        "prompt": "A thing rests on a picnic table.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7895
+      },
+      {
+        "prompt": "There is food on a picnic table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7179
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "38",
+    "source": "An apple sits on a bright napkin.",
+    "candidates": [
+      {
+        "prompt": "A banana sits on a bright napkin.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8769
+      },
+      {
+        "prompt": "A orange sits on a bright napkin.",
+        "mapping_type": "replace",
+        "replacement": "orange",
+        "clip_score": 0.8279
+      },
+      {
+        "prompt": "A donut sits on a bright napkin.",
+        "mapping_type": "replace",
+        "replacement": "donut",
+        "clip_score": 0.7548
+      },
+      {
+        "prompt": "A book sits on a bright napkin.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7924
+      },
+      {
+        "prompt": "A cat sits on a bright napkin.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7004
+      },
+      {
+        "prompt": "A bicycle sits on a bright napkin.",
+        "mapping_type": "replace",
+        "replacement": "bicycle",
+        "clip_score": 0.6827
+      },
+      {
+        "prompt": "A flower sits on a bright napkin.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8312
+      },
+      {
+        "prompt": "A sandwich sits on a bright napkin.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8199
+      },
+      {
+        "prompt": "A thing sits on a bright napkin.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8418
+      },
+      {
+        "prompt": "A bright napkin is on the table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8354
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "39",
+    "source": "An apple rests on a garden path.",
+    "candidates": [
+      {
+        "prompt": "A banana rests on a garden path.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.802
+      },
+      {
+        "prompt": "A pear rests on a garden path.",
+        "mapping_type": "replace",
+        "replacement": "pear",
+        "clip_score": 0.7946
+      },
+      {
+        "prompt": "A orange rests on a garden path.",
+        "mapping_type": "replace",
+        "replacement": "orange",
+        "clip_score": 0.7769
+      },
+      {
+        "prompt": "A flower rests on a garden path.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8254
+      },
+      {
+        "prompt": "A book rests on a garden path.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7196
+      },
+      {
+        "prompt": "A kitten rests on a garden path.",
+        "mapping_type": "replace",
+        "replacement": "kitten",
+        "clip_score": 0.6307
+      },
+      {
+        "prompt": "A scooter rests on a garden path.",
+        "mapping_type": "replace",
+        "replacement": "scooter",
+        "clip_score": 0.5098
+      },
+      {
+        "prompt": "A sandwich rests on a garden path.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7573
+      },
+      {
+        "prompt": "A thing rests on a garden path.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7911
+      },
+      {
+        "prompt": "A garden path stretches ahead.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7492
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "40",
+    "source": "An apple sits in a market crate.",
+    "candidates": [
+      {
+        "prompt": "A banana sits in a market crate.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8303
+      },
+      {
+        "prompt": "A pumpkin sits in a market crate.",
+        "mapping_type": "replace",
+        "replacement": "pumpkin",
+        "clip_score": 0.8053
+      },
+      {
+        "prompt": "A toy sits in a market crate.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8156
+      },
+      {
+        "prompt": "A loaf of bread sits in a market crate.",
+        "mapping_type": "replace",
+        "replacement": "loaf of bread",
+        "clip_score": 0.7968
+      },
+      {
+        "prompt": "A potted plant sits in a market crate.",
+        "mapping_type": "replace",
+        "replacement": "potted plant",
+        "clip_score": 0.7543
+      },
+      {
+        "prompt": "A bottle sits in a market crate.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7773
+      },
+      {
+        "prompt": "A bicycle sits in a market crate.",
+        "mapping_type": "replace",
+        "replacement": "bicycle",
+        "clip_score": 0.7591
+      },
+      {
+        "prompt": "A teddy bear sits in a market crate.",
+        "mapping_type": "replace",
+        "replacement": "teddy bear",
+        "clip_score": 0.7241
+      },
+      {
+        "prompt": "An item sits in a market crate.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7931
+      },
+      {
+        "prompt": "Something sits in a market crate.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.734
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "41",
+    "source": "An apple rests under morning sunlight.",
+    "candidates": [
+      {
+        "prompt": "A pear rests under morning sunlight.",
+        "mapping_type": "replace",
+        "replacement": "pear",
+        "clip_score": 0.8298
+      },
+      {
+        "prompt": "A banana hangs from a snowy branch.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.4006
+      },
+      {
+        "prompt": "A lemon rests on a city sidewalk.",
+        "mapping_type": "replace",
+        "replacement": "lemon",
+        "clip_score": 0.5824
+      },
+      {
+        "prompt": "A burger rests on a grill grate.",
+        "mapping_type": "replace",
+        "replacement": "burger",
+        "clip_score": 0.4475
+      },
+      {
+        "prompt": "A cookie lies on a paper towel.",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.4568
+      },
+      {
+        "prompt": "A notebook sits on a studio table.",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.4192
+      },
+      {
+        "prompt": "A toy rests beside a baby.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.5553
+      },
+      {
+        "prompt": "A bottle sits on a fence post.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.4071
+      },
+      {
+        "prompt": "A fruit rests on a boat deck.",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.625
+      },
+      {
+        "prompt": "Something lies on a train seat.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.4769
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "42",
+    "source": "An apple hangs from a snowy branch.",
+    "candidates": [
+      {
+        "prompt": "A cherry hangs from a snowy branch.",
+        "mapping_type": "replace",
+        "replacement": "cherry",
+        "clip_score": 0.8788
+      },
+      {
+        "prompt": "A raspberry hangs from a snowy branch.",
+        "mapping_type": "replace",
+        "replacement": "raspberry",
+        "clip_score": 0.7575
+      },
+      {
+        "prompt": "A squirrel hangs from a snowy branch.",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.7834
+      },
+      {
+        "prompt": "A bird hangs from a snowy branch.",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.8127
+      },
+      {
+        "prompt": "A leaf hangs from a snowy branch.",
+        "mapping_type": "replace",
+        "replacement": "leaf",
+        "clip_score": 0.8367
+      },
+      {
+        "prompt": "A kite hangs from a snowy branch.",
+        "mapping_type": "replace",
+        "replacement": "kite",
+        "clip_score": 0.7314
+      },
+      {
+        "prompt": "A balloon hangs from a snowy branch.",
+        "mapping_type": "replace",
+        "replacement": "balloon",
+        "clip_score": 0.7764
+      },
+      {
+        "prompt": "A scarf hangs from a snowy branch.",
+        "mapping_type": "replace",
+        "replacement": "scarf",
+        "clip_score": 0.7538
+      },
+      {
+        "prompt": "An item hangs from a snowy branch.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8176
+      },
+      {
+        "prompt": "Something hangs from a snowy branch.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8456
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "43",
+    "source": "An apple rests on a city sidewalk.",
+    "candidates": [
+      {
+        "prompt": "A cup rests on a city sidewalk.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.7425
+      },
+      {
+        "prompt": "A sock rests on a city sidewalk.",
+        "mapping_type": "replace",
+        "replacement": "sock",
+        "clip_score": 0.6963
+      },
+      {
+        "prompt": "A bottle rests on a city sidewalk.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7029
+      },
+      {
+        "prompt": "A box rests on a city sidewalk.",
+        "mapping_type": "replace",
+        "replacement": "box",
+        "clip_score": 0.6751
+      },
+      {
+        "prompt": "A sandwich rests on a city sidewalk.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7577
+      },
+      {
+        "prompt": "A flower rests on a city sidewalk.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7607
+      },
+      {
+        "prompt": "A shoe rests on a city sidewalk.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.7632
+      },
+      {
+        "prompt": "A newspaper rests on a city sidewalk.",
+        "mapping_type": "replace",
+        "replacement": "newspaper",
+        "clip_score": 0.6832
+      },
+      {
+        "prompt": "An object rests on a city sidewalk.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7406
+      },
+      {
+        "prompt": "Something rests on a city sidewalk.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7426
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "44",
+    "source": "An apple rests on a grill grate.",
+    "candidates": [
+      {
+        "prompt": "A vegetable rests on a grill grate.",
+        "mapping_type": "replace",
+        "replacement": "vegetable",
+        "clip_score": 0.8141
+      },
+      {
+        "prompt": "A steak rests on a grill grate.",
+        "mapping_type": "replace",
+        "replacement": "steak",
+        "clip_score": 0.7829
+      },
+      {
+        "prompt": "A fish rests on a grill grate.",
+        "mapping_type": "replace",
+        "replacement": "fish",
+        "clip_score": 0.7725
+      },
+      {
+        "prompt": "A skewer rests on a grill grate.",
+        "mapping_type": "replace",
+        "replacement": "skewer",
+        "clip_score": 0.7427
+      },
+      {
+        "prompt": "A bread rests on a grill grate.",
+        "mapping_type": "replace",
+        "replacement": "bread",
+        "clip_score": 0.8137
+      },
+      {
+        "prompt": "A chicken breast rests on a grill grate.",
+        "mapping_type": "replace",
+        "replacement": "chicken breast",
+        "clip_score": 0.7391
+      },
+      {
+        "prompt": "A patty rests on a grill grate.",
+        "mapping_type": "replace",
+        "replacement": "patty",
+        "clip_score": 0.7472
+      },
+      {
+        "prompt": "A pineapple rests on a grill grate.",
+        "mapping_type": "replace",
+        "replacement": "pineapple",
+        "clip_score": null
+      },
+      {
+        "prompt": "An item rests on a grill grate.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7789
+      },
+      {
+        "prompt": "Something rests on a grill grate.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7765
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "45",
+    "source": "An apple lies on a paper towel.",
+    "candidates": [
+      {
+        "prompt": "A napkin lies on a paper towel.",
+        "mapping_type": "replace",
+        "replacement": "napkin",
+        "clip_score": 0.8018
+      },
+      {
+        "prompt": "A toy lies on a paper towel.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7851
+      },
+      {
+        "prompt": "A book lies on a paper towel.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7497
+      },
+      {
+        "prompt": "A pencil lies on a paper towel.",
+        "mapping_type": "replace",
+        "replacement": "pencil",
+        "clip_score": 0.7704
+      },
+      {
+        "prompt": "A remote lies on a paper towel.",
+        "mapping_type": "replace",
+        "replacement": "remote",
+        "clip_score": 0.7093
+      },
+      {
+        "prompt": "A coin lies on a paper towel.",
+        "mapping_type": "replace",
+        "replacement": "coin",
+        "clip_score": 0.748
+      },
+      {
+        "prompt": "A card lies on a paper towel.",
+        "mapping_type": "replace",
+        "replacement": "card",
+        "clip_score": 0.7434
+      },
+      {
+        "prompt": "A key lies on a paper towel.",
+        "mapping_type": "replace",
+        "replacement": "key",
+        "clip_score": 0.6936
+      },
+      {
+        "prompt": "An item lies on a paper towel.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7953
+      },
+      {
+        "prompt": "Something lies on a paper towel.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.789
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "46",
+    "source": "An apple sits on a studio table.",
+    "candidates": [
+      {
+        "prompt": "A vase sits on a studio table.",
+        "mapping_type": "replace",
+        "replacement": "vase",
+        "clip_score": 0.7418
+      },
+      {
+        "prompt": "A laptop sits on a studio table.",
+        "mapping_type": "replace",
+        "replacement": "laptop",
+        "clip_score": 0.7787
+      },
+      {
+        "prompt": "A camera sits on a studio table.",
+        "mapping_type": "replace",
+        "replacement": "camera",
+        "clip_score": 0.7699
+      },
+      {
+        "prompt": "A bottle sits on a studio table.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7462
+      },
+      {
+        "prompt": "A sketchbook sits on a studio table.",
+        "mapping_type": "replace",
+        "replacement": "sketchbook",
+        "clip_score": 0.7118
+      },
+      {
+        "prompt": "A brush sits on a studio table.",
+        "mapping_type": "replace",
+        "replacement": "brush",
+        "clip_score": 0.6993
+      },
+      {
+        "prompt": "A frame sits on a studio table.",
+        "mapping_type": "replace",
+        "replacement": "frame",
+        "clip_score": 0.6856
+      },
+      {
+        "prompt": "A sculpture sits on a studio table.",
+        "mapping_type": "replace",
+        "replacement": "sculpture",
+        "clip_score": 0.7194
+      },
+      {
+        "prompt": "An object sits on a studio table.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8185
+      },
+      {
+        "prompt": "Something sits on a studio table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7899
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "47",
+    "source": "An apple rests beside a baby.",
+    "candidates": [
+      {
+        "prompt": "A toy rests beside a baby.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8
+      },
+      {
+        "prompt": "A blanket rests beside a baby.",
+        "mapping_type": "replace",
+        "replacement": "blanket",
+        "clip_score": 0.7267
+      },
+      {
+        "prompt": "A bottle rests beside a baby.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.746
+      },
+      {
+        "prompt": "A pacifier rests beside a baby.",
+        "mapping_type": "replace",
+        "replacement": "pacifier",
+        "clip_score": 0.7484
+      },
+      {
+        "prompt": "A stuffed animal rests beside a baby.",
+        "mapping_type": "replace",
+        "replacement": "stuffed animal",
+        "clip_score": 0.7319
+      },
+      {
+        "prompt": "A rattle rests beside a baby.",
+        "mapping_type": "replace",
+        "replacement": "rattle",
+        "clip_score": 0.722
+      },
+      {
+        "prompt": "A bib rests beside a baby.",
+        "mapping_type": "replace",
+        "replacement": "bib",
+        "clip_score": 0.6708
+      },
+      {
+        "prompt": "A diaper rests beside a baby.",
+        "mapping_type": "replace",
+        "replacement": "diaper",
+        "clip_score": 0.7218
+      },
+      {
+        "prompt": "An item rests beside a baby.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7996
+      },
+      {
+        "prompt": "Something rests beside a baby.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8022
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "48",
+    "source": "An apple sits on a fence post.",
+    "candidates": [
+      {
+        "prompt": "A book sits on a fence post.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7791
+      },
+      {
+        "prompt": "A sign sits on a fence post.",
+        "mapping_type": "replace",
+        "replacement": "sign",
+        "clip_score": 0.7052
+      },
+      {
+        "prompt": "A hat sits on a fence post.",
+        "mapping_type": "replace",
+        "replacement": "hat",
+        "clip_score": 0.7328
+      },
+      {
+        "prompt": "A bird sits on a fence post.",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.814
+      },
+      {
+        "prompt": "A flower pot sits on a fence post.",
+        "mapping_type": "replace",
+        "replacement": "flower pot",
+        "clip_score": 0.7526
+      },
+      {
+        "prompt": "A basket sits on a fence post.",
+        "mapping_type": "replace",
+        "replacement": "basket",
+        "clip_score": 0.7002
+      },
+      {
+        "prompt": "A can sits on a fence post.",
+        "mapping_type": "replace",
+        "replacement": "can",
+        "clip_score": 0.7263
+      },
+      {
+        "prompt": "A glove sits on a fence post.",
+        "mapping_type": "replace",
+        "replacement": "glove",
+        "clip_score": 0.6723
+      },
+      {
+        "prompt": "An item sits on a fence post.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8041
+      },
+      {
+        "prompt": "Something sits on a fence post.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7838
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "49",
+    "source": "An apple rests on a boat deck.",
+    "candidates": [
+      {
+        "prompt": "A towel rests on a boat deck.",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.6731
+      },
+      {
+        "prompt": "A bucket rests on a boat deck.",
+        "mapping_type": "replace",
+        "replacement": "bucket",
+        "clip_score": 0.681
+      },
+      {
+        "prompt": "A cooler rests on a boat deck.",
+        "mapping_type": "replace",
+        "replacement": "cooler",
+        "clip_score": 0.724
+      },
+      {
+        "prompt": "A chair rests on a boat deck.",
+        "mapping_type": "replace",
+        "replacement": "chair",
+        "clip_score": 0.6975
+      },
+      {
+        "prompt": "A rope rests on a boat deck.",
+        "mapping_type": "replace",
+        "replacement": "rope",
+        "clip_score": 0.7115
+      },
+      {
+        "prompt": "A net rests on a boat deck.",
+        "mapping_type": "replace",
+        "replacement": "net",
+        "clip_score": 0.6486
+      },
+      {
+        "prompt": "A fishing rod rests on a boat deck.",
+        "mapping_type": "replace",
+        "replacement": "fishing rod",
+        "clip_score": 0.645
+      },
+      {
+        "prompt": "A mat rests on a boat deck.",
+        "mapping_type": "replace",
+        "replacement": "mat",
+        "clip_score": 0.6736
+      },
+      {
+        "prompt": "An item rests on a boat deck.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7338
+      },
+      {
+        "prompt": "Something rests on a boat deck.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7328
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "50",
+    "source": "An apple lies on a train seat.",
+    "candidates": [
+      {
+        "prompt": "A book lies on a train seat.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7679
+      },
+      {
+        "prompt": "A jacket lies on a train seat.",
+        "mapping_type": "replace",
+        "replacement": "jacket",
+        "clip_score": 0.717
+      },
+      {
+        "prompt": "A bag lies on a train seat.",
+        "mapping_type": "replace",
+        "replacement": "bag",
+        "clip_score": 0.7543
+      },
+      {
+        "prompt": "A bottle lies on a train seat.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7117
+      },
+      {
+        "prompt": "A scarf lies on a train seat.",
+        "mapping_type": "replace",
+        "replacement": "scarf",
+        "clip_score": 0.6799
+      },
+      {
+        "prompt": "A lunchbox lies on a train seat.",
+        "mapping_type": "replace",
+        "replacement": "lunchbox",
+        "clip_score": 0.7594
+      },
+      {
+        "prompt": "A purse lies on a train seat.",
+        "mapping_type": "replace",
+        "replacement": "purse",
+        "clip_score": 0.7722
+      },
+      {
+        "prompt": "A hat lies on a train seat.",
+        "mapping_type": "replace",
+        "replacement": "hat",
+        "clip_score": 0.7121
+      },
+      {
+        "prompt": "An item lies on a train seat.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8019
+      },
+      {
+        "prompt": "Something lies on a train seat.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.808
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "51",
+    "source": "An apple rests on a stack of books.",
+    "candidates": [
+      {
+        "prompt": "A banana rests on a stack of books.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8507
+      },
+      {
+        "prompt": "A book rests on a stack of books.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.8517
+      },
+      {
+        "prompt": "A cat rests on a stack of books.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7853
+      },
+      {
+        "prompt": "A mug rests on a stack of books.",
+        "mapping_type": "replace",
+        "replacement": "mug",
+        "clip_score": 0.8123
+      },
+      {
+        "prompt": "A flower rests on a stack of books.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8317
+      },
+      {
+        "prompt": "A pebble rests on a stack of books.",
+        "mapping_type": "replace",
+        "replacement": "pebble",
+        "clip_score": 0.8136
+      },
+      {
+        "prompt": "A phone rests on a stack of books.",
+        "mapping_type": "replace",
+        "replacement": "phone",
+        "clip_score": 0.7876
+      },
+      {
+        "prompt": "A toy rests on a stack of books.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8308
+      },
+      {
+        "prompt": "A thing rests on a stack of books.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8513
+      },
+      {
+        "prompt": "Several books are stacked on top of each other.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7682
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "52",
+    "source": "An apple sits on a cafe saucer.",
+    "candidates": [
+      {
+        "prompt": "A cookie sits on a cafe saucer.",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.7945
+      },
+      {
+        "prompt": "A cup sits on a cafe saucer.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.8078
+      },
+      {
+        "prompt": "A toy car sits on a cafe saucer.",
+        "mapping_type": "replace",
+        "replacement": "toy car",
+        "clip_score": 0.682
+      },
+      {
+        "prompt": "A flower sits on a cafe saucer.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7825
+      },
+      {
+        "prompt": "A stone sits on a cafe saucer.",
+        "mapping_type": "replace",
+        "replacement": "stone",
+        "clip_score": 0.7903
+      },
+      {
+        "prompt": "A pen sits on a cafe saucer.",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.7576
+      },
+      {
+        "prompt": "A button sits on a cafe saucer.",
+        "mapping_type": "replace",
+        "replacement": "button",
+        "clip_score": 0.7586
+      },
+      {
+        "prompt": "A shell sits on a cafe saucer.",
+        "mapping_type": "replace",
+        "replacement": "shell",
+        "clip_score": 0.7557
+      },
+      {
+        "prompt": "A thing sits on a cafe saucer.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7807
+      },
+      {
+        "prompt": "A cafe saucer rests on a table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7803
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "53",
+    "source": "An apple floats near a pool ladder.",
+    "candidates": [
+      {
+        "prompt": "A balloon floats near a pool ladder.",
+        "mapping_type": "replace",
+        "replacement": "balloon",
+        "clip_score": 0.7849
+      },
+      {
+        "prompt": "A fish floats near a pool ladder.",
+        "mapping_type": "replace",
+        "replacement": "fish",
+        "clip_score": 0.7828
+      },
+      {
+        "prompt": "A rubber duck floats near a pool ladder.",
+        "mapping_type": "replace",
+        "replacement": "rubber duck",
+        "clip_score": 0.7523
+      },
+      {
+        "prompt": "A leaf floats near a pool ladder.",
+        "mapping_type": "replace",
+        "replacement": "leaf",
+        "clip_score": 0.7546
+      },
+      {
+        "prompt": "A frisbee floats near a pool ladder.",
+        "mapping_type": "replace",
+        "replacement": "frisbee",
+        "clip_score": 0.7663
+      },
+      {
+        "prompt": "A towel floats near a pool ladder.",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.7524
+      },
+      {
+        "prompt": "A soda can floats near a pool ladder.",
+        "mapping_type": "replace",
+        "replacement": "soda can",
+        "clip_score": 0.7547
+      },
+      {
+        "prompt": "A drone floats near a pool ladder.",
+        "mapping_type": "replace",
+        "replacement": "drone",
+        "clip_score": 0.7453
+      },
+      {
+        "prompt": "A thing floats near a pool ladder.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7637
+      },
+      {
+        "prompt": "The pool ladder stands beside the water.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7232
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "54",
+    "source": "An apple rests near a campfire.",
+    "candidates": [
+      {
+        "prompt": "A log rests near a campfire.",
+        "mapping_type": "replace",
+        "replacement": "log",
+        "clip_score": 0.7703
+      },
+      {
+        "prompt": "A kettle rests near a campfire.",
+        "mapping_type": "replace",
+        "replacement": "kettle",
+        "clip_score": 0.7684
+      },
+      {
+        "prompt": "A chair rests near a campfire.",
+        "mapping_type": "replace",
+        "replacement": "chair",
+        "clip_score": 0.7452
+      },
+      {
+        "prompt": "A lantern rests near a campfire.",
+        "mapping_type": "replace",
+        "replacement": "lantern",
+        "clip_score": 0.7339
+      },
+      {
+        "prompt": "A blanket rests near a campfire.",
+        "mapping_type": "replace",
+        "replacement": "blanket",
+        "clip_score": 0.7441
+      },
+      {
+        "prompt": "A rock rests near a campfire.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.7924
+      },
+      {
+        "prompt": "A canteen rests near a campfire.",
+        "mapping_type": "replace",
+        "replacement": "canteen",
+        "clip_score": 0.7169
+      },
+      {
+        "prompt": "A guitar rests near a campfire.",
+        "mapping_type": "replace",
+        "replacement": "guitar",
+        "clip_score": 0.7302
+      },
+      {
+        "prompt": "A thing rests near a campfire.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7319
+      },
+      {
+        "prompt": "The campfire crackles in the evening.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6119
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "55",
+    "source": "An apple sits on a picnic bench.",
+    "candidates": [
+      {
+        "prompt": "A sandwich sits on a picnic bench.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8415
+      },
+      {
+        "prompt": "A bottle sits on a picnic bench.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7703
+      },
+      {
+        "prompt": "A plate sits on a picnic bench.",
+        "mapping_type": "replace",
+        "replacement": "plate",
+        "clip_score": 0.7783
+      },
+      {
+        "prompt": "A fruit salad sits on a picnic bench.",
+        "mapping_type": "replace",
+        "replacement": "fruit salad",
+        "clip_score": 0.8292
+      },
+      {
+        "prompt": "A bowl sits on a picnic bench.",
+        "mapping_type": "replace",
+        "replacement": "bowl",
+        "clip_score": 0.786
+      },
+      {
+        "prompt": "A thermos sits on a picnic bench.",
+        "mapping_type": "replace",
+        "replacement": "thermos",
+        "clip_score": 0.7205
+      },
+      {
+        "prompt": "A can sits on a picnic bench.",
+        "mapping_type": "replace",
+        "replacement": "can",
+        "clip_score": 0.7637
+      },
+      {
+        "prompt": "A cookie sits on a picnic bench.",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.8262
+      },
+      {
+        "prompt": "A thing sits on a picnic bench.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.817
+      },
+      {
+        "prompt": "A picnic bench stands in a park.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7811
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "56",
+    "source": "An apple rests on a yoga mat.",
+    "candidates": [
+      {
+        "prompt": "A yoga block rests on a yoga mat.",
+        "mapping_type": "replace",
+        "replacement": "yoga block",
+        "clip_score": 0.758
+      },
+      {
+        "prompt": "A laptop rests on a yoga mat.",
+        "mapping_type": "replace",
+        "replacement": "laptop",
+        "clip_score": 0.755
+      },
+      {
+        "prompt": "A plant rests on a yoga mat.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7805
+      },
+      {
+        "prompt": "A towel rests on a yoga mat.",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.727
+      },
+      {
+        "prompt": "A book rests on a yoga mat.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7394
+      },
+      {
+        "prompt": "A water bottle rests on a yoga mat.",
+        "mapping_type": "replace",
+        "replacement": "water bottle",
+        "clip_score": 0.7452
+      },
+      {
+        "prompt": "A candle rests on a yoga mat.",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.7405
+      },
+      {
+        "prompt": "A cushion rests on a yoga mat.",
+        "mapping_type": "replace",
+        "replacement": "cushion",
+        "clip_score": 0.7726
+      },
+      {
+        "prompt": "A thing rests on a yoga mat.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.77
+      },
+      {
+        "prompt": "The yoga mat lies on the floor.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7188
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "57",
+    "source": "An apple lies beside a skate helmet.",
+    "candidates": [
+      {
+        "prompt": "A skateboard lies beside a skate helmet.",
+        "mapping_type": "replace",
+        "replacement": "skateboard",
+        "clip_score": 0.8232
+      },
+      {
+        "prompt": "A bottle lies beside a skate helmet.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.8235
+      },
+      {
+        "prompt": "A shoe lies beside a skate helmet.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.8773
+      },
+      {
+        "prompt": "A towel lies beside a skate helmet.",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.7537
+      },
+      {
+        "prompt": "A backpack lies beside a skate helmet.",
+        "mapping_type": "replace",
+        "replacement": "backpack",
+        "clip_score": 0.8157
+      },
+      {
+        "prompt": "A camera lies beside a skate helmet.",
+        "mapping_type": "replace",
+        "replacement": "camera",
+        "clip_score": 0.8124
+      },
+      {
+        "prompt": "A beanie lies beside a skate helmet.",
+        "mapping_type": "replace",
+        "replacement": "beanie",
+        "clip_score": 0.8166
+      },
+      {
+        "prompt": "A snack lies beside a skate helmet.",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.824
+      },
+      {
+        "prompt": "A thing lies beside a skate helmet.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8331
+      },
+      {
+        "prompt": "A skate helmet sits on the ground.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.799
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "58",
+    "source": "An apple sits beside a chef hat.",
+    "candidates": [
+      {
+        "prompt": "A chef knife sits beside a chef hat.",
+        "mapping_type": "replace",
+        "replacement": "chef knife",
+        "clip_score": 0.8198
+      },
+      {
+        "prompt": "A cookbook sits beside a chef hat.",
+        "mapping_type": "replace",
+        "replacement": "cookbook",
+        "clip_score": 0.8244
+      },
+      {
+        "prompt": "A spoon sits beside a chef hat.",
+        "mapping_type": "replace",
+        "replacement": "spoon",
+        "clip_score": 0.8368
+      },
+      {
+        "prompt": "A fork sits beside a chef hat.",
+        "mapping_type": "replace",
+        "replacement": "fork",
+        "clip_score": 0.8132
+      },
+      {
+        "prompt": "A cup sits beside a chef hat.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.8571
+      },
+      {
+        "prompt": "A pot sits beside a chef hat.",
+        "mapping_type": "replace",
+        "replacement": "pot",
+        "clip_score": 0.8557
+      },
+      {
+        "prompt": "A dish sits beside a chef hat.",
+        "mapping_type": "replace",
+        "replacement": "dish",
+        "clip_score": 0.8645
+      },
+      {
+        "prompt": "A towel sits beside a chef hat.",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.7797
+      },
+      {
+        "prompt": "A thing sits beside a chef hat.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8751
+      },
+      {
+        "prompt": "A chef hat rests on a countertop.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7693
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "59",
+    "source": "An apple rests next to a record player.",
+    "candidates": [
+      {
+        "prompt": "A vinyl record rests next to a record player.",
+        "mapping_type": "replace",
+        "replacement": "vinyl record",
+        "clip_score": 0.7989
+      },
+      {
+        "prompt": "A book rests next to a record player.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7762
+      },
+      {
+        "prompt": "A toy rests next to a record player.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8233
+      },
+      {
+        "prompt": "A remote sits next to a record player.",
+        "mapping_type": "replace",
+        "replacement": "remote",
+        "clip_score": 0.7747
+      },
+      {
+        "prompt": "A plant sits next to a record player.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7649
+      },
+      {
+        "prompt": "A candle sits next to a record player.",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.7349
+      },
+      {
+        "prompt": "A drink sits next to a record player.",
+        "mapping_type": "replace",
+        "replacement": "drink",
+        "clip_score": 0.7689
+      },
+      {
+        "prompt": "A game sits next to a record player.",
+        "mapping_type": "replace",
+        "replacement": "game",
+        "clip_score": 0.7316
+      },
+      {
+        "prompt": "A thing rests next to a record player.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7632
+      },
+      {
+        "prompt": "The record player stands in the corner of the room.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6538
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "60",
+    "source": "An apple lies on a calendar page.",
+    "candidates": [
+      {
+        "prompt": "A notebook lies on a calendar page.",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.8353
+      },
+      {
+        "prompt": "A pen lies on a calendar page.",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.8345
+      },
+      {
+        "prompt": "A sticker lies on a calendar page.",
+        "mapping_type": "replace",
+        "replacement": "sticker",
+        "clip_score": 0.7995
+      },
+      {
+        "prompt": "A photo lies on a calendar page.",
+        "mapping_type": "replace",
+        "replacement": "photo",
+        "clip_score": 0.8292
+      },
+      {
+        "prompt": "A letter lies on a calendar page.",
+        "mapping_type": "replace",
+        "replacement": "letter",
+        "clip_score": 0.8197
+      },
+      {
+        "prompt": "A receipt lies on a calendar page.",
+        "mapping_type": "replace",
+        "replacement": "receipt",
+        "clip_score": 0.776
+      },
+      {
+        "prompt": "A card lies on a calendar page.",
+        "mapping_type": "replace",
+        "replacement": "card",
+        "clip_score": 0.8352
+      },
+      {
+        "prompt": "A thing lies on a calendar page.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8414
+      },
+      {
+        "prompt": "A calendar page lies on a table.",
+        "mapping_type": "replace",
+        "replacement": "calendar page",
+        "clip_score": 0.8198
+      },
+      {
+        "prompt": "A calendar page appears with notes and dates.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7429
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "61",
+    "source": "An apple rests on a doorstep.",
+    "candidates": [
+      {
+        "prompt": "A banana rests on a doorstep.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8336
+      },
+      {
+        "prompt": "A lemon rests on a doorstep.",
+        "mapping_type": "replace",
+        "replacement": "lemon",
+        "clip_score": 0.8542
+      },
+      {
+        "prompt": "A jar rests on a doorstep.",
+        "mapping_type": "replace",
+        "replacement": "jar",
+        "clip_score": 0.7465
+      },
+      {
+        "prompt": "A dog rests on a doorstep.",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7379
+      },
+      {
+        "prompt": "A book rests on a doorstep.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7727
+      },
+      {
+        "prompt": "A shoe rests on a doorstep.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.7996
+      },
+      {
+        "prompt": "A flowerpot rests on a doorstep.",
+        "mapping_type": "replace",
+        "replacement": "flowerpot",
+        "clip_score": 0.7722
+      },
+      {
+        "prompt": "A bicycle rests on a doorstep.",
+        "mapping_type": "replace",
+        "replacement": "bicycle",
+        "clip_score": 0.7299
+      },
+      {
+        "prompt": "A thing rests on a doorstep.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8182
+      },
+      {
+        "prompt": "Rests on a doorstep.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7852
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "62",
+    "source": "An apple sits beside a stack of plates.",
+    "candidates": [
+      {
+        "prompt": "A lemon sits beside a stack of plates.",
+        "mapping_type": "replace",
+        "replacement": "lemon",
+        "clip_score": 0.8663
+      },
+      {
+        "prompt": "A bowl sits beside a stack of plates.",
+        "mapping_type": "replace",
+        "replacement": "bowl",
+        "clip_score": 0.8461
+      },
+      {
+        "prompt": "A toy sits beside a stack of plates.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.848
+      },
+      {
+        "prompt": "A cat sits beside a stack of plates.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.8357
+      },
+      {
+        "prompt": "A sandwich sits beside a stack of plates.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.87
+      },
+      {
+        "prompt": "A mug sits beside a stack of plates.",
+        "mapping_type": "replace",
+        "replacement": "mug",
+        "clip_score": 0.8601
+      },
+      {
+        "prompt": "A teddy bear sits beside a stack of plates.",
+        "mapping_type": "replace",
+        "replacement": "teddy bear",
+        "clip_score": 0.7792
+      },
+      {
+        "prompt": "A remote sits beside a stack of plates.",
+        "mapping_type": "replace",
+        "replacement": "remote",
+        "clip_score": 0.8037
+      },
+      {
+        "prompt": "An item sits beside a stack of plates.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8758
+      },
+      {
+        "prompt": "Sits beside a stack of plates.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8061
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "63",
+    "source": "An apple lies on a cutting mat.",
+    "candidates": [
+      {
+        "prompt": "A cucumber lies on a cutting mat.",
+        "mapping_type": "replace",
+        "replacement": "cucumber",
+        "clip_score": 0.8138
+      },
+      {
+        "prompt": "A carrot lies on a cutting mat.",
+        "mapping_type": "replace",
+        "replacement": "carrot",
+        "clip_score": 0.7699
+      },
+      {
+        "prompt": "A knife lies on a cutting mat.",
+        "mapping_type": "replace",
+        "replacement": "knife",
+        "clip_score": 0.803
+      },
+      {
+        "prompt": "A board lies on a cutting mat.",
+        "mapping_type": "replace",
+        "replacement": "board",
+        "clip_score": 0.736
+      },
+      {
+        "prompt": "A spice jar lies on a cutting mat.",
+        "mapping_type": "replace",
+        "replacement": "spice jar",
+        "clip_score": 0.6428
+      },
+      {
+        "prompt": "A napkin lies on a cutting mat.",
+        "mapping_type": "replace",
+        "replacement": "napkin",
+        "clip_score": 0.751
+      },
+      {
+        "prompt": "A pizza lies on a cutting mat.",
+        "mapping_type": "replace",
+        "replacement": "pizza",
+        "clip_score": 0.782
+      },
+      {
+        "prompt": "A book lies on a cutting mat.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7395
+      },
+      {
+        "prompt": "A thing lies on a cutting mat.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7569
+      },
+      {
+        "prompt": "Lies on a cutting mat.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7566
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "64",
+    "source": "An apple sits near a garden hose.",
+    "candidates": [
+      {
+        "prompt": "A hose sits near a garden hose.",
+        "mapping_type": "replace",
+        "replacement": "hose",
+        "clip_score": 0.8506
+      },
+      {
+        "prompt": "A cat sits near a garden hose.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7747
+      },
+      {
+        "prompt": "A lawnmower sits near a garden hose.",
+        "mapping_type": "replace",
+        "replacement": "lawnmower",
+        "clip_score": 0.7644
+      },
+      {
+        "prompt": "A chair sits near a garden hose.",
+        "mapping_type": "replace",
+        "replacement": "chair",
+        "clip_score": 0.7773
+      },
+      {
+        "prompt": "A rake sits near a garden hose.",
+        "mapping_type": "replace",
+        "replacement": "rake",
+        "clip_score": 0.7376
+      },
+      {
+        "prompt": "A bird sits near a garden hose.",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7924
+      },
+      {
+        "prompt": "A flower sits near a garden hose.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8302
+      },
+      {
+        "prompt": "A basket sits near a garden hose.",
+        "mapping_type": "replace",
+        "replacement": "basket",
+        "clip_score": 0.737
+      },
+      {
+        "prompt": "A thing sits near a garden hose.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8031
+      },
+      {
+        "prompt": "Sits near a garden hose.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7756
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "65",
+    "source": "An apple rests on a windowsill at night.",
+    "candidates": [
+      {
+        "prompt": "A candle rests on a windowsill at night.",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.7437
+      },
+      {
+        "prompt": "A potted plant rests on a windowsill at night.",
+        "mapping_type": "replace",
+        "replacement": "potted plant",
+        "clip_score": 0.7615
+      },
+      {
+        "prompt": "A clock rests on a windowsill at night.",
+        "mapping_type": "replace",
+        "replacement": "clock",
+        "clip_score": 0.7052
+      },
+      {
+        "prompt": "A picture frame rests on a windowsill at night.",
+        "mapping_type": "replace",
+        "replacement": "picture frame",
+        "clip_score": 0.691
+      },
+      {
+        "prompt": "A bottle rests on a windowsill at night.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7277
+      },
+      {
+        "prompt": "A mug rests on a windowsill at night.",
+        "mapping_type": "replace",
+        "replacement": "mug",
+        "clip_score": 0.7881
+      },
+      {
+        "prompt": "A toy rests on a windowsill at night.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7937
+      },
+      {
+        "prompt": "A vase rests on a windowsill at night.",
+        "mapping_type": "replace",
+        "replacement": "vase",
+        "clip_score": 0.7537
+      },
+      {
+        "prompt": "An object rests on a windowsill at night.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7942
+      },
+      {
+        "prompt": "Rests on a windowsill at night.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7654
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "66",
+    "source": "An apple sits under a streetlight at night.",
+    "candidates": [
+      {
+        "prompt": "A lantern sits under a streetlight at night.",
+        "mapping_type": "replace",
+        "replacement": "lantern",
+        "clip_score": 0.7623
+      },
+      {
+        "prompt": "A cat sits under a streetlight at night.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7501
+      },
+      {
+        "prompt": "A bench sits under a streetlight at night.",
+        "mapping_type": "replace",
+        "replacement": "bench",
+        "clip_score": 0.7256
+      },
+      {
+        "prompt": "A bicycle sits under a streetlight at night.",
+        "mapping_type": "replace",
+        "replacement": "bicycle",
+        "clip_score": 0.7307
+      },
+      {
+        "prompt": "A car sits under a streetlight at night.",
+        "mapping_type": "replace",
+        "replacement": "car",
+        "clip_score": 0.7625
+      },
+      {
+        "prompt": "A trash can sits under a streetlight at night.",
+        "mapping_type": "replace",
+        "replacement": "trash can",
+        "clip_score": 0.7497
+      },
+      {
+        "prompt": "A sign sits under a streetlight at night.",
+        "mapping_type": "replace",
+        "replacement": "sign",
+        "clip_score": 0.6739
+      },
+      {
+        "prompt": "A tree sits under a streetlight at night.",
+        "mapping_type": "replace",
+        "replacement": "tree",
+        "clip_score": 0.7666
+      },
+      {
+        "prompt": "A thing sits under a streetlight at night.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7529
+      },
+      {
+        "prompt": "Sits under a streetlight at night.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6899
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "67",
+    "source": "An apple rests on a picnic basket lid.",
+    "candidates": [
+      {
+        "prompt": "A picnic basket rests on a picnic basket lid.",
+        "mapping_type": "replace",
+        "replacement": "picnic basket",
+        "clip_score": 0.8293
+      },
+      {
+        "prompt": "A napkin rests on a picnic basket lid.",
+        "mapping_type": "replace",
+        "replacement": "napkin",
+        "clip_score": 0.7921
+      },
+      {
+        "prompt": "A blanket rests on a picnic basket lid.",
+        "mapping_type": "replace",
+        "replacement": "blanket",
+        "clip_score": 0.7602
+      },
+      {
+        "prompt": "A bottle rests on a picnic basket lid.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7717
+      },
+      {
+        "prompt": "A frisbee rests on a picnic basket lid.",
+        "mapping_type": "replace",
+        "replacement": "frisbee",
+        "clip_score": 0.7895
+      },
+      {
+        "prompt": "A fruit bowl rests on a picnic basket lid.",
+        "mapping_type": "replace",
+        "replacement": "fruit bowl",
+        "clip_score": 0.854
+      },
+      {
+        "prompt": "A cake sits on a picnic basket lid.",
+        "mapping_type": "replace",
+        "replacement": "cake",
+        "clip_score": 0.7635
+      },
+      {
+        "prompt": "A sandwich rests on a picnic basket lid.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8355
+      },
+      {
+        "prompt": "An item rests on a picnic basket lid.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8289
+      },
+      {
+        "prompt": "Rests on a picnic basket lid.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8162
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "68",
+    "source": "An apple sits in a child's hand.",
+    "candidates": [
+      {
+        "prompt": "A toy sits in a child's hand.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8209
+      },
+      {
+        "prompt": "A coin sits in a child's hand.",
+        "mapping_type": "replace",
+        "replacement": "coin",
+        "clip_score": 0.7949
+      },
+      {
+        "prompt": "A small car sits in a child's hand.",
+        "mapping_type": "replace",
+        "replacement": "small car",
+        "clip_score": 0.7786
+      },
+      {
+        "prompt": "A cookie sits in a child's hand.",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.8196
+      },
+      {
+        "prompt": "A bracelet sits in a child's hand.",
+        "mapping_type": "replace",
+        "replacement": "bracelet",
+        "clip_score": 0.7749
+      },
+      {
+        "prompt": "A flower sits in a child's hand.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8176
+      },
+      {
+        "prompt": "A snack sits in a child's hand.",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.8347
+      },
+      {
+        "prompt": "A note sits in a child's hand.",
+        "mapping_type": "replace",
+        "replacement": "note",
+        "clip_score": 0.7313
+      },
+      {
+        "prompt": "An object sits in a child's hand.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.854
+      },
+      {
+        "prompt": "Sits in a child's hand.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7772
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "69",
+    "source": "An apple rests on a dark countertop.",
+    "candidates": [
+      {
+        "prompt": "A dark plate rests on a dark countertop.",
+        "mapping_type": "replace",
+        "replacement": "dark plate",
+        "clip_score": 0.7326
+      },
+      {
+        "prompt": "A bowl rests on a dark countertop.",
+        "mapping_type": "replace",
+        "replacement": "bowl",
+        "clip_score": 0.7226
+      },
+      {
+        "prompt": "A mug rests on a dark countertop.",
+        "mapping_type": "replace",
+        "replacement": "mug",
+        "clip_score": 0.7585
+      },
+      {
+        "prompt": "A book rests on a dark countertop.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7446
+      },
+      {
+        "prompt": "A vase rests on a dark countertop.",
+        "mapping_type": "replace",
+        "replacement": "vase",
+        "clip_score": 0.7128
+      },
+      {
+        "prompt": "A cutting board rests on a dark countertop.",
+        "mapping_type": "replace",
+        "replacement": "cutting board",
+        "clip_score": 0.7393
+      },
+      {
+        "prompt": "A flowerpot rests on a dark countertop.",
+        "mapping_type": "replace",
+        "replacement": "flowerpot",
+        "clip_score": 0.7064
+      },
+      {
+        "prompt": "A candle rests on a dark countertop.",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.7412
+      },
+      {
+        "prompt": "An item rests on a dark countertop.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.767
+      },
+      {
+        "prompt": "Rests on a dark countertop.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7056
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "70",
+    "source": "An apple sits in a mesh produce bag.",
+    "candidates": [
+      {
+        "prompt": "A tomato sits in a mesh produce bag.",
+        "mapping_type": "replace",
+        "replacement": "tomato",
+        "clip_score": 0.8899
+      },
+      {
+        "prompt": "A cucumber sits in a mesh produce bag.",
+        "mapping_type": "replace",
+        "replacement": "cucumber",
+        "clip_score": 0.8481
+      },
+      {
+        "prompt": "A potato sits in a mesh produce bag.",
+        "mapping_type": "replace",
+        "replacement": "potato",
+        "clip_score": 0.8703
+      },
+      {
+        "prompt": "A pepper sits in a mesh produce bag.",
+        "mapping_type": "replace",
+        "replacement": "pepper",
+        "clip_score": 0.8094
+      },
+      {
+        "prompt": "A carrot sits in a mesh produce bag.",
+        "mapping_type": "replace",
+        "replacement": "carrot",
+        "clip_score": 0.8068
+      },
+      {
+        "prompt": "A snack sits in a mesh produce bag.",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.8539
+      },
+      {
+        "prompt": "A fruit sits in a mesh produce bag.",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.9199
+      },
+      {
+        "prompt": "A toy sits in a mesh produce bag.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8329
+      },
+      {
+        "prompt": "An item sits in a mesh produce bag.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.869
+      },
+      {
+        "prompt": "Sits in a mesh produce bag.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7197
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "71",
+    "source": "An apple rests on a rocking chair.",
+    "candidates": [
+      {
+        "prompt": "A banana rests on a rocking chair.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8308
+      },
+      {
+        "prompt": "A book lies on a rocking chair.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7809
+      },
+      {
+        "prompt": "A puppy rests on a rocking chair.",
+        "mapping_type": "replace",
+        "replacement": "puppy",
+        "clip_score": 0.717
+      },
+      {
+        "prompt": "A bicycle rests on a rocking chair.",
+        "mapping_type": "replace",
+        "replacement": "bicycle",
+        "clip_score": 0.7492
+      },
+      {
+        "prompt": "A sandwich rests on a rocking chair.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7807
+      },
+      {
+        "prompt": "A flower rests on a rocking chair.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7974
+      },
+      {
+        "prompt": "A pencil case rests on a rocking chair.",
+        "mapping_type": "replace",
+        "replacement": "pencil case",
+        "clip_score": 0.6689
+      },
+      {
+        "prompt": "A toy rests on a rocking chair.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7827
+      },
+      {
+        "prompt": "A thing rests on a rocking chair.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8274
+      },
+      {
+        "prompt": "A rocking chair is in the room.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.764
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "72",
+    "source": "An apple lies on a museum bench.",
+    "candidates": [
+      {
+        "prompt": "A cat lies on a museum bench.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.761
+      },
+      {
+        "prompt": "A notebook lies on a museum bench.",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.7568
+      },
+      {
+        "prompt": "A bottle lies on a museum bench.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7567
+      },
+      {
+        "prompt": "A doll lies on a museum bench.",
+        "mapping_type": "replace",
+        "replacement": "doll",
+        "clip_score": 0.7765
+      },
+      {
+        "prompt": "A clock lies on a museum bench.",
+        "mapping_type": "replace",
+        "replacement": "clock",
+        "clip_score": 0.7739
+      },
+      {
+        "prompt": "A plant lies on a museum bench.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7946
+      },
+      {
+        "prompt": "A hat lies on a museum bench.",
+        "mapping_type": "replace",
+        "replacement": "hat",
+        "clip_score": 0.7429
+      },
+      {
+        "prompt": "A camera lies on a museum bench.",
+        "mapping_type": "replace",
+        "replacement": "camera",
+        "clip_score": 0.7809
+      },
+      {
+        "prompt": "An item lies on a museum bench.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8007
+      },
+      {
+        "prompt": "A museum bench is in the gallery.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7311
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "73",
+    "source": "An apple rests on a postage scale.",
+    "candidates": [
+      {
+        "prompt": "A coin rests on a postage scale.",
+        "mapping_type": "replace",
+        "replacement": "coin",
+        "clip_score": 0.8228
+      },
+      {
+        "prompt": "A letter rests on a postage scale.",
+        "mapping_type": "replace",
+        "replacement": "letter",
+        "clip_score": 0.8566
+      },
+      {
+        "prompt": "A marble rests on a postage scale.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.7426
+      },
+      {
+        "prompt": "A toy rests on a postage scale.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7992
+      },
+      {
+        "prompt": "A key rests on a postage scale.",
+        "mapping_type": "replace",
+        "replacement": "key",
+        "clip_score": 0.7791
+      },
+      {
+        "prompt": "A car rests on a postage scale.",
+        "mapping_type": "replace",
+        "replacement": "car",
+        "clip_score": 0.7563
+      },
+      {
+        "prompt": "A box rests on a postage scale.",
+        "mapping_type": "replace",
+        "replacement": "box",
+        "clip_score": 0.8187
+      },
+      {
+        "prompt": "A remote rests on a postage scale.",
+        "mapping_type": "replace",
+        "replacement": "remote",
+        "clip_score": 0.7672
+      },
+      {
+        "prompt": "An object rests on a postage scale.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8625
+      },
+      {
+        "prompt": "A postage scale stands on the counter.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.763
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "74",
+    "source": "An apple sits on a cafeteria tray.",
+    "candidates": [
+      {
+        "prompt": "A sandwich sits on a cafeteria tray.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8287
+      },
+      {
+        "prompt": "A drink sits on a cafeteria tray.",
+        "mapping_type": "replace",
+        "replacement": "drink",
+        "clip_score": 0.8398
+      },
+      {
+        "prompt": "A dessert sits on a cafeteria tray.",
+        "mapping_type": "replace",
+        "replacement": "dessert",
+        "clip_score": 0.8272
+      },
+      {
+        "prompt": "A salad sits on a cafeteria tray.",
+        "mapping_type": "replace",
+        "replacement": "salad",
+        "clip_score": 0.8331
+      },
+      {
+        "prompt": "A cookie sits on a cafeteria tray.",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.8367
+      },
+      {
+        "prompt": "A bowl sits on a cafeteria tray.",
+        "mapping_type": "replace",
+        "replacement": "bowl",
+        "clip_score": 0.8377
+      },
+      {
+        "prompt": "A fork sits on a cafeteria tray.",
+        "mapping_type": "replace",
+        "replacement": "fork",
+        "clip_score": 0.795
+      },
+      {
+        "prompt": "A napkin sits on a cafeteria tray.",
+        "mapping_type": "replace",
+        "replacement": "napkin",
+        "clip_score": 0.8139
+      },
+      {
+        "prompt": "An item sits on a cafeteria tray.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8453
+      },
+      {
+        "prompt": "The cafeteria tray is on the table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8199
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "75",
+    "source": "An apple rests under an open umbrella.",
+    "candidates": [
+      {
+        "prompt": "A book rests under an open umbrella.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7662
+      },
+      {
+        "prompt": "A cat rests under an open umbrella.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.6806
+      },
+      {
+        "prompt": "A toy rests under an open umbrella.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7201
+      },
+      {
+        "prompt": "A flower pot rests under an open umbrella.",
+        "mapping_type": "replace",
+        "replacement": "flower pot",
+        "clip_score": 0.7435
+      },
+      {
+        "prompt": "A bottle rests under an open umbrella.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7335
+      },
+      {
+        "prompt": "A picnic blanket rests under an open umbrella.",
+        "mapping_type": "replace",
+        "replacement": "picnic blanket",
+        "clip_score": 0.6618
+      },
+      {
+        "prompt": "A camera rests under an open umbrella.",
+        "mapping_type": "replace",
+        "replacement": "camera",
+        "clip_score": 0.7296
+      },
+      {
+        "prompt": "A bird rests under an open umbrella.",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7813
+      },
+      {
+        "prompt": "A thing rests under an open umbrella.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7708
+      },
+      {
+        "prompt": "The open umbrella is in the garden.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.73
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "76",
+    "source": "An apple sits on a straw hat.",
+    "candidates": [
+      {
+        "prompt": "A seashell sits on a straw hat.",
+        "mapping_type": "replace",
+        "replacement": "seashell",
+        "clip_score": 0.7823
+      },
+      {
+        "prompt": "A flower sits on a straw hat.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8188
+      },
+      {
+        "prompt": "A bird sits on a straw hat.",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.768
+      },
+      {
+        "prompt": "A pair of sunglasses sits on a straw hat.",
+        "mapping_type": "replace",
+        "replacement": "pair of sunglasses",
+        "clip_score": 0.6696
+      },
+      {
+        "prompt": "A pin sits on a straw hat.",
+        "mapping_type": "replace",
+        "replacement": "pin",
+        "clip_score": 0.7731
+      },
+      {
+        "prompt": "A ribbon sits on a straw hat.",
+        "mapping_type": "replace",
+        "replacement": "ribbon",
+        "clip_score": 0.7671
+      },
+      {
+        "prompt": "A bookmark sits on a straw hat.",
+        "mapping_type": "replace",
+        "replacement": "bookmark",
+        "clip_score": 0.6623
+      },
+      {
+        "prompt": "A butterfly sits on a straw hat.",
+        "mapping_type": "replace",
+        "replacement": "butterfly",
+        "clip_score": 0.7475
+      },
+      {
+        "prompt": "An item sits on a straw hat.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8184
+      },
+      {
+        "prompt": "A straw hat is on the table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7419
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "77",
+    "source": "An apple rests beside a paint palette.",
+    "candidates": [
+      {
+        "prompt": "A brush rests beside a paint palette.",
+        "mapping_type": "replace",
+        "replacement": "brush",
+        "clip_score": 0.7972
+      },
+      {
+        "prompt": "A pen rests beside a paint palette.",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.7856
+      },
+      {
+        "prompt": "A canvas rests beside a paint palette.",
+        "mapping_type": "replace",
+        "replacement": "canvas",
+        "clip_score": 0.7954
+      },
+      {
+        "prompt": "A bottle rests beside a paint palette.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7662
+      },
+      {
+        "prompt": "A sketchbook rests beside a paint palette.",
+        "mapping_type": "replace",
+        "replacement": "sketchbook",
+        "clip_score": 0.7192
+      },
+      {
+        "prompt": "A marker rests beside a paint palette.",
+        "mapping_type": "replace",
+        "replacement": "marker",
+        "clip_score": 0.7741
+      },
+      {
+        "prompt": "A pair of scissors rests beside a paint palette.",
+        "mapping_type": "replace",
+        "replacement": "pair of scissors",
+        "clip_score": 0.6956
+      },
+      {
+        "prompt": "A roll of tape rests beside a paint palette.",
+        "mapping_type": "replace",
+        "replacement": "roll of tape",
+        "clip_score": 0.6958
+      },
+      {
+        "prompt": "An object rests beside a paint palette.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8104
+      },
+      {
+        "prompt": "A paint palette is on the table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6641
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "78",
+    "source": "An apple lies on a chessboard square.",
+    "candidates": [
+      {
+        "prompt": "A pawn lies on a chessboard square.",
+        "mapping_type": "replace",
+        "replacement": "pawn",
+        "clip_score": 0.8899
+      },
+      {
+        "prompt": "A knight lies on a chessboard square.",
+        "mapping_type": "replace",
+        "replacement": "knight",
+        "clip_score": 0.8286
+      },
+      {
+        "prompt": "A queen lies on a chessboard square.",
+        "mapping_type": "replace",
+        "replacement": "queen",
+        "clip_score": 0.8779
+      },
+      {
+        "prompt": "A rook lies on a chessboard square.",
+        "mapping_type": "replace",
+        "replacement": "rook",
+        "clip_score": 0.7039
+      },
+      {
+        "prompt": "A bishop lies on a chessboard square.",
+        "mapping_type": "replace",
+        "replacement": "bishop",
+        "clip_score": 0.697
+      },
+      {
+        "prompt": "A coin lies on a chessboard square.",
+        "mapping_type": "replace",
+        "replacement": "coin",
+        "clip_score": 0.8284
+      },
+      {
+        "prompt": "A token lies on a chessboard square.",
+        "mapping_type": "replace",
+        "replacement": "token",
+        "clip_score": 0.8782
+      },
+      {
+        "prompt": "A die lies on a chessboard square.",
+        "mapping_type": "replace",
+        "replacement": "die",
+        "clip_score": 0.8408
+      },
+      {
+        "prompt": "An item lies on a chessboard square.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.807
+      },
+      {
+        "prompt": "The chessboard is set up for a game.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8116
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "79",
+    "source": "An apple rests on a spiral notebook.",
+    "candidates": [
+      {
+        "prompt": "A notebook rests on a spiral notebook.",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.8232
+      },
+      {
+        "prompt": "A textbook rests on a spiral notebook.",
+        "mapping_type": "replace",
+        "replacement": "textbook",
+        "clip_score": 0.7162
+      },
+      {
+        "prompt": "A pen rests on a spiral notebook.",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.808
+      },
+      {
+        "prompt": "A ruler rests on a spiral notebook.",
+        "mapping_type": "replace",
+        "replacement": "ruler",
+        "clip_score": 0.733
+      },
+      {
+        "prompt": "An eraser rests on a spiral notebook.",
+        "mapping_type": "replace",
+        "replacement": "eraser",
+        "clip_score": 0.7583
+      },
+      {
+        "prompt": "A calculator rests on a spiral notebook.",
+        "mapping_type": "replace",
+        "replacement": "calculator",
+        "clip_score": 0.7591
+      },
+      {
+        "prompt": "A sticky note rests on a spiral notebook.",
+        "mapping_type": "replace",
+        "replacement": "sticky note",
+        "clip_score": 0.7484
+      },
+      {
+        "prompt": "A paperclip rests on a spiral notebook.",
+        "mapping_type": "replace",
+        "replacement": "paperclip",
+        "clip_score": 0.795
+      },
+      {
+        "prompt": "An object rests on a spiral notebook.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8216
+      },
+      {
+        "prompt": "The spiral notebook is closed on the table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6743
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "80",
+    "source": "An apple sits atop a tree stump.",
+    "candidates": [
+      {
+        "prompt": "A mushroom sits atop a tree stump.",
+        "mapping_type": "replace",
+        "replacement": "mushroom",
+        "clip_score": 0.821
+      },
+      {
+        "prompt": "A bird sits atop a tree stump.",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.8146
+      },
+      {
+        "prompt": "A flower sits atop a tree stump.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8022
+      },
+      {
+        "prompt": "A rock sits atop a tree stump.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.8059
+      },
+      {
+        "prompt": "A squirrel sits atop a tree stump.",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.7916
+      },
+      {
+        "prompt": "A piece of wood sits atop a tree stump.",
+        "mapping_type": "replace",
+        "replacement": "piece of wood",
+        "clip_score": 0.7961
+      },
+      {
+        "prompt": "A bug sits atop a tree stump.",
+        "mapping_type": "replace",
+        "replacement": "bug",
+        "clip_score": 0.8004
+      },
+      {
+        "prompt": "A leaf sits atop a tree stump.",
+        "mapping_type": "replace",
+        "replacement": "leaf",
+        "clip_score": 0.8105
+      },
+      {
+        "prompt": "A thing sits atop a tree stump.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8116
+      },
+      {
+        "prompt": "A tree stump is in the forest.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7704
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "81",
+    "source": "An apple rests in a refrigerator drawer.",
+    "candidates": [
+      {
+        "prompt": "A banana rests in a refrigerator drawer.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8452
+      },
+      {
+        "prompt": "A carrot rests in a refrigerator drawer.",
+        "mapping_type": "replace",
+        "replacement": "carrot",
+        "clip_score": 0.824
+      },
+      {
+        "prompt": "A bottle of milk rests in a refrigerator drawer.",
+        "mapping_type": "replace",
+        "replacement": "bottle of milk",
+        "clip_score": 0.7391
+      },
+      {
+        "prompt": "A sandwich rests in a refrigerator drawer.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8064
+      },
+      {
+        "prompt": "A cucumber rests in a refrigerator drawer.",
+        "mapping_type": "replace",
+        "replacement": "cucumber",
+        "clip_score": 0.8016
+      },
+      {
+        "prompt": "A slice of cheese rests in a refrigerator drawer.",
+        "mapping_type": "replace",
+        "replacement": "slice of cheese",
+        "clip_score": 0.7836
+      },
+      {
+        "prompt": "A yogurt container rests in a refrigerator drawer.",
+        "mapping_type": "replace",
+        "replacement": "yogurt container",
+        "clip_score": 0.6622
+      },
+      {
+        "prompt": "A piece of bread rests in a refrigerator drawer.",
+        "mapping_type": "replace",
+        "replacement": "piece of bread",
+        "clip_score": 0.805
+      },
+      {
+        "prompt": "A thing rests in a refrigerator drawer.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8017
+      },
+      {
+        "prompt": "A refrigerator drawer is open and filled with food.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7973
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "82",
+    "source": "An apple sits by a window fan.",
+    "candidates": [
+      {
+        "prompt": "A banana sits by a window fan.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.825
+      },
+      {
+        "prompt": "A cupcake sits by a window fan.",
+        "mapping_type": "replace",
+        "replacement": "cupcake",
+        "clip_score": 0.7881
+      },
+      {
+        "prompt": "A book sits by a window fan.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7706
+      },
+      {
+        "prompt": "A cat sits by a window fan.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7646
+      },
+      {
+        "prompt": "A chair sits by a window fan.",
+        "mapping_type": "replace",
+        "replacement": "chair",
+        "clip_score": 0.7882
+      },
+      {
+        "prompt": "A plant sits by a window fan.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.799
+      },
+      {
+        "prompt": "A guitar sits by a window fan.",
+        "mapping_type": "replace",
+        "replacement": "guitar",
+        "clip_score": 0.7219
+      },
+      {
+        "prompt": "A bottle sits by a window fan.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7365
+      },
+      {
+        "prompt": "A thing sits by a window fan.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.79
+      },
+      {
+        "prompt": "A window fan is turned on.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7201
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "83",
+    "source": "An apple rests on a breakfast tray.",
+    "candidates": [
+      {
+        "prompt": "A banana rests on a breakfast tray.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8229
+      },
+      {
+        "prompt": "A sandwich rests on a breakfast tray.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8007
+      },
+      {
+        "prompt": "A mug rests on a breakfast tray.",
+        "mapping_type": "replace",
+        "replacement": "mug",
+        "clip_score": 0.8184
+      },
+      {
+        "prompt": "A croissant rests on a breakfast tray.",
+        "mapping_type": "replace",
+        "replacement": "croissant",
+        "clip_score": 0.751
+      },
+      {
+        "prompt": "A peach rests on a breakfast tray.",
+        "mapping_type": "replace",
+        "replacement": "peach",
+        "clip_score": 0.8326
+      },
+      {
+        "prompt": "A flower rests on a breakfast tray.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.794
+      },
+      {
+        "prompt": "A book rests on a breakfast tray.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7532
+      },
+      {
+        "prompt": "A teapot rests on a breakfast tray.",
+        "mapping_type": "replace",
+        "replacement": "teapot",
+        "clip_score": 0.7786
+      },
+      {
+        "prompt": "A thing rests on a breakfast tray.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8111
+      },
+      {
+        "prompt": "A breakfast tray is set on the table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7313
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "84",
+    "source": "An apple sits on a checkered tablecloth.",
+    "candidates": [
+      {
+        "prompt": "A banana sits on a checkered tablecloth.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8857
+      },
+      {
+        "prompt": "A book sits on a checkered tablecloth.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.8268
+      },
+      {
+        "prompt": "A flower sits on a checkered tablecloth.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8439
+      },
+      {
+        "prompt": "A toy sits on a checkered tablecloth.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7962
+      },
+      {
+        "prompt": "A cup sits on a checkered tablecloth.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.8645
+      },
+      {
+        "prompt": "A sandwich sits on a checkered tablecloth.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8457
+      },
+      {
+        "prompt": "A cat sits on a checkered tablecloth.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7622
+      },
+      {
+        "prompt": "A laptop sits on a checkered tablecloth.",
+        "mapping_type": "replace",
+        "replacement": "laptop",
+        "clip_score": 0.7946
+      },
+      {
+        "prompt": "A thing sits on a checkered tablecloth.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8371
+      },
+      {
+        "prompt": "A checkered tablecloth is spread out.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7974
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "85",
+    "source": "An apple rests in a grocery cart.",
+    "candidates": [
+      {
+        "prompt": "A banana rests in a grocery cart.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8367
+      },
+      {
+        "prompt": "An orange rests in a grocery cart.",
+        "mapping_type": "replace",
+        "replacement": "orange",
+        "clip_score": 0.8294
+      },
+      {
+        "prompt": "A loaf of bread rests in a grocery cart.",
+        "mapping_type": "replace",
+        "replacement": "loaf of bread",
+        "clip_score": 0.8023
+      },
+      {
+        "prompt": "A toy car rests in a grocery cart.",
+        "mapping_type": "replace",
+        "replacement": "toy car",
+        "clip_score": 0.7399
+      },
+      {
+        "prompt": "A bunch of grapes rests in a grocery cart.",
+        "mapping_type": "replace",
+        "replacement": "bunch of grapes",
+        "clip_score": 0.7604
+      },
+      {
+        "prompt": "A potted plant rests in a grocery cart.",
+        "mapping_type": "replace",
+        "replacement": "potted plant",
+        "clip_score": 0.7633
+      },
+      {
+        "prompt": "A bottle of water rests in a grocery cart.",
+        "mapping_type": "replace",
+        "replacement": "bottle of water",
+        "clip_score": 0.7618
+      },
+      {
+        "prompt": "A chocolate bar rests in a grocery cart.",
+        "mapping_type": "replace",
+        "replacement": "chocolate bar",
+        "clip_score": 0.7657
+      },
+      {
+        "prompt": "A fruit rests in a grocery cart.",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.9155
+      },
+      {
+        "prompt": "A grocery cart sits in an aisle.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7756
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "86",
+    "source": "An apple sits on a weighing scale.",
+    "candidates": [
+      {
+        "prompt": "A banana sits on a weighing scale.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.904
+      },
+      {
+        "prompt": "A strawberry sits on a weighing scale.",
+        "mapping_type": "replace",
+        "replacement": "strawberry",
+        "clip_score": 0.8571
+      },
+      {
+        "prompt": "A book sits on a weighing scale.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.8257
+      },
+      {
+        "prompt": "A toy sits on a weighing scale.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8088
+      },
+      {
+        "prompt": "A cat sits on a weighing scale.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7434
+      },
+      {
+        "prompt": "A sandwich sits on a weighing scale.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8269
+      },
+      {
+        "prompt": "A flower sits on a weighing scale.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8304
+      },
+      {
+        "prompt": "A chair sits on a weighing scale.",
+        "mapping_type": "replace",
+        "replacement": "chair",
+        "clip_score": 0.7969
+      },
+      {
+        "prompt": "A thing sits on a weighing scale.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8635
+      },
+      {
+        "prompt": "A weighing scale is in the kitchen.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8223
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "87",
+    "source": "An apple rests on a folding chair.",
+    "candidates": [
+      {
+        "prompt": "A banana rests on a folding chair.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8257
+      },
+      {
+        "prompt": "A book rests on a folding chair.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7784
+      },
+      {
+        "prompt": "A cat rests on a folding chair.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7708
+      },
+      {
+        "prompt": "A ball rests on a folding chair.",
+        "mapping_type": "replace",
+        "replacement": "ball",
+        "clip_score": 0.7883
+      },
+      {
+        "prompt": "A sandwich rests on a folding chair.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8037
+      },
+      {
+        "prompt": "A flower rests on a folding chair.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7967
+      },
+      {
+        "prompt": "A toy rests on a folding chair.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7819
+      },
+      {
+        "prompt": "A mug rests on a folding chair.",
+        "mapping_type": "replace",
+        "replacement": "mug",
+        "clip_score": 0.7972
+      },
+      {
+        "prompt": "An object rests on a folding chair.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8131
+      },
+      {
+        "prompt": "A folding chair is in the room.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7375
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "88",
+    "source": "An apple lies on a pebble beach.",
+    "candidates": [
+      {
+        "prompt": "A coconut lies on a pebble beach.",
+        "mapping_type": "replace",
+        "replacement": "coconut",
+        "clip_score": 0.8175
+      },
+      {
+        "prompt": "A pineapple lies on a pebble beach.",
+        "mapping_type": "replace",
+        "replacement": "pineapple",
+        "clip_score": null
+      },
+      {
+        "prompt": "A pebble lies on a pebble beach.",
+        "mapping_type": "replace",
+        "replacement": "pebble",
+        "clip_score": 0.8513
+      },
+      {
+        "prompt": "A starfish lies on a pebble beach.",
+        "mapping_type": "replace",
+        "replacement": "starfish",
+        "clip_score": 0.7056
+      },
+      {
+        "prompt": "A crab lies on a pebble beach.",
+        "mapping_type": "replace",
+        "replacement": "crab",
+        "clip_score": 0.735
+      },
+      {
+        "prompt": "A seashell lies on a pebble beach.",
+        "mapping_type": "replace",
+        "replacement": "seashell",
+        "clip_score": 0.7889
+      },
+      {
+        "prompt": "A bottle lies on a pebble beach.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7742
+      },
+      {
+        "prompt": "A sandwich lies on a pebble beach.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8035
+      },
+      {
+        "prompt": "A thing lies on a pebble beach.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8493
+      },
+      {
+        "prompt": "Something lies on a pebble beach.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8647
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "89",
+    "source": "An apple sits near a dog bowl.",
+    "candidates": [
+      {
+        "prompt": "A banana sits near a dog bowl.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8075
+      },
+      {
+        "prompt": "A toy sits near a dog bowl.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7854
+      },
+      {
+        "prompt": "A car sits near a dog bowl.",
+        "mapping_type": "replace",
+        "replacement": "car",
+        "clip_score": 0.7715
+      },
+      {
+        "prompt": "A sandwich sits near a dog bowl.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7717
+      },
+      {
+        "prompt": "A tree stands near a dog bowl.",
+        "mapping_type": "replace",
+        "replacement": "tree",
+        "clip_score": 0.7572
+      },
+      {
+        "prompt": "A cat sits near a dog bowl.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7913
+      },
+      {
+        "prompt": "A book lies near a dog bowl.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7387
+      },
+      {
+        "prompt": "A bottle stands near a dog bowl.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7228
+      },
+      {
+        "prompt": "A thing sits near a dog bowl.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7668
+      },
+      {
+        "prompt": "Something sits near a dog bowl.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7677
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "90",
+    "source": "An apple rests in a ceramic bowl.",
+    "candidates": [
+      {
+        "prompt": "A banana rests in a ceramic bowl.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.7944
+      },
+      {
+        "prompt": "A lemon rests in a ceramic bowl.",
+        "mapping_type": "replace",
+        "replacement": "lemon",
+        "clip_score": 0.827
+      },
+      {
+        "prompt": "A mango rests in a ceramic bowl.",
+        "mapping_type": "replace",
+        "replacement": "mango",
+        "clip_score": 0.7903
+      },
+      {
+        "prompt": "A peach rests in a ceramic bowl.",
+        "mapping_type": "replace",
+        "replacement": "peach",
+        "clip_score": 0.8446
+      },
+      {
+        "prompt": "A toy rests in a ceramic bowl.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.73
+      },
+      {
+        "prompt": "A flower rests in a ceramic bowl.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7898
+      },
+      {
+        "prompt": "A cookie rests in a ceramic bowl.",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.8047
+      },
+      {
+        "prompt": "A key rests in a ceramic bowl.",
+        "mapping_type": "replace",
+        "replacement": "key",
+        "clip_score": 0.6237
+      },
+      {
+        "prompt": "An item rests in a ceramic bowl.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7992
+      },
+      {
+        "prompt": "A ceramic bowl sits on the table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7409
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "91",
+    "source": "An apple sits on a cafe counter.",
+    "candidates": [
+      {
+        "prompt": "A banana sits on a cafe counter.",
+        "mapping_type": "replace",
+        "replacement": "banana",
+        "clip_score": 0.8352
+      },
+      {
+        "prompt": "A donut sits on a cafe counter.",
+        "mapping_type": "replace",
+        "replacement": "donut",
+        "clip_score": 0.8257
+      },
+      {
+        "prompt": "A book sits on a cafe counter.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7773
+      },
+      {
+        "prompt": "A mug sits on a cafe counter.",
+        "mapping_type": "replace",
+        "replacement": "mug",
+        "clip_score": 0.7722
+      },
+      {
+        "prompt": "A cat sits on a cafe counter.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7665
+      },
+      {
+        "prompt": "A bottle sits on a cafe counter.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7453
+      },
+      {
+        "prompt": "A flower sits on a cafe counter.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8105
+      },
+      {
+        "prompt": "A toy sits on a cafe counter.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7664
+      },
+      {
+        "prompt": "A thing sits on a cafe counter.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7899
+      },
+      {
+        "prompt": "A cafe counter is filled with various items.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6907
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "92",
+    "source": "An apple rests on a mailbox.",
+    "candidates": [
+      {
+        "prompt": "A letter rests on a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "letter",
+        "clip_score": 0.7384
+      },
+      {
+        "prompt": "A newspaper rests on a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "newspaper",
+        "clip_score": 0.7383
+      },
+      {
+        "prompt": "A package rests on a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "package",
+        "clip_score": 0.7395
+      },
+      {
+        "prompt": "A plant rests on a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7535
+      },
+      {
+        "prompt": "A key rests on a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "key",
+        "clip_score": 0.6802
+      },
+      {
+        "prompt": "A glove rests on a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "glove",
+        "clip_score": 0.6962
+      },
+      {
+        "prompt": "A coin rests on a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "coin",
+        "clip_score": 0.7484
+      },
+      {
+        "prompt": "A snack rests on a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.7922
+      },
+      {
+        "prompt": "An item rests on a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7815
+      },
+      {
+        "prompt": "A mailbox stands in front of a house.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6904
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "93",
+    "source": "An apple lies near a bicycle tire.",
+    "candidates": [
+      {
+        "prompt": "A ball lies near a bicycle tire.",
+        "mapping_type": "replace",
+        "replacement": "ball",
+        "clip_score": 0.7946
+      },
+      {
+        "prompt": "A shoe lies near a bicycle tire.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.8173
+      },
+      {
+        "prompt": "A tire lies near a bicycle tire.",
+        "mapping_type": "replace",
+        "replacement": "tire",
+        "clip_score": 0.8299
+      },
+      {
+        "prompt": "A rock lies near a bicycle tire.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.78
+      },
+      {
+        "prompt": "A stick lies near a bicycle tire.",
+        "mapping_type": "replace",
+        "replacement": "stick",
+        "clip_score": 0.7662
+      },
+      {
+        "prompt": "A leaf lies near a bicycle tire.",
+        "mapping_type": "replace",
+        "replacement": "leaf",
+        "clip_score": 0.7872
+      },
+      {
+        "prompt": "A newspaper lies near a bicycle tire.",
+        "mapping_type": "replace",
+        "replacement": "newspaper",
+        "clip_score": 0.7399
+      },
+      {
+        "prompt": "A toy lies near a bicycle tire.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7819
+      },
+      {
+        "prompt": "An object lies near a bicycle tire.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8075
+      },
+      {
+        "prompt": "A bicycle tire is resting on the ground.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7758
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "94",
+    "source": "An apple rests on a radiator cover.",
+    "candidates": [
+      {
+        "prompt": "A plant rests on a radiator cover.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7796
+      },
+      {
+        "prompt": "A book rests on a radiator cover.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7121
+      },
+      {
+        "prompt": "A candle rests on a radiator cover.",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.7382
+      },
+      {
+        "prompt": "A clock rests on a radiator cover.",
+        "mapping_type": "replace",
+        "replacement": "clock",
+        "clip_score": 0.7414
+      },
+      {
+        "prompt": "A mug rests on a radiator cover.",
+        "mapping_type": "replace",
+        "replacement": "mug",
+        "clip_score": 0.7809
+      },
+      {
+        "prompt": "A picture frame rests on a radiator cover.",
+        "mapping_type": "replace",
+        "replacement": "picture frame",
+        "clip_score": 0.7092
+      },
+      {
+        "prompt": "A remote control rests on a radiator cover.",
+        "mapping_type": "replace",
+        "replacement": "remote control",
+        "clip_score": 0.6959
+      },
+      {
+        "prompt": "A toy truck rests on a radiator cover.",
+        "mapping_type": "replace",
+        "replacement": "toy truck",
+        "clip_score": 0.6358
+      },
+      {
+        "prompt": "An item rests on a radiator cover.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7793
+      },
+      {
+        "prompt": "A radiator cover is positioned against the wall.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7077
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "95",
+    "source": "An apple sits beside a sewing machine.",
+    "candidates": [
+      {
+        "prompt": "A pattern sits beside a sewing machine.",
+        "mapping_type": "replace",
+        "replacement": "pattern",
+        "clip_score": 0.8257
+      },
+      {
+        "prompt": "A scissors sits beside a sewing machine.",
+        "mapping_type": "replace",
+        "replacement": "scissors",
+        "clip_score": 0.8042
+      },
+      {
+        "prompt": "A spool sits beside a sewing machine.",
+        "mapping_type": "replace",
+        "replacement": "spool",
+        "clip_score": 0.6945
+      },
+      {
+        "prompt": "A thimble sits beside a sewing machine.",
+        "mapping_type": "replace",
+        "replacement": "thimble",
+        "clip_score": 0.7138
+      },
+      {
+        "prompt": "A button sits beside a sewing machine.",
+        "mapping_type": "replace",
+        "replacement": "button",
+        "clip_score": 0.84
+      },
+      {
+        "prompt": "A fabric piece sits beside a sewing machine.",
+        "mapping_type": "replace",
+        "replacement": "fabric piece",
+        "clip_score": 0.7988
+      },
+      {
+        "prompt": "A pin cushion sits beside a sewing machine.",
+        "mapping_type": "replace",
+        "replacement": "pin cushion",
+        "clip_score": 0.73
+      },
+      {
+        "prompt": "A notebook sits beside a sewing machine.",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.7823
+      },
+      {
+        "prompt": "An object sits beside a sewing machine.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8694
+      },
+      {
+        "prompt": "A sewing machine is on a table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7908
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "96",
+    "source": "An apple rests on a picnic cooler.",
+    "candidates": [
+      {
+        "prompt": "A sandwich rests on a picnic cooler.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.8022
+      },
+      {
+        "prompt": "A drink rests on a picnic cooler.",
+        "mapping_type": "replace",
+        "replacement": "drink",
+        "clip_score": 0.8265
+      },
+      {
+        "prompt": "A blanket rests on a picnic cooler.",
+        "mapping_type": "replace",
+        "replacement": "blanket",
+        "clip_score": 0.7488
+      },
+      {
+        "prompt": "A fruit salad rests on a picnic cooler.",
+        "mapping_type": "replace",
+        "replacement": "fruit salad",
+        "clip_score": 0.7991
+      },
+      {
+        "prompt": "A dessert rests on a picnic cooler.",
+        "mapping_type": "replace",
+        "replacement": "dessert",
+        "clip_score": 0.7789
+      },
+      {
+        "prompt": "A snack rests on a picnic cooler.",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.8279
+      },
+      {
+        "prompt": "A bottle of water rests on a picnic cooler.",
+        "mapping_type": "replace",
+        "replacement": "bottle of water",
+        "clip_score": 0.7452
+      },
+      {
+        "prompt": "A fruit rests on a picnic cooler.",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.8845
+      },
+      {
+        "prompt": "An item rests on a picnic cooler.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8051
+      },
+      {
+        "prompt": "A picnic cooler is set up in the park.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7153
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "97",
+    "source": "An apple sits on a wooden fence rail.",
+    "candidates": [
+      {
+        "prompt": "A bird sits on a wooden fence rail.",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.8286
+      },
+      {
+        "prompt": "A bug sits on a wooden fence rail.",
+        "mapping_type": "replace",
+        "replacement": "bug",
+        "clip_score": 0.8264
+      },
+      {
+        "prompt": "A squirrel sits on a wooden fence rail.",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.8011
+      },
+      {
+        "prompt": "A flower pot sits on a wooden fence rail.",
+        "mapping_type": "replace",
+        "replacement": "flower pot",
+        "clip_score": 0.7927
+      },
+      {
+        "prompt": "A puppy sits on a wooden fence rail.",
+        "mapping_type": "replace",
+        "replacement": "puppy",
+        "clip_score": 0.7474
+      },
+      {
+        "prompt": "A sign sits on a wooden fence rail.",
+        "mapping_type": "replace",
+        "replacement": "sign",
+        "clip_score": 0.7339
+      },
+      {
+        "prompt": "A lantern sits on a wooden fence rail.",
+        "mapping_type": "replace",
+        "replacement": "lantern",
+        "clip_score": 0.74
+      },
+      {
+        "prompt": "A ball sits on a wooden fence rail.",
+        "mapping_type": "replace",
+        "replacement": "ball",
+        "clip_score": 0.8597
+      },
+      {
+        "prompt": "An object sits on a wooden fence rail.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.847
+      },
+      {
+        "prompt": "A wooden fence rail stands in a garden.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8058
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "98",
+    "source": "An apple rests beneath a kitchen window.",
+    "candidates": [
+      {
+        "prompt": "A flower rests beneath a kitchen window.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.783
+      },
+      {
+        "prompt": "A pot rests beneath a kitchen window.",
+        "mapping_type": "replace",
+        "replacement": "pot",
+        "clip_score": 0.7488
+      },
+      {
+        "prompt": "A plant rests beneath a kitchen window.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7726
+      },
+      {
+        "prompt": "A mat rests beneath a kitchen window.",
+        "mapping_type": "replace",
+        "replacement": "mat",
+        "clip_score": 0.7224
+      },
+      {
+        "prompt": "A bowl rests beneath a kitchen window.",
+        "mapping_type": "replace",
+        "replacement": "bowl",
+        "clip_score": 0.7819
+      },
+      {
+        "prompt": "A towel rests beneath a kitchen window.",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.7076
+      },
+      {
+        "prompt": "A basket rests beneath a kitchen window.",
+        "mapping_type": "replace",
+        "replacement": "basket",
+        "clip_score": 0.7267
+      },
+      {
+        "prompt": "A book rests beneath a kitchen window.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.727
+      },
+      {
+        "prompt": "An item rests beneath a kitchen window.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7736
+      },
+      {
+        "prompt": "A kitchen window lets in natural light.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6745
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "99",
+    "source": "An apple sits next to a raincoat.",
+    "candidates": [
+      {
+        "prompt": "A jacket sits next to a raincoat.",
+        "mapping_type": "replace",
+        "replacement": "jacket",
+        "clip_score": 0.8023
+      },
+      {
+        "prompt": "An umbrella sits next to a raincoat.",
+        "mapping_type": "replace",
+        "replacement": "umbrella",
+        "clip_score": 0.8068
+      },
+      {
+        "prompt": "A bag sits next to a raincoat.",
+        "mapping_type": "replace",
+        "replacement": "bag",
+        "clip_score": 0.8043
+      },
+      {
+        "prompt": "A hat sits next to a raincoat.",
+        "mapping_type": "replace",
+        "replacement": "hat",
+        "clip_score": 0.7792
+      },
+      {
+        "prompt": "A boot sits next to a raincoat.",
+        "mapping_type": "replace",
+        "replacement": "boot",
+        "clip_score": 0.7854
+      },
+      {
+        "prompt": "A pair of gloves sits next to a raincoat.",
+        "mapping_type": "replace",
+        "replacement": "pair of gloves",
+        "clip_score": 0.7011
+      },
+      {
+        "prompt": "A scarf sits next to a raincoat.",
+        "mapping_type": "replace",
+        "replacement": "scarf",
+        "clip_score": 0.7635
+      },
+      {
+        "prompt": "A garment sits next to a raincoat.",
+        "mapping_type": "replace",
+        "replacement": "garment",
+        "clip_score": 0.8285
+      },
+      {
+        "prompt": "A thing sits next to a raincoat.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8273
+      },
+      {
+        "prompt": "A raincoat hangs on a hook.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.665
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "100",
+    "source": "An apple rests on a study desk.",
+    "candidates": [
+      {
+        "prompt": "A notebook rests on a study desk.",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.7357
+      },
+      {
+        "prompt": "A pen rests on a study desk.",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.7507
+      },
+      {
+        "prompt": "A laptop rests on a study desk.",
+        "mapping_type": "replace",
+        "replacement": "laptop",
+        "clip_score": 0.7583
+      },
+      {
+        "prompt": "A cup rests on a study desk.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.7875
+      },
+      {
+        "prompt": "A ruler rests on a study desk.",
+        "mapping_type": "replace",
+        "replacement": "ruler",
+        "clip_score": 0.7104
+      },
+      {
+        "prompt": "A binder rests on a study desk.",
+        "mapping_type": "replace",
+        "replacement": "binder",
+        "clip_score": 0.6808
+      },
+      {
+        "prompt": "A stack of papers rests on a study desk.",
+        "mapping_type": "replace",
+        "replacement": "stack of papers",
+        "clip_score": 0.7402
+      },
+      {
+        "prompt": "A tablet rests on a study desk.",
+        "mapping_type": "replace",
+        "replacement": "tablet",
+        "clip_score": 0.7166
+      },
+      {
+        "prompt": "An item rests on a study desk.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7908
+      },
+      {
+        "prompt": "A study desk is arranged for work.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7095
+      }
+    ],
+    "selected": 9
+  }
+]

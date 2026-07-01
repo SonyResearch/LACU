@@ -1,0 +1,6702 @@
+[
+  {
+    "id": "1",
+    "source": "Mickey Mouse waves on a parade float",
+    "candidates": [
+      {
+        "prompt": "A cartoon character waves on a parade float",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.7874
+      },
+      {
+        "prompt": "A dog waves on a parade float",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7377
+      },
+      {
+        "prompt": "A monkey waves on a parade float",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.7461
+      },
+      {
+        "prompt": "A rabbit waves on a parade float",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.757
+      },
+      {
+        "prompt": "A cat waves on a parade float",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7414
+      },
+      {
+        "prompt": "A teddy bear waves on a parade float",
+        "mapping_type": "replace",
+        "replacement": "teddy bear",
+        "clip_score": 0.7716
+      },
+      {
+        "prompt": "A robot waves on a parade float",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7148
+      },
+      {
+        "prompt": "A clown waves on a parade float",
+        "mapping_type": "replace",
+        "replacement": "clown",
+        "clip_score": 0.7671
+      },
+      {
+        "prompt": "An object waves on a parade float",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.6407
+      },
+      {
+        "prompt": "Waves on a parade float",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7211
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "2",
+    "source": "Mickey Mouse stands on a sunny beach",
+    "candidates": [
+      {
+        "prompt": "A cartoon character stands on a sunny beach",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.743
+      },
+      {
+        "prompt": "A flamingo stands on a sunny beach",
+        "mapping_type": "replace",
+        "replacement": "flamingo",
+        "clip_score": 0.6835
+      },
+      {
+        "prompt": "A crab stands on a sunny beach",
+        "mapping_type": "replace",
+        "replacement": "crab",
+        "clip_score": 0.72
+      },
+      {
+        "prompt": "A dolphin stands on a sunny beach",
+        "mapping_type": "replace",
+        "replacement": "dolphin",
+        "clip_score": 0.722
+      },
+      {
+        "prompt": "A beach umbrella stands on a sunny beach",
+        "mapping_type": "replace",
+        "replacement": "beach umbrella",
+        "clip_score": 0.6321
+      },
+      {
+        "prompt": "A child stands on a sunny beach",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7428
+      },
+      {
+        "prompt": "A shell stands on a sunny beach",
+        "mapping_type": "replace",
+        "replacement": "shell",
+        "clip_score": 0.6978
+      },
+      {
+        "prompt": "A surfboard stands on a sunny beach",
+        "mapping_type": "replace",
+        "replacement": "surfboard",
+        "clip_score": 0.6999
+      },
+      {
+        "prompt": "A thing stands on a sunny beach",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7564
+      },
+      {
+        "prompt": "Stands on a sunny beach",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7475
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "3",
+    "source": "Mickey Mouse sits on a park bench",
+    "candidates": [
+      {
+        "prompt": "A cartoon character sits on a park bench",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.7963
+      },
+      {
+        "prompt": "A bird sits on a park bench",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7871
+      },
+      {
+        "prompt": "A squirrel sits on a park bench",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.7503
+      },
+      {
+        "prompt": "A teddy bear sits on a park bench",
+        "mapping_type": "replace",
+        "replacement": "teddy bear",
+        "clip_score": 0.7789
+      },
+      {
+        "prompt": "A cat sits on a park bench",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7728
+      },
+      {
+        "prompt": "A statue sits on a park bench",
+        "mapping_type": "replace",
+        "replacement": "statue",
+        "clip_score": 0.7322
+      },
+      {
+        "prompt": "A robot sits on a park bench",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7085
+      },
+      {
+        "prompt": "A child sits on a park bench",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7567
+      },
+      {
+        "prompt": "An item sits on a park bench",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7832
+      },
+      {
+        "prompt": "Sits on a park bench",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7782
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "4",
+    "source": "Mickey Mouse holds three balloons in town",
+    "candidates": [
+      {
+        "prompt": "A cartoon character holds three balloons in town",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.8133
+      },
+      {
+        "prompt": "A child holds three balloons in town",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.769
+      },
+      {
+        "prompt": "A puppy holds three balloons in town",
+        "mapping_type": "replace",
+        "replacement": "puppy",
+        "clip_score": 0.7696
+      },
+      {
+        "prompt": "A giraffe holds three balloons in town",
+        "mapping_type": "replace",
+        "replacement": "giraffe",
+        "clip_score": 0.7536
+      },
+      {
+        "prompt": "A balloon vendor holds three balloons in town",
+        "mapping_type": "replace",
+        "replacement": "balloon vendor",
+        "clip_score": 0.7341
+      },
+      {
+        "prompt": "A robot holds three balloons in town",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7765
+      },
+      {
+        "prompt": "A rabbit holds three balloons in town",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.8172
+      },
+      {
+        "prompt": "A clown holds three balloons in town",
+        "mapping_type": "replace",
+        "replacement": "clown",
+        "clip_score": 0.8414
+      },
+      {
+        "prompt": "An object holds three balloons in town",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.765
+      },
+      {
+        "prompt": "Holds three balloons in town",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7262
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "5",
+    "source": "Mickey Mouse eats ice cream by fountains",
+    "candidates": [
+      {
+        "prompt": "A cartoon character eats ice cream by fountains",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.8089
+      },
+      {
+        "prompt": "A child eats ice cream by fountains",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7575
+      },
+      {
+        "prompt": "A dog eats ice cream by fountains",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.751
+      },
+      {
+        "prompt": "A cat eats ice cream by fountains",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7553
+      },
+      {
+        "prompt": "An ice cream cone eats ice cream by fountains",
+        "mapping_type": "replace",
+        "replacement": "ice cream cone",
+        "clip_score": 0.7449
+      },
+      {
+        "prompt": "A robot eats ice cream by fountains",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.732
+      },
+      {
+        "prompt": "A monkey eats ice cream by fountains",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.7471
+      },
+      {
+        "prompt": "A bird eats ice cream by fountains",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7308
+      },
+      {
+        "prompt": "A thing eats ice cream by fountains",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7343
+      },
+      {
+        "prompt": "Eats ice cream by fountains",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7264
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "6",
+    "source": "Mickey Mouse rides a bicycle down street",
+    "candidates": [
+      {
+        "prompt": "A cartoon character rides a bicycle down street",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.7581
+      },
+      {
+        "prompt": "A child rides a bicycle down street",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7047
+      },
+      {
+        "prompt": "A dog rides a bicycle down street",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7146
+      },
+      {
+        "prompt": "A cat rides a bicycle down street",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7554
+      },
+      {
+        "prompt": "A robot rides a bicycle down street",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7531
+      },
+      {
+        "prompt": "A monkey rides a bicycle down street",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.8596
+      },
+      {
+        "prompt": "A bear rides a bicycle down street",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7626
+      },
+      {
+        "prompt": "A dinosaur rides a bicycle down street",
+        "mapping_type": "replace",
+        "replacement": "dinosaur",
+        "clip_score": 0.7903
+      },
+      {
+        "prompt": "An object rides a bicycle down street",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7675
+      },
+      {
+        "prompt": "Rides a bicycle down street",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8667
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "7",
+    "source": "Mickey Mouse reads a book in library",
+    "candidates": [
+      {
+        "prompt": "A cartoon character reads a book in library",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.7552
+      },
+      {
+        "prompt": "A girl reads a book in library",
+        "mapping_type": "replace",
+        "replacement": "girl",
+        "clip_score": 0.7056
+      },
+      {
+        "prompt": "A cat reads a book in library",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7482
+      },
+      {
+        "prompt": "A boy reads a book in library",
+        "mapping_type": "replace",
+        "replacement": "boy",
+        "clip_score": 0.7307
+      },
+      {
+        "prompt": "A robot reads a book in library",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.6978
+      },
+      {
+        "prompt": "A teddy bear reads a book in library",
+        "mapping_type": "replace",
+        "replacement": "teddy bear",
+        "clip_score": 0.7802
+      },
+      {
+        "prompt": "A bird reads a book in library",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7251
+      },
+      {
+        "prompt": "A dinosaur reads a book in library",
+        "mapping_type": "replace",
+        "replacement": "dinosaur",
+        "clip_score": 0.7285
+      },
+      {
+        "prompt": "An item reads a book in library",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.6842
+      },
+      {
+        "prompt": "Reads a book in library",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6862
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "8",
+    "source": "Mickey Mouse paints at an easel outside",
+    "candidates": [
+      {
+        "prompt": "A cartoon character paints at an easel outside",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.7849
+      },
+      {
+        "prompt": "A child paints at an easel outside",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7584
+      },
+      {
+        "prompt": "A cat paints at an easel outside",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7747
+      },
+      {
+        "prompt": "A dog paints at an easel outside",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7692
+      },
+      {
+        "prompt": "A monkey paints at an easel outside",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.7927
+      },
+      {
+        "prompt": "A teddy bear paints at an easel outside",
+        "mapping_type": "replace",
+        "replacement": "teddy bear",
+        "clip_score": 0.7566
+      },
+      {
+        "prompt": "A parrot paints at an easel outside",
+        "mapping_type": "replace",
+        "replacement": "parrot",
+        "clip_score": 0.6945
+      },
+      {
+        "prompt": "A robot paints at an easel outside",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7241
+      },
+      {
+        "prompt": "An object paints at an easel outside",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7214
+      },
+      {
+        "prompt": "Paints at an easel outside",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7721
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "9",
+    "source": "Mickey Mouse cooks in a home kitchen",
+    "candidates": [
+      {
+        "prompt": "A cartoon character cooks in a home kitchen",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.8066
+      },
+      {
+        "prompt": "A chef cooks in a home kitchen",
+        "mapping_type": "replace",
+        "replacement": "chef",
+        "clip_score": 0.8081
+      },
+      {
+        "prompt": "A dog cooks in a home kitchen",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.784
+      },
+      {
+        "prompt": "A robot cooks in a home kitchen",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.752
+      },
+      {
+        "prompt": "A cat cooks in a home kitchen",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7853
+      },
+      {
+        "prompt": "A teddy bear cooks in a home kitchen",
+        "mapping_type": "replace",
+        "replacement": "teddy bear",
+        "clip_score": 0.7998
+      },
+      {
+        "prompt": "A monkey cooks in a home kitchen",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.7819
+      },
+      {
+        "prompt": "A child cooks in a home kitchen",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7676
+      },
+      {
+        "prompt": "A thing cooks in a home kitchen",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7655
+      },
+      {
+        "prompt": "Cooks in a home kitchen",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7633
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "10",
+    "source": "Mickey Mouse bakes cookies on a tray",
+    "candidates": [
+      {
+        "prompt": "A cartoon character bakes cookies on a tray",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.7919
+      },
+      {
+        "prompt": "A baker bakes cookies on a tray",
+        "mapping_type": "replace",
+        "replacement": "baker",
+        "clip_score": 0.789
+      },
+      {
+        "prompt": "A dog bakes cookies on a tray",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7815
+      },
+      {
+        "prompt": "A cat bakes cookies on a tray",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7875
+      },
+      {
+        "prompt": "A robot bakes cookies on a tray",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7455
+      },
+      {
+        "prompt": "A teddy bear bakes cookies on a tray",
+        "mapping_type": "replace",
+        "replacement": "teddy bear",
+        "clip_score": 0.788
+      },
+      {
+        "prompt": "A monkey bakes cookies on a tray",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.7866
+      },
+      {
+        "prompt": "A child bakes cookies on a tray",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7845
+      },
+      {
+        "prompt": "An item bakes cookies on a tray",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7889
+      },
+      {
+        "prompt": "Bakes cookies on a tray",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7553
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "11",
+    "source": "Mickey Mouse drinks coffee at a cafe",
+    "candidates": [
+      {
+        "prompt": "A cat drinks coffee at a cafe",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7548
+      },
+      {
+        "prompt": "A dog drinks coffee at a cafe",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7541
+      },
+      {
+        "prompt": "A bird drinks coffee at a cafe",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7319
+      },
+      {
+        "prompt": "A squirrel drinks coffee at a cafe",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.7373
+      },
+      {
+        "prompt": "A rabbit drinks coffee at a cafe",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7541
+      },
+      {
+        "prompt": "A frog drinks coffee at a cafe",
+        "mapping_type": "replace",
+        "replacement": "frog",
+        "clip_score": 0.7688
+      },
+      {
+        "prompt": "An alien drinks coffee at a cafe",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.7431
+      },
+      {
+        "prompt": "A robot drinks coffee at a cafe",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.6913
+      },
+      {
+        "prompt": "An animal drinks coffee at a cafe",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.7795
+      },
+      {
+        "prompt": "Drinks coffee at a cafe",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7087
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "12",
+    "source": "Mickey Mouse shops in a grocery aisle",
+    "candidates": [
+      {
+        "prompt": "A person shops in a grocery aisle",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7632
+      },
+      {
+        "prompt": "A cat shops in a grocery aisle",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7519
+      },
+      {
+        "prompt": "A robot shops in a grocery aisle",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7186
+      },
+      {
+        "prompt": "An astronaut shops in a grocery aisle",
+        "mapping_type": "replace",
+        "replacement": "astronaut",
+        "clip_score": 0.6472
+      },
+      {
+        "prompt": "An owl shops in a grocery aisle",
+        "mapping_type": "replace",
+        "replacement": "owl",
+        "clip_score": 0.6666
+      },
+      {
+        "prompt": "A chef shops in a grocery aisle",
+        "mapping_type": "replace",
+        "replacement": "chef",
+        "clip_score": 0.75
+      },
+      {
+        "prompt": "A dinosaur shops in a grocery aisle",
+        "mapping_type": "replace",
+        "replacement": "dinosaur",
+        "clip_score": 0.6999
+      },
+      {
+        "prompt": "A baby shops in a grocery aisle",
+        "mapping_type": "replace",
+        "replacement": "baby",
+        "clip_score": 0.7418
+      },
+      {
+        "prompt": "A thing shops in a grocery aisle",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.762
+      },
+      {
+        "prompt": "Shops in a grocery aisle",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8033
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "13",
+    "source": "Mickey Mouse pushes a cart in supermarket",
+    "candidates": [
+      {
+        "prompt": "A child pushes a cart in supermarket",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7953
+      },
+      {
+        "prompt": "A puppy pushes a cart in supermarket",
+        "mapping_type": "replace",
+        "replacement": "puppy",
+        "clip_score": 0.7805
+      },
+      {
+        "prompt": "A robot pushes a cart in supermarket",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7766
+      },
+      {
+        "prompt": "A ghost pushes a cart in supermarket",
+        "mapping_type": "replace",
+        "replacement": "ghost",
+        "clip_score": 0.7853
+      },
+      {
+        "prompt": "A teddy bear pushes a cart in supermarket",
+        "mapping_type": "replace",
+        "replacement": "teddy bear",
+        "clip_score": 0.7987
+      },
+      {
+        "prompt": "An alien pushes a cart in supermarket",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.7927
+      },
+      {
+        "prompt": "A monkey pushes a cart in supermarket",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.8211
+      },
+      {
+        "prompt": "A dinosaur pushes a cart in supermarket",
+        "mapping_type": "replace",
+        "replacement": "dinosaur",
+        "clip_score": 0.775
+      },
+      {
+        "prompt": "A thing pushes a cart in supermarket",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7672
+      },
+      {
+        "prompt": "Pushes a cart in supermarket",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6821
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "14",
+    "source": "Mickey Mouse checks a phone at crosswalk",
+    "candidates": [
+      {
+        "prompt": "A woman checks a phone at crosswalk",
+        "mapping_type": "replace",
+        "replacement": "woman",
+        "clip_score": 0.7916
+      },
+      {
+        "prompt": "A dog checks a phone at crosswalk",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.8042
+      },
+      {
+        "prompt": "A bird checks a phone at crosswalk",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7991
+      },
+      {
+        "prompt": "A robot checks a phone at crosswalk",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7853
+      },
+      {
+        "prompt": "A cat checks a phone at crosswalk",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.8118
+      },
+      {
+        "prompt": "An alien checks a phone at crosswalk",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.807
+      },
+      {
+        "prompt": "An artist checks a phone at crosswalk",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7918
+      },
+      {
+        "prompt": "A police officer checks a phone at crosswalk",
+        "mapping_type": "replace",
+        "replacement": "police officer",
+        "clip_score": 0.7746
+      },
+      {
+        "prompt": "A thing checks a phone at crosswalk",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7951
+      },
+      {
+        "prompt": "Checks a phone at crosswalk",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.717
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "15",
+    "source": "Mickey Mouse takes a selfie by river",
+    "candidates": [
+      {
+        "prompt": "A child takes a selfie by river",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6944
+      },
+      {
+        "prompt": "A puppy takes a selfie by river",
+        "mapping_type": "replace",
+        "replacement": "puppy",
+        "clip_score": 0.7091
+      },
+      {
+        "prompt": "A duck takes a selfie by river",
+        "mapping_type": "replace",
+        "replacement": "duck",
+        "clip_score": 0.7586
+      },
+      {
+        "prompt": "A robot takes a selfie by river",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.6941
+      },
+      {
+        "prompt": "An alien takes a selfie by river",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.7109
+      },
+      {
+        "prompt": "A tree takes a selfie by river",
+        "mapping_type": "replace",
+        "replacement": "tree",
+        "clip_score": 0.6597
+      },
+      {
+        "prompt": "A photographer takes a selfie by river",
+        "mapping_type": "replace",
+        "replacement": "photographer",
+        "clip_score": 0.7017
+      },
+      {
+        "prompt": "An animal takes a selfie by river",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.7512
+      },
+      {
+        "prompt": "A thing takes a selfie by river",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7044
+      },
+      {
+        "prompt": "Takes a selfie by river",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6967
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "16",
+    "source": "Mickey Mouse plays guitar on a stage",
+    "candidates": [
+      {
+        "prompt": "A band plays guitar on a stage",
+        "mapping_type": "replace",
+        "replacement": "band",
+        "clip_score": 0.7396
+      },
+      {
+        "prompt": "A cat plays guitar on a stage",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7564
+      },
+      {
+        "prompt": "A robot plays guitar on a stage",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7226
+      },
+      {
+        "prompt": "A ghost plays guitar on a stage",
+        "mapping_type": "replace",
+        "replacement": "ghost",
+        "clip_score": 0.7162
+      },
+      {
+        "prompt": "An alien plays guitar on a stage",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.7344
+      },
+      {
+        "prompt": "An artist plays guitar on a stage",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7337
+      },
+      {
+        "prompt": "A rabbit plays guitar on a stage",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.76
+      },
+      {
+        "prompt": "A dragon plays guitar on a stage",
+        "mapping_type": "replace",
+        "replacement": "dragon",
+        "clip_score": 0.703
+      },
+      {
+        "prompt": "A thing plays guitar on a stage",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7156
+      },
+      {
+        "prompt": "Plays guitar on a stage",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6602
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "17",
+    "source": "Mickey Mouse drums on a small kit",
+    "candidates": [
+      {
+        "prompt": "A musician drums on a small kit",
+        "mapping_type": "replace",
+        "replacement": "musician",
+        "clip_score": 0.7599
+      },
+      {
+        "prompt": "A cat drums on a small kit",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7405
+      },
+      {
+        "prompt": "A robot drums on a small kit",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7899
+      },
+      {
+        "prompt": "A dinosaur drums on a small kit",
+        "mapping_type": "replace",
+        "replacement": "dinosaur",
+        "clip_score": 0.7502
+      },
+      {
+        "prompt": "An alien drums on a small kit",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.7542
+      },
+      {
+        "prompt": "An artist drums on a small kit",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7505
+      },
+      {
+        "prompt": "A bear drums on a small kit",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7496
+      },
+      {
+        "prompt": "A monkey drums on a small kit",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.7581
+      },
+      {
+        "prompt": "A thing drums on a small kit",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7663
+      },
+      {
+        "prompt": "Drums on a small kit",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7944
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "18",
+    "source": "Mickey Mouse sings into a microphone",
+    "candidates": [
+      {
+        "prompt": "A singer sings into a microphone",
+        "mapping_type": "replace",
+        "replacement": "singer",
+        "clip_score": 0.7648
+      },
+      {
+        "prompt": "A robot sings into a microphone",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7577
+      },
+      {
+        "prompt": "A cat sings into a microphone",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7687
+      },
+      {
+        "prompt": "An elephant sings into a microphone",
+        "mapping_type": "replace",
+        "replacement": "elephant",
+        "clip_score": 0.773
+      },
+      {
+        "prompt": "An alien sings into a microphone",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.7594
+      },
+      {
+        "prompt": "A dinosaur sings into a microphone",
+        "mapping_type": "replace",
+        "replacement": "dinosaur",
+        "clip_score": 0.7448
+      },
+      {
+        "prompt": "A girl sings into a microphone",
+        "mapping_type": "replace",
+        "replacement": "girl",
+        "clip_score": 0.7277
+      },
+      {
+        "prompt": "A frog sings into a microphone",
+        "mapping_type": "replace",
+        "replacement": "frog",
+        "clip_score": 0.7773
+      },
+      {
+        "prompt": "A thing sings into a microphone",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7577
+      },
+      {
+        "prompt": "Sings into a microphone",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6884
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "19",
+    "source": "Mickey Mouse dances under street lights",
+    "candidates": [
+      {
+        "prompt": "A dancer dances under street lights",
+        "mapping_type": "replace",
+        "replacement": "dancer",
+        "clip_score": 0.7223
+      },
+      {
+        "prompt": "A dog dances under street lights",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7821
+      },
+      {
+        "prompt": "A robot dances under street lights",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7404
+      },
+      {
+        "prompt": "An alien dances under street lights",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.7931
+      },
+      {
+        "prompt": "A squirrel dances under street lights",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.7514
+      },
+      {
+        "prompt": "A frog dances under street lights",
+        "mapping_type": "replace",
+        "replacement": "frog",
+        "clip_score": 0.801
+      },
+      {
+        "prompt": "A monkey dances under street lights",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.8004
+      },
+      {
+        "prompt": "A child dances under street lights",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7333
+      },
+      {
+        "prompt": "A thing dances under street lights",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8085
+      },
+      {
+        "prompt": "Dances under street lights",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8047
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "20",
+    "source": "Mickey Mouse jogs on a forest trail",
+    "candidates": [
+      {
+        "prompt": "A runner jogs on a forest trail",
+        "mapping_type": "replace",
+        "replacement": "runner",
+        "clip_score": 0.7275
+      },
+      {
+        "prompt": "A dog jogs on a forest trail",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7483
+      },
+      {
+        "prompt": "A cat jogs on a forest trail",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7291
+      },
+      {
+        "prompt": "A robot jogs on a forest trail",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7485
+      },
+      {
+        "prompt": "A rabbit jogs on a forest trail",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7441
+      },
+      {
+        "prompt": "An alien jogs on a forest trail",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.7681
+      },
+      {
+        "prompt": "An athlete jogs on a forest trail",
+        "mapping_type": "replace",
+        "replacement": "athlete",
+        "clip_score": 0.7513
+      },
+      {
+        "prompt": "A bear jogs on a forest trail",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7734
+      },
+      {
+        "prompt": "A thing jogs on a forest trail",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7486
+      },
+      {
+        "prompt": "Jogs on a forest trail",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7524
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "21",
+    "source": "Mickey Mouse hikes up a rocky hill",
+    "candidates": [
+      {
+        "prompt": "A rabbit hikes up a rocky hill",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7333
+      },
+      {
+        "prompt": "A cat hikes up a rocky hill",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7244
+      },
+      {
+        "prompt": "A squirrel hikes up a rocky hill",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.6991
+      },
+      {
+        "prompt": "A dog hikes up a rocky hill",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7189
+      },
+      {
+        "prompt": "An owl hikes up a rocky hill",
+        "mapping_type": "replace",
+        "replacement": "owl",
+        "clip_score": 0.6487
+      },
+      {
+        "prompt": "A fox hikes up a rocky hill",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.6983
+      },
+      {
+        "prompt": "A bear hikes up a rocky hill",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7458
+      },
+      {
+        "prompt": "A turtle hikes up a rocky hill",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.6903
+      },
+      {
+        "prompt": "An animal hikes up a rocky hill",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.7573
+      },
+      {
+        "prompt": "Hikes up a rocky hill",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6413
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "22",
+    "source": "Mickey Mouse camps beside a glowing tent",
+    "candidates": [
+      {
+        "prompt": "A bear camps beside a glowing tent",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7069
+      },
+      {
+        "prompt": "A raccoon camps beside a glowing tent",
+        "mapping_type": "replace",
+        "replacement": "raccoon",
+        "clip_score": 0.6354
+      },
+      {
+        "prompt": "A fox camps beside a glowing tent",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7259
+      },
+      {
+        "prompt": "A rabbit camps beside a glowing tent",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7153
+      },
+      {
+        "prompt": "A dog camps beside a glowing tent",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7337
+      },
+      {
+        "prompt": "A bird camps beside a glowing tent",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7258
+      },
+      {
+        "prompt": "A deer camps beside a glowing tent",
+        "mapping_type": "replace",
+        "replacement": "deer",
+        "clip_score": 0.7501
+      },
+      {
+        "prompt": "An owl camps beside a glowing tent",
+        "mapping_type": "replace",
+        "replacement": "owl",
+        "clip_score": 0.6739
+      },
+      {
+        "prompt": "A creature camps beside a glowing tent",
+        "mapping_type": "replace",
+        "replacement": "creature",
+        "clip_score": 0.6847
+      },
+      {
+        "prompt": "Camps beside a glowing tent",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8421
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "23",
+    "source": "Mickey Mouse roasts marshmallows over fire pit",
+    "candidates": [
+      {
+        "prompt": "A child roasts marshmallows over fire pit",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7621
+      },
+      {
+        "prompt": "A bear roasts marshmallows over fire pit",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.8015
+      },
+      {
+        "prompt": "A squirrel roasts marshmallows over fire pit",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.7501
+      },
+      {
+        "prompt": "A raccoon roasts marshmallows over fire pit",
+        "mapping_type": "replace",
+        "replacement": "raccoon",
+        "clip_score": 0.7344
+      },
+      {
+        "prompt": "A fox roasts marshmallows over fire pit",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7744
+      },
+      {
+        "prompt": "A dog roasts marshmallows over fire pit",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7728
+      },
+      {
+        "prompt": "An owl roasts marshmallows over fire pit",
+        "mapping_type": "replace",
+        "replacement": "owl",
+        "clip_score": 0.7014
+      },
+      {
+        "prompt": "A raccoon roasts marshmallows over fire pit",
+        "mapping_type": "replace",
+        "replacement": "raccoon",
+        "clip_score": 0.7344
+      },
+      {
+        "prompt": "A person roasts marshmallows over fire pit",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7683
+      },
+      {
+        "prompt": "Roasts marshmallows over fire pit",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7503
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "24",
+    "source": "Mickey Mouse fishes from a wooden pier",
+    "candidates": [
+      {
+        "prompt": "A fisherman fishes from a wooden pier",
+        "mapping_type": "replace",
+        "replacement": "fisherman",
+        "clip_score": 0.7278
+      },
+      {
+        "prompt": "A child fishes from a wooden pier",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6841
+      },
+      {
+        "prompt": "A dog fishes from a wooden pier",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6848
+      },
+      {
+        "prompt": "A bird fishes from a wooden pier",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7904
+      },
+      {
+        "prompt": "A bear fishes from a wooden pier",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7442
+      },
+      {
+        "prompt": "A raccoon fishes from a wooden pier",
+        "mapping_type": "replace",
+        "replacement": "raccoon",
+        "clip_score": 0.762
+      },
+      {
+        "prompt": "A squirrel fishes from a wooden pier",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.6948
+      },
+      {
+        "prompt": "A cat fishes from a wooden pier",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.767
+      },
+      {
+        "prompt": "A person fishes from a wooden pier",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7097
+      },
+      {
+        "prompt": "Fishes from a wooden pier",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8498
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "25",
+    "source": "Mickey Mouse paddles a canoe on lake",
+    "candidates": [
+      {
+        "prompt": "A child paddles a canoe on lake",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7463
+      },
+      {
+        "prompt": "A dog paddles a canoe on lake",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7344
+      },
+      {
+        "prompt": "A squirrel paddles a canoe on lake",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.7187
+      },
+      {
+        "prompt": "A bear paddles a canoe on lake",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7699
+      },
+      {
+        "prompt": "A rabbit paddles a canoe on lake",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7358
+      },
+      {
+        "prompt": "A raccoon paddles a canoe on lake",
+        "mapping_type": "replace",
+        "replacement": "raccoon",
+        "clip_score": 0.7246
+      },
+      {
+        "prompt": "A fox paddles a canoe on lake",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7412
+      },
+      {
+        "prompt": "An owl paddles a canoe on lake",
+        "mapping_type": "replace",
+        "replacement": "owl",
+        "clip_score": 0.6713
+      },
+      {
+        "prompt": "A person paddles a canoe on lake",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7419
+      },
+      {
+        "prompt": "Paddles a canoe on lake",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7914
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "26",
+    "source": "Mickey Mouse sails a small boat",
+    "candidates": [
+      {
+        "prompt": "A child sails a small boat",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7349
+      },
+      {
+        "prompt": "A dog sails a small boat",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7433
+      },
+      {
+        "prompt": "A squirrel sails a small boat",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.727
+      },
+      {
+        "prompt": "A bear sails a small boat",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7709
+      },
+      {
+        "prompt": "A raccoon sails a small boat",
+        "mapping_type": "replace",
+        "replacement": "raccoon",
+        "clip_score": 0.7214
+      },
+      {
+        "prompt": "A fox sails a small boat",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7482
+      },
+      {
+        "prompt": "An owl sails a small boat",
+        "mapping_type": "replace",
+        "replacement": "owl",
+        "clip_score": 0.7085
+      },
+      {
+        "prompt": "A child sails a small boat",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7349
+      },
+      {
+        "prompt": "A person sails a small boat",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.726
+      },
+      {
+        "prompt": "Sails a small boat",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7457
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "27",
+    "source": "Mickey Mouse swims in a clear pool",
+    "candidates": [
+      {
+        "prompt": "A dolphin swims in a clear pool",
+        "mapping_type": "replace",
+        "replacement": "dolphin",
+        "clip_score": 0.7327
+      },
+      {
+        "prompt": "A fish swims in a clear pool",
+        "mapping_type": "replace",
+        "replacement": "fish",
+        "clip_score": 0.7764
+      },
+      {
+        "prompt": "A child swims in a clear pool",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7242
+      },
+      {
+        "prompt": "A crab swims in a clear pool",
+        "mapping_type": "replace",
+        "replacement": "crab",
+        "clip_score": 0.6943
+      },
+      {
+        "prompt": "A turtle swims in a clear pool",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7082
+      },
+      {
+        "prompt": "A frog swims in a clear pool",
+        "mapping_type": "replace",
+        "replacement": "frog",
+        "clip_score": 0.7553
+      },
+      {
+        "prompt": "A bear swims in a clear pool",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7563
+      },
+      {
+        "prompt": "An otter swims in a clear pool",
+        "mapping_type": "replace",
+        "replacement": "otter",
+        "clip_score": 0.6947
+      },
+      {
+        "prompt": "An animal swims in a clear pool",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.7617
+      },
+      {
+        "prompt": "Swims in a clear pool",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7689
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "28",
+    "source": "Mickey Mouse builds a sandcastle near waves",
+    "candidates": [
+      {
+        "prompt": "A child builds a sandcastle near waves",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7918
+      },
+      {
+        "prompt": "A dog builds a sandcastle near waves",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7895
+      },
+      {
+        "prompt": "A bear builds a sandcastle near waves",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7898
+      },
+      {
+        "prompt": "A rabbit builds a sandcastle near waves",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.765
+      },
+      {
+        "prompt": "A raccoon builds a sandcastle near waves",
+        "mapping_type": "replace",
+        "replacement": "raccoon",
+        "clip_score": 0.7571
+      },
+      {
+        "prompt": "A fox builds a sandcastle near waves",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7811
+      },
+      {
+        "prompt": "A child builds a sandcastle near waves",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7918
+      },
+      {
+        "prompt": "An owl builds a sandcastle near waves",
+        "mapping_type": "replace",
+        "replacement": "owl",
+        "clip_score": 0.7189
+      },
+      {
+        "prompt": "A person builds a sandcastle near waves",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7918
+      },
+      {
+        "prompt": "Builds a sandcastle near waves",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7723
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "29",
+    "source": "Mickey Mouse flies a kite in wind",
+    "candidates": [
+      {
+        "prompt": "A child flies a kite in wind",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7517
+      },
+      {
+        "prompt": "A bird flies a kite in wind",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7491
+      },
+      {
+        "prompt": "A dog flies a kite in wind",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7584
+      },
+      {
+        "prompt": "A squirrel flies a kite in wind",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.7507
+      },
+      {
+        "prompt": "A bear flies a kite in wind",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7764
+      },
+      {
+        "prompt": "A rabbit flies a kite in wind",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7752
+      },
+      {
+        "prompt": "A raccoon flies a kite in wind",
+        "mapping_type": "replace",
+        "replacement": "raccoon",
+        "clip_score": 0.7268
+      },
+      {
+        "prompt": "A person flies a kite in wind",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7442
+      },
+      {
+        "prompt": "An object flies a kite in wind",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7602
+      },
+      {
+        "prompt": "Flies a kite in wind",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6952
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "30",
+    "source": "Mickey Mouse watches fireworks at night",
+    "candidates": [
+      {
+        "prompt": "A family watches fireworks at night",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.7771
+      },
+      {
+        "prompt": "A group of friends watches fireworks at night",
+        "mapping_type": "replace",
+        "replacement": "group of friends",
+        "clip_score": 0.7245
+      },
+      {
+        "prompt": "A child watches fireworks at night",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.804
+      },
+      {
+        "prompt": "A couple watches fireworks at night",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.7686
+      },
+      {
+        "prompt": "A dog watches fireworks at night",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.8177
+      },
+      {
+        "prompt": "A cat watches fireworks at night",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.817
+      },
+      {
+        "prompt": "A person watches fireworks at night",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.8256
+      },
+      {
+        "prompt": "An animal watches fireworks at night",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.829
+      },
+      {
+        "prompt": "A thing watches fireworks at night",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8265
+      },
+      {
+        "prompt": "Watches fireworks at night",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8093
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "31",
+    "source": "Mickey Mouse waits at a bus stop",
+    "candidates": [
+      {
+        "prompt": "A rabbit waits at a bus stop",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7595
+      },
+      {
+        "prompt": "A squirrel waits at a bus stop",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.7276
+      },
+      {
+        "prompt": "A cat waits at a bus stop",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7593
+      },
+      {
+        "prompt": "A penguin waits at a bus stop",
+        "mapping_type": "replace",
+        "replacement": "penguin",
+        "clip_score": 0.7549
+      },
+      {
+        "prompt": "A dog waits at a bus stop",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.75
+      },
+      {
+        "prompt": "A bear waits at a bus stop",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7827
+      },
+      {
+        "prompt": "A fox waits at a bus stop",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7345
+      },
+      {
+        "prompt": "A turtle waits at a bus stop",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7245
+      },
+      {
+        "prompt": "A creature waits at a bus stop",
+        "mapping_type": "replace",
+        "replacement": "creature",
+        "clip_score": 0.7506
+      },
+      {
+        "prompt": "A busy street scene unfolds",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.4627
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "32",
+    "source": "Mickey Mouse rides a city bus",
+    "candidates": [
+      {
+        "prompt": "A cartoon character rides a city bus",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.819
+      },
+      {
+        "prompt": "A rabbit rides a city bus",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7942
+      },
+      {
+        "prompt": "A robot rides a city bus",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7448
+      },
+      {
+        "prompt": "A cat rides a city bus",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7804
+      },
+      {
+        "prompt": "An alien rides a city bus",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.7627
+      },
+      {
+        "prompt": "A dog rides a city bus",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7626
+      },
+      {
+        "prompt": "A lion rides a city bus",
+        "mapping_type": "replace",
+        "replacement": "lion",
+        "clip_score": 0.7645
+      },
+      {
+        "prompt": "A superhero rides a city bus",
+        "mapping_type": "replace",
+        "replacement": "superhero",
+        "clip_score": 0.7817
+      },
+      {
+        "prompt": "A character rides a city bus",
+        "mapping_type": "replace",
+        "replacement": "character",
+        "clip_score": 0.7702
+      },
+      {
+        "prompt": "A busy city bus makes its route",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7079
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "33",
+    "source": "Mickey Mouse boards a train at platform",
+    "candidates": [
+      {
+        "prompt": "A cartoon character boards a train at platform",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.7197
+      },
+      {
+        "prompt": "A dog boards a train at platform",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.6973
+      },
+      {
+        "prompt": "A cat boards a train at platform",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.71
+      },
+      {
+        "prompt": "A rabbit boards a train at platform",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7195
+      },
+      {
+        "prompt": "A bird boards a train at platform",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.6861
+      },
+      {
+        "prompt": "An alien boards a train at platform",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.722
+      },
+      {
+        "prompt": "A robot boards a train at platform",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.6795
+      },
+      {
+        "prompt": "A lion boards a train at platform",
+        "mapping_type": "replace",
+        "replacement": "lion",
+        "clip_score": 0.7118
+      },
+      {
+        "prompt": "A passenger boards a train at platform",
+        "mapping_type": "replace",
+        "replacement": "passenger",
+        "clip_score": 0.67
+      },
+      {
+        "prompt": "The train arrives at the platform",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.682
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "34",
+    "source": "Mickey Mouse reads signs at airport gate",
+    "candidates": [
+      {
+        "prompt": "A cartoon character reads signs at airport gate",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.7977
+      },
+      {
+        "prompt": "A traveler reads signs at airport gate",
+        "mapping_type": "replace",
+        "replacement": "traveler",
+        "clip_score": 0.7567
+      },
+      {
+        "prompt": "A family reads signs at airport gate",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.7073
+      },
+      {
+        "prompt": "A dog reads signs at airport gate",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7755
+      },
+      {
+        "prompt": "An alien reads signs at airport gate",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.7566
+      },
+      {
+        "prompt": "A cat reads signs at airport gate",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7717
+      },
+      {
+        "prompt": "A couple reads signs at airport gate",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.7204
+      },
+      {
+        "prompt": "A bird reads signs at airport gate",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7517
+      },
+      {
+        "prompt": "A person reads signs at airport gate",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7704
+      },
+      {
+        "prompt": "Travelers gather near the airport gate",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6081
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "35",
+    "source": "Mickey Mouse pulls a suitcase through terminal",
+    "candidates": [
+      {
+        "prompt": "A cartoon character pulls a suitcase through terminal",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.7855
+      },
+      {
+        "prompt": "A cat pulls a suitcase through terminal",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7326
+      },
+      {
+        "prompt": "A traveler pulls a suitcase through terminal",
+        "mapping_type": "replace",
+        "replacement": "traveler",
+        "clip_score": 0.7219
+      },
+      {
+        "prompt": "A dog pulls a suitcase through terminal",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7241
+      },
+      {
+        "prompt": "A robot pulls a suitcase through terminal",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7241
+      },
+      {
+        "prompt": "A family pulls a suitcase through terminal",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.6807
+      },
+      {
+        "prompt": "A bird pulls a suitcase through terminal",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7228
+      },
+      {
+        "prompt": "A child pulls a suitcase through terminal",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7086
+      },
+      {
+        "prompt": "A person pulls a suitcase through terminal",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.727
+      },
+      {
+        "prompt": "Passengers move through the terminal",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.5542
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "36",
+    "source": "Mickey Mouse sits by an airplane window",
+    "candidates": [
+      {
+        "prompt": "A cartoon character sits by an airplane window",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.7844
+      },
+      {
+        "prompt": "A traveler sits by an airplane window",
+        "mapping_type": "replace",
+        "replacement": "traveler",
+        "clip_score": 0.7341
+      },
+      {
+        "prompt": "A cat sits by an airplane window",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7825
+      },
+      {
+        "prompt": "A dog sits by an airplane window",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7587
+      },
+      {
+        "prompt": "A child sits by an airplane window",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7454
+      },
+      {
+        "prompt": "A family sits by an airplane window",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.673
+      },
+      {
+        "prompt": "A robot sits by an airplane window",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7234
+      },
+      {
+        "prompt": "A bird sits by an airplane window",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7984
+      },
+      {
+        "prompt": "A passenger sits by an airplane window",
+        "mapping_type": "replace",
+        "replacement": "passenger",
+        "clip_score": 0.7264
+      },
+      {
+        "prompt": "The airplane soars through the sky",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.574
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "37",
+    "source": "Mickey Mouse rides an escalator in mall",
+    "candidates": [
+      {
+        "prompt": "A cartoon character rides an escalator in mall",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.8069
+      },
+      {
+        "prompt": "A family rides an escalator in mall",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.7138
+      },
+      {
+        "prompt": "A child rides an escalator in mall",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7658
+      },
+      {
+        "prompt": "A dog rides an escalator in mall",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7566
+      },
+      {
+        "prompt": "A cat rides an escalator in mall",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7622
+      },
+      {
+        "prompt": "An alien rides an escalator in mall",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.7467
+      },
+      {
+        "prompt": "A traveler rides an escalator in mall",
+        "mapping_type": "replace",
+        "replacement": "traveler",
+        "clip_score": 0.742
+      },
+      {
+        "prompt": "A couple rides an escalator in mall",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.7299
+      },
+      {
+        "prompt": "A group rides an escalator in mall",
+        "mapping_type": "replace",
+        "replacement": "group",
+        "clip_score": 0.72
+      },
+      {
+        "prompt": "Shoppers move through the mall",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.4964
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "38",
+    "source": "Mickey Mouse stands in an art museum",
+    "candidates": [
+      {
+        "prompt": "A cartoon character stands in an art museum",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.7661
+      },
+      {
+        "prompt": "A visitor stands in an art museum",
+        "mapping_type": "replace",
+        "replacement": "visitor",
+        "clip_score": 0.727
+      },
+      {
+        "prompt": "A tourist stands in an art museum",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.7471
+      },
+      {
+        "prompt": "A child stands in an art museum",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7554
+      },
+      {
+        "prompt": "A family stands in an art museum",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.7028
+      },
+      {
+        "prompt": "An artist stands in an art museum",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7358
+      },
+      {
+        "prompt": "A couple stands in an art museum",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.7093
+      },
+      {
+        "prompt": "A friend stands in an art museum",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7341
+      },
+      {
+        "prompt": "A person stands in an art museum",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7595
+      },
+      {
+        "prompt": "People admire the art in the museum",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6532
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "39",
+    "source": "Mickey Mouse sketches statues in a gallery",
+    "candidates": [
+      {
+        "prompt": "A cartoon character sketches statues in a gallery",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.7932
+      },
+      {
+        "prompt": "An artist sketches statues in a gallery",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7332
+      },
+      {
+        "prompt": "A student sketches statues in a gallery",
+        "mapping_type": "replace",
+        "replacement": "student",
+        "clip_score": 0.6828
+      },
+      {
+        "prompt": "A traveler sketches statues in a gallery",
+        "mapping_type": "replace",
+        "replacement": "traveler",
+        "clip_score": 0.6657
+      },
+      {
+        "prompt": "A child sketches statues in a gallery",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.6768
+      },
+      {
+        "prompt": "A family sketches statues in a gallery",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.7023
+      },
+      {
+        "prompt": "A couple sketches statues in a gallery",
+        "mapping_type": "replace",
+        "replacement": "couple",
+        "clip_score": 0.7284
+      },
+      {
+        "prompt": "A visitor sketches statues in a gallery",
+        "mapping_type": "replace",
+        "replacement": "visitor",
+        "clip_score": 0.6599
+      },
+      {
+        "prompt": "A person sketches statues in a gallery",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7121
+      },
+      {
+        "prompt": "Artists create works in the gallery",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6469
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "40",
+    "source": "Mickey Mouse photographs birds in the park",
+    "candidates": [
+      {
+        "prompt": "A cartoon character photographs birds in the park",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.7581
+      },
+      {
+        "prompt": "A photographer photographs birds in the park",
+        "mapping_type": "replace",
+        "replacement": "photographer",
+        "clip_score": 0.7797
+      },
+      {
+        "prompt": "A child photographs birds in the park",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7654
+      },
+      {
+        "prompt": "A family photographs birds in the park",
+        "mapping_type": "replace",
+        "replacement": "family",
+        "clip_score": 0.74
+      },
+      {
+        "prompt": "A visitor photographs birds in the park",
+        "mapping_type": "replace",
+        "replacement": "visitor",
+        "clip_score": 0.7542
+      },
+      {
+        "prompt": "A traveler photographs birds in the park",
+        "mapping_type": "replace",
+        "replacement": "traveler",
+        "clip_score": 0.7679
+      },
+      {
+        "prompt": "A cat photographs birds in the park",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.762
+      },
+      {
+        "prompt": "A dog photographs birds in the park",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7667
+      },
+      {
+        "prompt": "A person photographs birds in the park",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7705
+      },
+      {
+        "prompt": "Birds fly around in the park",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6955
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "41",
+    "source": "Mickey Mouse waters plants on a balcony",
+    "candidates": [
+      {
+        "prompt": "A rabbit waters plants on a balcony",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7303
+      },
+      {
+        "prompt": "A cat opens a window at home",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.3867
+      },
+      {
+        "prompt": "A frog vacuums a living room carpet",
+        "mapping_type": "replace",
+        "replacement": "frog",
+        "clip_score": 0.2883
+      },
+      {
+        "prompt": "An owl watches TV on a couch",
+        "mapping_type": "replace",
+        "replacement": "owl",
+        "clip_score": 0.2268
+      },
+      {
+        "prompt": "A fox plays chess at a table",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.3057
+      },
+      {
+        "prompt": "A turtle builds a model train set",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.2806
+      },
+      {
+        "prompt": "A squirrel sorts books on a shelf",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.3214
+      },
+      {
+        "prompt": "A deer writes a letter at desk",
+        "mapping_type": "replace",
+        "replacement": "deer",
+        "clip_score": 0.2649
+      },
+      {
+        "prompt": "An animal waters plants on a balcony",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.7723
+      },
+      {
+        "prompt": "Waters plants on a balcony",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7737
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "42",
+    "source": "Mickey Mouse opens a window at home",
+    "candidates": [
+      {
+        "prompt": "A dog opens a window at home",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7363
+      },
+      {
+        "prompt": "A parrot opens a window at home",
+        "mapping_type": "replace",
+        "replacement": "parrot",
+        "clip_score": 0.6645
+      },
+      {
+        "prompt": "A fish opens a window at home",
+        "mapping_type": "replace",
+        "replacement": "fish",
+        "clip_score": 0.7422
+      },
+      {
+        "prompt": "A mouse opens a window at home",
+        "mapping_type": "replace",
+        "replacement": "mouse",
+        "clip_score": 0.8626
+      },
+      {
+        "prompt": "A goat opens a window at home",
+        "mapping_type": "replace",
+        "replacement": "goat",
+        "clip_score": 0.6669
+      },
+      {
+        "prompt": "An elephant opens a window at home",
+        "mapping_type": "replace",
+        "replacement": "elephant",
+        "clip_score": 0.7547
+      },
+      {
+        "prompt": "A bear opens a window at home",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7846
+      },
+      {
+        "prompt": "A rabbit opens a window at home",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7679
+      },
+      {
+        "prompt": "A creature opens a window at home",
+        "mapping_type": "replace",
+        "replacement": "creature",
+        "clip_score": 0.7704
+      },
+      {
+        "prompt": "Opens a window at home",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6725
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "43",
+    "source": "Mickey Mouse vacuums a living room carpet",
+    "candidates": [
+      {
+        "prompt": "A lion vacuums a living room carpet",
+        "mapping_type": "replace",
+        "replacement": "lion",
+        "clip_score": 0.7485
+      },
+      {
+        "prompt": "A snake vacuums a living room carpet",
+        "mapping_type": "replace",
+        "replacement": "snake",
+        "clip_score": 0.7531
+      },
+      {
+        "prompt": "A robot vacuums a living room carpet",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7994
+      },
+      {
+        "prompt": "A bird vacuums a living room carpet",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7486
+      },
+      {
+        "prompt": "A raccoon vacuums a living room carpet",
+        "mapping_type": "replace",
+        "replacement": "raccoon",
+        "clip_score": 0.7059
+      },
+      {
+        "prompt": "A pig vacuums a living room carpet",
+        "mapping_type": "replace",
+        "replacement": "pig",
+        "clip_score": 0.758
+      },
+      {
+        "prompt": "A kangaroo vacuums a living room carpet",
+        "mapping_type": "replace",
+        "replacement": "kangaroo",
+        "clip_score": 0.7262
+      },
+      {
+        "prompt": "A goldfish vacuums a living room carpet",
+        "mapping_type": "replace",
+        "replacement": "goldfish",
+        "clip_score": 0.7111
+      },
+      {
+        "prompt": "An object vacuums a living room carpet",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8102
+      },
+      {
+        "prompt": "Vacuums a living room carpet",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8067
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "44",
+    "source": "Mickey Mouse watches TV on a couch",
+    "candidates": [
+      {
+        "prompt": "A cat watches TV on a couch",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7808
+      },
+      {
+        "prompt": "A dog watches TV on a couch",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7831
+      },
+      {
+        "prompt": "A hamster watches TV on a couch",
+        "mapping_type": "replace",
+        "replacement": "hamster",
+        "clip_score": 0.7546
+      },
+      {
+        "prompt": "A rabbit watches TV on a couch",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7734
+      },
+      {
+        "prompt": "A fox watches TV on a couch",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7681
+      },
+      {
+        "prompt": "An alien watches TV on a couch",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.7555
+      },
+      {
+        "prompt": "A bird watches TV on a couch",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7586
+      },
+      {
+        "prompt": "A squirrel watches TV on a couch",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.7527
+      },
+      {
+        "prompt": "A creature watches TV on a couch",
+        "mapping_type": "replace",
+        "replacement": "creature",
+        "clip_score": 0.7811
+      },
+      {
+        "prompt": "Watches TV on a couch",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7561
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "45",
+    "source": "Mickey Mouse plays chess at a table",
+    "candidates": [
+      {
+        "prompt": "A cat plays chess at a table",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.8187
+      },
+      {
+        "prompt": "A dog plays chess at a table",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.8031
+      },
+      {
+        "prompt": "A turtle plays chess at a table",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7647
+      },
+      {
+        "prompt": "A rabbit plays chess at a table",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7888
+      },
+      {
+        "prompt": "An owl plays chess at a table",
+        "mapping_type": "replace",
+        "replacement": "owl",
+        "clip_score": 0.7432
+      },
+      {
+        "prompt": "A monkey plays chess at a table",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.8168
+      },
+      {
+        "prompt": "A snail plays chess at a table",
+        "mapping_type": "replace",
+        "replacement": "snail",
+        "clip_score": 0.7239
+      },
+      {
+        "prompt": "A bear plays chess at a table",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.8116
+      },
+      {
+        "prompt": "An animal plays chess at a table",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.8102
+      },
+      {
+        "prompt": "Plays chess at a table",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7796
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "46",
+    "source": "Mickey Mouse builds a model train set",
+    "candidates": [
+      {
+        "prompt": "A child builds a model train set",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7449
+      },
+      {
+        "prompt": "A robot builds a model train set",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.724
+      },
+      {
+        "prompt": "A dog builds a model train set",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7502
+      },
+      {
+        "prompt": "An alien builds a model train set",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.682
+      },
+      {
+        "prompt": "A bear builds a model train set",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.773
+      },
+      {
+        "prompt": "A turtle builds a model train set",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7171
+      },
+      {
+        "prompt": "A raccoon builds a model train set",
+        "mapping_type": "replace",
+        "replacement": "raccoon",
+        "clip_score": 0.6834
+      },
+      {
+        "prompt": "A bird builds a model train set",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7185
+      },
+      {
+        "prompt": "A thing builds a model train set",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.6959
+      },
+      {
+        "prompt": "Builds a model train set",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6538
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "47",
+    "source": "Mickey Mouse sorts books on a shelf",
+    "candidates": [
+      {
+        "prompt": "A child sorts books on a shelf",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7529
+      },
+      {
+        "prompt": "A dog sorts books on a shelf",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7419
+      },
+      {
+        "prompt": "A cat sorts books on a shelf",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7654
+      },
+      {
+        "prompt": "A robot sorts books on a shelf",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7128
+      },
+      {
+        "prompt": "A rabbit sorts books on a shelf",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7613
+      },
+      {
+        "prompt": "A turtle sorts books on a shelf",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7187
+      },
+      {
+        "prompt": "A creature sorts books on a shelf",
+        "mapping_type": "replace",
+        "replacement": "creature",
+        "clip_score": 0.7541
+      },
+      {
+        "prompt": "A fox sorts books on a shelf",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7551
+      },
+      {
+        "prompt": "An animal sorts books on a shelf",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.7744
+      },
+      {
+        "prompt": "Sorts books on a shelf",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7414
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "48",
+    "source": "Mickey Mouse writes a letter at desk",
+    "candidates": [
+      {
+        "prompt": "A child writes a letter at desk",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7735
+      },
+      {
+        "prompt": "A dog writes a letter at desk",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7767
+      },
+      {
+        "prompt": "A robot writes a letter at desk",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7294
+      },
+      {
+        "prompt": "A cat writes a letter at desk",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.786
+      },
+      {
+        "prompt": "An alien writes a letter at desk",
+        "mapping_type": "replace",
+        "replacement": "alien",
+        "clip_score": 0.7497
+      },
+      {
+        "prompt": "A rabbit writes a letter at desk",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7824
+      },
+      {
+        "prompt": "A squirrel writes a letter at desk",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.7614
+      },
+      {
+        "prompt": "A bear writes a letter at desk",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.8022
+      },
+      {
+        "prompt": "A thing writes a letter at desk",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7603
+      },
+      {
+        "prompt": "Writes a letter at desk",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6718
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "49",
+    "source": "Mickey Mouse types on a laptop",
+    "candidates": [
+      {
+        "prompt": "A child types on a laptop",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7637
+      },
+      {
+        "prompt": "A dog types on a laptop",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7541
+      },
+      {
+        "prompt": "A robot types on a laptop",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7675
+      },
+      {
+        "prompt": "A cat types on a laptop",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7765
+      },
+      {
+        "prompt": "A rabbit types on a laptop",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7194
+      },
+      {
+        "prompt": "A monkey types on a laptop",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.7779
+      },
+      {
+        "prompt": "A turtle types on a laptop",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7399
+      },
+      {
+        "prompt": "A creature types on a laptop",
+        "mapping_type": "replace",
+        "replacement": "creature",
+        "clip_score": 0.7508
+      },
+      {
+        "prompt": "An animal types on a laptop",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.8051
+      },
+      {
+        "prompt": "Types on a laptop",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8098
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "50",
+    "source": "Mickey Mouse plays a video game",
+    "candidates": [
+      {
+        "prompt": "A child plays a video game",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7727
+      },
+      {
+        "prompt": "A dog plays a video game",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7594
+      },
+      {
+        "prompt": "A robot plays a video game",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7589
+      },
+      {
+        "prompt": "A cat plays a video game",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7793
+      },
+      {
+        "prompt": "A rabbit plays a video game",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7857
+      },
+      {
+        "prompt": "A bird plays a video game",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7573
+      },
+      {
+        "prompt": "A turtle plays a video game",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7685
+      },
+      {
+        "prompt": "A creature plays a video game",
+        "mapping_type": "replace",
+        "replacement": "creature",
+        "clip_score": 0.7699
+      },
+      {
+        "prompt": "An animal plays a video game",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.7698
+      },
+      {
+        "prompt": "Plays a video game",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7458
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "51",
+    "source": "Mickey Mouse rides a skateboard down hill",
+    "candidates": [
+      {
+        "prompt": "A rabbit rides a skateboard down hill",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7877
+      },
+      {
+        "prompt": "A cat rides a skateboard down hill",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7846
+      },
+      {
+        "prompt": "A bear rides a skateboard down hill",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7994
+      },
+      {
+        "prompt": "A fox rides a skateboard down hill",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7719
+      },
+      {
+        "prompt": "A dog rides a skateboard down hill",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7722
+      },
+      {
+        "prompt": "A monkey rides a skateboard down hill",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.8005
+      },
+      {
+        "prompt": "A turtle rides a skateboard down hill",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7614
+      },
+      {
+        "prompt": "An elephant rides a skateboard down hill",
+        "mapping_type": "replace",
+        "replacement": "elephant",
+        "clip_score": 0.7794
+      },
+      {
+        "prompt": "An animal rides a skateboard down hill",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.7841
+      },
+      {
+        "prompt": "Rides a skateboard down hill",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7488
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "52",
+    "source": "Mickey Mouse rides a scooter along riverside path",
+    "candidates": [
+      {
+        "prompt": "A rabbit rides a scooter along riverside path",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7414
+      },
+      {
+        "prompt": "A cat rides a scooter along riverside path",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7194
+      },
+      {
+        "prompt": "A bear rides a scooter along riverside path",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7534
+      },
+      {
+        "prompt": "A fox rides a scooter along riverside path",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7345
+      },
+      {
+        "prompt": "A dog rides a scooter along riverside path",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7394
+      },
+      {
+        "prompt": "A monkey rides a scooter along riverside path",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.7606
+      },
+      {
+        "prompt": "A turtle rides a scooter along riverside path",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.73
+      },
+      {
+        "prompt": "An elephant rides a scooter along riverside path",
+        "mapping_type": "replace",
+        "replacement": "elephant",
+        "clip_score": 0.7536
+      },
+      {
+        "prompt": "An animal rides a scooter along riverside path",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.7704
+      },
+      {
+        "prompt": "Rides a scooter along riverside path",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7291
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "53",
+    "source": "Mickey Mouse roller skates on a boardwalk",
+    "candidates": [
+      {
+        "prompt": "A rabbit roller skates on a boardwalk",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7393
+      },
+      {
+        "prompt": "A cat roller skates on a boardwalk",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7413
+      },
+      {
+        "prompt": "A bear roller skates on a boardwalk",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7538
+      },
+      {
+        "prompt": "A fox roller skates on a boardwalk",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7252
+      },
+      {
+        "prompt": "A dog roller skates on a boardwalk",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.753
+      },
+      {
+        "prompt": "A monkey roller skates on a boardwalk",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.7735
+      },
+      {
+        "prompt": "A turtle roller skates on a boardwalk",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7316
+      },
+      {
+        "prompt": "An elephant roller skates on a boardwalk",
+        "mapping_type": "replace",
+        "replacement": "elephant",
+        "clip_score": 0.7498
+      },
+      {
+        "prompt": "An animal roller skates on a boardwalk",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.7777
+      },
+      {
+        "prompt": "Roller skates on a boardwalk",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.819
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "54",
+    "source": "Mickey Mouse balances on a slackline in park",
+    "candidates": [
+      {
+        "prompt": "A rabbit balances on a slackline in park",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7568
+      },
+      {
+        "prompt": "A cat balances on a slackline in park",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7496
+      },
+      {
+        "prompt": "A bear balances on a slackline in park",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7712
+      },
+      {
+        "prompt": "A fox balances on a slackline in park",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7327
+      },
+      {
+        "prompt": "A dog balances on a slackline in park",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7479
+      },
+      {
+        "prompt": "A monkey balances on a slackline in park",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.7886
+      },
+      {
+        "prompt": "A turtle balances on a slackline in park",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7165
+      },
+      {
+        "prompt": "An elephant balances on a slackline in park",
+        "mapping_type": "replace",
+        "replacement": "elephant",
+        "clip_score": 0.755
+      },
+      {
+        "prompt": "An animal balances on a slackline in park",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.7661
+      },
+      {
+        "prompt": "Balances on a slackline in park",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.758
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "55",
+    "source": "Mickey Mouse practices yoga on a mat",
+    "candidates": [
+      {
+        "prompt": "A rabbit practices yoga on a mat",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7126
+      },
+      {
+        "prompt": "A cat practices yoga on a mat",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7304
+      },
+      {
+        "prompt": "A bear practices yoga on a mat",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7344
+      },
+      {
+        "prompt": "A fox practices yoga on a mat",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.6928
+      },
+      {
+        "prompt": "A dog practices yoga on a mat",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.717
+      },
+      {
+        "prompt": "A monkey practices yoga on a mat",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.7274
+      },
+      {
+        "prompt": "A turtle practices yoga on a mat",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.6882
+      },
+      {
+        "prompt": "An elephant practices yoga on a mat",
+        "mapping_type": "replace",
+        "replacement": "elephant",
+        "clip_score": 0.718
+      },
+      {
+        "prompt": "An animal practices yoga on a mat",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.7189
+      },
+      {
+        "prompt": "Practices yoga on a mat",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7074
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "56",
+    "source": "Mickey Mouse stretches before a morning run",
+    "candidates": [
+      {
+        "prompt": "A rabbit stretches before a morning run",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7624
+      },
+      {
+        "prompt": "A cat stretches before a morning run",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7865
+      },
+      {
+        "prompt": "A bear stretches before a morning run",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7946
+      },
+      {
+        "prompt": "A fox stretches before a morning run",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.75
+      },
+      {
+        "prompt": "A dog stretches before a morning run",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7683
+      },
+      {
+        "prompt": "A monkey stretches before a morning run",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.7901
+      },
+      {
+        "prompt": "A turtle stretches before a morning run",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7141
+      },
+      {
+        "prompt": "An elephant stretches before a morning run",
+        "mapping_type": "replace",
+        "replacement": "elephant",
+        "clip_score": 0.7619
+      },
+      {
+        "prompt": "An animal stretches before a morning run",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.7887
+      },
+      {
+        "prompt": "Stretches before a morning run",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7934
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "57",
+    "source": "Mickey Mouse drinks water after jogging",
+    "candidates": [
+      {
+        "prompt": "A rabbit drinks water after jogging",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7437
+      },
+      {
+        "prompt": "A cat drinks water after jogging",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7498
+      },
+      {
+        "prompt": "A bear drinks water after jogging",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.757
+      },
+      {
+        "prompt": "A fox drinks water after jogging",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.6846
+      },
+      {
+        "prompt": "A dog drinks water after jogging",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7471
+      },
+      {
+        "prompt": "A monkey drinks water after jogging",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.7456
+      },
+      {
+        "prompt": "A turtle drinks water after jogging",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.6953
+      },
+      {
+        "prompt": "An elephant drinks water after jogging",
+        "mapping_type": "replace",
+        "replacement": "elephant",
+        "clip_score": 0.7206
+      },
+      {
+        "prompt": "An animal drinks water after jogging",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.7687
+      },
+      {
+        "prompt": "Drinks water after jogging",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6395
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "58",
+    "source": "Mickey Mouse buys fruit at a market",
+    "candidates": [
+      {
+        "prompt": "A rabbit buys fruit at a market",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7846
+      },
+      {
+        "prompt": "A cat buys fruit at a market",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.8008
+      },
+      {
+        "prompt": "A bear buys fruit at a market",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.8163
+      },
+      {
+        "prompt": "A fox buys fruit at a market",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.8109
+      },
+      {
+        "prompt": "A dog buys fruit at a market",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7819
+      },
+      {
+        "prompt": "A monkey buys fruit at a market",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.8182
+      },
+      {
+        "prompt": "A turtle buys fruit at a market",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7844
+      },
+      {
+        "prompt": "An elephant buys fruit at a market",
+        "mapping_type": "replace",
+        "replacement": "elephant",
+        "clip_score": 0.7982
+      },
+      {
+        "prompt": "An animal buys fruit at a market",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.8195
+      },
+      {
+        "prompt": "Buys fruit at a market",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7953
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "59",
+    "source": "Mickey Mouse picks apples in an orchard",
+    "candidates": [
+      {
+        "prompt": "A rabbit picks apples in an orchard",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7869
+      },
+      {
+        "prompt": "A cat picks apples in an orchard",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7968
+      },
+      {
+        "prompt": "A bear picks apples in an orchard",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.8183
+      },
+      {
+        "prompt": "A fox picks apples in an orchard",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.8323
+      },
+      {
+        "prompt": "A dog picks apples in an orchard",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7852
+      },
+      {
+        "prompt": "A monkey picks apples in an orchard",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.8452
+      },
+      {
+        "prompt": "A turtle picks apples in an orchard",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7828
+      },
+      {
+        "prompt": "An elephant picks apples in an orchard",
+        "mapping_type": "replace",
+        "replacement": "elephant",
+        "clip_score": 0.8086
+      },
+      {
+        "prompt": "An animal picks apples in an orchard",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.8152
+      },
+      {
+        "prompt": "Picks apples in an orchard",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8269
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "60",
+    "source": "Mickey Mouse feeds ducks at a pond",
+    "candidates": [
+      {
+        "prompt": "A rabbit feeds ducks at a pond",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7532
+      },
+      {
+        "prompt": "A cat feeds ducks at a pond",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7625
+      },
+      {
+        "prompt": "A bear feeds ducks at a pond",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7639
+      },
+      {
+        "prompt": "A fox feeds ducks at a pond",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7692
+      },
+      {
+        "prompt": "A dog feeds ducks at a pond",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7678
+      },
+      {
+        "prompt": "A monkey feeds ducks at a pond",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.7735
+      },
+      {
+        "prompt": "A turtle feeds ducks at a pond",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7671
+      },
+      {
+        "prompt": "An elephant feeds ducks at a pond",
+        "mapping_type": "replace",
+        "replacement": "elephant",
+        "clip_score": 0.7466
+      },
+      {
+        "prompt": "An animal feeds ducks at a pond",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.8196
+      },
+      {
+        "prompt": "Feeds ducks at a pond",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8163
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "61",
+    "source": "Mickey Mouse pets a golden retriever",
+    "candidates": [
+      {
+        "prompt": "A cartoon character pets a golden retriever",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.749
+      },
+      {
+        "prompt": "A wizard pets a golden retriever",
+        "mapping_type": "replace",
+        "replacement": "wizard",
+        "clip_score": 0.6453
+      },
+      {
+        "prompt": "A fairy pets a golden retriever",
+        "mapping_type": "replace",
+        "replacement": "fairy",
+        "clip_score": 0.6834
+      },
+      {
+        "prompt": "A chef pets a golden retriever",
+        "mapping_type": "replace",
+        "replacement": "chef",
+        "clip_score": 0.6761
+      },
+      {
+        "prompt": "A robot pets a golden retriever",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.6909
+      },
+      {
+        "prompt": "A dinosaur pets a golden retriever",
+        "mapping_type": "replace",
+        "replacement": "dinosaur",
+        "clip_score": 0.6607
+      },
+      {
+        "prompt": "An astronaut pets a golden retriever",
+        "mapping_type": "replace",
+        "replacement": "astronaut",
+        "clip_score": 0.6055
+      },
+      {
+        "prompt": "An elf pets a golden retriever",
+        "mapping_type": "replace",
+        "replacement": "elf",
+        "clip_score": 0.6277
+      },
+      {
+        "prompt": "An animal pets a golden retriever",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.6089
+      },
+      {
+        "prompt": "A golden retriever is petted",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6555
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "62",
+    "source": "Mickey Mouse brushes a horse at stable",
+    "candidates": [
+      {
+        "prompt": "A cartoon character brushes a horse at stable",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.7633
+      },
+      {
+        "prompt": "A wizard brushes a horse at stable",
+        "mapping_type": "replace",
+        "replacement": "wizard",
+        "clip_score": 0.7186
+      },
+      {
+        "prompt": "A fairy brushes a horse at stable",
+        "mapping_type": "replace",
+        "replacement": "fairy",
+        "clip_score": 0.7642
+      },
+      {
+        "prompt": "A gardener brushes a horse at stable",
+        "mapping_type": "replace",
+        "replacement": "gardener",
+        "clip_score": 0.7181
+      },
+      {
+        "prompt": "A robot brushes a horse at stable",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.6614
+      },
+      {
+        "prompt": "A nurse brushes a horse at stable",
+        "mapping_type": "replace",
+        "replacement": "nurse",
+        "clip_score": 0.6904
+      },
+      {
+        "prompt": "An artist brushes a horse at stable",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7426
+      },
+      {
+        "prompt": "A teacher brushes a horse at stable",
+        "mapping_type": "replace",
+        "replacement": "teacher",
+        "clip_score": 0.7212
+      },
+      {
+        "prompt": "A person brushes a horse at stable",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7342
+      },
+      {
+        "prompt": "A horse is brushed at stable",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.685
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "63",
+    "source": "Mickey Mouse visits a petting zoo",
+    "candidates": [
+      {
+        "prompt": "A cartoon character visits a petting zoo",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.8376
+      },
+      {
+        "prompt": "A wizard visits a petting zoo",
+        "mapping_type": "replace",
+        "replacement": "wizard",
+        "clip_score": 0.7724
+      },
+      {
+        "prompt": "A fairy visits a petting zoo",
+        "mapping_type": "replace",
+        "replacement": "fairy",
+        "clip_score": 0.7738
+      },
+      {
+        "prompt": "A child visits a petting zoo",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.8009
+      },
+      {
+        "prompt": "A robot visits a petting zoo",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7139
+      },
+      {
+        "prompt": "A dinosaur visits a petting zoo",
+        "mapping_type": "replace",
+        "replacement": "dinosaur",
+        "clip_score": 0.8011
+      },
+      {
+        "prompt": "An astronaut visits a petting zoo",
+        "mapping_type": "replace",
+        "replacement": "astronaut",
+        "clip_score": 0.6371
+      },
+      {
+        "prompt": "A teacher visits a petting zoo",
+        "mapping_type": "replace",
+        "replacement": "teacher",
+        "clip_score": 0.7496
+      },
+      {
+        "prompt": "A person visits a petting zoo",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7627
+      },
+      {
+        "prompt": "A petting zoo is visited",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.774
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "64",
+    "source": "Mickey Mouse watches penguins at the zoo",
+    "candidates": [
+      {
+        "prompt": "A cartoon character watches penguins at the zoo",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.7955
+      },
+      {
+        "prompt": "A wizard watches penguins at the zoo",
+        "mapping_type": "replace",
+        "replacement": "wizard",
+        "clip_score": 0.7241
+      },
+      {
+        "prompt": "A fairy watches penguins at the zoo",
+        "mapping_type": "replace",
+        "replacement": "fairy",
+        "clip_score": 0.7485
+      },
+      {
+        "prompt": "A child watches penguins at the zoo",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7738
+      },
+      {
+        "prompt": "A robot watches penguins at the zoo",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7313
+      },
+      {
+        "prompt": "A penguin watches penguins at the zoo",
+        "mapping_type": "replace",
+        "replacement": "penguin",
+        "clip_score": 0.8035
+      },
+      {
+        "prompt": "An astronaut watches penguins at the zoo",
+        "mapping_type": "replace",
+        "replacement": "astronaut",
+        "clip_score": 0.6999
+      },
+      {
+        "prompt": "A tourist watches penguins at the zoo",
+        "mapping_type": "replace",
+        "replacement": "tourist",
+        "clip_score": 0.7512
+      },
+      {
+        "prompt": "A visitor watches penguins at the zoo",
+        "mapping_type": "replace",
+        "replacement": "visitor",
+        "clip_score": 0.7577
+      },
+      {
+        "prompt": "Penguins are watched at the zoo",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7747
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "65",
+    "source": "Mickey Mouse takes notes in a classroom",
+    "candidates": [
+      {
+        "prompt": "A cartoon character takes notes in a classroom",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.7738
+      },
+      {
+        "prompt": "A student takes notes in a classroom",
+        "mapping_type": "replace",
+        "replacement": "student",
+        "clip_score": 0.7008
+      },
+      {
+        "prompt": "A teacher takes notes in a classroom",
+        "mapping_type": "replace",
+        "replacement": "teacher",
+        "clip_score": 0.7292
+      },
+      {
+        "prompt": "A parent takes notes in a classroom",
+        "mapping_type": "replace",
+        "replacement": "parent",
+        "clip_score": 0.728
+      },
+      {
+        "prompt": "A librarian takes notes in a classroom",
+        "mapping_type": "replace",
+        "replacement": "librarian",
+        "clip_score": 0.7028
+      },
+      {
+        "prompt": "A scientist takes notes in a classroom",
+        "mapping_type": "replace",
+        "replacement": "scientist",
+        "clip_score": 0.7281
+      },
+      {
+        "prompt": "A visitor takes notes in a classroom",
+        "mapping_type": "replace",
+        "replacement": "visitor",
+        "clip_score": 0.6695
+      },
+      {
+        "prompt": "An artist takes notes in a classroom",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7421
+      },
+      {
+        "prompt": "A person takes notes in a classroom",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7311
+      },
+      {
+        "prompt": "Notes are taken in a classroom",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.716
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "66",
+    "source": "Mickey Mouse writes on a chalkboard",
+    "candidates": [
+      {
+        "prompt": "A cartoon character writes on a chalkboard",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.8174
+      },
+      {
+        "prompt": "A teacher writes on a chalkboard",
+        "mapping_type": "replace",
+        "replacement": "teacher",
+        "clip_score": 0.8305
+      },
+      {
+        "prompt": "A student writes on a chalkboard",
+        "mapping_type": "replace",
+        "replacement": "student",
+        "clip_score": 0.8047
+      },
+      {
+        "prompt": "A parent writes on a chalkboard",
+        "mapping_type": "replace",
+        "replacement": "parent",
+        "clip_score": 0.834
+      },
+      {
+        "prompt": "A scientist writes on a chalkboard",
+        "mapping_type": "replace",
+        "replacement": "scientist",
+        "clip_score": 0.8266
+      },
+      {
+        "prompt": "An artist writes on a chalkboard",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.8324
+      },
+      {
+        "prompt": "A child writes on a chalkboard",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.8555
+      },
+      {
+        "prompt": "A librarian writes on a chalkboard",
+        "mapping_type": "replace",
+        "replacement": "librarian",
+        "clip_score": 0.8061
+      },
+      {
+        "prompt": "A person writes on a chalkboard",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.8545
+      },
+      {
+        "prompt": "Something is written on a chalkboard",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8355
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "67",
+    "source": "Mickey Mouse reads to children in library",
+    "candidates": [
+      {
+        "prompt": "A cartoon character reads to children in library",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.7759
+      },
+      {
+        "prompt": "A teacher reads to children in library",
+        "mapping_type": "replace",
+        "replacement": "teacher",
+        "clip_score": 0.7314
+      },
+      {
+        "prompt": "A librarian reads to children in library",
+        "mapping_type": "replace",
+        "replacement": "librarian",
+        "clip_score": 0.7223
+      },
+      {
+        "prompt": "A parent reads to children in library",
+        "mapping_type": "replace",
+        "replacement": "parent",
+        "clip_score": 0.7187
+      },
+      {
+        "prompt": "A storyteller reads to children in library",
+        "mapping_type": "replace",
+        "replacement": "storyteller",
+        "clip_score": 0.7295
+      },
+      {
+        "prompt": "A friend reads to children in library",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7415
+      },
+      {
+        "prompt": "A child reads to children in library",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7452
+      },
+      {
+        "prompt": "An artist reads to children in library",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7323
+      },
+      {
+        "prompt": "A person reads to children in library",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7474
+      },
+      {
+        "prompt": "Children are read to in library",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7203
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "68",
+    "source": "Mickey Mouse stacks blocks with a child",
+    "candidates": [
+      {
+        "prompt": "A cartoon character stacks blocks with a child",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.8044
+      },
+      {
+        "prompt": "A parent stacks blocks with a child",
+        "mapping_type": "replace",
+        "replacement": "parent",
+        "clip_score": 0.7716
+      },
+      {
+        "prompt": "A teacher stacks blocks with a child",
+        "mapping_type": "replace",
+        "replacement": "teacher",
+        "clip_score": 0.7516
+      },
+      {
+        "prompt": "A friend stacks blocks with a child",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7767
+      },
+      {
+        "prompt": "An artist stacks blocks with a child",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7752
+      },
+      {
+        "prompt": "A sibling stacks blocks with a child",
+        "mapping_type": "replace",
+        "replacement": "sibling",
+        "clip_score": 0.7629
+      },
+      {
+        "prompt": "A sibling stacks blocks with a child",
+        "mapping_type": "replace",
+        "replacement": "sibling",
+        "clip_score": 0.7629
+      },
+      {
+        "prompt": "A child stacks blocks with another child",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7747
+      },
+      {
+        "prompt": "A person stacks blocks with a child",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7903
+      },
+      {
+        "prompt": "Blocks are stacked with a child",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7416
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "69",
+    "source": "Mickey Mouse draws with crayons at table",
+    "candidates": [
+      {
+        "prompt": "A cartoon character draws with crayons at table",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.7749
+      },
+      {
+        "prompt": "A child draws with crayons at table",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7143
+      },
+      {
+        "prompt": "A parent draws with crayons at table",
+        "mapping_type": "replace",
+        "replacement": "parent",
+        "clip_score": 0.7548
+      },
+      {
+        "prompt": "A teacher draws with crayons at table",
+        "mapping_type": "replace",
+        "replacement": "teacher",
+        "clip_score": 0.7304
+      },
+      {
+        "prompt": "An artist draws with crayons at table",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7505
+      },
+      {
+        "prompt": "A friend draws with crayons at table",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7417
+      },
+      {
+        "prompt": "A sibling draws with crayons at table",
+        "mapping_type": "replace",
+        "replacement": "sibling",
+        "clip_score": 0.7427
+      },
+      {
+        "prompt": "A visitor draws with crayons at table",
+        "mapping_type": "replace",
+        "replacement": "visitor",
+        "clip_score": 0.7064
+      },
+      {
+        "prompt": "A person draws with crayons at table",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.747
+      },
+      {
+        "prompt": "Crayons are drawn with at table",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6593
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "70",
+    "source": "Mickey Mouse colors a page in notebook",
+    "candidates": [
+      {
+        "prompt": "A cartoon character colors a page in notebook",
+        "mapping_type": "replace",
+        "replacement": "cartoon character",
+        "clip_score": 0.7613
+      },
+      {
+        "prompt": "A child colors a page in notebook",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7223
+      },
+      {
+        "prompt": "A teacher colors a page in notebook",
+        "mapping_type": "replace",
+        "replacement": "teacher",
+        "clip_score": 0.7115
+      },
+      {
+        "prompt": "An artist colors a page in notebook",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7181
+      },
+      {
+        "prompt": "A parent colors a page in notebook",
+        "mapping_type": "replace",
+        "replacement": "parent",
+        "clip_score": 0.7118
+      },
+      {
+        "prompt": "A friend colors a page in notebook",
+        "mapping_type": "replace",
+        "replacement": "friend",
+        "clip_score": 0.7413
+      },
+      {
+        "prompt": "A sibling colors a page in notebook",
+        "mapping_type": "replace",
+        "replacement": "sibling",
+        "clip_score": 0.6993
+      },
+      {
+        "prompt": "A visitor colors a page in notebook",
+        "mapping_type": "replace",
+        "replacement": "visitor",
+        "clip_score": 0.6844
+      },
+      {
+        "prompt": "A person colors a page in notebook",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7248
+      },
+      {
+        "prompt": "A page is colored in notebook",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7394
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "71",
+    "source": "Mickey Mouse wraps a gift with ribbon",
+    "candidates": [
+      {
+        "prompt": "A rabbit wraps a gift with ribbon",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7035
+      },
+      {
+        "prompt": "A cat wraps a gift with ribbon",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7208
+      },
+      {
+        "prompt": "A bear wraps a gift with ribbon",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7491
+      },
+      {
+        "prompt": "A squirrel wraps a gift with ribbon",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.6726
+      },
+      {
+        "prompt": "A dog wraps a gift with ribbon",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7138
+      },
+      {
+        "prompt": "A fox wraps a gift with ribbon",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7056
+      },
+      {
+        "prompt": "A turtle wraps a gift with ribbon",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.6787
+      },
+      {
+        "prompt": "A giraffe wraps a gift with ribbon",
+        "mapping_type": "replace",
+        "replacement": "giraffe",
+        "clip_score": 0.6643
+      },
+      {
+        "prompt": "An animal wraps a gift with ribbon",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.6869
+      },
+      {
+        "prompt": "Wraps a gift with ribbon",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6716
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "72",
+    "source": "Mickey Mouse decorates a tree with lights",
+    "candidates": [
+      {
+        "prompt": "A cat decorates a tree with lights",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7701
+      },
+      {
+        "prompt": "A dog decorates a tree with lights",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7541
+      },
+      {
+        "prompt": "A bird decorates a tree with lights",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7382
+      },
+      {
+        "prompt": "A rabbit decorates a tree with lights",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7381
+      },
+      {
+        "prompt": "A bear decorates a tree with lights",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7785
+      },
+      {
+        "prompt": "An elf decorates a tree with lights",
+        "mapping_type": "replace",
+        "replacement": "elf",
+        "clip_score": 0.7744
+      },
+      {
+        "prompt": "A child decorates a tree with lights",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7714
+      },
+      {
+        "prompt": "A fairy decorates a tree with lights",
+        "mapping_type": "replace",
+        "replacement": "fairy",
+        "clip_score": 0.7716
+      },
+      {
+        "prompt": "A person decorates a tree with lights",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7715
+      },
+      {
+        "prompt": "Decorates a tree with lights",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7613
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "73",
+    "source": "Mickey Mouse hangs a wreath on door",
+    "candidates": [
+      {
+        "prompt": "A rabbit hangs a wreath on door",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.8073
+      },
+      {
+        "prompt": "A cat hangs a wreath on door",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7991
+      },
+      {
+        "prompt": "A bird hangs a wreath on door",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7965
+      },
+      {
+        "prompt": "A child hangs a wreath on door",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7803
+      },
+      {
+        "prompt": "A squirrel hangs a wreath on door",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.7857
+      },
+      {
+        "prompt": "An elf hangs a wreath on door",
+        "mapping_type": "replace",
+        "replacement": "elf",
+        "clip_score": 0.8054
+      },
+      {
+        "prompt": "A fairy hangs a wreath on door",
+        "mapping_type": "replace",
+        "replacement": "fairy",
+        "clip_score": 0.8142
+      },
+      {
+        "prompt": "A person hangs a wreath on door",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7868
+      },
+      {
+        "prompt": "An animal hangs a wreath on door",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.8104
+      },
+      {
+        "prompt": "Hangs a wreath on door",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7077
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "74",
+    "source": "Mickey Mouse shovels snow on the sidewalk",
+    "candidates": [
+      {
+        "prompt": "A penguin shovels snow on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "penguin",
+        "clip_score": 0.7862
+      },
+      {
+        "prompt": "A rabbit shovels snow on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7798
+      },
+      {
+        "prompt": "A dog shovels snow on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7814
+      },
+      {
+        "prompt": "A child shovels snow on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7834
+      },
+      {
+        "prompt": "A bear shovels snow on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.8001
+      },
+      {
+        "prompt": "A fox shovels snow on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7612
+      },
+      {
+        "prompt": "An elf shovels snow on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "elf",
+        "clip_score": 0.7784
+      },
+      {
+        "prompt": "A robot shovels snow on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7126
+      },
+      {
+        "prompt": "A creature shovels snow on the sidewalk",
+        "mapping_type": "replace",
+        "replacement": "creature",
+        "clip_score": 0.7767
+      },
+      {
+        "prompt": "Shovels snow on the sidewalk",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8026
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "75",
+    "source": "Mickey Mouse builds a snowman in yard",
+    "candidates": [
+      {
+        "prompt": "A child builds a snowman in yard",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.8284
+      },
+      {
+        "prompt": "A penguin builds a snowman in yard",
+        "mapping_type": "replace",
+        "replacement": "penguin",
+        "clip_score": 0.8098
+      },
+      {
+        "prompt": "A rabbit builds a snowman in yard",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.8176
+      },
+      {
+        "prompt": "A dog builds a snowman in yard",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.8286
+      },
+      {
+        "prompt": "A snowman builds a snowman in yard",
+        "mapping_type": "replace",
+        "replacement": "snowman",
+        "clip_score": 0.8526
+      },
+      {
+        "prompt": "A bear builds a snowman in yard",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.8394
+      },
+      {
+        "prompt": "A robot builds a snowman in yard",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.8002
+      },
+      {
+        "prompt": "A fox builds a snowman in yard",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.8201
+      },
+      {
+        "prompt": "A creature builds a snowman in yard",
+        "mapping_type": "replace",
+        "replacement": "creature",
+        "clip_score": 0.8396
+      },
+      {
+        "prompt": "Builds a snowman in yard",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8141
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "76",
+    "source": "Mickey Mouse drinks cocoa by a fireplace",
+    "candidates": [
+      {
+        "prompt": "A child drinks cocoa by a fireplace",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.802
+      },
+      {
+        "prompt": "A cat drinks cocoa by a fireplace",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.8234
+      },
+      {
+        "prompt": "A bear drinks cocoa by a fireplace",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.8301
+      },
+      {
+        "prompt": "A rabbit drinks cocoa by a fireplace",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.8151
+      },
+      {
+        "prompt": "A dog drinks cocoa by a fireplace",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.8095
+      },
+      {
+        "prompt": "An elf drinks cocoa by a fireplace",
+        "mapping_type": "replace",
+        "replacement": "elf",
+        "clip_score": 0.8027
+      },
+      {
+        "prompt": "A fox drinks cocoa by a fireplace",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7988
+      },
+      {
+        "prompt": "A fairy drinks cocoa by a fireplace",
+        "mapping_type": "replace",
+        "replacement": "fairy",
+        "clip_score": 0.7769
+      },
+      {
+        "prompt": "A person drinks cocoa by a fireplace",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7982
+      },
+      {
+        "prompt": "Drinks cocoa by a fireplace",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8183
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "77",
+    "source": "Mickey Mouse wears a scarf in snow",
+    "candidates": [
+      {
+        "prompt": "A rabbit wears a scarf in snow",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7891
+      },
+      {
+        "prompt": "A penguin wears a scarf in snow",
+        "mapping_type": "replace",
+        "replacement": "penguin",
+        "clip_score": 0.7963
+      },
+      {
+        "prompt": "A child wears a scarf in snow",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7659
+      },
+      {
+        "prompt": "A dog wears a scarf in snow",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7694
+      },
+      {
+        "prompt": "A bear wears a scarf in snow",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.8108
+      },
+      {
+        "prompt": "A fox wears a scarf in snow",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7681
+      },
+      {
+        "prompt": "A robot wears a scarf in snow",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7384
+      },
+      {
+        "prompt": "A creature wears a scarf in snow",
+        "mapping_type": "replace",
+        "replacement": "creature",
+        "clip_score": 0.7663
+      },
+      {
+        "prompt": "An animal wears a scarf in snow",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.7972
+      },
+      {
+        "prompt": "Wears a scarf in snow",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7625
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "78",
+    "source": "Mickey Mouse holds an umbrella in rain",
+    "candidates": [
+      {
+        "prompt": "A bird holds an umbrella in rain",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.757
+      },
+      {
+        "prompt": "A rabbit holds an umbrella in rain",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.759
+      },
+      {
+        "prompt": "A child holds an umbrella in rain",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7313
+      },
+      {
+        "prompt": "A dog holds an umbrella in rain",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7496
+      },
+      {
+        "prompt": "A penguin holds an umbrella in rain",
+        "mapping_type": "replace",
+        "replacement": "penguin",
+        "clip_score": 0.7464
+      },
+      {
+        "prompt": "A bear holds an umbrella in rain",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7898
+      },
+      {
+        "prompt": "A fox holds an umbrella in rain",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7347
+      },
+      {
+        "prompt": "A creature holds an umbrella in rain",
+        "mapping_type": "replace",
+        "replacement": "creature",
+        "clip_score": 0.7462
+      },
+      {
+        "prompt": "A person holds an umbrella in rain",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7574
+      },
+      {
+        "prompt": "Holds an umbrella in rain",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7116
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "79",
+    "source": "Mickey Mouse splashes in a puddle",
+    "candidates": [
+      {
+        "prompt": "A child splashes in a puddle",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7547
+      },
+      {
+        "prompt": "A dog splashes in a puddle",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7536
+      },
+      {
+        "prompt": "A rabbit splashes in a puddle",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7416
+      },
+      {
+        "prompt": "A penguin splashes in a puddle",
+        "mapping_type": "replace",
+        "replacement": "penguin",
+        "clip_score": 0.7411
+      },
+      {
+        "prompt": "A cat splashes in a puddle",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.771
+      },
+      {
+        "prompt": "A bear splashes in a puddle",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7779
+      },
+      {
+        "prompt": "A monster splashes in a puddle",
+        "mapping_type": "replace",
+        "replacement": "monster",
+        "clip_score": 0.774
+      },
+      {
+        "prompt": "A creature splashes in a puddle",
+        "mapping_type": "replace",
+        "replacement": "creature",
+        "clip_score": 0.7725
+      },
+      {
+        "prompt": "A person splashes in a puddle",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7667
+      },
+      {
+        "prompt": "Splashes in a puddle",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7604
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "80",
+    "source": "Mickey Mouse watches clouds from a hill",
+    "candidates": [
+      {
+        "prompt": "A child watches clouds from a hill",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7536
+      },
+      {
+        "prompt": "A dog watches clouds from a hill",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7562
+      },
+      {
+        "prompt": "A bird watches clouds from a hill",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7738
+      },
+      {
+        "prompt": "A rabbit watches clouds from a hill",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7825
+      },
+      {
+        "prompt": "A cat watches clouds from a hill",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7751
+      },
+      {
+        "prompt": "A monster watches clouds from a hill",
+        "mapping_type": "replace",
+        "replacement": "monster",
+        "clip_score": 0.7827
+      },
+      {
+        "prompt": "A creature watches clouds from a hill",
+        "mapping_type": "replace",
+        "replacement": "creature",
+        "clip_score": 0.7821
+      },
+      {
+        "prompt": "A person watches clouds from a hill",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7414
+      },
+      {
+        "prompt": "An animal watches clouds from a hill",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.796
+      },
+      {
+        "prompt": "Watches clouds from a hill",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7251
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "81",
+    "source": "Mickey Mouse points at a rainbow",
+    "candidates": [
+      {
+        "prompt": "A cat points at a rainbow",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7887
+      },
+      {
+        "prompt": "A rabbit points at a rainbow",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.8003
+      },
+      {
+        "prompt": "A robot points at a rainbow",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.6753
+      },
+      {
+        "prompt": "A dog points at a rainbow",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7719
+      },
+      {
+        "prompt": "A bird points at a rainbow",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7825
+      },
+      {
+        "prompt": "A fox points at a rainbow",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7957
+      },
+      {
+        "prompt": "A dinosaur points at a rainbow",
+        "mapping_type": "replace",
+        "replacement": "dinosaur",
+        "clip_score": 0.7784
+      },
+      {
+        "prompt": "A bear points at a rainbow",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.8188
+      },
+      {
+        "prompt": "An animal points at a rainbow",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.7936
+      },
+      {
+        "prompt": "Points at a rainbow",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.783
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "82",
+    "source": "Mickey Mouse smells flowers in a garden",
+    "candidates": [
+      {
+        "prompt": "A bunny smells flowers in a garden",
+        "mapping_type": "replace",
+        "replacement": "bunny",
+        "clip_score": 0.837
+      },
+      {
+        "prompt": "A girl smells flowers in a garden",
+        "mapping_type": "replace",
+        "replacement": "girl",
+        "clip_score": 0.7836
+      },
+      {
+        "prompt": "A squirrel smells flowers in a garden",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.8078
+      },
+      {
+        "prompt": "A gnome smells flowers in a garden",
+        "mapping_type": "replace",
+        "replacement": "gnome",
+        "clip_score": 0.7748
+      },
+      {
+        "prompt": "A hedgehog smells flowers in a garden",
+        "mapping_type": "replace",
+        "replacement": "hedgehog",
+        "clip_score": 0.7794
+      },
+      {
+        "prompt": "A fairy smells flowers in a garden",
+        "mapping_type": "replace",
+        "replacement": "fairy",
+        "clip_score": 0.8333
+      },
+      {
+        "prompt": "An elf smells flowers in a garden",
+        "mapping_type": "replace",
+        "replacement": "elf",
+        "clip_score": 0.8127
+      },
+      {
+        "prompt": "A frog smells flowers in a garden",
+        "mapping_type": "replace",
+        "replacement": "frog",
+        "clip_score": 0.8449
+      },
+      {
+        "prompt": "A creature smells flowers in a garden",
+        "mapping_type": "replace",
+        "replacement": "creature",
+        "clip_score": 0.7917
+      },
+      {
+        "prompt": "Smells flowers in a garden",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.818
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "83",
+    "source": "Mickey Mouse rakes leaves in the yard",
+    "candidates": [
+      {
+        "prompt": "A child rakes leaves in the yard",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7727
+      },
+      {
+        "prompt": "A raccoon rakes leaves in the yard",
+        "mapping_type": "replace",
+        "replacement": "raccoon",
+        "clip_score": 0.7644
+      },
+      {
+        "prompt": "A robot rakes leaves in the yard",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7353
+      },
+      {
+        "prompt": "A cat rakes leaves in the yard",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7654
+      },
+      {
+        "prompt": "A gardener rakes leaves in the yard",
+        "mapping_type": "replace",
+        "replacement": "gardener",
+        "clip_score": 0.7294
+      },
+      {
+        "prompt": "A hedgehog rakes leaves in the yard",
+        "mapping_type": "replace",
+        "replacement": "hedgehog",
+        "clip_score": 0.732
+      },
+      {
+        "prompt": "A fairy rakes leaves in the yard",
+        "mapping_type": "replace",
+        "replacement": "fairy",
+        "clip_score": 0.7824
+      },
+      {
+        "prompt": "A dog rakes leaves in the yard",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7596
+      },
+      {
+        "prompt": "A creature rakes leaves in the yard",
+        "mapping_type": "replace",
+        "replacement": "creature",
+        "clip_score": 0.7868
+      },
+      {
+        "prompt": "Rakes leaves in the yard",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7008
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "84",
+    "source": "Mickey Mouse paints a fence white",
+    "candidates": [
+      {
+        "prompt": "A child paints a fence white",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7385
+      },
+      {
+        "prompt": "An artist paints a fence white",
+        "mapping_type": "replace",
+        "replacement": "artist",
+        "clip_score": 0.7673
+      },
+      {
+        "prompt": "A robot paints a fence white",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.6907
+      },
+      {
+        "prompt": "A giraffe paints a fence white",
+        "mapping_type": "replace",
+        "replacement": "giraffe",
+        "clip_score": 0.7019
+      },
+      {
+        "prompt": "A dog paints a fence white",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7462
+      },
+      {
+        "prompt": "A dinosaur paints a fence white",
+        "mapping_type": "replace",
+        "replacement": "dinosaur",
+        "clip_score": 0.7386
+      },
+      {
+        "prompt": "A squirrel paints a fence white",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.7196
+      },
+      {
+        "prompt": "A fairy paints a fence white",
+        "mapping_type": "replace",
+        "replacement": "fairy",
+        "clip_score": 0.7754
+      },
+      {
+        "prompt": "A person paints a fence white",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7478
+      },
+      {
+        "prompt": "Paints a fence white",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7046
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "85",
+    "source": "Mickey Mouse washes a red car",
+    "candidates": [
+      {
+        "prompt": "A child washes a red car",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7428
+      },
+      {
+        "prompt": "A robot washes a red car",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7196
+      },
+      {
+        "prompt": "A dog washes a red car",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.777
+      },
+      {
+        "prompt": "A bird washes a red car",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7763
+      },
+      {
+        "prompt": "A cat washes a red car",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7986
+      },
+      {
+        "prompt": "A fairy washes a red car",
+        "mapping_type": "replace",
+        "replacement": "fairy",
+        "clip_score": 0.7867
+      },
+      {
+        "prompt": "A hedgehog washes a red car",
+        "mapping_type": "replace",
+        "replacement": "hedgehog",
+        "clip_score": 0.741
+      },
+      {
+        "prompt": "A robot dog washes a red car",
+        "mapping_type": "replace",
+        "replacement": "robot dog",
+        "clip_score": 0.7408
+      },
+      {
+        "prompt": "A vehicle washes a red car",
+        "mapping_type": "replace",
+        "replacement": "vehicle",
+        "clip_score": 0.7308
+      },
+      {
+        "prompt": "Washes a red car",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7993
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "86",
+    "source": "Mickey Mouse fills a bird feeder",
+    "candidates": [
+      {
+        "prompt": "A bird fills a bird feeder",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7351
+      },
+      {
+        "prompt": "A squirrel fills a bird feeder",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.7104
+      },
+      {
+        "prompt": "A cat fills a bird feeder",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7262
+      },
+      {
+        "prompt": "A child fills a bird feeder",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7124
+      },
+      {
+        "prompt": "A raccoon fills a bird feeder",
+        "mapping_type": "replace",
+        "replacement": "raccoon",
+        "clip_score": 0.6875
+      },
+      {
+        "prompt": "A fairy fills a bird feeder",
+        "mapping_type": "replace",
+        "replacement": "fairy",
+        "clip_score": 0.7207
+      },
+      {
+        "prompt": "A robot fills a bird feeder",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.664
+      },
+      {
+        "prompt": "A dog fills a bird feeder",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7223
+      },
+      {
+        "prompt": "An animal fills a bird feeder",
+        "mapping_type": "replace",
+        "replacement": "animal",
+        "clip_score": 0.7152
+      },
+      {
+        "prompt": "Fills a bird feeder",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6723
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "87",
+    "source": "Mickey Mouse grills vegetables on a patio",
+    "candidates": [
+      {
+        "prompt": "A chef grills vegetables on a patio",
+        "mapping_type": "replace",
+        "replacement": "chef",
+        "clip_score": 0.7685
+      },
+      {
+        "prompt": "A dog grills vegetables on a patio",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7718
+      },
+      {
+        "prompt": "A robot grills vegetables on a patio",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7127
+      },
+      {
+        "prompt": "A bird grills vegetables on a patio",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7446
+      },
+      {
+        "prompt": "A cat grills vegetables on a patio",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7631
+      },
+      {
+        "prompt": "A fairy grills vegetables on a patio",
+        "mapping_type": "replace",
+        "replacement": "fairy",
+        "clip_score": 0.7168
+      },
+      {
+        "prompt": "A gardener grills vegetables on a patio",
+        "mapping_type": "replace",
+        "replacement": "gardener",
+        "clip_score": 0.7459
+      },
+      {
+        "prompt": "A dinosaur grills vegetables on a patio",
+        "mapping_type": "replace",
+        "replacement": "dinosaur",
+        "clip_score": 0.7524
+      },
+      {
+        "prompt": "A creature grills vegetables on a patio",
+        "mapping_type": "replace",
+        "replacement": "creature",
+        "clip_score": 0.7814
+      },
+      {
+        "prompt": "Grills vegetables on a patio",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7322
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "88",
+    "source": "Mickey Mouse sets a table for dinner",
+    "candidates": [
+      {
+        "prompt": "A child sets a table for dinner",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7554
+      },
+      {
+        "prompt": "A robot sets a table for dinner",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.7185
+      },
+      {
+        "prompt": "An elf sets a table for dinner",
+        "mapping_type": "replace",
+        "replacement": "elf",
+        "clip_score": 0.7607
+      },
+      {
+        "prompt": "A dog sets a table for dinner",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7553
+      },
+      {
+        "prompt": "A cat sets a table for dinner",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7772
+      },
+      {
+        "prompt": "A fairy sets a table for dinner",
+        "mapping_type": "replace",
+        "replacement": "fairy",
+        "clip_score": 0.7655
+      },
+      {
+        "prompt": "A dinosaur sets a table for dinner",
+        "mapping_type": "replace",
+        "replacement": "dinosaur",
+        "clip_score": 0.7628
+      },
+      {
+        "prompt": "A parent sets a table for dinner",
+        "mapping_type": "replace",
+        "replacement": "parent",
+        "clip_score": 0.7225
+      },
+      {
+        "prompt": "A person sets a table for dinner",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7451
+      },
+      {
+        "prompt": "Sets a table for dinner",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7516
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "89",
+    "source": "Mickey Mouse serves soup in a bowl",
+    "candidates": [
+      {
+        "prompt": "A chef serves soup in a bowl",
+        "mapping_type": "replace",
+        "replacement": "chef",
+        "clip_score": 0.7439
+      },
+      {
+        "prompt": "A child serves soup in a bowl",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.699
+      },
+      {
+        "prompt": "A robot serves soup in a bowl",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.701
+      },
+      {
+        "prompt": "A dog serves soup in a bowl",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.741
+      },
+      {
+        "prompt": "A cat serves soup in a bowl",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.739
+      },
+      {
+        "prompt": "An elf serves soup in a bowl",
+        "mapping_type": "replace",
+        "replacement": "elf",
+        "clip_score": 0.7076
+      },
+      {
+        "prompt": "A dinosaur serves soup in a bowl",
+        "mapping_type": "replace",
+        "replacement": "dinosaur",
+        "clip_score": 0.7332
+      },
+      {
+        "prompt": "A fairy serves soup in a bowl",
+        "mapping_type": "replace",
+        "replacement": "fairy",
+        "clip_score": 0.7274
+      },
+      {
+        "prompt": "A person serves soup in a bowl",
+        "mapping_type": "replace",
+        "replacement": "person",
+        "clip_score": 0.7198
+      },
+      {
+        "prompt": "Serves soup in a bowl",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7355
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "90",
+    "source": "Mickey Mouse eats breakfast at sunrise",
+    "candidates": [
+      {
+        "prompt": "A bird eats breakfast at sunrise",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7334
+      },
+      {
+        "prompt": "A dog eats breakfast at sunrise",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7401
+      },
+      {
+        "prompt": "A child eats breakfast at sunrise",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7388
+      },
+      {
+        "prompt": "A fox eats breakfast at sunrise",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.716
+      },
+      {
+        "prompt": "A cat eats breakfast at sunrise",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7535
+      },
+      {
+        "prompt": "A robot eats breakfast at sunrise",
+        "mapping_type": "replace",
+        "replacement": "robot",
+        "clip_score": 0.706
+      },
+      {
+        "prompt": "A fairy eats breakfast at sunrise",
+        "mapping_type": "replace",
+        "replacement": "fairy",
+        "clip_score": 0.7662
+      },
+      {
+        "prompt": "A dinosaur eats breakfast at sunrise",
+        "mapping_type": "replace",
+        "replacement": "dinosaur",
+        "clip_score": 0.7482
+      },
+      {
+        "prompt": "A creature eats breakfast at sunrise",
+        "mapping_type": "replace",
+        "replacement": "creature",
+        "clip_score": 0.7489
+      },
+      {
+        "prompt": "Eats breakfast at sunrise",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7052
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "91",
+    "source": "Mickey Mouse waits in line at kiosk",
+    "candidates": [
+      {
+        "prompt": "A rabbit waits in line at kiosk",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7307
+      },
+      {
+        "prompt": "A panda buys tickets at the window",
+        "mapping_type": "replace",
+        "replacement": "panda",
+        "clip_score": 0.5321
+      },
+      {
+        "prompt": "A cat rides a carousel horse",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.3366
+      },
+      {
+        "prompt": "A dog plays ring toss at fair",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.3713
+      },
+      {
+        "prompt": "A squirrel wins a small prize",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.454
+      },
+      {
+        "prompt": "A giraffe poses with a mascot",
+        "mapping_type": "replace",
+        "replacement": "giraffe",
+        "clip_score": 0.4148
+      },
+      {
+        "prompt": "A fox stands beside a street artist",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.4211
+      },
+      {
+        "prompt": "A rabbit gets a balloon animal",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.3703
+      },
+      {
+        "prompt": "A character reads a map downtown",
+        "mapping_type": "replace",
+        "replacement": "character",
+        "clip_score": 0.4161
+      },
+      {
+        "prompt": "A person waves from a hotel balcony",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.2979
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "92",
+    "source": "Mickey Mouse buys tickets at the window",
+    "candidates": [
+      {
+        "prompt": "A dog buys tickets at the window",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7651
+      },
+      {
+        "prompt": "A rabbit buys tickets at the window",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7757
+      },
+      {
+        "prompt": "A monkey buys tickets at the window",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.8177
+      },
+      {
+        "prompt": "A cat buys tickets at the window",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7774
+      },
+      {
+        "prompt": "A bear buys tickets at the window",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.8054
+      },
+      {
+        "prompt": "A parrot buys tickets at the window",
+        "mapping_type": "replace",
+        "replacement": "parrot",
+        "clip_score": 0.718
+      },
+      {
+        "prompt": "A cow buys tickets at the window",
+        "mapping_type": "replace",
+        "replacement": "cow",
+        "clip_score": 0.8101
+      },
+      {
+        "prompt": "A turtle buys tickets at the window",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7646
+      },
+      {
+        "prompt": "A character buys tickets at the window",
+        "mapping_type": "replace",
+        "replacement": "character",
+        "clip_score": 0.7988
+      },
+      {
+        "prompt": "A person buys tickets at the window",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7823
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "93",
+    "source": "Mickey Mouse rides a carousel horse",
+    "candidates": [
+      {
+        "prompt": "A lion rides a carousel horse",
+        "mapping_type": "replace",
+        "replacement": "lion",
+        "clip_score": 0.7986
+      },
+      {
+        "prompt": "A rabbit rides a carousel horse",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7752
+      },
+      {
+        "prompt": "An elephant rides a carousel horse",
+        "mapping_type": "replace",
+        "replacement": "elephant",
+        "clip_score": 0.8091
+      },
+      {
+        "prompt": "A bird rides a carousel horse",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.8055
+      },
+      {
+        "prompt": "A frog rides a carousel horse",
+        "mapping_type": "replace",
+        "replacement": "frog",
+        "clip_score": 0.7648
+      },
+      {
+        "prompt": "A tiger rides a carousel horse",
+        "mapping_type": "replace",
+        "replacement": "tiger",
+        "clip_score": 0.7578
+      },
+      {
+        "prompt": "A bear rides a carousel horse",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7941
+      },
+      {
+        "prompt": "A deer rides a carousel horse",
+        "mapping_type": "replace",
+        "replacement": "deer",
+        "clip_score": 0.7593
+      },
+      {
+        "prompt": "A character rides a carousel horse",
+        "mapping_type": "replace",
+        "replacement": "character",
+        "clip_score": 0.8142
+      },
+      {
+        "prompt": "A scene at the carousel",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6978
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "94",
+    "source": "Mickey Mouse plays ring toss at fair",
+    "candidates": [
+      {
+        "prompt": "A rabbit plays ring toss at fair",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.757
+      },
+      {
+        "prompt": "A fox plays ring toss at fair",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7442
+      },
+      {
+        "prompt": "A lion plays ring toss at fair",
+        "mapping_type": "replace",
+        "replacement": "lion",
+        "clip_score": 0.7352
+      },
+      {
+        "prompt": "A bear plays ring toss at fair",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7719
+      },
+      {
+        "prompt": "An elephant plays ring toss at fair",
+        "mapping_type": "replace",
+        "replacement": "elephant",
+        "clip_score": 0.775
+      },
+      {
+        "prompt": "A panda plays ring toss at fair",
+        "mapping_type": "replace",
+        "replacement": "panda",
+        "clip_score": 0.7358
+      },
+      {
+        "prompt": "A turtle plays ring toss at fair",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7166
+      },
+      {
+        "prompt": "A squirrel plays ring toss at fair",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.7212
+      },
+      {
+        "prompt": "A character plays ring toss at fair",
+        "mapping_type": "replace",
+        "replacement": "character",
+        "clip_score": 0.7366
+      },
+      {
+        "prompt": "Children play ring toss at fair",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7483
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "95",
+    "source": "Mickey Mouse wins a small prize",
+    "candidates": [
+      {
+        "prompt": "A cat wins a small prize",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7763
+      },
+      {
+        "prompt": "A dog wins a small prize",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7698
+      },
+      {
+        "prompt": "A rabbit wins a small prize",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.781
+      },
+      {
+        "prompt": "A monkey wins a small prize",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.801
+      },
+      {
+        "prompt": "A frog wins a small prize",
+        "mapping_type": "replace",
+        "replacement": "frog",
+        "clip_score": 0.7773
+      },
+      {
+        "prompt": "A bird wins a small prize",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7591
+      },
+      {
+        "prompt": "A bear wins a small prize",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.8077
+      },
+      {
+        "prompt": "A fish wins a small prize",
+        "mapping_type": "replace",
+        "replacement": "fish",
+        "clip_score": 0.7627
+      },
+      {
+        "prompt": "A character wins a small prize",
+        "mapping_type": "replace",
+        "replacement": "character",
+        "clip_score": 0.7653
+      },
+      {
+        "prompt": "Someone wins a small prize",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7655
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "96",
+    "source": "Mickey Mouse poses with a mascot",
+    "candidates": [
+      {
+        "prompt": "A mascot poses with a character",
+        "mapping_type": "replace",
+        "replacement": "mascot",
+        "clip_score": 0.8073
+      },
+      {
+        "prompt": "A dog poses with a mascot",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7675
+      },
+      {
+        "prompt": "A rabbit poses with a mascot",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7653
+      },
+      {
+        "prompt": "A bear poses with a mascot",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.8172
+      },
+      {
+        "prompt": "A turtle poses with a mascot",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7291
+      },
+      {
+        "prompt": "A cat poses with a mascot",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7707
+      },
+      {
+        "prompt": "A frog poses with a mascot",
+        "mapping_type": "replace",
+        "replacement": "frog",
+        "clip_score": 0.7686
+      },
+      {
+        "prompt": "A fox poses with a mascot",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7828
+      },
+      {
+        "prompt": "A character poses with a mascot",
+        "mapping_type": "replace",
+        "replacement": "character",
+        "clip_score": 0.7827
+      },
+      {
+        "prompt": "A person poses with a mascot",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7817
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "97",
+    "source": "Mickey Mouse stands beside a street artist",
+    "candidates": [
+      {
+        "prompt": "A bear stands beside a street artist",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.8121
+      },
+      {
+        "prompt": "A dog stands beside a street artist",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7831
+      },
+      {
+        "prompt": "A rabbit stands beside a street artist",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.8016
+      },
+      {
+        "prompt": "A fox stands beside a street artist",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7902
+      },
+      {
+        "prompt": "A turtle stands beside a street artist",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.767
+      },
+      {
+        "prompt": "A cat stands beside a street artist",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7975
+      },
+      {
+        "prompt": "A monkey stands beside a street artist",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.8144
+      },
+      {
+        "prompt": "An elephant stands beside a street artist",
+        "mapping_type": "replace",
+        "replacement": "elephant",
+        "clip_score": 0.8111
+      },
+      {
+        "prompt": "A character stands beside a street artist",
+        "mapping_type": "replace",
+        "replacement": "character",
+        "clip_score": 0.7962
+      },
+      {
+        "prompt": "A scene beside a street artist",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7108
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "98",
+    "source": "Mickey Mouse gets a balloon animal",
+    "candidates": [
+      {
+        "prompt": "A dog gets a balloon animal",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.773
+      },
+      {
+        "prompt": "A rabbit gets a balloon animal",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7642
+      },
+      {
+        "prompt": "A cat gets a balloon animal",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7587
+      },
+      {
+        "prompt": "A bear gets a balloon animal",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7864
+      },
+      {
+        "prompt": "A fox gets a balloon animal",
+        "mapping_type": "replace",
+        "replacement": "fox",
+        "clip_score": 0.7584
+      },
+      {
+        "prompt": "A turtle gets a balloon animal",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7124
+      },
+      {
+        "prompt": "A giraffe gets a balloon animal",
+        "mapping_type": "replace",
+        "replacement": "giraffe",
+        "clip_score": 0.6967
+      },
+      {
+        "prompt": "A monkey gets a balloon animal",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.798
+      },
+      {
+        "prompt": "A character gets a balloon animal",
+        "mapping_type": "replace",
+        "replacement": "character",
+        "clip_score": 0.799
+      },
+      {
+        "prompt": "A child gets a balloon animal",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.762
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "99",
+    "source": "Mickey Mouse reads a map downtown",
+    "candidates": [
+      {
+        "prompt": "A character reads a map downtown",
+        "mapping_type": "replace",
+        "replacement": "character",
+        "clip_score": 0.7531
+      },
+      {
+        "prompt": "A dog reads a map downtown",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7336
+      },
+      {
+        "prompt": "A cat reads a map downtown",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7731
+      },
+      {
+        "prompt": "A rabbit reads a map downtown",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7886
+      },
+      {
+        "prompt": "A frog reads a map downtown",
+        "mapping_type": "replace",
+        "replacement": "frog",
+        "clip_score": 0.7828
+      },
+      {
+        "prompt": "A bear reads a map downtown",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7914
+      },
+      {
+        "prompt": "A monkey reads a map downtown",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.7964
+      },
+      {
+        "prompt": "A turtle reads a map downtown",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7422
+      },
+      {
+        "prompt": "A character reads a map downtown",
+        "mapping_type": "replace",
+        "replacement": "character",
+        "clip_score": 0.7531
+      },
+      {
+        "prompt": "A scene downtown",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6404
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "100",
+    "source": "Mickey Mouse waves from a hotel balcony",
+    "candidates": [
+      {
+        "prompt": "A character waves from a hotel balcony",
+        "mapping_type": "replace",
+        "replacement": "character",
+        "clip_score": 0.7364
+      },
+      {
+        "prompt": "A dog waves from a hotel balcony",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7108
+      },
+      {
+        "prompt": "A cat waves from a hotel balcony",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7246
+      },
+      {
+        "prompt": "A rabbit waves from a hotel balcony",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.7131
+      },
+      {
+        "prompt": "A bird waves from a hotel balcony",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7335
+      },
+      {
+        "prompt": "A bear waves from a hotel balcony",
+        "mapping_type": "replace",
+        "replacement": "bear",
+        "clip_score": 0.7177
+      },
+      {
+        "prompt": "A monkey waves from a hotel balcony",
+        "mapping_type": "replace",
+        "replacement": "monkey",
+        "clip_score": 0.716
+      },
+      {
+        "prompt": "A turtle waves from a hotel balcony",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.727
+      },
+      {
+        "prompt": "A character waves from a hotel balcony",
+        "mapping_type": "replace",
+        "replacement": "character",
+        "clip_score": 0.7364
+      },
+      {
+        "prompt": "A view from a hotel balcony",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6419
+      }
+    ],
+    "selected": 1
+  }
+]

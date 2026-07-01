@@ -1,0 +1,6702 @@
+[
+  {
+    "id": "1",
+    "source": "A golf ball on short grass.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball on short grass.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.9024
+      },
+      {
+        "prompt": "A soccer ball on short grass.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8942
+      },
+      {
+        "prompt": "A baseball on short grass.",
+        "mapping_type": "replace",
+        "replacement": "baseball",
+        "clip_score": 0.8857
+      },
+      {
+        "prompt": "A rock on short grass.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.7634
+      },
+      {
+        "prompt": "A toy car on short grass.",
+        "mapping_type": "replace",
+        "replacement": "toy car",
+        "clip_score": 0.7356
+      },
+      {
+        "prompt": "A frisbee on short grass.",
+        "mapping_type": "replace",
+        "replacement": "frisbee",
+        "clip_score": 0.7478
+      },
+      {
+        "prompt": "A flower on short grass.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7835
+      },
+      {
+        "prompt": "An acorn on short grass.",
+        "mapping_type": "replace",
+        "replacement": "acorn",
+        "clip_score": 0.7819
+      },
+      {
+        "prompt": "An object on short grass.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.808
+      },
+      {
+        "prompt": "A scene on short grass.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7084
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "2",
+    "source": "A golf ball sitting on a tee.",
+    "candidates": [
+      {
+        "prompt": "A baseball sitting on a tee.",
+        "mapping_type": "replace",
+        "replacement": "baseball",
+        "clip_score": 0.8441
+      },
+      {
+        "prompt": "A soccer ball sitting on a tee.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.883
+      },
+      {
+        "prompt": "A tennis ball sitting on a tee.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8591
+      },
+      {
+        "prompt": "A water bottle sitting on a tee.",
+        "mapping_type": "replace",
+        "replacement": "water bottle",
+        "clip_score": 0.6618
+      },
+      {
+        "prompt": "A rock sitting on a tee.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.6954
+      },
+      {
+        "prompt": "A key sitting on a tee.",
+        "mapping_type": "replace",
+        "replacement": "key",
+        "clip_score": 0.5851
+      },
+      {
+        "prompt": "A toy sitting on a tee.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.6691
+      },
+      {
+        "prompt": "A cap sitting on a tee.",
+        "mapping_type": "replace",
+        "replacement": "cap",
+        "clip_score": 0.6509
+      },
+      {
+        "prompt": "An object sitting on a tee.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7379
+      },
+      {
+        "prompt": "A tee on the ground.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6868
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "3",
+    "source": "A golf ball in a sand bunker.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball in a sand bunker.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8949
+      },
+      {
+        "prompt": "A soccer ball in a sand bunker.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8814
+      },
+      {
+        "prompt": "A beach ball in a sand bunker.",
+        "mapping_type": "replace",
+        "replacement": "beach ball",
+        "clip_score": 0.8557
+      },
+      {
+        "prompt": "A shovel in a sand bunker.",
+        "mapping_type": "replace",
+        "replacement": "shovel",
+        "clip_score": 0.775
+      },
+      {
+        "prompt": "A bucket in a sand bunker.",
+        "mapping_type": "replace",
+        "replacement": "bucket",
+        "clip_score": 0.8242
+      },
+      {
+        "prompt": "A shell in a sand bunker.",
+        "mapping_type": "replace",
+        "replacement": "shell",
+        "clip_score": 0.8443
+      },
+      {
+        "prompt": "A towel in a sand bunker.",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.768
+      },
+      {
+        "prompt": "A pair of sunglasses in a sand bunker.",
+        "mapping_type": "replace",
+        "replacement": "sunglasses",
+        "clip_score": 0.7028
+      },
+      {
+        "prompt": "An item in a sand bunker.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8256
+      },
+      {
+        "prompt": "A sand bunker on a golf course.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8529
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "4",
+    "source": "A golf ball near the hole flag.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball near the hole flag.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.9241
+      },
+      {
+        "prompt": "A soccer ball near the hole flag.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.9225
+      },
+      {
+        "prompt": "A rock near the hole flag.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.8323
+      },
+      {
+        "prompt": "A flower near the hole flag.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7918
+      },
+      {
+        "prompt": "A bottle near the hole flag.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7757
+      },
+      {
+        "prompt": "A marker near the hole flag.",
+        "mapping_type": "replace",
+        "replacement": "marker",
+        "clip_score": 0.7996
+      },
+      {
+        "prompt": "A toy near the hole flag.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7939
+      },
+      {
+        "prompt": "A pair of shoes near the hole flag.",
+        "mapping_type": "replace",
+        "replacement": "shoes",
+        "clip_score": 0.764
+      },
+      {
+        "prompt": "An object near the hole flag.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.848
+      },
+      {
+        "prompt": "A scene near the hole flag.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7578
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "5",
+    "source": "A golf ball on a putting green.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball on a putting green.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.9488
+      },
+      {
+        "prompt": "A soccer ball on a putting green.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.9002
+      },
+      {
+        "prompt": "A rock on a putting green.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.8803
+      },
+      {
+        "prompt": "A shoe on a putting green.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.8764
+      },
+      {
+        "prompt": "A flag on a putting green.",
+        "mapping_type": "replace",
+        "replacement": "flag",
+        "clip_score": 0.86
+      },
+      {
+        "prompt": "A flower on a putting green.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.8374
+      },
+      {
+        "prompt": "A flagpole on a putting green.",
+        "mapping_type": "replace",
+        "replacement": "flagpole",
+        "clip_score": 0.7612
+      },
+      {
+        "prompt": "A bottle on a putting green.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.8271
+      },
+      {
+        "prompt": "An item on a putting green.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8759
+      },
+      {
+        "prompt": "A putting green on a course.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8759
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "6",
+    "source": "A golf ball rolling down a slope.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball rolling down a slope.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8636
+      },
+      {
+        "prompt": "A soccer ball rolling down a slope.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8754
+      },
+      {
+        "prompt": "A marble rolling down a slope.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.7332
+      },
+      {
+        "prompt": "A pine cone rolling down a slope.",
+        "mapping_type": "replace",
+        "replacement": "pine cone",
+        "clip_score": 0.6714
+      },
+      {
+        "prompt": "A leaf rolling down a slope.",
+        "mapping_type": "replace",
+        "replacement": "leaf",
+        "clip_score": 0.7137
+      },
+      {
+        "prompt": "A rock rolling down a slope.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.7895
+      },
+      {
+        "prompt": "A toy rolling down a slope.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7322
+      },
+      {
+        "prompt": "A stick rolling down a slope.",
+        "mapping_type": "replace",
+        "replacement": "stick",
+        "clip_score": 0.7635
+      },
+      {
+        "prompt": "An item rolling down a slope.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.77
+      },
+      {
+        "prompt": "A slope in the landscape.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6995
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "7",
+    "source": "A golf ball beside a putter.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball beside a putter.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.9229
+      },
+      {
+        "prompt": "A soccer ball beside a putter.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.9013
+      },
+      {
+        "prompt": "A bottle beside a putter.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.8364
+      },
+      {
+        "prompt": "A shoe beside a putter.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.8565
+      },
+      {
+        "prompt": "A towel beside a putter.",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.8031
+      },
+      {
+        "prompt": "A key beside a putter.",
+        "mapping_type": "replace",
+        "replacement": "key",
+        "clip_score": 0.8408
+      },
+      {
+        "prompt": "A cap beside a putter.",
+        "mapping_type": "replace",
+        "replacement": "cap",
+        "clip_score": 0.8408
+      },
+      {
+        "prompt": "A toy beside a putter.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.8547
+      },
+      {
+        "prompt": "An object beside a putter.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8965
+      },
+      {
+        "prompt": "A scene beside a putter.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8122
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "8",
+    "source": "A golf ball on a wooden table.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball on a wooden table.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8595
+      },
+      {
+        "prompt": "A pencil on a wooden table.",
+        "mapping_type": "replace",
+        "replacement": "pencil",
+        "clip_score": 0.689
+      },
+      {
+        "prompt": "A cup on a wooden table.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.7321
+      },
+      {
+        "prompt": "A book on a wooden table.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.6872
+      },
+      {
+        "prompt": "A plant on a wooden table.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7121
+      },
+      {
+        "prompt": "A plate on a wooden table.",
+        "mapping_type": "replace",
+        "replacement": "plate",
+        "clip_score": 0.6581
+      },
+      {
+        "prompt": "A glass on a wooden table.",
+        "mapping_type": "replace",
+        "replacement": "glass",
+        "clip_score": 0.6976
+      },
+      {
+        "prompt": "A toy on a wooden table.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.691
+      },
+      {
+        "prompt": "An item on a wooden table.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7341
+      },
+      {
+        "prompt": "A wooden table in a room.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6877
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "9",
+    "source": "A golf ball in a glass bowl.",
+    "candidates": [
+      {
+        "prompt": "A marble in a glass bowl.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.7486
+      },
+      {
+        "prompt": "A fruit in a glass bowl.",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.7267
+      },
+      {
+        "prompt": "A shell in a glass bowl.",
+        "mapping_type": "replace",
+        "replacement": "shell",
+        "clip_score": 0.759
+      },
+      {
+        "prompt": "A candle in a glass bowl.",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.7299
+      },
+      {
+        "prompt": "A flower in a glass bowl.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7223
+      },
+      {
+        "prompt": "A toy in a glass bowl.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7184
+      },
+      {
+        "prompt": "A pebble in a glass bowl.",
+        "mapping_type": "replace",
+        "replacement": "pebble",
+        "clip_score": 0.7342
+      },
+      {
+        "prompt": "An item in a glass bowl.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7699
+      },
+      {
+        "prompt": "A thing in a glass bowl.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7097
+      },
+      {
+        "prompt": "A glass bowl on a table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7146
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "10",
+    "source": "A golf ball on a windowsill.",
+    "candidates": [
+      {
+        "prompt": "A flower on a windowsill.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7097
+      },
+      {
+        "prompt": "A toy on a windowsill.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7207
+      },
+      {
+        "prompt": "A cup on a windowsill.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.7442
+      },
+      {
+        "prompt": "A plant on a windowsill.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7233
+      },
+      {
+        "prompt": "A book on a windowsill.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.6801
+      },
+      {
+        "prompt": "A candle on a windowsill.",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.7225
+      },
+      {
+        "prompt": "A pencil on a windowsill.",
+        "mapping_type": "replace",
+        "replacement": "pencil",
+        "clip_score": 0.6997
+      },
+      {
+        "prompt": "A rock on a windowsill.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.7522
+      },
+      {
+        "prompt": "An item on a windowsill.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7195
+      },
+      {
+        "prompt": "A scene on a windowsill.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6685
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "11",
+    "source": "A golf ball under a park bench.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball under a park bench.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8744
+      },
+      {
+        "prompt": "A rubber ball under a park bench.",
+        "mapping_type": "replace",
+        "replacement": "rubber ball",
+        "clip_score": 0.8658
+      },
+      {
+        "prompt": "A soccer ball under a park bench.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8568
+      },
+      {
+        "prompt": "A baseball under a park bench.",
+        "mapping_type": "replace",
+        "replacement": "baseball",
+        "clip_score": 0.8392
+      },
+      {
+        "prompt": "A frisbee under a park bench.",
+        "mapping_type": "replace",
+        "replacement": "frisbee",
+        "clip_score": 0.7138
+      },
+      {
+        "prompt": "A cricket ball under a park bench.",
+        "mapping_type": "replace",
+        "replacement": "cricket ball",
+        "clip_score": 0.8467
+      },
+      {
+        "prompt": "A marble under a park bench.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.7638
+      },
+      {
+        "prompt": "A toy car under a park bench.",
+        "mapping_type": "replace",
+        "replacement": "toy car",
+        "clip_score": 0.7234
+      },
+      {
+        "prompt": "A thing under a park bench.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.6979
+      },
+      {
+        "prompt": "A park bench in a sunny area.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6779
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "12",
+    "source": "A golf ball in a water puddle.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball in a water puddle.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8269
+      },
+      {
+        "prompt": "A pebble in a water puddle.",
+        "mapping_type": "replace",
+        "replacement": "pebble",
+        "clip_score": 0.66
+      },
+      {
+        "prompt": "A rubber duck in a water puddle.",
+        "mapping_type": "replace",
+        "replacement": "rubber duck",
+        "clip_score": 0.6443
+      },
+      {
+        "prompt": "A leaf in a water puddle.",
+        "mapping_type": "replace",
+        "replacement": "leaf",
+        "clip_score": 0.6792
+      },
+      {
+        "prompt": "A soda can in a water puddle.",
+        "mapping_type": "replace",
+        "replacement": "soda can",
+        "clip_score": 0.7241
+      },
+      {
+        "prompt": "A shoe in a water puddle.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.7143
+      },
+      {
+        "prompt": "A coin in a water puddle.",
+        "mapping_type": "replace",
+        "replacement": "coin",
+        "clip_score": 0.7618
+      },
+      {
+        "prompt": "A toy soldier in a water puddle.",
+        "mapping_type": "replace",
+        "replacement": "toy soldier",
+        "clip_score": 0.5823
+      },
+      {
+        "prompt": "An item in a water puddle.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7267
+      },
+      {
+        "prompt": "A water puddle on the ground.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6888
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "13",
+    "source": "A golf ball on a driveway.",
+    "candidates": [
+      {
+        "prompt": "A toy car on a driveway.",
+        "mapping_type": "replace",
+        "replacement": "toy car",
+        "clip_score": 0.7384
+      },
+      {
+        "prompt": "A skateboard on a driveway.",
+        "mapping_type": "replace",
+        "replacement": "skateboard",
+        "clip_score": 0.6854
+      },
+      {
+        "prompt": "A bicycle on a driveway.",
+        "mapping_type": "replace",
+        "replacement": "bicycle",
+        "clip_score": 0.6944
+      },
+      {
+        "prompt": "A toolbox on a driveway.",
+        "mapping_type": "replace",
+        "replacement": "toolbox",
+        "clip_score": 0.6007
+      },
+      {
+        "prompt": "A drum on a driveway.",
+        "mapping_type": "replace",
+        "replacement": "drum",
+        "clip_score": 0.6656
+      },
+      {
+        "prompt": "A suitcase on a driveway.",
+        "mapping_type": "replace",
+        "replacement": "suitcase",
+        "clip_score": 0.6126
+      },
+      {
+        "prompt": "A plastic chair on a driveway.",
+        "mapping_type": "replace",
+        "replacement": "plastic chair",
+        "clip_score": 0.5687
+      },
+      {
+        "prompt": "A basketball on a driveway.",
+        "mapping_type": "replace",
+        "replacement": "basketball",
+        "clip_score": 0.7902
+      },
+      {
+        "prompt": "A thing on a driveway.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.6713
+      },
+      {
+        "prompt": "A driveway leading to a house.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6559
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "14",
+    "source": "A golf ball on a kitchen counter.",
+    "candidates": [
+      {
+        "prompt": "A fruit bowl on a kitchen counter.",
+        "mapping_type": "replace",
+        "replacement": "fruit bowl",
+        "clip_score": 0.7389
+      },
+      {
+        "prompt": "A coffee mug on a kitchen counter.",
+        "mapping_type": "replace",
+        "replacement": "coffee mug",
+        "clip_score": 0.7251
+      },
+      {
+        "prompt": "A frying pan on a kitchen counter.",
+        "mapping_type": "replace",
+        "replacement": "frying pan",
+        "clip_score": 0.6947
+      },
+      {
+        "prompt": "A blender on a kitchen counter.",
+        "mapping_type": "replace",
+        "replacement": "blender",
+        "clip_score": 0.6848
+      },
+      {
+        "prompt": "A cookbook on a kitchen counter.",
+        "mapping_type": "replace",
+        "replacement": "cookbook",
+        "clip_score": 0.6585
+      },
+      {
+        "prompt": "A vase on a kitchen counter.",
+        "mapping_type": "replace",
+        "replacement": "vase",
+        "clip_score": 0.7095
+      },
+      {
+        "prompt": "A toaster on a kitchen counter.",
+        "mapping_type": "replace",
+        "replacement": "toaster",
+        "clip_score": 0.6893
+      },
+      {
+        "prompt": "A cutting board on a kitchen counter.",
+        "mapping_type": "replace",
+        "replacement": "cutting board",
+        "clip_score": 0.6614
+      },
+      {
+        "prompt": "An item on a kitchen counter.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7177
+      },
+      {
+        "prompt": "A kitchen counter with utensils.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.659
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "15",
+    "source": "A golf ball on a laptop keyboard.",
+    "candidates": [
+      {
+        "prompt": "A sandwich on a laptop keyboard.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.6917
+      },
+      {
+        "prompt": "A pencil on a laptop keyboard.",
+        "mapping_type": "replace",
+        "replacement": "pencil",
+        "clip_score": 0.6945
+      },
+      {
+        "prompt": "A notepad on a laptop keyboard.",
+        "mapping_type": "replace",
+        "replacement": "notepad",
+        "clip_score": 0.7171
+      },
+      {
+        "prompt": "A phone on a laptop keyboard.",
+        "mapping_type": "replace",
+        "replacement": "phone",
+        "clip_score": 0.6659
+      },
+      {
+        "prompt": "A coffee cup on a laptop keyboard.",
+        "mapping_type": "replace",
+        "replacement": "coffee cup",
+        "clip_score": 0.6989
+      },
+      {
+        "prompt": "A sticker on a laptop keyboard.",
+        "mapping_type": "replace",
+        "replacement": "sticker",
+        "clip_score": 0.6452
+      },
+      {
+        "prompt": "A book on a laptop keyboard.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.673
+      },
+      {
+        "prompt": "A remote control on a laptop keyboard.",
+        "mapping_type": "replace",
+        "replacement": "remote control",
+        "clip_score": 0.6777
+      },
+      {
+        "prompt": "An object on a laptop keyboard.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7017
+      },
+      {
+        "prompt": "A laptop keyboard with buttons.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6882
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "16",
+    "source": "A golf ball under a desk lamp.",
+    "candidates": [
+      {
+        "prompt": "A lamp under a desk lamp.",
+        "mapping_type": "replace",
+        "replacement": "lamp",
+        "clip_score": 0.7603
+      },
+      {
+        "prompt": "A book under a desk lamp.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7132
+      },
+      {
+        "prompt": "A notebook under a desk lamp.",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.7097
+      },
+      {
+        "prompt": "A phone under a desk lamp.",
+        "mapping_type": "replace",
+        "replacement": "phone",
+        "clip_score": 0.7268
+      },
+      {
+        "prompt": "A small plant under a desk lamp.",
+        "mapping_type": "replace",
+        "replacement": "small plant",
+        "clip_score": 0.708
+      },
+      {
+        "prompt": "A coffee mug under a desk lamp.",
+        "mapping_type": "replace",
+        "replacement": "coffee mug",
+        "clip_score": 0.7406
+      },
+      {
+        "prompt": "A toy under a desk lamp.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7032
+      },
+      {
+        "prompt": "A picture frame under a desk lamp.",
+        "mapping_type": "replace",
+        "replacement": "picture frame",
+        "clip_score": 0.703
+      },
+      {
+        "prompt": "An item under a desk lamp.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7531
+      },
+      {
+        "prompt": "A desk lamp lighting up a room.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7002
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "17",
+    "source": "A golf ball on a car dashboard.",
+    "candidates": [
+      {
+        "prompt": "A phone on a car dashboard.",
+        "mapping_type": "replace",
+        "replacement": "phone",
+        "clip_score": 0.685
+      },
+      {
+        "prompt": "A coffee cup on a car dashboard.",
+        "mapping_type": "replace",
+        "replacement": "coffee cup",
+        "clip_score": 0.7024
+      },
+      {
+        "prompt": "A map on a car dashboard.",
+        "mapping_type": "replace",
+        "replacement": "map",
+        "clip_score": 0.6382
+      },
+      {
+        "prompt": "A GPS device on a car dashboard.",
+        "mapping_type": "replace",
+        "replacement": "GPS device",
+        "clip_score": 0.6988
+      },
+      {
+        "prompt": "A wallet on a car dashboard.",
+        "mapping_type": "replace",
+        "replacement": "wallet",
+        "clip_score": 0.6728
+      },
+      {
+        "prompt": "A pair of sunglasses on a car dashboard.",
+        "mapping_type": "replace",
+        "replacement": "pair of sunglasses",
+        "clip_score": 0.628
+      },
+      {
+        "prompt": "An air freshener on a car dashboard.",
+        "mapping_type": "replace",
+        "replacement": "air freshener",
+        "clip_score": 0.7352
+      },
+      {
+        "prompt": "A toy figurine on a car dashboard.",
+        "mapping_type": "replace",
+        "replacement": "toy figurine",
+        "clip_score": 0.6684
+      },
+      {
+        "prompt": "An object on a car dashboard.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7097
+      },
+      {
+        "prompt": "A car dashboard with controls.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6377
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "18",
+    "source": "A golf ball in a shoe.",
+    "candidates": [
+      {
+        "prompt": "A sock in a shoe.",
+        "mapping_type": "replace",
+        "replacement": "sock",
+        "clip_score": 0.789
+      },
+      {
+        "prompt": "A key in a shoe.",
+        "mapping_type": "replace",
+        "replacement": "key",
+        "clip_score": 0.7106
+      },
+      {
+        "prompt": "A pebble in a shoe.",
+        "mapping_type": "replace",
+        "replacement": "pebble",
+        "clip_score": 0.7519
+      },
+      {
+        "prompt": "A piece of candy in a shoe.",
+        "mapping_type": "replace",
+        "replacement": "piece of candy",
+        "clip_score": 0.7977
+      },
+      {
+        "prompt": "A small ball in a shoe.",
+        "mapping_type": "replace",
+        "replacement": "small ball",
+        "clip_score": 0.8709
+      },
+      {
+        "prompt": "A coin in a shoe.",
+        "mapping_type": "replace",
+        "replacement": "coin",
+        "clip_score": 0.8032
+      },
+      {
+        "prompt": "A toy in a shoe.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7878
+      },
+      {
+        "prompt": "A piece of paper in a shoe.",
+        "mapping_type": "replace",
+        "replacement": "piece of paper",
+        "clip_score": 0.7604
+      },
+      {
+        "prompt": "An item in a shoe.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.795
+      },
+      {
+        "prompt": "A shoe on the ground.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7662
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "19",
+    "source": "A golf ball on carpet.",
+    "candidates": [
+      {
+        "prompt": "A rug on carpet.",
+        "mapping_type": "replace",
+        "replacement": "rug",
+        "clip_score": 0.7429
+      },
+      {
+        "prompt": "A chair on carpet.",
+        "mapping_type": "replace",
+        "replacement": "chair",
+        "clip_score": 0.6834
+      },
+      {
+        "prompt": "A table on carpet.",
+        "mapping_type": "replace",
+        "replacement": "table",
+        "clip_score": 0.6416
+      },
+      {
+        "prompt": "A cat on carpet.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7261
+      },
+      {
+        "prompt": "A stack of books on carpet.",
+        "mapping_type": "replace",
+        "replacement": "stack of books",
+        "clip_score": 0.6091
+      },
+      {
+        "prompt": "A basket on carpet.",
+        "mapping_type": "replace",
+        "replacement": "basket",
+        "clip_score": 0.6871
+      },
+      {
+        "prompt": "A toy on carpet.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7314
+      },
+      {
+        "prompt": "A pillow on carpet.",
+        "mapping_type": "replace",
+        "replacement": "pillow",
+        "clip_score": 0.7287
+      },
+      {
+        "prompt": "An object on carpet.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7801
+      },
+      {
+        "prompt": "A carpet in a room.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6802
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "20",
+    "source": "A golf ball inside a clear jar.",
+    "candidates": [
+      {
+        "prompt": "A jar inside a clear jar.",
+        "mapping_type": "replace",
+        "replacement": "jar",
+        "clip_score": 0.834
+      },
+      {
+        "prompt": "A plant inside a clear jar.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7901
+      },
+      {
+        "prompt": "A toy inside a clear jar.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7796
+      },
+      {
+        "prompt": "A note inside a clear jar.",
+        "mapping_type": "replace",
+        "replacement": "note",
+        "clip_score": 0.7281
+      },
+      {
+        "prompt": "A sponge inside a clear jar.",
+        "mapping_type": "replace",
+        "replacement": "sponge",
+        "clip_score": 0.7589
+      },
+      {
+        "prompt": "A candy inside a clear jar.",
+        "mapping_type": "replace",
+        "replacement": "candy",
+        "clip_score": 0.8065
+      },
+      {
+        "prompt": "A marble inside a clear jar.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.7813
+      },
+      {
+        "prompt": "A coin inside a clear jar.",
+        "mapping_type": "replace",
+        "replacement": "coin",
+        "clip_score": 0.824
+      },
+      {
+        "prompt": "An item inside a clear jar.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8212
+      },
+      {
+        "prompt": "A clear jar on a table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7187
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "21",
+    "source": "A golf ball in fresh snow.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball in fresh snow.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.858
+      },
+      {
+        "prompt": "A baseball in fresh snow.",
+        "mapping_type": "replace",
+        "replacement": "baseball",
+        "clip_score": 0.8337
+      },
+      {
+        "prompt": "A marble in fresh snow.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.7114
+      },
+      {
+        "prompt": "A snowball in fresh snow.",
+        "mapping_type": "replace",
+        "replacement": "snowball",
+        "clip_score": 0.8
+      },
+      {
+        "prompt": "A soccer ball in fresh snow.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8489
+      },
+      {
+        "prompt": "A rock in fresh snow.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.7473
+      },
+      {
+        "prompt": "A pine cone in fresh snow.",
+        "mapping_type": "replace",
+        "replacement": "pine cone",
+        "clip_score": 0.6501
+      },
+      {
+        "prompt": "A pumpkin in fresh snow.",
+        "mapping_type": "replace",
+        "replacement": "pumpkin",
+        "clip_score": 0.7149
+      },
+      {
+        "prompt": "A thing in fresh snow.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.662
+      },
+      {
+        "prompt": "A in fresh snow.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6562
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "22",
+    "source": "A golf ball among autumn leaves.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball among autumn leaves.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8685
+      },
+      {
+        "prompt": "A leaf blower among autumn leaves.",
+        "mapping_type": "replace",
+        "replacement": "leaf blower",
+        "clip_score": 0.6342
+      },
+      {
+        "prompt": "A stone among autumn leaves.",
+        "mapping_type": "replace",
+        "replacement": "stone",
+        "clip_score": 0.7195
+      },
+      {
+        "prompt": "A squirrel among autumn leaves.",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.6685
+      },
+      {
+        "prompt": "A toy car among autumn leaves.",
+        "mapping_type": "replace",
+        "replacement": "toy car",
+        "clip_score": 0.6891
+      },
+      {
+        "prompt": "A pumpkin among autumn leaves.",
+        "mapping_type": "replace",
+        "replacement": "pumpkin",
+        "clip_score": 0.7263
+      },
+      {
+        "prompt": "A stick among autumn leaves.",
+        "mapping_type": "replace",
+        "replacement": "stick",
+        "clip_score": 0.7001
+      },
+      {
+        "prompt": "An acorn among autumn leaves.",
+        "mapping_type": "replace",
+        "replacement": "acorn",
+        "clip_score": 0.7384
+      },
+      {
+        "prompt": "An object among autumn leaves.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.6862
+      },
+      {
+        "prompt": "A among autumn leaves.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6508
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "23",
+    "source": "A golf ball on dry dirt.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball on dry dirt.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8762
+      },
+      {
+        "prompt": "A baseball on dry dirt.",
+        "mapping_type": "replace",
+        "replacement": "baseball",
+        "clip_score": 0.8699
+      },
+      {
+        "prompt": "A stone on dry dirt.",
+        "mapping_type": "replace",
+        "replacement": "stone",
+        "clip_score": 0.7658
+      },
+      {
+        "prompt": "A shovel on dry dirt.",
+        "mapping_type": "replace",
+        "replacement": "shovel",
+        "clip_score": 0.7135
+      },
+      {
+        "prompt": "A plant on dry dirt.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.761
+      },
+      {
+        "prompt": "A toy truck on dry dirt.",
+        "mapping_type": "replace",
+        "replacement": "toy truck",
+        "clip_score": 0.6755
+      },
+      {
+        "prompt": "A stick on dry dirt.",
+        "mapping_type": "replace",
+        "replacement": "stick",
+        "clip_score": 0.7224
+      },
+      {
+        "prompt": "A piece of paper on dry dirt.",
+        "mapping_type": "replace",
+        "replacement": "piece of paper",
+        "clip_score": 0.694
+      },
+      {
+        "prompt": "An item on dry dirt.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7586
+      },
+      {
+        "prompt": "A on dry dirt.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7062
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "24",
+    "source": "A golf ball in tall grass.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball in tall grass.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8895
+      },
+      {
+        "prompt": "A soccer ball in tall grass.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8892
+      },
+      {
+        "prompt": "A butterfly in tall grass.",
+        "mapping_type": "replace",
+        "replacement": "butterfly",
+        "clip_score": 0.7439
+      },
+      {
+        "prompt": "A rock in tall grass.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.8043
+      },
+      {
+        "prompt": "A rabbit in tall grass.",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.747
+      },
+      {
+        "prompt": "A flower in tall grass.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7465
+      },
+      {
+        "prompt": "A bug in tall grass.",
+        "mapping_type": "replace",
+        "replacement": "bug",
+        "clip_score": 0.789
+      },
+      {
+        "prompt": "A stick in tall grass.",
+        "mapping_type": "replace",
+        "replacement": "stick",
+        "clip_score": 0.771
+      },
+      {
+        "prompt": "An object in tall grass.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8033
+      },
+      {
+        "prompt": "A in tall grass.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7646
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "25",
+    "source": "A golf ball by a garden hose.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball by a garden hose.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8981
+      },
+      {
+        "prompt": "A garden shovel by a garden hose.",
+        "mapping_type": "replace",
+        "replacement": "garden shovel",
+        "clip_score": 0.7841
+      },
+      {
+        "prompt": "A watering can by a garden hose.",
+        "mapping_type": "replace",
+        "replacement": "watering can",
+        "clip_score": 0.7749
+      },
+      {
+        "prompt": "An umbrella by a garden hose.",
+        "mapping_type": "replace",
+        "replacement": "umbrella",
+        "clip_score": 0.7795
+      },
+      {
+        "prompt": "A flower pot by a garden hose.",
+        "mapping_type": "replace",
+        "replacement": "flower pot",
+        "clip_score": 0.7749
+      },
+      {
+        "prompt": "A rake by a garden hose.",
+        "mapping_type": "replace",
+        "replacement": "rake",
+        "clip_score": 0.7591
+      },
+      {
+        "prompt": "A bucket by a garden hose.",
+        "mapping_type": "replace",
+        "replacement": "bucket",
+        "clip_score": 0.8006
+      },
+      {
+        "prompt": "A sprinkler by a garden hose.",
+        "mapping_type": "replace",
+        "replacement": "sprinkler",
+        "clip_score": 0.8119
+      },
+      {
+        "prompt": "A thing by a garden hose.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8182
+      },
+      {
+        "prompt": "A by a garden hose.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8082
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "26",
+    "source": "A golf ball near a sprinkler head.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball near a sprinkler head.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8659
+      },
+      {
+        "prompt": "A garden hose near a sprinkler head.",
+        "mapping_type": "replace",
+        "replacement": "garden hose",
+        "clip_score": 0.8001
+      },
+      {
+        "prompt": "A flower pot near a sprinkler head.",
+        "mapping_type": "replace",
+        "replacement": "flower pot",
+        "clip_score": 0.755
+      },
+      {
+        "prompt": "A bucket near a sprinkler head.",
+        "mapping_type": "replace",
+        "replacement": "bucket",
+        "clip_score": 0.7538
+      },
+      {
+        "prompt": "A turtle near a sprinkler head.",
+        "mapping_type": "replace",
+        "replacement": "turtle",
+        "clip_score": 0.7368
+      },
+      {
+        "prompt": "A rock near a sprinkler head.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.8099
+      },
+      {
+        "prompt": "A hose near a sprinkler head.",
+        "mapping_type": "replace",
+        "replacement": "hose",
+        "clip_score": 0.7918
+      },
+      {
+        "prompt": "A toy near a sprinkler head.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7718
+      },
+      {
+        "prompt": "An item near a sprinkler head.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8222
+      },
+      {
+        "prompt": "A near a sprinkler head.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7935
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "27",
+    "source": "A golf ball on a picnic table.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball on a picnic table.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.867
+      },
+      {
+        "prompt": "A sandwich on a picnic table.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7693
+      },
+      {
+        "prompt": "A book on a picnic table.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7106
+      },
+      {
+        "prompt": "A drink on a picnic table.",
+        "mapping_type": "replace",
+        "replacement": "drink",
+        "clip_score": 0.7419
+      },
+      {
+        "prompt": "A plate on a picnic table.",
+        "mapping_type": "replace",
+        "replacement": "plate",
+        "clip_score": 0.7213
+      },
+      {
+        "prompt": "A napkin on a picnic table.",
+        "mapping_type": "replace",
+        "replacement": "napkin",
+        "clip_score": 0.723
+      },
+      {
+        "prompt": "A frisbee on a picnic table.",
+        "mapping_type": "replace",
+        "replacement": "frisbee",
+        "clip_score": 0.7409
+      },
+      {
+        "prompt": "A toy on a picnic table.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7398
+      },
+      {
+        "prompt": "An object on a picnic table.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7867
+      },
+      {
+        "prompt": "A on a picnic table.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7206
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "28",
+    "source": "A golf ball under a leafy bush.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball under a leafy bush.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8885
+      },
+      {
+        "prompt": "A rabbit under a leafy bush.",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.707
+      },
+      {
+        "prompt": "A shoe under a leafy bush.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.7572
+      },
+      {
+        "prompt": "A book under a leafy bush.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7009
+      },
+      {
+        "prompt": "A stone under a leafy bush.",
+        "mapping_type": "replace",
+        "replacement": "stone",
+        "clip_score": 0.7834
+      },
+      {
+        "prompt": "A flower under a leafy bush.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7343
+      },
+      {
+        "prompt": "An acorn under a leafy bush.",
+        "mapping_type": "replace",
+        "replacement": "acorn",
+        "clip_score": 0.749
+      },
+      {
+        "prompt": "A twig under a leafy bush.",
+        "mapping_type": "replace",
+        "replacement": "twig",
+        "clip_score": 0.7504
+      },
+      {
+        "prompt": "An item under a leafy bush.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7488
+      },
+      {
+        "prompt": "A under a leafy bush.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7156
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "29",
+    "source": "A golf ball on cracked pavement.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball on cracked pavement.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8561
+      },
+      {
+        "prompt": "A bottle on cracked pavement.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7204
+      },
+      {
+        "prompt": "A leaf on cracked pavement.",
+        "mapping_type": "replace",
+        "replacement": "leaf",
+        "clip_score": 0.7173
+      },
+      {
+        "prompt": "A rock on cracked pavement.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.7666
+      },
+      {
+        "prompt": "A skateboard on cracked pavement.",
+        "mapping_type": "replace",
+        "replacement": "skateboard",
+        "clip_score": 0.7273
+      },
+      {
+        "prompt": "A shoe on cracked pavement.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.7735
+      },
+      {
+        "prompt": "A stick on cracked pavement.",
+        "mapping_type": "replace",
+        "replacement": "stick",
+        "clip_score": 0.7282
+      },
+      {
+        "prompt": "A toy on cracked pavement.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7187
+      },
+      {
+        "prompt": "An object on cracked pavement.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7641
+      },
+      {
+        "prompt": "A on cracked pavement.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7173
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "30",
+    "source": "A golf ball on a beach towel.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball on a beach towel.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8612
+      },
+      {
+        "prompt": "A book on a beach towel.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7101
+      },
+      {
+        "prompt": "A sandwich on a beach towel.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7455
+      },
+      {
+        "prompt": "A sunhat on a beach towel.",
+        "mapping_type": "replace",
+        "replacement": "sunhat",
+        "clip_score": 0.7386
+      },
+      {
+        "prompt": "A drink on a beach towel.",
+        "mapping_type": "replace",
+        "replacement": "drink",
+        "clip_score": 0.7318
+      },
+      {
+        "prompt": "A flip-flop on a beach towel.",
+        "mapping_type": "replace",
+        "replacement": "flip-flop",
+        "clip_score": 0.7428
+      },
+      {
+        "prompt": "A towel on a beach towel.",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.7735
+      },
+      {
+        "prompt": "A toy on a beach towel.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7544
+      },
+      {
+        "prompt": "An item on a beach towel.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7325
+      },
+      {
+        "prompt": "A on a beach towel.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7185
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "31",
+    "source": "A golf ball in soft sand.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball in soft sand.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8805
+      },
+      {
+        "prompt": "A beach ball in soft sand.",
+        "mapping_type": "replace",
+        "replacement": "beach ball",
+        "clip_score": 0.8237
+      },
+      {
+        "prompt": "A soccer ball in soft sand.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8668
+      },
+      {
+        "prompt": "A pebble in soft sand.",
+        "mapping_type": "replace",
+        "replacement": "pebble",
+        "clip_score": 0.7837
+      },
+      {
+        "prompt": "A sand dollar in soft sand.",
+        "mapping_type": "replace",
+        "replacement": "sand dollar",
+        "clip_score": 0.7137
+      },
+      {
+        "prompt": "A rock in soft sand.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.7971
+      },
+      {
+        "prompt": "A seashell in soft sand.",
+        "mapping_type": "replace",
+        "replacement": "seashell",
+        "clip_score": 0.7872
+      },
+      {
+        "prompt": "An acorn in soft sand.",
+        "mapping_type": "replace",
+        "replacement": "acorn",
+        "clip_score": 0.7672
+      },
+      {
+        "prompt": "A thing in soft sand.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7384
+      },
+      {
+        "prompt": "A scene in soft sand.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7129
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "32",
+    "source": "A golf ball near seashells.",
+    "candidates": [
+      {
+        "prompt": "A seashell near seashells.",
+        "mapping_type": "replace",
+        "replacement": "seashell",
+        "clip_score": 0.8636
+      },
+      {
+        "prompt": "A piece of coral near seashells.",
+        "mapping_type": "replace",
+        "replacement": "piece of coral",
+        "clip_score": 0.7595
+      },
+      {
+        "prompt": "A starfish near seashells.",
+        "mapping_type": "replace",
+        "replacement": "starfish",
+        "clip_score": 0.7736
+      },
+      {
+        "prompt": "A sand dollar near seashells.",
+        "mapping_type": "replace",
+        "replacement": "sand dollar",
+        "clip_score": 0.735
+      },
+      {
+        "prompt": "A rock near seashells.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.8556
+      },
+      {
+        "prompt": "A crab near seashells.",
+        "mapping_type": "replace",
+        "replacement": "crab",
+        "clip_score": 0.7922
+      },
+      {
+        "prompt": "A bottle cap near seashells.",
+        "mapping_type": "replace",
+        "replacement": "bottle cap",
+        "clip_score": 0.8084
+      },
+      {
+        "prompt": "A piece of driftwood near seashells.",
+        "mapping_type": "replace",
+        "replacement": "piece of driftwood",
+        "clip_score": 0.6939
+      },
+      {
+        "prompt": "An object near seashells.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8378
+      },
+      {
+        "prompt": "A scene near seashells.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7841
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "33",
+    "source": "A golf ball on a window ledge.",
+    "candidates": [
+      {
+        "prompt": "A toy on a window ledge.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7363
+      },
+      {
+        "prompt": "A potted plant on a window ledge.",
+        "mapping_type": "replace",
+        "replacement": "potted plant",
+        "clip_score": 0.7191
+      },
+      {
+        "prompt": "A coffee cup on a window ledge.",
+        "mapping_type": "replace",
+        "replacement": "coffee cup",
+        "clip_score": 0.7453
+      },
+      {
+        "prompt": "A picture frame on a window ledge.",
+        "mapping_type": "replace",
+        "replacement": "picture frame",
+        "clip_score": 0.6995
+      },
+      {
+        "prompt": "A candle on a window ledge.",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.7517
+      },
+      {
+        "prompt": "A small sculpture on a window ledge.",
+        "mapping_type": "replace",
+        "replacement": "small sculpture",
+        "clip_score": 0.6774
+      },
+      {
+        "prompt": "A book on a window ledge.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.6984
+      },
+      {
+        "prompt": "A keychain on a window ledge.",
+        "mapping_type": "replace",
+        "replacement": "keychain",
+        "clip_score": 0.7056
+      },
+      {
+        "prompt": "An item on a window ledge.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7385
+      },
+      {
+        "prompt": "A scene on a window ledge.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6848
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "34",
+    "source": "A golf ball in a cereal bowl.",
+    "candidates": [
+      {
+        "prompt": "A fruit in a cereal bowl.",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.7825
+      },
+      {
+        "prompt": "A toy in a cereal bowl.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7609
+      },
+      {
+        "prompt": "A spoon in a cereal bowl.",
+        "mapping_type": "replace",
+        "replacement": "spoon",
+        "clip_score": 0.8023
+      },
+      {
+        "prompt": "A cookie in a cereal bowl.",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.7908
+      },
+      {
+        "prompt": "A muffin in a cereal bowl.",
+        "mapping_type": "replace",
+        "replacement": "muffin",
+        "clip_score": 0.7781
+      },
+      {
+        "prompt": "A snack in a cereal bowl.",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.76
+      },
+      {
+        "prompt": "A cereal in a cereal bowl.",
+        "mapping_type": "replace",
+        "replacement": "cereal",
+        "clip_score": 0.8182
+      },
+      {
+        "prompt": "A pastry in a cereal bowl.",
+        "mapping_type": "replace",
+        "replacement": "pastry",
+        "clip_score": 0.786
+      },
+      {
+        "prompt": "An item in a cereal bowl.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7909
+      },
+      {
+        "prompt": "A scene in a cereal bowl.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7111
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "35",
+    "source": "A golf ball next to a mug.",
+    "candidates": [
+      {
+        "prompt": "A water bottle next to a mug.",
+        "mapping_type": "replace",
+        "replacement": "water bottle",
+        "clip_score": 0.6969
+      },
+      {
+        "prompt": "A snack next to a mug.",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.6423
+      },
+      {
+        "prompt": "A pen next to a mug.",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.7049
+      },
+      {
+        "prompt": "A key next to a mug.",
+        "mapping_type": "replace",
+        "replacement": "key",
+        "clip_score": 0.6075
+      },
+      {
+        "prompt": "A notepad next to a mug.",
+        "mapping_type": "replace",
+        "replacement": "notepad",
+        "clip_score": 0.696
+      },
+      {
+        "prompt": "A cookie next to a mug.",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.7066
+      },
+      {
+        "prompt": "A phone next to a mug.",
+        "mapping_type": "replace",
+        "replacement": "phone",
+        "clip_score": 0.6735
+      },
+      {
+        "prompt": "A napkin next to a mug.",
+        "mapping_type": "replace",
+        "replacement": "napkin",
+        "clip_score": 0.6903
+      },
+      {
+        "prompt": "An object next to a mug.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7289
+      },
+      {
+        "prompt": "A scene next to a mug.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6257
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "36",
+    "source": "A golf ball on a book.",
+    "candidates": [
+      {
+        "prompt": "A magazine on a book.",
+        "mapping_type": "replace",
+        "replacement": "magazine",
+        "clip_score": 0.6886
+      },
+      {
+        "prompt": "A notebook on a book.",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.6993
+      },
+      {
+        "prompt": "A plant on a book.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7073
+      },
+      {
+        "prompt": "A cup on a book.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.7217
+      },
+      {
+        "prompt": "A laptop on a book.",
+        "mapping_type": "replace",
+        "replacement": "laptop",
+        "clip_score": 0.6575
+      },
+      {
+        "prompt": "A pen on a book.",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.7148
+      },
+      {
+        "prompt": "A frame on a book.",
+        "mapping_type": "replace",
+        "replacement": "frame",
+        "clip_score": 0.6084
+      },
+      {
+        "prompt": "A toy on a book.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.6982
+      },
+      {
+        "prompt": "An item on a book.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.6938
+      },
+      {
+        "prompt": "A scene on a book.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6218
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "37",
+    "source": "A golf ball beside a TV remote.",
+    "candidates": [
+      {
+        "prompt": "A book beside a TV remote.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.773
+      },
+      {
+        "prompt": "A snack beside a TV remote.",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.7393
+      },
+      {
+        "prompt": "A cat beside a TV remote.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7548
+      },
+      {
+        "prompt": "A magazine beside a TV remote.",
+        "mapping_type": "replace",
+        "replacement": "magazine",
+        "clip_score": 0.7859
+      },
+      {
+        "prompt": "A charger beside a TV remote.",
+        "mapping_type": "replace",
+        "replacement": "charger",
+        "clip_score": 0.7939
+      },
+      {
+        "prompt": "A cup beside a TV remote.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.7915
+      },
+      {
+        "prompt": "A phone beside a TV remote.",
+        "mapping_type": "replace",
+        "replacement": "phone",
+        "clip_score": 0.814
+      },
+      {
+        "prompt": "A dog beside a TV remote.",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7613
+      },
+      {
+        "prompt": "An object beside a TV remote.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.824
+      },
+      {
+        "prompt": "A scene beside a TV remote.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7223
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "38",
+    "source": "A golf ball under a couch.",
+    "candidates": [
+      {
+        "prompt": "A toy under a couch.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.768
+      },
+      {
+        "prompt": "A remote control under a couch.",
+        "mapping_type": "replace",
+        "replacement": "remote control",
+        "clip_score": 0.7806
+      },
+      {
+        "prompt": "A shoe under a couch.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.8092
+      },
+      {
+        "prompt": "A blanket under a couch.",
+        "mapping_type": "replace",
+        "replacement": "blanket",
+        "clip_score": 0.7546
+      },
+      {
+        "prompt": "A cat under a couch.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.757
+      },
+      {
+        "prompt": "A ball under a couch.",
+        "mapping_type": "replace",
+        "replacement": "ball",
+        "clip_score": 0.9159
+      },
+      {
+        "prompt": "A book under a couch.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7541
+      },
+      {
+        "prompt": "A snack under a couch.",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.734
+      },
+      {
+        "prompt": "An item under a couch.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8118
+      },
+      {
+        "prompt": "A scene under a couch.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7353
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "39",
+    "source": "A golf ball on a doormat.",
+    "candidates": [
+      {
+        "prompt": "A mat on a doormat.",
+        "mapping_type": "replace",
+        "replacement": "mat",
+        "clip_score": 0.7824
+      },
+      {
+        "prompt": "A welcome sign on a doormat.",
+        "mapping_type": "replace",
+        "replacement": "welcome sign",
+        "clip_score": 0.7232
+      },
+      {
+        "prompt": "A shoe on a doormat.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.7894
+      },
+      {
+        "prompt": "A piece of mail on a doormat.",
+        "mapping_type": "replace",
+        "replacement": "piece of mail",
+        "clip_score": 0.7541
+      },
+      {
+        "prompt": "A package on a doormat.",
+        "mapping_type": "replace",
+        "replacement": "package",
+        "clip_score": 0.7765
+      },
+      {
+        "prompt": "A key on a doormat.",
+        "mapping_type": "replace",
+        "replacement": "key",
+        "clip_score": 0.7487
+      },
+      {
+        "prompt": "A flower pot on a doormat.",
+        "mapping_type": "replace",
+        "replacement": "flower pot",
+        "clip_score": 0.7608
+      },
+      {
+        "prompt": "A toy on a doormat.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7589
+      },
+      {
+        "prompt": "An object on a doormat.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7997
+      },
+      {
+        "prompt": "A scene on a doormat.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7397
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "40",
+    "source": "A golf ball on a staircase step.",
+    "candidates": [
+      {
+        "prompt": "A book on a staircase step.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.6879
+      },
+      {
+        "prompt": "A plant on a staircase step.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7393
+      },
+      {
+        "prompt": "A shoe on a staircase step.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.7535
+      },
+      {
+        "prompt": "A toy on a staircase step.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7199
+      },
+      {
+        "prompt": "A cup on a staircase step.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.736
+      },
+      {
+        "prompt": "A basket on a staircase step.",
+        "mapping_type": "replace",
+        "replacement": "basket",
+        "clip_score": 0.7102
+      },
+      {
+        "prompt": "A backpack on a staircase step.",
+        "mapping_type": "replace",
+        "replacement": "backpack",
+        "clip_score": 0.7063
+      },
+      {
+        "prompt": "A blanket on a staircase step.",
+        "mapping_type": "replace",
+        "replacement": "blanket",
+        "clip_score": 0.6497
+      },
+      {
+        "prompt": "An item on a staircase step.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7421
+      },
+      {
+        "prompt": "A scene on a staircase step.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7071
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "41",
+    "source": "A golf ball under a dining chair.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball under a dining chair.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8746
+      },
+      {
+        "prompt": "A marble under a dining chair.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.7587
+      },
+      {
+        "prompt": "A rubber duck under a dining chair.",
+        "mapping_type": "replace",
+        "replacement": "rubber duck",
+        "clip_score": 0.6915
+      },
+      {
+        "prompt": "A coffee mug under a dining chair.",
+        "mapping_type": "replace",
+        "replacement": "coffee mug",
+        "clip_score": 0.7452
+      },
+      {
+        "prompt": "A toy car under a dining chair.",
+        "mapping_type": "replace",
+        "replacement": "toy car",
+        "clip_score": 0.7063
+      },
+      {
+        "prompt": "A stack of books under a dining chair.",
+        "mapping_type": "replace",
+        "replacement": "stack of books",
+        "clip_score": 0.6661
+      },
+      {
+        "prompt": "A shoe under a dining chair.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.7695
+      },
+      {
+        "prompt": "A potted plant under a dining chair.",
+        "mapping_type": "replace",
+        "replacement": "potted plant",
+        "clip_score": 0.7231
+      },
+      {
+        "prompt": "A thing under a dining chair.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7181
+      },
+      {
+        "prompt": "A space under a dining chair.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7301
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "42",
+    "source": "A golf ball on a cutting board.",
+    "candidates": [
+      {
+        "prompt": "A cutting board on a table.",
+        "mapping_type": "replace",
+        "replacement": "cutting board",
+        "clip_score": 0.6979
+      },
+      {
+        "prompt": "A piece of cheese on a cutting board.",
+        "mapping_type": "replace",
+        "replacement": "piece of cheese",
+        "clip_score": 0.7153
+      },
+      {
+        "prompt": "A knife on a cutting board.",
+        "mapping_type": "replace",
+        "replacement": "knife",
+        "clip_score": 0.7422
+      },
+      {
+        "prompt": "A tomato on a cutting board.",
+        "mapping_type": "replace",
+        "replacement": "tomato",
+        "clip_score": 0.7404
+      },
+      {
+        "prompt": "A sandwich on a cutting board.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7114
+      },
+      {
+        "prompt": "A cucumber on a cutting board.",
+        "mapping_type": "replace",
+        "replacement": "cucumber",
+        "clip_score": 0.7144
+      },
+      {
+        "prompt": "A bowl on a cutting board.",
+        "mapping_type": "replace",
+        "replacement": "bowl",
+        "clip_score": 0.7107
+      },
+      {
+        "prompt": "A loaf of bread on a cutting board.",
+        "mapping_type": "replace",
+        "replacement": "loaf of bread",
+        "clip_score": 0.6748
+      },
+      {
+        "prompt": "An item on a cutting board.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.707
+      },
+      {
+        "prompt": "A counter with a cutting board.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6712
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "43",
+    "source": "A golf ball near a kitchen sink.",
+    "candidates": [
+      {
+        "prompt": "A sponge near a kitchen sink.",
+        "mapping_type": "replace",
+        "replacement": "sponge",
+        "clip_score": 0.7022
+      },
+      {
+        "prompt": "A plate near a kitchen sink.",
+        "mapping_type": "replace",
+        "replacement": "plate",
+        "clip_score": 0.6773
+      },
+      {
+        "prompt": "A soap dispenser near a kitchen sink.",
+        "mapping_type": "replace",
+        "replacement": "soap dispenser",
+        "clip_score": 0.6947
+      },
+      {
+        "prompt": "A dish towel near a kitchen sink.",
+        "mapping_type": "replace",
+        "replacement": "dish towel",
+        "clip_score": 0.701
+      },
+      {
+        "prompt": "A bowl near a kitchen sink.",
+        "mapping_type": "replace",
+        "replacement": "bowl",
+        "clip_score": 0.7719
+      },
+      {
+        "prompt": "A knife rack near a kitchen sink.",
+        "mapping_type": "replace",
+        "replacement": "knife rack",
+        "clip_score": 0.6046
+      },
+      {
+        "prompt": "A container near a kitchen sink.",
+        "mapping_type": "replace",
+        "replacement": "container",
+        "clip_score": 0.729
+      },
+      {
+        "prompt": "A bottle of cleaner near a kitchen sink.",
+        "mapping_type": "replace",
+        "replacement": "bottle of cleaner",
+        "clip_score": 0.6819
+      },
+      {
+        "prompt": "An object near a kitchen sink.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7618
+      },
+      {
+        "prompt": "A kitchen sink in a home.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7167
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "44",
+    "source": "A golf ball inside a fridge drawer.",
+    "candidates": [
+      {
+        "prompt": "A fruit inside a fridge drawer.",
+        "mapping_type": "replace",
+        "replacement": "fruit",
+        "clip_score": 0.7867
+      },
+      {
+        "prompt": "A container inside a fridge drawer.",
+        "mapping_type": "replace",
+        "replacement": "container",
+        "clip_score": 0.7578
+      },
+      {
+        "prompt": "A yogurt inside a fridge drawer.",
+        "mapping_type": "replace",
+        "replacement": "yogurt",
+        "clip_score": 0.7512
+      },
+      {
+        "prompt": "A bottle of milk inside a fridge drawer.",
+        "mapping_type": "replace",
+        "replacement": "bottle of milk",
+        "clip_score": 0.7377
+      },
+      {
+        "prompt": "A vegetable inside a fridge drawer.",
+        "mapping_type": "replace",
+        "replacement": "vegetable",
+        "clip_score": 0.7526
+      },
+      {
+        "prompt": "A snack inside a fridge drawer.",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.7362
+      },
+      {
+        "prompt": "A jar inside a fridge drawer.",
+        "mapping_type": "replace",
+        "replacement": "jar",
+        "clip_score": 0.7482
+      },
+      {
+        "prompt": "A can inside a fridge drawer.",
+        "mapping_type": "replace",
+        "replacement": "can",
+        "clip_score": 0.7893
+      },
+      {
+        "prompt": "An item inside a fridge drawer.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7538
+      },
+      {
+        "prompt": "A fridge drawer with food inside.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7579
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "45",
+    "source": "A golf ball in a bathroom sink.",
+    "candidates": [
+      {
+        "prompt": "A toothbrush in a bathroom sink.",
+        "mapping_type": "replace",
+        "replacement": "toothbrush",
+        "clip_score": 0.749
+      },
+      {
+        "prompt": "A soap dish in a bathroom sink.",
+        "mapping_type": "replace",
+        "replacement": "soap dish",
+        "clip_score": 0.7173
+      },
+      {
+        "prompt": "A cup in a bathroom sink.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.7571
+      },
+      {
+        "prompt": "A hand towel in a bathroom sink.",
+        "mapping_type": "replace",
+        "replacement": "hand towel",
+        "clip_score": 0.7154
+      },
+      {
+        "prompt": "A bottle of lotion in a bathroom sink.",
+        "mapping_type": "replace",
+        "replacement": "bottle of lotion",
+        "clip_score": 0.6883
+      },
+      {
+        "prompt": "A washcloth in a bathroom sink.",
+        "mapping_type": "replace",
+        "replacement": "washcloth",
+        "clip_score": 0.7047
+      },
+      {
+        "prompt": "An object in a bathroom sink.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7433
+      },
+      {
+        "prompt": "A small mirror in a bathroom sink.",
+        "mapping_type": "replace",
+        "replacement": "small mirror",
+        "clip_score": 0.7186
+      },
+      {
+        "prompt": "A thing in a bathroom sink.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.696
+      },
+      {
+        "prompt": "A bathroom sink in a home.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6877
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "46",
+    "source": "A golf ball on a tiled floor.",
+    "candidates": [
+      {
+        "prompt": "A cat on a tiled floor.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.702
+      },
+      {
+        "prompt": "A blanket on a tiled floor.",
+        "mapping_type": "replace",
+        "replacement": "blanket",
+        "clip_score": 0.6407
+      },
+      {
+        "prompt": "A chair on a tiled floor.",
+        "mapping_type": "replace",
+        "replacement": "chair",
+        "clip_score": 0.6655
+      },
+      {
+        "prompt": "A book on a tiled floor.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.6636
+      },
+      {
+        "prompt": "A basket on a tiled floor.",
+        "mapping_type": "replace",
+        "replacement": "basket",
+        "clip_score": 0.6833
+      },
+      {
+        "prompt": "A rug on a tiled floor.",
+        "mapping_type": "replace",
+        "replacement": "rug",
+        "clip_score": 0.7004
+      },
+      {
+        "prompt": "A shoe on a tiled floor.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.7517
+      },
+      {
+        "prompt": "A toy on a tiled floor.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.716
+      },
+      {
+        "prompt": "An object on a tiled floor.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7511
+      },
+      {
+        "prompt": "A tiled floor in a room.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6729
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "47",
+    "source": "A golf ball under a coat rack.",
+    "candidates": [
+      {
+        "prompt": "A jacket under a coat rack.",
+        "mapping_type": "replace",
+        "replacement": "jacket",
+        "clip_score": 0.7635
+      },
+      {
+        "prompt": "A pair of shoes under a coat rack.",
+        "mapping_type": "replace",
+        "replacement": "pair of shoes",
+        "clip_score": 0.697
+      },
+      {
+        "prompt": "A bag under a coat rack.",
+        "mapping_type": "replace",
+        "replacement": "bag",
+        "clip_score": 0.7516
+      },
+      {
+        "prompt": "A hat under a coat rack.",
+        "mapping_type": "replace",
+        "replacement": "hat",
+        "clip_score": 0.7546
+      },
+      {
+        "prompt": "An umbrella under a coat rack.",
+        "mapping_type": "replace",
+        "replacement": "umbrella",
+        "clip_score": 0.766
+      },
+      {
+        "prompt": "A briefcase under a coat rack.",
+        "mapping_type": "replace",
+        "replacement": "briefcase",
+        "clip_score": 0.6621
+      },
+      {
+        "prompt": "A scarf under a coat rack.",
+        "mapping_type": "replace",
+        "replacement": "scarf",
+        "clip_score": 0.7103
+      },
+      {
+        "prompt": "A coat under a coat rack.",
+        "mapping_type": "replace",
+        "replacement": "coat",
+        "clip_score": 0.7718
+      },
+      {
+        "prompt": "A thing under a coat rack.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7117
+      },
+      {
+        "prompt": "A space under a coat rack.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7171
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "48",
+    "source": "A golf ball in a backpack pocket.",
+    "candidates": [
+      {
+        "prompt": "A notebook in a backpack pocket.",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.7359
+      },
+      {
+        "prompt": "A water bottle in a backpack pocket.",
+        "mapping_type": "replace",
+        "replacement": "water bottle",
+        "clip_score": 0.7645
+      },
+      {
+        "prompt": "A snack in a backpack pocket.",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.7317
+      },
+      {
+        "prompt": "A pen in a backpack pocket.",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.766
+      },
+      {
+        "prompt": "A map in a backpack pocket.",
+        "mapping_type": "replace",
+        "replacement": "map",
+        "clip_score": 0.6892
+      },
+      {
+        "prompt": "A phone in a backpack pocket.",
+        "mapping_type": "replace",
+        "replacement": "phone",
+        "clip_score": 0.7662
+      },
+      {
+        "prompt": "A set of keys in a backpack pocket.",
+        "mapping_type": "replace",
+        "replacement": "set of keys",
+        "clip_score": 0.6611
+      },
+      {
+        "prompt": "A charger in a backpack pocket.",
+        "mapping_type": "replace",
+        "replacement": "charger",
+        "clip_score": 0.7128
+      },
+      {
+        "prompt": "An item in a backpack pocket.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7336
+      },
+      {
+        "prompt": "A backpack pocket in a bag.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7665
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "49",
+    "source": "A golf ball on a school desk.",
+    "candidates": [
+      {
+        "prompt": "A book on a school desk.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.6959
+      },
+      {
+        "prompt": "A pencil case on a school desk.",
+        "mapping_type": "replace",
+        "replacement": "pencil case",
+        "clip_score": 0.6614
+      },
+      {
+        "prompt": "A notebook on a school desk.",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.6751
+      },
+      {
+        "prompt": "A computer on a school desk.",
+        "mapping_type": "replace",
+        "replacement": "computer",
+        "clip_score": 0.7216
+      },
+      {
+        "prompt": "A ruler on a school desk.",
+        "mapping_type": "replace",
+        "replacement": "ruler",
+        "clip_score": 0.6837
+      },
+      {
+        "prompt": "A tablet on a school desk.",
+        "mapping_type": "replace",
+        "replacement": "tablet",
+        "clip_score": 0.6673
+      },
+      {
+        "prompt": "A stack of papers on a school desk.",
+        "mapping_type": "replace",
+        "replacement": "stack of papers",
+        "clip_score": 0.6568
+      },
+      {
+        "prompt": "A lunchbox on a school desk.",
+        "mapping_type": "replace",
+        "replacement": "lunchbox",
+        "clip_score": 0.6494
+      },
+      {
+        "prompt": "An object on a school desk.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7394
+      },
+      {
+        "prompt": "A school desk in a classroom.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7133
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "50",
+    "source": "A golf ball in a pencil holder.",
+    "candidates": [
+      {
+        "prompt": "A pen in a pencil holder.",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.7962
+      },
+      {
+        "prompt": "A brush in a pencil holder.",
+        "mapping_type": "replace",
+        "replacement": "brush",
+        "clip_score": 0.76
+      },
+      {
+        "prompt": "A marker in a pencil holder.",
+        "mapping_type": "replace",
+        "replacement": "marker",
+        "clip_score": 0.74
+      },
+      {
+        "prompt": "A pencil in a pencil holder.",
+        "mapping_type": "replace",
+        "replacement": "pencil",
+        "clip_score": 0.7953
+      },
+      {
+        "prompt": "A ruler in a pencil holder.",
+        "mapping_type": "replace",
+        "replacement": "ruler",
+        "clip_score": 0.7411
+      },
+      {
+        "prompt": "A highlighter in a pencil holder.",
+        "mapping_type": "replace",
+        "replacement": "highlighter",
+        "clip_score": 0.7062
+      },
+      {
+        "prompt": "A notepad in a pencil holder.",
+        "mapping_type": "replace",
+        "replacement": "notepad",
+        "clip_score": 0.7625
+      },
+      {
+        "prompt": "A paperclip in a pencil holder.",
+        "mapping_type": "replace",
+        "replacement": "paperclip",
+        "clip_score": 0.7124
+      },
+      {
+        "prompt": "An item in a pencil holder.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7573
+      },
+      {
+        "prompt": "A pencil holder on a desk.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7035
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "51",
+    "source": "A golf ball on a white plate.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball on a white plate.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8757
+      },
+      {
+        "prompt": "A marble on a white plate.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.7433
+      },
+      {
+        "prompt": "A cookie on a white plate.",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.7677
+      },
+      {
+        "prompt": "A lemon on a white plate.",
+        "mapping_type": "replace",
+        "replacement": "lemon",
+        "clip_score": 0.7884
+      },
+      {
+        "prompt": "An apple on a white plate.",
+        "mapping_type": "replace",
+        "replacement": "apple",
+        "clip_score": 0.7966
+      },
+      {
+        "prompt": "A spoon on a white plate.",
+        "mapping_type": "replace",
+        "replacement": "spoon",
+        "clip_score": 0.7811
+      },
+      {
+        "prompt": "A cupcake on a white plate.",
+        "mapping_type": "replace",
+        "replacement": "cupcake",
+        "clip_score": 0.7434
+      },
+      {
+        "prompt": "A toy on a white plate.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7345
+      },
+      {
+        "prompt": "An object on a white plate.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7929
+      },
+      {
+        "prompt": "A white plate.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.763
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "52",
+    "source": "A golf ball under a tree.",
+    "candidates": [
+      {
+        "prompt": "A soccer ball under a tree.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8688
+      },
+      {
+        "prompt": "A rock under a tree.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.7848
+      },
+      {
+        "prompt": "A book under a tree.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.6964
+      },
+      {
+        "prompt": "A rabbit under a tree.",
+        "mapping_type": "replace",
+        "replacement": "rabbit",
+        "clip_score": 0.6989
+      },
+      {
+        "prompt": "A shoe under a tree.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.7437
+      },
+      {
+        "prompt": "A bag under a tree.",
+        "mapping_type": "replace",
+        "replacement": "bag",
+        "clip_score": 0.7238
+      },
+      {
+        "prompt": "A bicycle under a tree.",
+        "mapping_type": "replace",
+        "replacement": "bicycle",
+        "clip_score": 0.7161
+      },
+      {
+        "prompt": "A flower under a tree.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7059
+      },
+      {
+        "prompt": "An item under a tree.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7842
+      },
+      {
+        "prompt": "A tree.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7091
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "53",
+    "source": "A golf ball beside a bicycle tire.",
+    "candidates": [
+      {
+        "prompt": "A bicycle helmet beside a bicycle tire.",
+        "mapping_type": "replace",
+        "replacement": "bicycle helmet",
+        "clip_score": 0.7307
+      },
+      {
+        "prompt": "A shoe beside a bicycle tire.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.7062
+      },
+      {
+        "prompt": "A water bottle beside a bicycle tire.",
+        "mapping_type": "replace",
+        "replacement": "water bottle",
+        "clip_score": 0.6968
+      },
+      {
+        "prompt": "A wrench beside a bicycle tire.",
+        "mapping_type": "replace",
+        "replacement": "wrench",
+        "clip_score": 0.667
+      },
+      {
+        "prompt": "A cat beside a bicycle tire.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.6762
+      },
+      {
+        "prompt": "An umbrella beside a bicycle tire.",
+        "mapping_type": "replace",
+        "replacement": "umbrella",
+        "clip_score": 0.6866
+      },
+      {
+        "prompt": "A jacket beside a bicycle tire.",
+        "mapping_type": "replace",
+        "replacement": "jacket",
+        "clip_score": 0.6248
+      },
+      {
+        "prompt": "A backpack beside a bicycle tire.",
+        "mapping_type": "replace",
+        "replacement": "backpack",
+        "clip_score": 0.661
+      },
+      {
+        "prompt": "An object beside a bicycle tire.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7445
+      },
+      {
+        "prompt": "Beside a bicycle tire.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6671
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "54",
+    "source": "A golf ball near a mailbox.",
+    "candidates": [
+      {
+        "prompt": "A letterbox near a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "letterbox",
+        "clip_score": 0.7465
+      },
+      {
+        "prompt": "A newspaper near a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "newspaper",
+        "clip_score": 0.7015
+      },
+      {
+        "prompt": "A cat near a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7102
+      },
+      {
+        "prompt": "A bicycle near a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "bicycle",
+        "clip_score": 0.7239
+      },
+      {
+        "prompt": "A flower near a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7112
+      },
+      {
+        "prompt": "A sack near a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "sack",
+        "clip_score": 0.6835
+      },
+      {
+        "prompt": "A toy near a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.708
+      },
+      {
+        "prompt": "A package near a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "package",
+        "clip_score": 0.7549
+      },
+      {
+        "prompt": "A thing near a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7016
+      },
+      {
+        "prompt": "Near a mailbox.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.717
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "55",
+    "source": "A golf ball on a park path.",
+    "candidates": [
+      {
+        "prompt": "A soccer ball on a park path.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8606
+      },
+      {
+        "prompt": "A stick on a park path.",
+        "mapping_type": "replace",
+        "replacement": "stick",
+        "clip_score": 0.704
+      },
+      {
+        "prompt": "A bench on a park path.",
+        "mapping_type": "replace",
+        "replacement": "bench",
+        "clip_score": 0.638
+      },
+      {
+        "prompt": "A squirrel on a park path.",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.6788
+      },
+      {
+        "prompt": "A bike on a park path.",
+        "mapping_type": "replace",
+        "replacement": "bike",
+        "clip_score": 0.7037
+      },
+      {
+        "prompt": "A bird on a park path.",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7221
+      },
+      {
+        "prompt": "A trash can on a park path.",
+        "mapping_type": "replace",
+        "replacement": "trash can",
+        "clip_score": 0.7015
+      },
+      {
+        "prompt": "A leaf on a park path.",
+        "mapping_type": "replace",
+        "replacement": "leaf",
+        "clip_score": 0.7089
+      },
+      {
+        "prompt": "An object on a park path.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7535
+      },
+      {
+        "prompt": "A park path.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7181
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "56",
+    "source": "A golf ball on a balcony railing.",
+    "candidates": [
+      {
+        "prompt": "A flower pot on a balcony railing.",
+        "mapping_type": "replace",
+        "replacement": "flower pot",
+        "clip_score": 0.7526
+      },
+      {
+        "prompt": "A bird feeder on a balcony railing.",
+        "mapping_type": "replace",
+        "replacement": "bird feeder",
+        "clip_score": 0.7641
+      },
+      {
+        "prompt": "A candle on a balcony railing.",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.7542
+      },
+      {
+        "prompt": "A pair of sunglasses on a balcony railing.",
+        "mapping_type": "replace",
+        "replacement": "sunglasses",
+        "clip_score": 0.7313
+      },
+      {
+        "prompt": "A book on a balcony railing.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.721
+      },
+      {
+        "prompt": "A cup on a balcony railing.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.7667
+      },
+      {
+        "prompt": "A vase on a balcony railing.",
+        "mapping_type": "replace",
+        "replacement": "vase",
+        "clip_score": 0.7462
+      },
+      {
+        "prompt": "A toy on a balcony railing.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7552
+      },
+      {
+        "prompt": "An item on a balcony railing.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7575
+      },
+      {
+        "prompt": "A balcony railing.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7559
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "57",
+    "source": "A golf ball on a windowsill at night.",
+    "candidates": [
+      {
+        "prompt": "A candle on a windowsill at night.",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.7296
+      },
+      {
+        "prompt": "A toy on a windowsill at night.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7169
+      },
+      {
+        "prompt": "A cat on a windowsill at night.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7121
+      },
+      {
+        "prompt": "A flower on a windowsill at night.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7109
+      },
+      {
+        "prompt": "A picture frame on a windowsill at night.",
+        "mapping_type": "replace",
+        "replacement": "picture frame",
+        "clip_score": 0.6747
+      },
+      {
+        "prompt": "A glass on a windowsill at night.",
+        "mapping_type": "replace",
+        "replacement": "glass",
+        "clip_score": 0.7242
+      },
+      {
+        "prompt": "A mug on a windowsill at night.",
+        "mapping_type": "replace",
+        "replacement": "mug",
+        "clip_score": 0.6898
+      },
+      {
+        "prompt": "A book on a windowsill at night.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.6659
+      },
+      {
+        "prompt": "A thing on a windowsill at night.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.6903
+      },
+      {
+        "prompt": "A windowsill at night.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7056
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "58",
+    "source": "A golf ball under streetlight at night.",
+    "candidates": [
+      {
+        "prompt": "A lantern under streetlight at night.",
+        "mapping_type": "replace",
+        "replacement": "lantern",
+        "clip_score": 0.7475
+      },
+      {
+        "prompt": "A bicycle under streetlight at night.",
+        "mapping_type": "replace",
+        "replacement": "bicycle",
+        "clip_score": 0.7129
+      },
+      {
+        "prompt": "A backpack under streetlight at night.",
+        "mapping_type": "replace",
+        "replacement": "backpack",
+        "clip_score": 0.7082
+      },
+      {
+        "prompt": "A cat under streetlight at night.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7176
+      },
+      {
+        "prompt": "A dog under streetlight at night.",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7137
+      },
+      {
+        "prompt": "A trash can under streetlight at night.",
+        "mapping_type": "replace",
+        "replacement": "trash can",
+        "clip_score": 0.7249
+      },
+      {
+        "prompt": "A bench under streetlight at night.",
+        "mapping_type": "replace",
+        "replacement": "bench",
+        "clip_score": 0.6449
+      },
+      {
+        "prompt": "A plant under streetlight at night.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7136
+      },
+      {
+        "prompt": "A thing under streetlight at night.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.6989
+      },
+      {
+        "prompt": "Under streetlight at night.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7119
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "59",
+    "source": "A golf ball on wet pavement.",
+    "candidates": [
+      {
+        "prompt": "A puddle on wet pavement.",
+        "mapping_type": "replace",
+        "replacement": "puddle",
+        "clip_score": 0.751
+      },
+      {
+        "prompt": "A shoe on wet pavement.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.7684
+      },
+      {
+        "prompt": "A stick on wet pavement.",
+        "mapping_type": "replace",
+        "replacement": "stick",
+        "clip_score": 0.7041
+      },
+      {
+        "prompt": "A leaf on wet pavement.",
+        "mapping_type": "replace",
+        "replacement": "leaf",
+        "clip_score": 0.6906
+      },
+      {
+        "prompt": "A flower on wet pavement.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7005
+      },
+      {
+        "prompt": "A bottle on wet pavement.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7083
+      },
+      {
+        "prompt": "A can on wet pavement.",
+        "mapping_type": "replace",
+        "replacement": "can",
+        "clip_score": 0.7436
+      },
+      {
+        "prompt": "A bag on wet pavement.",
+        "mapping_type": "replace",
+        "replacement": "bag",
+        "clip_score": 0.6895
+      },
+      {
+        "prompt": "An object on wet pavement.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7573
+      },
+      {
+        "prompt": "Wet pavement.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6905
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "60",
+    "source": "A golf ball under a rainy umbrella.",
+    "candidates": [
+      {
+        "prompt": "A dog under a rainy umbrella.",
+        "mapping_type": "replace",
+        "replacement": "dog",
+        "clip_score": 0.7275
+      },
+      {
+        "prompt": "A bag under a rainy umbrella.",
+        "mapping_type": "replace",
+        "replacement": "bag",
+        "clip_score": 0.7256
+      },
+      {
+        "prompt": "A child under a rainy umbrella.",
+        "mapping_type": "replace",
+        "replacement": "child",
+        "clip_score": 0.7018
+      },
+      {
+        "prompt": "A cat under a rainy umbrella.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7077
+      },
+      {
+        "prompt": "A book under a rainy umbrella.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.6861
+      },
+      {
+        "prompt": "A cup under a rainy umbrella.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.767
+      },
+      {
+        "prompt": "A plant under a rainy umbrella.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7274
+      },
+      {
+        "prompt": "A toy under a rainy umbrella.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7471
+      },
+      {
+        "prompt": "A thing under a rainy umbrella.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.6891
+      },
+      {
+        "prompt": "Under a rainy umbrella.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6857
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "61",
+    "source": "A golf ball on a sunny patio.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball on a sunny patio.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8852
+      },
+      {
+        "prompt": "A soccer ball on a sunny patio.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8677
+      },
+      {
+        "prompt": "A beach ball on a sunny patio.",
+        "mapping_type": "replace",
+        "replacement": "beach ball",
+        "clip_score": 0.8036
+      },
+      {
+        "prompt": "A marble on a sunny patio.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.7412
+      },
+      {
+        "prompt": "A rubber duck on a sunny patio.",
+        "mapping_type": "replace",
+        "replacement": "rubber duck",
+        "clip_score": 0.6842
+      },
+      {
+        "prompt": "A frisbee on a sunny patio.",
+        "mapping_type": "replace",
+        "replacement": "frisbee",
+        "clip_score": 0.7102
+      },
+      {
+        "prompt": "A toy car on a sunny patio.",
+        "mapping_type": "replace",
+        "replacement": "toy car",
+        "clip_score": 0.7375
+      },
+      {
+        "prompt": "A snow globe on a sunny patio.",
+        "mapping_type": "replace",
+        "replacement": "snow globe",
+        "clip_score": 0.7156
+      },
+      {
+        "prompt": "An object on a sunny patio.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7705
+      },
+      {
+        "prompt": "On a sunny patio, there is a bright scene.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7149
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "62",
+    "source": "A golf ball by a window.",
+    "candidates": [
+      {
+        "prompt": "A baseball by a window.",
+        "mapping_type": "replace",
+        "replacement": "baseball",
+        "clip_score": 0.8467
+      },
+      {
+        "prompt": "A water bottle by a window.",
+        "mapping_type": "replace",
+        "replacement": "water bottle",
+        "clip_score": 0.7247
+      },
+      {
+        "prompt": "A mug by a window.",
+        "mapping_type": "replace",
+        "replacement": "mug",
+        "clip_score": 0.7009
+      },
+      {
+        "prompt": "A candle by a window.",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.7445
+      },
+      {
+        "prompt": "A notebook by a window.",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.6983
+      },
+      {
+        "prompt": "A small plant by a window.",
+        "mapping_type": "replace",
+        "replacement": "small plant",
+        "clip_score": 0.7215
+      },
+      {
+        "prompt": "A picture frame by a window.",
+        "mapping_type": "replace",
+        "replacement": "picture frame",
+        "clip_score": 0.6939
+      },
+      {
+        "prompt": "A clock by a window.",
+        "mapping_type": "replace",
+        "replacement": "clock",
+        "clip_score": 0.7402
+      },
+      {
+        "prompt": "An item by a window.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7647
+      },
+      {
+        "prompt": "By a window, there is a lovely view.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6836
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "63",
+    "source": "A golf ball on a metal shelf.",
+    "candidates": [
+      {
+        "prompt": "A toy on a metal shelf.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7116
+      },
+      {
+        "prompt": "A box on a metal shelf.",
+        "mapping_type": "replace",
+        "replacement": "box",
+        "clip_score": 0.699
+      },
+      {
+        "prompt": "A picture frame on a metal shelf.",
+        "mapping_type": "replace",
+        "replacement": "picture frame",
+        "clip_score": 0.6861
+      },
+      {
+        "prompt": "A plant pot on a metal shelf.",
+        "mapping_type": "replace",
+        "replacement": "plant pot",
+        "clip_score": 0.702
+      },
+      {
+        "prompt": "A book on a metal shelf.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.6892
+      },
+      {
+        "prompt": "A vase on a metal shelf.",
+        "mapping_type": "replace",
+        "replacement": "vase",
+        "clip_score": 0.705
+      },
+      {
+        "prompt": "A lamp on a metal shelf.",
+        "mapping_type": "replace",
+        "replacement": "lamp",
+        "clip_score": 0.7135
+      },
+      {
+        "prompt": "A figurine on a metal shelf.",
+        "mapping_type": "replace",
+        "replacement": "figurine",
+        "clip_score": 0.6893
+      },
+      {
+        "prompt": "An object on a metal shelf.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7491
+      },
+      {
+        "prompt": "On a metal shelf, there are various items.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.716
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "64",
+    "source": "A golf ball between two books.",
+    "candidates": [
+      {
+        "prompt": "A book between two novels.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7032
+      },
+      {
+        "prompt": "A pen between two books.",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.7466
+      },
+      {
+        "prompt": "A postcard between two books.",
+        "mapping_type": "replace",
+        "replacement": "postcard",
+        "clip_score": 0.6536
+      },
+      {
+        "prompt": "A bookmark between two books.",
+        "mapping_type": "replace",
+        "replacement": "bookmark",
+        "clip_score": 0.6619
+      },
+      {
+        "prompt": "A tissue box between two books.",
+        "mapping_type": "replace",
+        "replacement": "tissue box",
+        "clip_score": 0.6648
+      },
+      {
+        "prompt": "A small plant between two books.",
+        "mapping_type": "replace",
+        "replacement": "small plant",
+        "clip_score": 0.7257
+      },
+      {
+        "prompt": "A photo frame between two books.",
+        "mapping_type": "replace",
+        "replacement": "photo frame",
+        "clip_score": 0.6544
+      },
+      {
+        "prompt": "A piece of art between two books.",
+        "mapping_type": "replace",
+        "replacement": "piece of art",
+        "clip_score": 0.6824
+      },
+      {
+        "prompt": "An item between two books.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7233
+      },
+      {
+        "prompt": "Between two books, there are various objects.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.696
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "65",
+    "source": "A golf ball near a flower pot.",
+    "candidates": [
+      {
+        "prompt": "A cactus near a flower pot.",
+        "mapping_type": "replace",
+        "replacement": "cactus",
+        "clip_score": 0.7138
+      },
+      {
+        "prompt": "A watering can near a flower pot.",
+        "mapping_type": "replace",
+        "replacement": "watering can",
+        "clip_score": 0.7007
+      },
+      {
+        "prompt": "A small table near a flower pot.",
+        "mapping_type": "replace",
+        "replacement": "small table",
+        "clip_score": 0.6938
+      },
+      {
+        "prompt": "A bird near a flower pot.",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7512
+      },
+      {
+        "prompt": "A butterfly near a flower pot.",
+        "mapping_type": "replace",
+        "replacement": "butterfly",
+        "clip_score": 0.7113
+      },
+      {
+        "prompt": "A stone statue near a flower pot.",
+        "mapping_type": "replace",
+        "replacement": "stone statue",
+        "clip_score": 0.6464
+      },
+      {
+        "prompt": "A garden gnome near a flower pot.",
+        "mapping_type": "replace",
+        "replacement": "garden gnome",
+        "clip_score": 0.7516
+      },
+      {
+        "prompt": "A shovel near a flower pot.",
+        "mapping_type": "replace",
+        "replacement": "shovel",
+        "clip_score": 0.7264
+      },
+      {
+        "prompt": "A thing near a flower pot.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.718
+      },
+      {
+        "prompt": "Near a flower pot, there is a bright garden.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7044
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "66",
+    "source": "A golf ball on a welcome mat.",
+    "candidates": [
+      {
+        "prompt": "A doormat on a welcome mat.",
+        "mapping_type": "replace",
+        "replacement": "doormat",
+        "clip_score": 0.7921
+      },
+      {
+        "prompt": "A shoe on a welcome mat.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.8125
+      },
+      {
+        "prompt": "A bag on a welcome mat.",
+        "mapping_type": "replace",
+        "replacement": "bag",
+        "clip_score": 0.776
+      },
+      {
+        "prompt": "A cat on a welcome mat.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7741
+      },
+      {
+        "prompt": "A newspaper on a welcome mat.",
+        "mapping_type": "replace",
+        "replacement": "newspaper",
+        "clip_score": 0.7642
+      },
+      {
+        "prompt": "A welcome sign on a welcome mat.",
+        "mapping_type": "replace",
+        "replacement": "welcome sign",
+        "clip_score": 0.7762
+      },
+      {
+        "prompt": "A plant on a welcome mat.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7938
+      },
+      {
+        "prompt": "A box on a welcome mat.",
+        "mapping_type": "replace",
+        "replacement": "box",
+        "clip_score": 0.7487
+      },
+      {
+        "prompt": "An item on a welcome mat.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8139
+      },
+      {
+        "prompt": "On a welcome mat, there is a lovely entrance.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7378
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "67",
+    "source": "A golf ball under a coffee table.",
+    "candidates": [
+      {
+        "prompt": "A remote control under a coffee table.",
+        "mapping_type": "replace",
+        "replacement": "remote control",
+        "clip_score": 0.7764
+      },
+      {
+        "prompt": "A magazine under a coffee table.",
+        "mapping_type": "replace",
+        "replacement": "magazine",
+        "clip_score": 0.7207
+      },
+      {
+        "prompt": "A snack under a coffee table.",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.744
+      },
+      {
+        "prompt": "A cat toy under a coffee table.",
+        "mapping_type": "replace",
+        "replacement": "cat toy",
+        "clip_score": 0.7546
+      },
+      {
+        "prompt": "A stack of coasters under a coffee table.",
+        "mapping_type": "replace",
+        "replacement": "stack of coasters",
+        "clip_score": 0.6373
+      },
+      {
+        "prompt": "A charger under a coffee table.",
+        "mapping_type": "replace",
+        "replacement": "charger",
+        "clip_score": 0.7332
+      },
+      {
+        "prompt": "A toy car under a coffee table.",
+        "mapping_type": "replace",
+        "replacement": "toy car",
+        "clip_score": 0.7435
+      },
+      {
+        "prompt": "A book under a coffee table.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7463
+      },
+      {
+        "prompt": "An object under a coffee table.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7991
+      },
+      {
+        "prompt": "Under a coffee table, there are various items.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7177
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "68",
+    "source": "A golf ball at a driving range.",
+    "candidates": [
+      {
+        "prompt": "A baseball at a driving range.",
+        "mapping_type": "replace",
+        "replacement": "baseball",
+        "clip_score": 0.9199
+      },
+      {
+        "prompt": "A frisbee at a driving range.",
+        "mapping_type": "replace",
+        "replacement": "frisbee",
+        "clip_score": 0.7861
+      },
+      {
+        "prompt": "A kite at a driving range.",
+        "mapping_type": "replace",
+        "replacement": "kite",
+        "clip_score": 0.7225
+      },
+      {
+        "prompt": "A target at a driving range.",
+        "mapping_type": "replace",
+        "replacement": "target",
+        "clip_score": 0.8513
+      },
+      {
+        "prompt": "A golf cart at a driving range.",
+        "mapping_type": "replace",
+        "replacement": "golf cart",
+        "clip_score": 0.7875
+      },
+      {
+        "prompt": "A ball at a driving range.",
+        "mapping_type": "replace",
+        "replacement": "ball",
+        "clip_score": 0.9512
+      },
+      {
+        "prompt": "An umbrella at a driving range.",
+        "mapping_type": "replace",
+        "replacement": "umbrella",
+        "clip_score": 0.7649
+      },
+      {
+        "prompt": "A water bottle at a driving range.",
+        "mapping_type": "replace",
+        "replacement": "water bottle",
+        "clip_score": 0.7511
+      },
+      {
+        "prompt": "A thing at a driving range.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7951
+      },
+      {
+        "prompt": "At a driving range, there is a place to practice.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7994
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "69",
+    "source": "A golf ball on an artificial mat.",
+    "candidates": [
+      {
+        "prompt": "A soccer ball on an artificial mat.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8567
+      },
+      {
+        "prompt": "A yoga mat on an artificial mat.",
+        "mapping_type": "replace",
+        "replacement": "yoga mat",
+        "clip_score": 0.6565
+      },
+      {
+        "prompt": "A toy on an artificial mat.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7242
+      },
+      {
+        "prompt": "A blanket on an artificial mat.",
+        "mapping_type": "replace",
+        "replacement": "blanket",
+        "clip_score": 0.6838
+      },
+      {
+        "prompt": "A puzzle on an artificial mat.",
+        "mapping_type": "replace",
+        "replacement": "puzzle",
+        "clip_score": 0.6937
+      },
+      {
+        "prompt": "A rug on an artificial mat.",
+        "mapping_type": "replace",
+        "replacement": "rug",
+        "clip_score": 0.7081
+      },
+      {
+        "prompt": "A bag on an artificial mat.",
+        "mapping_type": "replace",
+        "replacement": "bag",
+        "clip_score": 0.6948
+      },
+      {
+        "prompt": "A cushion on an artificial mat.",
+        "mapping_type": "replace",
+        "replacement": "cushion",
+        "clip_score": 0.7061
+      },
+      {
+        "prompt": "An item on an artificial mat.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7231
+      },
+      {
+        "prompt": "On an artificial mat, there are various things.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6411
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "70",
+    "source": "A golf ball beside a golf tee.",
+    "candidates": [
+      {
+        "prompt": "A golf tee beside a golf hole.",
+        "mapping_type": "replace",
+        "replacement": "golf tee",
+        "clip_score": 0.8839
+      },
+      {
+        "prompt": "A tea cup beside a golf tee.",
+        "mapping_type": "replace",
+        "replacement": "tea cup",
+        "clip_score": 0.8003
+      },
+      {
+        "prompt": "A bottle beside a golf tee.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7868
+      },
+      {
+        "prompt": "A flower beside a golf tee.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7453
+      },
+      {
+        "prompt": "A rock beside a golf tee.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.8124
+      },
+      {
+        "prompt": "A chair beside a golf tee.",
+        "mapping_type": "replace",
+        "replacement": "chair",
+        "clip_score": 0.7648
+      },
+      {
+        "prompt": "A hat beside a golf tee.",
+        "mapping_type": "replace",
+        "replacement": "hat",
+        "clip_score": 0.7824
+      },
+      {
+        "prompt": "A sign beside a golf tee.",
+        "mapping_type": "replace",
+        "replacement": "sign",
+        "clip_score": 0.7074
+      },
+      {
+        "prompt": "A thing beside a golf tee.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7589
+      },
+      {
+        "prompt": "Beside a golf tee, there is a natural setting.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6654
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "71",
+    "source": "A golf ball near a scorecard.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball near a scorecard.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8995
+      },
+      {
+        "prompt": "A baseball next to tees.",
+        "mapping_type": "replace",
+        "replacement": "baseball",
+        "clip_score": 0.7494
+      },
+      {
+        "prompt": "A basketball in a glove.",
+        "mapping_type": "replace",
+        "replacement": "basketball",
+        "clip_score": 0.6013
+      },
+      {
+        "prompt": "A soccer ball by a flagstick.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.716
+      },
+      {
+        "prompt": "A cricket ball on a fairway.",
+        "mapping_type": "replace",
+        "replacement": "cricket ball",
+        "clip_score": 0.7542
+      },
+      {
+        "prompt": "A marble stuck in mud.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.4778
+      },
+      {
+        "prompt": "A rock under fallen branches.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.4846
+      },
+      {
+        "prompt": "A rubber duck on a fairway.",
+        "mapping_type": "replace",
+        "replacement": "rubber duck",
+        "clip_score": 0.5592
+      },
+      {
+        "prompt": "An object near a scorecard.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8317
+      },
+      {
+        "prompt": "A near a scorecard.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7271
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "72",
+    "source": "A golf ball next to tees.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball next to tees.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8913
+      },
+      {
+        "prompt": "A baseball next to tees.",
+        "mapping_type": "replace",
+        "replacement": "baseball",
+        "clip_score": 0.8775
+      },
+      {
+        "prompt": "A basketball in a glove.",
+        "mapping_type": "replace",
+        "replacement": "basketball",
+        "clip_score": 0.5583
+      },
+      {
+        "prompt": "A soccer ball by a flagstick.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.7281
+      },
+      {
+        "prompt": "A cricket ball on a fairway.",
+        "mapping_type": "replace",
+        "replacement": "cricket ball",
+        "clip_score": 0.7168
+      },
+      {
+        "prompt": "A marble stuck in mud.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.4653
+      },
+      {
+        "prompt": "A rock under fallen branches.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.472
+      },
+      {
+        "prompt": "A rubber duck next to tees.",
+        "mapping_type": "replace",
+        "replacement": "rubber duck",
+        "clip_score": 0.6876
+      },
+      {
+        "prompt": "An item next to tees.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7581
+      },
+      {
+        "prompt": "A next to tees.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7401
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "73",
+    "source": "A golf ball in a glove.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball in a glove.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8792
+      },
+      {
+        "prompt": "A baseball in a glove.",
+        "mapping_type": "replace",
+        "replacement": "baseball",
+        "clip_score": 0.8685
+      },
+      {
+        "prompt": "A basketball in a glove.",
+        "mapping_type": "replace",
+        "replacement": "basketball",
+        "clip_score": 0.8393
+      },
+      {
+        "prompt": "A soccer ball in a glove.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8882
+      },
+      {
+        "prompt": "A cricket ball in a glove.",
+        "mapping_type": "replace",
+        "replacement": "cricket ball",
+        "clip_score": 0.8647
+      },
+      {
+        "prompt": "A marble in a glove.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.7478
+      },
+      {
+        "prompt": "A rock in a glove.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.7823
+      },
+      {
+        "prompt": "A rubber duck in a glove.",
+        "mapping_type": "replace",
+        "replacement": "rubber duck",
+        "clip_score": 0.725
+      },
+      {
+        "prompt": "An object in a glove.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7928
+      },
+      {
+        "prompt": "A in a glove.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7476
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "74",
+    "source": "A golf ball by a flagstick.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball by a flagstick.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.9112
+      },
+      {
+        "prompt": "A baseball by a flagstick.",
+        "mapping_type": "replace",
+        "replacement": "baseball",
+        "clip_score": 0.9167
+      },
+      {
+        "prompt": "A basketball by a flagstick.",
+        "mapping_type": "replace",
+        "replacement": "basketball",
+        "clip_score": 0.8975
+      },
+      {
+        "prompt": "A soccer ball by a flagstick.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8943
+      },
+      {
+        "prompt": "A cricket ball by a flagstick.",
+        "mapping_type": "replace",
+        "replacement": "cricket ball",
+        "clip_score": 0.8844
+      },
+      {
+        "prompt": "A marble by a flagstick.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.8058
+      },
+      {
+        "prompt": "A rock by a flagstick.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.8871
+      },
+      {
+        "prompt": "A rubber duck by a flagstick.",
+        "mapping_type": "replace",
+        "replacement": "rubber duck",
+        "clip_score": 0.7533
+      },
+      {
+        "prompt": "An object by a flagstick.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.883
+      },
+      {
+        "prompt": "A by a flagstick.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8672
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "75",
+    "source": "A golf ball on a fairway.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball on a fairway.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.9164
+      },
+      {
+        "prompt": "A baseball on a fairway.",
+        "mapping_type": "replace",
+        "replacement": "baseball",
+        "clip_score": 0.9117
+      },
+      {
+        "prompt": "A basketball on a fairway.",
+        "mapping_type": "replace",
+        "replacement": "basketball",
+        "clip_score": 0.8487
+      },
+      {
+        "prompt": "A soccer ball on a fairway.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8881
+      },
+      {
+        "prompt": "A cricket ball on a fairway.",
+        "mapping_type": "replace",
+        "replacement": "cricket ball",
+        "clip_score": 0.9075
+      },
+      {
+        "prompt": "A marble on a fairway.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.792
+      },
+      {
+        "prompt": "A rock on a fairway.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.8205
+      },
+      {
+        "prompt": "A rubber duck on a fairway.",
+        "mapping_type": "replace",
+        "replacement": "rubber duck",
+        "clip_score": 0.7309
+      },
+      {
+        "prompt": "An item on a fairway.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.819
+      },
+      {
+        "prompt": "A on a fairway.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8018
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "76",
+    "source": "A golf ball stuck in mud.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball stuck in mud.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8553
+      },
+      {
+        "prompt": "A baseball stuck in mud.",
+        "mapping_type": "replace",
+        "replacement": "baseball",
+        "clip_score": 0.8353
+      },
+      {
+        "prompt": "A basketball stuck in mud.",
+        "mapping_type": "replace",
+        "replacement": "basketball",
+        "clip_score": 0.8124
+      },
+      {
+        "prompt": "A soccer ball stuck in mud.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8591
+      },
+      {
+        "prompt": "A cricket ball stuck in mud.",
+        "mapping_type": "replace",
+        "replacement": "cricket ball",
+        "clip_score": 0.8439
+      },
+      {
+        "prompt": "A marble stuck in mud.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.7269
+      },
+      {
+        "prompt": "A rock stuck in mud.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.8012
+      },
+      {
+        "prompt": "A rubber duck stuck in mud.",
+        "mapping_type": "replace",
+        "replacement": "rubber duck",
+        "clip_score": 0.6681
+      },
+      {
+        "prompt": "An object stuck in mud.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7624
+      },
+      {
+        "prompt": "A stuck in mud.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6861
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "77",
+    "source": "A golf ball under fallen branches.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball under fallen branches.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.861
+      },
+      {
+        "prompt": "A baseball under fallen branches.",
+        "mapping_type": "replace",
+        "replacement": "baseball",
+        "clip_score": 0.8455
+      },
+      {
+        "prompt": "A basketball under fallen branches.",
+        "mapping_type": "replace",
+        "replacement": "basketball",
+        "clip_score": 0.81
+      },
+      {
+        "prompt": "A soccer ball under fallen branches.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8639
+      },
+      {
+        "prompt": "A cricket ball under fallen branches.",
+        "mapping_type": "replace",
+        "replacement": "cricket ball",
+        "clip_score": 0.8582
+      },
+      {
+        "prompt": "A marble under fallen branches.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.7448
+      },
+      {
+        "prompt": "A rock under fallen branches.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.7397
+      },
+      {
+        "prompt": "A rubber duck under fallen branches.",
+        "mapping_type": "replace",
+        "replacement": "rubber duck",
+        "clip_score": 0.6286
+      },
+      {
+        "prompt": "An item under fallen branches.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.6994
+      },
+      {
+        "prompt": "A under fallen branches.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6669
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "78",
+    "source": "A golf ball on a fallen log.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball on a fallen log.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8538
+      },
+      {
+        "prompt": "A baseball on a fallen log.",
+        "mapping_type": "replace",
+        "replacement": "baseball",
+        "clip_score": 0.8348
+      },
+      {
+        "prompt": "A basketball on a fallen log.",
+        "mapping_type": "replace",
+        "replacement": "basketball",
+        "clip_score": 0.8134
+      },
+      {
+        "prompt": "A soccer ball on a fallen log.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8576
+      },
+      {
+        "prompt": "A cricket ball on a fallen log.",
+        "mapping_type": "replace",
+        "replacement": "cricket ball",
+        "clip_score": 0.8525
+      },
+      {
+        "prompt": "A marble on a fallen log.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.737
+      },
+      {
+        "prompt": "A rock on a fallen log.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.7683
+      },
+      {
+        "prompt": "A rubber duck on a fallen log.",
+        "mapping_type": "replace",
+        "replacement": "rubber duck",
+        "clip_score": 0.6565
+      },
+      {
+        "prompt": "An item on a fallen log.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7318
+      },
+      {
+        "prompt": "A on a fallen log.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6896
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "79",
+    "source": "A golf ball by a water hazard.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball by a water hazard.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.9394
+      },
+      {
+        "prompt": "A baseball by a water hazard.",
+        "mapping_type": "replace",
+        "replacement": "baseball",
+        "clip_score": 0.9202
+      },
+      {
+        "prompt": "A basketball by a water hazard.",
+        "mapping_type": "replace",
+        "replacement": "basketball",
+        "clip_score": 0.8985
+      },
+      {
+        "prompt": "A soccer ball by a water hazard.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.9078
+      },
+      {
+        "prompt": "A cricket ball by a water hazard.",
+        "mapping_type": "replace",
+        "replacement": "cricket ball",
+        "clip_score": 0.9222
+      },
+      {
+        "prompt": "A marble by a water hazard.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.8357
+      },
+      {
+        "prompt": "A rock by a water hazard.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.8909
+      },
+      {
+        "prompt": "A rubber duck by a water hazard.",
+        "mapping_type": "replace",
+        "replacement": "rubber duck",
+        "clip_score": 0.7758
+      },
+      {
+        "prompt": "An object by a water hazard.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8823
+      },
+      {
+        "prompt": "A by a water hazard.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8778
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "80",
+    "source": "A golf ball on a cart seat.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball on a cart seat.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8466
+      },
+      {
+        "prompt": "A baseball on a cart seat.",
+        "mapping_type": "replace",
+        "replacement": "baseball",
+        "clip_score": 0.8368
+      },
+      {
+        "prompt": "A basketball on a cart seat.",
+        "mapping_type": "replace",
+        "replacement": "basketball",
+        "clip_score": 0.8231
+      },
+      {
+        "prompt": "A soccer ball on a cart seat.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8651
+      },
+      {
+        "prompt": "A cricket ball on a cart seat.",
+        "mapping_type": "replace",
+        "replacement": "cricket ball",
+        "clip_score": 0.8243
+      },
+      {
+        "prompt": "A marble on a cart seat.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.6858
+      },
+      {
+        "prompt": "A rock on a cart seat.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.7602
+      },
+      {
+        "prompt": "A rubber duck on a cart seat.",
+        "mapping_type": "replace",
+        "replacement": "rubber duck",
+        "clip_score": 0.6974
+      },
+      {
+        "prompt": "An object on a cart seat.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7675
+      },
+      {
+        "prompt": "A on a cart seat.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7238
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "81",
+    "source": "A golf ball on a practice green.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball on a practice green.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.9333
+      },
+      {
+        "prompt": "A soccer ball on a practice green.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8909
+      },
+      {
+        "prompt": "A frisbee on a practice green.",
+        "mapping_type": "replace",
+        "replacement": "frisbee",
+        "clip_score": 0.8244
+      },
+      {
+        "prompt": "A watermelon on a practice green.",
+        "mapping_type": "replace",
+        "replacement": "watermelon",
+        "clip_score": 0.8047
+      },
+      {
+        "prompt": "A flowerpot on a practice green.",
+        "mapping_type": "replace",
+        "replacement": "flowerpot",
+        "clip_score": 0.7753
+      },
+      {
+        "prompt": "A small chair on a practice green.",
+        "mapping_type": "replace",
+        "replacement": "small chair",
+        "clip_score": 0.7131
+      },
+      {
+        "prompt": "A picnic basket on a practice green.",
+        "mapping_type": "replace",
+        "replacement": "picnic basket",
+        "clip_score": 0.6848
+      },
+      {
+        "prompt": "A dog toy on a practice green.",
+        "mapping_type": "replace",
+        "replacement": "dog toy",
+        "clip_score": 0.7794
+      },
+      {
+        "prompt": "A thing on a practice green.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.8159
+      },
+      {
+        "prompt": "A on a practice green.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8658
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "82",
+    "source": "A golf ball near a range bucket.",
+    "candidates": [
+      {
+        "prompt": "A baseball near a range bucket.",
+        "mapping_type": "replace",
+        "replacement": "baseball",
+        "clip_score": 0.8999
+      },
+      {
+        "prompt": "A water bottle near a range bucket.",
+        "mapping_type": "replace",
+        "replacement": "water bottle",
+        "clip_score": 0.7396
+      },
+      {
+        "prompt": "A jacket near a range bucket.",
+        "mapping_type": "replace",
+        "replacement": "jacket",
+        "clip_score": 0.68
+      },
+      {
+        "prompt": "A shoe near a range bucket.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.7946
+      },
+      {
+        "prompt": "A tennis racket near a range bucket.",
+        "mapping_type": "replace",
+        "replacement": "tennis racket",
+        "clip_score": 0.8469
+      },
+      {
+        "prompt": "A baseball cap near a range bucket.",
+        "mapping_type": "replace",
+        "replacement": "baseball cap",
+        "clip_score": 0.7233
+      },
+      {
+        "prompt": "A can of soda near a range bucket.",
+        "mapping_type": "replace",
+        "replacement": "can of soda",
+        "clip_score": 0.7454
+      },
+      {
+        "prompt": "A hat near a range bucket.",
+        "mapping_type": "replace",
+        "replacement": "hat",
+        "clip_score": 0.742
+      },
+      {
+        "prompt": "An object near a range bucket.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8174
+      },
+      {
+        "prompt": "A near a range bucket.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8069
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "83",
+    "source": "A golf ball on a small mound.",
+    "candidates": [
+      {
+        "prompt": "A small mound with a stone.",
+        "mapping_type": "replace",
+        "replacement": "stone",
+        "clip_score": 0.7932
+      },
+      {
+        "prompt": "A small mound with a flower.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7131
+      },
+      {
+        "prompt": "A small mound with a twig.",
+        "mapping_type": "replace",
+        "replacement": "twig",
+        "clip_score": 0.7228
+      },
+      {
+        "prompt": "A small mound with a toy.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7102
+      },
+      {
+        "prompt": "A small mound with a piece of fruit.",
+        "mapping_type": "replace",
+        "replacement": "piece of fruit",
+        "clip_score": 0.7511
+      },
+      {
+        "prompt": "A small mound with a pencil.",
+        "mapping_type": "replace",
+        "replacement": "pencil",
+        "clip_score": 0.7108
+      },
+      {
+        "prompt": "A small mound with a shell.",
+        "mapping_type": "replace",
+        "replacement": "shell",
+        "clip_score": 0.785
+      },
+      {
+        "prompt": "A small mound with a leaf.",
+        "mapping_type": "replace",
+        "replacement": "leaf",
+        "clip_score": 0.7222
+      },
+      {
+        "prompt": "A mound on a small mound.",
+        "mapping_type": "replace",
+        "replacement": "mound",
+        "clip_score": 0.7615
+      },
+      {
+        "prompt": "A on a small mound.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7363
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "84",
+    "source": "A golf ball under a fence.",
+    "candidates": [
+      {
+        "prompt": "A cat under a fence.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.747
+      },
+      {
+        "prompt": "A bike under a fence.",
+        "mapping_type": "replace",
+        "replacement": "bike",
+        "clip_score": 0.7381
+      },
+      {
+        "prompt": "A bag under a fence.",
+        "mapping_type": "replace",
+        "replacement": "bag",
+        "clip_score": 0.7204
+      },
+      {
+        "prompt": "A ball under a fence.",
+        "mapping_type": "replace",
+        "replacement": "ball",
+        "clip_score": 0.9016
+      },
+      {
+        "prompt": "A gardening tool under a fence.",
+        "mapping_type": "replace",
+        "replacement": "gardening tool",
+        "clip_score": 0.7689
+      },
+      {
+        "prompt": "A stick under a fence.",
+        "mapping_type": "replace",
+        "replacement": "stick",
+        "clip_score": 0.7672
+      },
+      {
+        "prompt": "A plant under a fence.",
+        "mapping_type": "replace",
+        "replacement": "plant",
+        "clip_score": 0.7637
+      },
+      {
+        "prompt": "A bucket under a fence.",
+        "mapping_type": "replace",
+        "replacement": "bucket",
+        "clip_score": 0.713
+      },
+      {
+        "prompt": "A thing under a fence.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.715
+      },
+      {
+        "prompt": "A under a fence.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7101
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "85",
+    "source": "A golf ball in a dog bowl.",
+    "candidates": [
+      {
+        "prompt": "A cat in a dog bowl.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.7709
+      },
+      {
+        "prompt": "A rubber ball in a dog bowl.",
+        "mapping_type": "replace",
+        "replacement": "rubber ball",
+        "clip_score": 0.8627
+      },
+      {
+        "prompt": "A snack in a dog bowl.",
+        "mapping_type": "replace",
+        "replacement": "snack",
+        "clip_score": 0.7673
+      },
+      {
+        "prompt": "A toy in a dog bowl.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7653
+      },
+      {
+        "prompt": "A spoon in a dog bowl.",
+        "mapping_type": "replace",
+        "replacement": "spoon",
+        "clip_score": 0.7999
+      },
+      {
+        "prompt": "A piece of fruit in a dog bowl.",
+        "mapping_type": "replace",
+        "replacement": "piece of fruit",
+        "clip_score": 0.772
+      },
+      {
+        "prompt": "A cookie in a dog bowl.",
+        "mapping_type": "replace",
+        "replacement": "cookie",
+        "clip_score": 0.7816
+      },
+      {
+        "prompt": "A drink in a dog bowl.",
+        "mapping_type": "replace",
+        "replacement": "drink",
+        "clip_score": 0.7837
+      },
+      {
+        "prompt": "An item in a dog bowl.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8018
+      },
+      {
+        "prompt": "A in a dog bowl.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7727
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "86",
+    "source": "A golf ball on a lounge chair.",
+    "candidates": [
+      {
+        "prompt": "A book on a lounge chair.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7032
+      },
+      {
+        "prompt": "A hat on a lounge chair.",
+        "mapping_type": "replace",
+        "replacement": "hat",
+        "clip_score": 0.7229
+      },
+      {
+        "prompt": "A towel on a lounge chair.",
+        "mapping_type": "replace",
+        "replacement": "towel",
+        "clip_score": 0.7061
+      },
+      {
+        "prompt": "A cup on a lounge chair.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.7455
+      },
+      {
+        "prompt": "A pillow on a lounge chair.",
+        "mapping_type": "replace",
+        "replacement": "pillow",
+        "clip_score": 0.7456
+      },
+      {
+        "prompt": "A blanket on a lounge chair.",
+        "mapping_type": "replace",
+        "replacement": "blanket",
+        "clip_score": 0.6959
+      },
+      {
+        "prompt": "A toy on a lounge chair.",
+        "mapping_type": "replace",
+        "replacement": "toy",
+        "clip_score": 0.7207
+      },
+      {
+        "prompt": "A phone on a lounge chair.",
+        "mapping_type": "replace",
+        "replacement": "phone",
+        "clip_score": 0.7016
+      },
+      {
+        "prompt": "An object on a lounge chair.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7598
+      },
+      {
+        "prompt": "A on a lounge chair.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7059
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "87",
+    "source": "A golf ball on a picnic blanket.",
+    "candidates": [
+      {
+        "prompt": "A sandwich on a picnic blanket.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7754
+      },
+      {
+        "prompt": "A book on a picnic blanket.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7093
+      },
+      {
+        "prompt": "A bottle of water on a picnic blanket.",
+        "mapping_type": "replace",
+        "replacement": "bottle of water",
+        "clip_score": 0.7441
+      },
+      {
+        "prompt": "A fruit basket on a picnic blanket.",
+        "mapping_type": "replace",
+        "replacement": "fruit basket",
+        "clip_score": 0.7485
+      },
+      {
+        "prompt": "A camera on a picnic blanket.",
+        "mapping_type": "replace",
+        "replacement": "camera",
+        "clip_score": 0.7242
+      },
+      {
+        "prompt": "A game on a picnic blanket.",
+        "mapping_type": "replace",
+        "replacement": "game",
+        "clip_score": 0.7164
+      },
+      {
+        "prompt": "A bag on a picnic blanket.",
+        "mapping_type": "replace",
+        "replacement": "bag",
+        "clip_score": 0.7431
+      },
+      {
+        "prompt": "A blanket on a picnic blanket.",
+        "mapping_type": "replace",
+        "replacement": "blanket",
+        "clip_score": 0.7502
+      },
+      {
+        "prompt": "An item on a picnic blanket.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7638
+      },
+      {
+        "prompt": "A on a picnic blanket.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7124
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "88",
+    "source": "A golf ball near a campfire.",
+    "candidates": [
+      {
+        "prompt": "A lantern near a campfire.",
+        "mapping_type": "replace",
+        "replacement": "lantern",
+        "clip_score": 0.7058
+      },
+      {
+        "prompt": "A log near a campfire.",
+        "mapping_type": "replace",
+        "replacement": "log",
+        "clip_score": 0.6885
+      },
+      {
+        "prompt": "A blanket near a campfire.",
+        "mapping_type": "replace",
+        "replacement": "blanket",
+        "clip_score": 0.6524
+      },
+      {
+        "prompt": "A chair near a campfire.",
+        "mapping_type": "replace",
+        "replacement": "chair",
+        "clip_score": 0.6291
+      },
+      {
+        "prompt": "A pot near a campfire.",
+        "mapping_type": "replace",
+        "replacement": "pot",
+        "clip_score": 0.6912
+      },
+      {
+        "prompt": "A stick near a campfire.",
+        "mapping_type": "replace",
+        "replacement": "stick",
+        "clip_score": 0.7137
+      },
+      {
+        "prompt": "A marshmallow near a campfire.",
+        "mapping_type": "replace",
+        "replacement": "marshmallow",
+        "clip_score": 0.7552
+      },
+      {
+        "prompt": "A cooler near a campfire.",
+        "mapping_type": "replace",
+        "replacement": "cooler",
+        "clip_score": 0.6675
+      },
+      {
+        "prompt": "A thing near a campfire.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.6801
+      },
+      {
+        "prompt": "A near a campfire.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7037
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "89",
+    "source": "A golf ball on a chessboard.",
+    "candidates": [
+      {
+        "prompt": "A checker on a chessboard.",
+        "mapping_type": "replace",
+        "replacement": "checker",
+        "clip_score": 0.7752
+      },
+      {
+        "prompt": "A pawn on a chessboard.",
+        "mapping_type": "replace",
+        "replacement": "pawn",
+        "clip_score": 0.7851
+      },
+      {
+        "prompt": "A timer on a chessboard.",
+        "mapping_type": "replace",
+        "replacement": "timer",
+        "clip_score": 0.8023
+      },
+      {
+        "prompt": "A watch on a chessboard.",
+        "mapping_type": "replace",
+        "replacement": "watch",
+        "clip_score": 0.7786
+      },
+      {
+        "prompt": "A notebook on a chessboard.",
+        "mapping_type": "replace",
+        "replacement": "notebook",
+        "clip_score": 0.7892
+      },
+      {
+        "prompt": "A card on a chessboard.",
+        "mapping_type": "replace",
+        "replacement": "card",
+        "clip_score": 0.81
+      },
+      {
+        "prompt": "A piece on a chessboard.",
+        "mapping_type": "replace",
+        "replacement": "piece",
+        "clip_score": 0.7933
+      },
+      {
+        "prompt": "A pen on a chessboard.",
+        "mapping_type": "replace",
+        "replacement": "pen",
+        "clip_score": 0.8102
+      },
+      {
+        "prompt": "An item on a chessboard.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.8328
+      },
+      {
+        "prompt": "A on a chessboard.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7695
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "90",
+    "source": "A golf ball beside a candle.",
+    "candidates": [
+      {
+        "prompt": "A flower beside a candle.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.6954
+      },
+      {
+        "prompt": "A vase beside a candle.",
+        "mapping_type": "replace",
+        "replacement": "vase",
+        "clip_score": 0.7077
+      },
+      {
+        "prompt": "A plate beside a candle.",
+        "mapping_type": "replace",
+        "replacement": "plate",
+        "clip_score": 0.6487
+      },
+      {
+        "prompt": "A picture beside a candle.",
+        "mapping_type": "replace",
+        "replacement": "picture",
+        "clip_score": 0.6863
+      },
+      {
+        "prompt": "A book beside a candle.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.6761
+      },
+      {
+        "prompt": "A shell beside a candle.",
+        "mapping_type": "replace",
+        "replacement": "shell",
+        "clip_score": 0.7198
+      },
+      {
+        "prompt": "A cup beside a candle.",
+        "mapping_type": "replace",
+        "replacement": "cup",
+        "clip_score": 0.7038
+      },
+      {
+        "prompt": "A box beside a candle.",
+        "mapping_type": "replace",
+        "replacement": "box",
+        "clip_score": 0.6736
+      },
+      {
+        "prompt": "An object beside a candle.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7709
+      },
+      {
+        "prompt": "A beside a candle.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6718
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "91",
+    "source": "A golf ball near a wristwatch.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball near a wristwatch.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8691
+      },
+      {
+        "prompt": "A basketball near a wristwatch.",
+        "mapping_type": "replace",
+        "replacement": "basketball",
+        "clip_score": 0.8314
+      },
+      {
+        "prompt": "A ping pong ball near a wristwatch.",
+        "mapping_type": "replace",
+        "replacement": "ping pong ball",
+        "clip_score": 0.8533
+      },
+      {
+        "prompt": "A rubber ball near a wristwatch.",
+        "mapping_type": "replace",
+        "replacement": "rubber ball",
+        "clip_score": 0.8612
+      },
+      {
+        "prompt": "A marble near a wristwatch.",
+        "mapping_type": "replace",
+        "replacement": "marble",
+        "clip_score": 0.6947
+      },
+      {
+        "prompt": "A bouncy ball near a wristwatch.",
+        "mapping_type": "replace",
+        "replacement": "bouncy ball",
+        "clip_score": 0.8422
+      },
+      {
+        "prompt": "A soccer ball near a wristwatch.",
+        "mapping_type": "replace",
+        "replacement": "soccer ball",
+        "clip_score": 0.8524
+      },
+      {
+        "prompt": "A volleyball near a wristwatch.",
+        "mapping_type": "replace",
+        "replacement": "volleyball",
+        "clip_score": 0.7882
+      },
+      {
+        "prompt": "A thing near a wristwatch.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.6953
+      },
+      {
+        "prompt": "A wristwatch.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7545
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "92",
+    "source": "A golf ball on a map.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball on a map.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8647
+      },
+      {
+        "prompt": "A basketball on a map.",
+        "mapping_type": "replace",
+        "replacement": "basketball",
+        "clip_score": 0.8461
+      },
+      {
+        "prompt": "A toy car on a map.",
+        "mapping_type": "replace",
+        "replacement": "toy car",
+        "clip_score": 0.7411
+      },
+      {
+        "prompt": "A rubber duck on a map.",
+        "mapping_type": "replace",
+        "replacement": "rubber duck",
+        "clip_score": 0.6881
+      },
+      {
+        "prompt": "A bottle on a map.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7235
+      },
+      {
+        "prompt": "A book on a map.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7499
+      },
+      {
+        "prompt": "A compass on a map.",
+        "mapping_type": "replace",
+        "replacement": "compass",
+        "clip_score": 0.7716
+      },
+      {
+        "prompt": "A flower pot on a map.",
+        "mapping_type": "replace",
+        "replacement": "flower pot",
+        "clip_score": 0.7159
+      },
+      {
+        "prompt": "An item on a map.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.772
+      },
+      {
+        "prompt": "A map.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7316
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "93",
+    "source": "A golf ball in a cardboard box.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball in a cardboard box.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8593
+      },
+      {
+        "prompt": "A toy truck in a cardboard box.",
+        "mapping_type": "replace",
+        "replacement": "toy truck",
+        "clip_score": 0.7008
+      },
+      {
+        "prompt": "A book in a cardboard box.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7574
+      },
+      {
+        "prompt": "A sandwich in a cardboard box.",
+        "mapping_type": "replace",
+        "replacement": "sandwich",
+        "clip_score": 0.7559
+      },
+      {
+        "prompt": "A potted plant in a cardboard box.",
+        "mapping_type": "replace",
+        "replacement": "potted plant",
+        "clip_score": 0.7166
+      },
+      {
+        "prompt": "A bottle in a cardboard box.",
+        "mapping_type": "replace",
+        "replacement": "bottle",
+        "clip_score": 0.7435
+      },
+      {
+        "prompt": "A candle in a cardboard box.",
+        "mapping_type": "replace",
+        "replacement": "candle",
+        "clip_score": 0.7281
+      },
+      {
+        "prompt": "A puzzle in a cardboard box.",
+        "mapping_type": "replace",
+        "replacement": "puzzle",
+        "clip_score": 0.7111
+      },
+      {
+        "prompt": "An object in a cardboard box.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7824
+      },
+      {
+        "prompt": "A cardboard box.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7646
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "94",
+    "source": "A golf ball inside a mailbox.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball inside a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8756
+      },
+      {
+        "prompt": "A letter inside a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "letter",
+        "clip_score": 0.7395
+      },
+      {
+        "prompt": "A postcard inside a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "postcard",
+        "clip_score": 0.6804
+      },
+      {
+        "prompt": "A newspaper inside a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "newspaper",
+        "clip_score": 0.7126
+      },
+      {
+        "prompt": "A magazine inside a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "magazine",
+        "clip_score": 0.7346
+      },
+      {
+        "prompt": "A small box inside a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "small box",
+        "clip_score": 0.7842
+      },
+      {
+        "prompt": "A book inside a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.7565
+      },
+      {
+        "prompt": "A flyer inside a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "flyer",
+        "clip_score": 0.6503
+      },
+      {
+        "prompt": "A thing inside a mailbox.",
+        "mapping_type": "replace",
+        "replacement": "thing",
+        "clip_score": 0.7354
+      },
+      {
+        "prompt": "Inside a mailbox.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7059
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "95",
+    "source": "A golf ball on a tree stump.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball on a tree stump.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8609
+      },
+      {
+        "prompt": "A squirrel on a tree stump.",
+        "mapping_type": "replace",
+        "replacement": "squirrel",
+        "clip_score": 0.7223
+      },
+      {
+        "prompt": "A bird on a tree stump.",
+        "mapping_type": "replace",
+        "replacement": "bird",
+        "clip_score": 0.7566
+      },
+      {
+        "prompt": "A mushroom on a tree stump.",
+        "mapping_type": "replace",
+        "replacement": "mushroom",
+        "clip_score": 0.7916
+      },
+      {
+        "prompt": "A book on a tree stump.",
+        "mapping_type": "replace",
+        "replacement": "book",
+        "clip_score": 0.714
+      },
+      {
+        "prompt": "An acorn on a tree stump.",
+        "mapping_type": "replace",
+        "replacement": "acorn",
+        "clip_score": 0.7952
+      },
+      {
+        "prompt": "A flower on a tree stump.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7291
+      },
+      {
+        "prompt": "A rock on a tree stump.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.7985
+      },
+      {
+        "prompt": "An item on a tree stump.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7381
+      },
+      {
+        "prompt": "A tree stump.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.721
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "96",
+    "source": "A golf ball under a porch step.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball under a porch step.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.9048
+      },
+      {
+        "prompt": "A cat under a porch step.",
+        "mapping_type": "replace",
+        "replacement": "cat",
+        "clip_score": 0.8295
+      },
+      {
+        "prompt": "A shoe under a porch step.",
+        "mapping_type": "replace",
+        "replacement": "shoe",
+        "clip_score": 0.8623
+      },
+      {
+        "prompt": "A toolbox under a porch step.",
+        "mapping_type": "replace",
+        "replacement": "toolbox",
+        "clip_score": 0.7749
+      },
+      {
+        "prompt": "A broom under a porch step.",
+        "mapping_type": "replace",
+        "replacement": "broom",
+        "clip_score": 0.804
+      },
+      {
+        "prompt": "A small bag under a porch step.",
+        "mapping_type": "replace",
+        "replacement": "small bag",
+        "clip_score": 0.8381
+      },
+      {
+        "prompt": "A flower pot under a porch step.",
+        "mapping_type": "replace",
+        "replacement": "flower pot",
+        "clip_score": 0.8286
+      },
+      {
+        "prompt": "A rock under a porch step.",
+        "mapping_type": "replace",
+        "replacement": "rock",
+        "clip_score": 0.88
+      },
+      {
+        "prompt": "An object under a porch step.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.8854
+      },
+      {
+        "prompt": "Under a porch step.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8668
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "97",
+    "source": "A golf ball near a watering can.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball near a watering can.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8747
+      },
+      {
+        "prompt": "A butterfly near a watering can.",
+        "mapping_type": "replace",
+        "replacement": "butterfly",
+        "clip_score": 0.7011
+      },
+      {
+        "prompt": "A flower near a watering can.",
+        "mapping_type": "replace",
+        "replacement": "flower",
+        "clip_score": 0.7417
+      },
+      {
+        "prompt": "A shovel near a watering can.",
+        "mapping_type": "replace",
+        "replacement": "shovel",
+        "clip_score": 0.7723
+      },
+      {
+        "prompt": "A rake near a watering can.",
+        "mapping_type": "replace",
+        "replacement": "rake",
+        "clip_score": 0.6707
+      },
+      {
+        "prompt": "A spade near a watering can.",
+        "mapping_type": "replace",
+        "replacement": "spade",
+        "clip_score": 0.739
+      },
+      {
+        "prompt": "A garden gnome near a watering can.",
+        "mapping_type": "replace",
+        "replacement": "garden gnome",
+        "clip_score": 0.7505
+      },
+      {
+        "prompt": "A birdhouse near a watering can.",
+        "mapping_type": "replace",
+        "replacement": "birdhouse",
+        "clip_score": 0.7668
+      },
+      {
+        "prompt": "An item near a watering can.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7422
+      },
+      {
+        "prompt": "Near a watering can.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7199
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "98",
+    "source": "A golf ball next to a rake.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball next to a rake.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8655
+      },
+      {
+        "prompt": "A shovel next to a rake.",
+        "mapping_type": "replace",
+        "replacement": "shovel",
+        "clip_score": 0.7583
+      },
+      {
+        "prompt": "A garden hoe next to a rake.",
+        "mapping_type": "replace",
+        "replacement": "garden hoe",
+        "clip_score": 0.6992
+      },
+      {
+        "prompt": "A broom next to a rake.",
+        "mapping_type": "replace",
+        "replacement": "broom",
+        "clip_score": 0.7708
+      },
+      {
+        "prompt": "A bag next to a rake.",
+        "mapping_type": "replace",
+        "replacement": "bag",
+        "clip_score": 0.716
+      },
+      {
+        "prompt": "A wheelbarrow next to a rake.",
+        "mapping_type": "replace",
+        "replacement": "wheelbarrow",
+        "clip_score": 0.7256
+      },
+      {
+        "prompt": "A flower pot next to a rake.",
+        "mapping_type": "replace",
+        "replacement": "flower pot",
+        "clip_score": 0.7376
+      },
+      {
+        "prompt": "A butterfly next to a rake.",
+        "mapping_type": "replace",
+        "replacement": "butterfly",
+        "clip_score": 0.6709
+      },
+      {
+        "prompt": "An object next to a rake.",
+        "mapping_type": "replace",
+        "replacement": "object",
+        "clip_score": 0.7875
+      },
+      {
+        "prompt": "Next to a rake.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.678
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "99",
+    "source": "A golf ball in a flower bed.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball in a flower bed.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8615
+      },
+      {
+        "prompt": "A bee in a flower bed.",
+        "mapping_type": "replace",
+        "replacement": "bee",
+        "clip_score": 0.6961
+      },
+      {
+        "prompt": "A butterfly in a flower bed.",
+        "mapping_type": "replace",
+        "replacement": "butterfly",
+        "clip_score": 0.6817
+      },
+      {
+        "prompt": "A ladybug in a flower bed.",
+        "mapping_type": "replace",
+        "replacement": "ladybug",
+        "clip_score": 0.6795
+      },
+      {
+        "prompt": "A shovel in a flower bed.",
+        "mapping_type": "replace",
+        "replacement": "shovel",
+        "clip_score": 0.6812
+      },
+      {
+        "prompt": "A watering can in a flower bed.",
+        "mapping_type": "replace",
+        "replacement": "watering can",
+        "clip_score": 0.6567
+      },
+      {
+        "prompt": "A rake in a flower bed.",
+        "mapping_type": "replace",
+        "replacement": "rake",
+        "clip_score": 0.6513
+      },
+      {
+        "prompt": "A flower pot in a flower bed.",
+        "mapping_type": "replace",
+        "replacement": "flower pot",
+        "clip_score": 0.7292
+      },
+      {
+        "prompt": "An insect in a flower bed.",
+        "mapping_type": "replace",
+        "replacement": "insect",
+        "clip_score": 0.7217
+      },
+      {
+        "prompt": "A flower bed.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6703
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "100",
+    "source": "A golf ball on a sandy path.",
+    "candidates": [
+      {
+        "prompt": "A tennis ball on a sandy path.",
+        "mapping_type": "replace",
+        "replacement": "tennis ball",
+        "clip_score": 0.8796
+      },
+      {
+        "prompt": "A bicycle on a sandy path.",
+        "mapping_type": "replace",
+        "replacement": "bicycle",
+        "clip_score": 0.7224
+      },
+      {
+        "prompt": "A beach towel on a sandy path.",
+        "mapping_type": "replace",
+        "replacement": "beach towel",
+        "clip_score": 0.6882
+      },
+      {
+        "prompt": "A shovel on a sandy path.",
+        "mapping_type": "replace",
+        "replacement": "shovel",
+        "clip_score": 0.733
+      },
+      {
+        "prompt": "A picnic basket on a sandy path.",
+        "mapping_type": "replace",
+        "replacement": "picnic basket",
+        "clip_score": 0.6572
+      },
+      {
+        "prompt": "A pair of sandals on a sandy path.",
+        "mapping_type": "replace",
+        "replacement": "pair of sandals",
+        "clip_score": 0.636
+      },
+      {
+        "prompt": "A bag on a sandy path.",
+        "mapping_type": "replace",
+        "replacement": "bag",
+        "clip_score": 0.7057
+      },
+      {
+        "prompt": "A flower pot on a sandy path.",
+        "mapping_type": "replace",
+        "replacement": "flower pot",
+        "clip_score": 0.7144
+      },
+      {
+        "prompt": "An item on a sandy path.",
+        "mapping_type": "replace",
+        "replacement": "item",
+        "clip_score": 0.7469
+      },
+      {
+        "prompt": "A sandy path.",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7269
+      }
+    ],
+    "selected": 1
+  }
+]

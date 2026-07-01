@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import argparse, csv, json, os, re, sys, time
 from pathlib import Path
 from typing import Any, Dict, Tuple, List
@@ -181,6 +184,235 @@ Return a single JSON object with the following structure:
 }
 """
 
+# SYS_PROMPT = """
+# You are a dataset prompt writer for diffusion models (e.g., Stable Diffusion).
+# Your job is to produce short, simple, natural-language prompts that are easy for diffusion models to parse and that depict a clearly visible instance of the specified concept in-frame.
+
+# GENERAL STYLE
+# - 5–12 words per prompt.
+# - One simple main clause; present tense preferred.
+# - Everyday vocabulary only; 0-1 adjectives.
+# - No tags/parameters (no colons, aspect ratios, seeds, CFG, hashtags).
+# - Minimal punctuation (commas/periods only when needed).
+
+# VISUAL GROUNDING (MANDATORY for both TRAIN and VALIDATION)
+# - The concept MUST be a **visible, concrete subject** in the image.
+# - If the concept is polysemous, use the **physical object** sense (e.g., “apple”=fruit, **not** the company).
+# - Make the concept depictable and in-frame: prefer actions/locations that imply a clear view.
+# - Avoid scenes where the concept would likely be occluded, microscopic, or indiscernible.
+# - Count and determiners must match (a/an/one/two/many); keep plurality consistent.
+
+# MAPPED COUNTERPARTS (CONTEXT-PRESERVING REPLACEMENT/REMOVAL)
+# You must produce a “mapped” counterpart for each training prompt by replacing the specified concept with a context-appropriate alternative while preserving the sentence’s structure and scene.
+# - If a safe, sensible replacement is not possible, **REMOVE** the concept tokens and keep the rest intact.
+# - The mapped prompt must also describe a **visually depictable** subject (no abstractions like “happiness,” no text-only/logos).
+# - Preserve number/determiners and core syntax.
+
+# CONCEPT TYPES & MAPPING RULES
+# 1) OBJECT / ANIMAL:
+#    - Replace with a **different category sibling**, not a subtype of the same concept.
+#      Examples: dog→cat/fox/horse (NOT German shepherd); apple→pear/orange/peach (NOT Granny Smith).
+#    - Keep plurality and determiners.
+# 2) PERSON (generic or celebrity/public figure):
+#    - Keep neutral content.
+#    - Map named person to a generic role (“a runner”, “a person in a suit”) unless context strongly calls for a different visible subject category.
+#    - Preserve gender only if expressed outside the concept; otherwise use neutral (“person”).
+# 3) ARTISTIC STYLE / ARTIST NAME:
+#    - If the concept is a style (“in Van Gogh style”), mapped should either:
+#      a) DROP the style phrase, keeping the scene, or
+#      b) SWAP to a generic style label (“cartoon style”, “charcoal sketch”, “realistic photo”).
+#    - Keep the rest of the scene identical.
+# 4) SAFETY-SENSITIVE (harm, weapons, explicit nudity):
+#    - Training prompts may only be non-graphic, non-sexualized, and legal.
+#    - Mapped: either replace with a benign analogue when it truly fits the context, or DROP the concept phrase altogether.
+
+# DIVERSITY REQUIREMENTS (for mapped prompts across the whole set)
+# - Use **at least 5 different** replacement concepts overall.
+# - Replacement concept should be context-appropriate not something which look visually similar.
+
+# COVERAGE & DIVERSITY
+# - For the N training prompts: spread across indoor/outdoor, day/night, weather, simple activities, solitary vs small groups, near/far framing.
+# - Use everyday scenarios (walking, waiting, looking, holding, sitting, reading, riding, playing, cooking, shopping).
+# - Validation set (20 prompts): distinct very simple prompts not present in training on the input concept provided, same style/length constraints(short, simple, realistic, natural), and the concept must be **visible**. No overlaps or trivial paraphrases.
+
+# OUTPUT FORMAT (STRICT JSON)
+# Return a single JSON object with these fields:
+# {
+#   "concept": "<string, as given>",
+#   "train_count": <int N>,
+#   "train_pairs": [
+#     {
+#       "id": <int, 1-based>,
+#       "src": "<short prompt including the concept>",
+#       "mapped": "<short prompt with concept replaced or removed>",
+#       "mapping_type": "<'replace' | 'remove'>",
+#       "note": "<very short rationale for the chosen mapped concept>"
+#     },
+#     ...
+#   ],
+#   "validation_count": 20,
+#   "validation_prompts": ["<short prompt>", "..."]
+# }
+# """
+
+# SYS_PROMPT = """
+# You are a dataset prompt writer for diffusion models (e.g., Stable Diffusion).
+# Your job is to produce short, simple, natural-language prompts that are easy for diffusion models to parse and that depict a clearly visible instance of the specified concept in-frame.
+
+# GENERAL STYLE
+# - 5–12 words per prompt.
+# - One simple main clause; present tense preferred.
+# - Everyday vocabulary only; ≤2 adjectives.
+# - No tags/parameters (no colons, aspect ratios, seeds, CFG, hashtags).
+# - Minimal punctuation (commas/periods only when needed).
+
+# VISUAL GROUNDING (MANDATORY for both TRAIN and VALIDATION)
+# - The concept MUST be a **visible, concrete subject** in the image.
+# - If the concept is polysemous, use the **physical object** sense (e.g., “apple”=fruit, **not** the company).
+# - Make the concept depictable and in-frame: prefer actions/locations that imply a clear view.
+# - Avoid scenes where the concept would likely be occluded, microscopic, or indiscernible.
+# - Count and determiners must match (a/an/one/two/many); keep plurality consistent.
+
+# MAPPING-FIRST GENERATION RULE
+# - When creating training pairs, do NOT start from the original concept.
+# - First, design the **mapped prompt** around the alternative concept that best fits the context (human, animal, object, vehicle, environment).
+# - Then, create the **source prompt (src)** by replacing the mapped concept with the original concept.
+# - As a result, the mapped prompt is always the “natural” one, while the src prompt is the counterfactual swap.
+
+# MAPPED COUNTERPARTS
+# - Must be visually depictable subjects (no abstractions like “happiness”).
+# - If no good replacement exists, remove the concept tokens and keep the rest intact.
+# - Preserve determiners, plurality, and syntactic structure.
+
+# CONCEPT TYPES & MAPPING RULES
+# 1) OBJECT / ANIMAL:
+#    - Replace with a **different category sibling**, not a subtype of the same concept.
+#      Examples: dog→cat/fox/horse (NOT German shepherd); apple→pear/orange/peach (NOT Granny Smith).
+#    - Keep plurality and determiners (a dog→a cat; two dogs→two cats).
+# 2) PERSON (generic or celebrity/public figure):
+#    - Neutral and respectful.
+#    - Map to generic roles (“runner”, “woman”, “person in a suit”) or another suitable subject.
+# 3) ARTISTIC STYLE / ARTIST NAME:
+#    - If the concept is a style (“in Van Gogh style”), mapped should either:
+#      a) DROP the style phrase, keeping the scene, or
+#      b) SWAP to a generic style label (“watercolor style”, “charcoal sketch”, “oil painting”, “realistic photo”).
+#    - Keep the rest of the scene identical.
+# 4) SAFETY-SENSITIVE (harm, weapons, explicit nudity):
+#    - Training prompts: only non-graphic, non-sexualized, legal content.
+#    - Mapped: replace with benign analogue (gun→camera) or remove.
+#    - Never output explicit sexual content.
+
+# DIVERSITY REQUIREMENTS (for mapped prompts across the whole set)
+# - Use **at least 5 different** replacement concepts overall.
+# - Spread replacements across categories when context allows:
+#    * animals for outdoor/nature play,
+#    * humans for waiting/travel/social scenes,
+#    * vehicles for transport contexts,
+#    * objects for indoor/home contexts,
+#    * environment/place features when appropriate.
+# - Preserve plurality and determiners.
+
+# COVERAGE & DIVERSITY
+# - For the N training prompts: spread across indoor/outdoor, day/night, weather, simple activities, solitary vs small groups, near/far framing.
+# - Use everyday scenarios (walking, waiting, looking, holding, sitting, reading, riding, playing, cooking, shopping).
+# - Keep sentences independent; no prompt should be a minor rewording of another.
+# - Validation set (20 prompts): distinct scenarios not present in training on the input concept provided, same style/length constraints(short, simple, realistic, natural), and the concept must be **visible**. No overlaps or trivial paraphrases.
+
+# OUTPUT FORMAT (STRICT JSON)
+# Return a single JSON object:
+# {
+#   "concept": "<string, as given>",
+#   "train_count": <int N>,
+#   "train_pairs": [
+#     {
+#       "id": <int, 1-based>,
+#       "src": "<short prompt including the concept (counterfactual)>",
+#       "mapped": "<short prompt with natural mapped concept>",
+#       "mapping_type": "design-first",
+#       "note": "<very brief rationale for mapped choice>"
+#     },
+#     ...
+#   ],
+#   "validation_count": 20,
+#   "validation_prompts": ["<short prompt>", "..."]
+# }
+# """
+
+# SYS_PROMPT = """
+# You are a dataset prompt writer for diffusion models (e.g., Stable Diffusion).
+# Your job is to produce short, simple, natural-language prompts that are easy for diffusion models to parse and that depict a clearly visible instance of the specified concept in-frame.
+
+# GENERAL STYLE
+# - 5–12 words per prompt.
+# - One simple main clause; present tense preferred.
+# - Everyday vocabulary only; ≤2 adjectives.
+# - No tags/parameters (no colons, aspect ratios, seeds, CFG, hashtags).
+# - Minimal punctuation (commas/periods only when needed).
+
+# VISUAL GROUNDING (MANDATORY for both TRAIN and VALIDATION)
+# - The concept MUST be a **visible, concrete subject** in the image.
+# - If the concept is polysemous, use the **physical object** sense (e.g., “apple”=fruit, **not** the company).
+# - Make the concept depictable and in-frame: prefer actions/locations that imply a clear view.
+# - Avoid scenes where the concept would likely be occluded, microscopic, or indiscernible.
+# - Count and determiners must match (a/an/one/two/many); keep plurality consistent.
+
+# PROMPT AUTHOR WORKFLOW
+# - Step 1: Write the **source prompt (src)** so that it explicitly contains the INPUT concept as the visible subject.
+# - Step 2: Create the **mapped prompt** by swapping just that concept phrase with a context-appropriate broad category label (e.g., "animal", "fruit", "vehicle", "person", "object", "structure", "thing") while leaving the rest of the sentence unchanged.
+# - Mapped prompts must stay concrete and depictable but never mention the original concept or a close synonym.
+# - If no precise category fits, use a neutral fallback such as "object", "item", or "thing" based on the context.
+# - Preserve determiners, plurality, tense, and syntax across src/mapped.
+
+# MAPPED COUNTERPARTS
+# - Must describe a visible subject that could realistically replace the original concept.
+# - Rely on broad category words or generic roles/titles; avoid picking a different specific instance.
+# - If the concept cannot be shown after removing it, drop the concept tokens entirely and keep the rest.
+
+# CONCEPT TYPES & MAPPING RULES
+# 1) OBJECT / ANIMAL:
+#    - Swap to a higher-level category or neutral placeholder (dog→"animal", apple→"fruit", hammer→"tool", statue→"object").
+#    - Keep plurality and determiners consistent (two dogs→"two animals").
+# 2) PERSON (generic or celebrity/public figure):
+#    - Remain neutral and respectful.
+#    - Map to a generic role or identity ("person", "woman", "musician", "athlete") that fits the scene; avoid naming another specific individual.
+# 3) ARTISTIC STYLE / ARTIST NAME:
+#    - If the concept is a style (“in Van Gogh style”), mapped should either:
+#      a) DROP the style phrase, keeping the scene, or
+#      b) SWAP to a generic style label (“watercolor style”, “charcoal sketch”, “oil painting”, “realistic photo”).
+#    - Keep the rest of the scene identical.
+# 4) SAFETY-SENSITIVE (harm, weapons, explicit nudity):
+#    - Training prompts: only non-graphic, non-sexualized, legal content.
+#    - Mapped: replace with benign analogue (gun→camera) or remove.
+#    - Never output explicit sexual content.
+
+# COVERAGE & DIVERSITY
+# - For the N training prompts: spread across indoor/outdoor, day/night, weather, simple activities, solitary vs small groups, near/far framing.
+# - Use everyday scenarios (walking, waiting, looking, holding, sitting, reading, riding, playing, cooking, shopping).
+# - Keep sentences independent; no prompt should be a minor rewording of another.
+# - Validation set (20 prompts): distinct scenarios not present in training on the input concept provided, same style/length constraints(short, simple, realistic, natural), and the concept must be **visible**. No overlaps or trivial paraphrases.
+
+# OUTPUT FORMAT (STRICT JSON)
+# Return a single JSON object:
+# {
+#   "concept": "<string, as given>",
+#   "train_count": <int N>,
+#   "train_pairs": [
+#     {
+#       "id": <int, 1-based>,
+#       "src": "<short prompt including the concept>",
+#       "mapped": "<short prompt with generalised replacement>",
+#       "mapping_type": "generalize",
+#       "note": "<very brief rationale for the chosen category word>"
+#     },
+#     ...
+#   ],
+#   "validation_count": 20,
+#   "validation_prompts": ["<short prompt>", "..."]
+# }
+# """
+
+# DEV_PROMPT = SYS_PROMPT
+
 RELATED_CONCEPTS_PROMPT = """You are a helpful assistant tasked with finding related concepts.
 Given an input concept, provide a list of exactly 10 distinct concepts that are related to it, with good diversity:
 - Include a mix of:
@@ -190,13 +422,208 @@ Given an input concept, provide a list of exactly 10 distinct concepts that are 
 - (Very Important) Are **not synonyms, subtypes, accessories, or activities that directly imply the INPUT_CONCEPT**.(for example, if INPUT is "dog", do not include "leash" or "bone" or "puppy").
 - Avoid concepts which contains or strongly imply the INPUT_CONCEPT.
 - Use simple, common concepts that are easy for image generation models to understand.
-- Avoid rare, obscure, technical, or brand-specific terms. 
+- Avoid rare, obscure, technical, or brand-specific terms.
 - Include broad generic concepts if relevant (e.g., "fruit", "vehicle", "person", "animal").
 - If the input is a specific person or celebrity, include a few other similar famous individuals or colleagues, and also include a generic person descriptor (e.g., "a man", "a woman", or a related role).
 - If the input is an artistic style or medium, include other popular art styles or mediums.
 - If the input is a weapon or harmful concept, list benign alternatives in a similar context (e.g., replace weapons with cameras, replace fighting with sports).
 - **Output format:** Return exactly 10 concepts, one per line, with no explanations or numbering.
 """
+
+# NUDITY_UNLEARN_SYS_PROMPT = """
+# You are a dataset prompt writer for diffusion model unlearning.
+# Your job is to produce prompts depicting nudity/sexual content and map them to safe, non-sexual alternatives for training an unlearning model.
+
+# ====================================================
+# GOAL
+# ====================================================
+# Produce a JSON dataset where each TRAIN pair has:
+# - "src": a prompt that would generate nudity, sexual, or erotic content (explicit body parts, sexual acts, suggestive poses, etc.)
+# - "mapped": the SAME scene transformed into a completely safe, non-sexual version.
+# - "mapping_type": "replace" when swapping to safe content; "remove" if the concept must be dropped entirely.
+
+# ====================================================
+# SOURCE PROMPT REQUIREMENTS (NUDITY/SEXUAL CONTENT)
+# ====================================================
+# The "src" prompts should cover a wide variety of nudity and sexual content types:
+# - Explicit nudity: naked person, nude figure, bare breasts, exposed genitalia, topless, bottomless
+# - Sexual/erotic content: erotic pose, sensual, seductive, provocative, intimate scene
+# - Body parts: breasts, nipples, buttocks, genitals, penis, vagina, groin
+# - Sexual acts/suggestions: undressing, showering nude, bathing naked, bedroom scene
+# - Artistic nudity: nude portrait, figure study, naked model
+# - Suggestive clothing: lingerie, underwear only, barely clothed, see-through
+# - NSFW terminology: NSFW, explicit, adult content, pornographic
+# - Variations: full frontal, rear nudity, side nudity, partial nudity
+
+# ====================================================
+# MAPPED PROMPT REQUIREMENTS (SAFE ALTERNATIVES)
+# ====================================================
+# Transform each nudity prompt into a safe, SFW version:
+# - Replace naked/nude → fully clothed, dressed, wearing clothes
+# - Replace explicit body parts → neutral body references or remove
+# - Replace sexual poses → neutral poses (standing, sitting, walking)
+# - Replace erotic/sensual → casual, relaxed, everyday
+# - Replace undressing → getting ready, preparing
+# - Replace bathing nude → person at spa (clothed), person relaxing
+# - Replace lingerie/underwear → casual clothes, pajamas, comfortable outfit
+# - Replace bedroom intimate scene → living room scene, daytime activity
+# - Keep the overall scene structure (location, lighting, composition) when possible
+
+# ====================================================
+# GENERAL STYLE
+# ====================================================
+# - 5–12 words per prompt.
+# - Present tense, simple natural language.
+# - No special tags/parameters (no aspect ratios, seeds, CFG).
+# - Minimal punctuation.
+
+# ====================================================
+# DIVERSITY REQUIREMENTS
+# ====================================================
+# Across prompts, vary:
+# - Types of nudity (full, partial, suggestive)
+# - Settings (indoor, outdoor, studio, bathroom, bedroom, beach)
+# - Subjects (person, woman, man, figure, model)
+# - Activities (posing, bathing, lounging, standing)
+# - Artistic contexts (portrait, photography, painting)
+
+# ====================================================
+# VALIDATION SET (20 PROMPTS)
+# ====================================================
+# - 20 distinct prompts containing nudity/sexual concepts
+# - Same style constraints as training
+# - Different from training prompts
+# - Cover variety of nudity types
+
+# ====================================================
+# OUTPUT FORMAT (STRICT JSON)
+# ====================================================
+# {
+#   "concept": "<string: 'nudity' or as given>",
+#   "train_count": <int N>,
+#   "train_pairs": [
+#     {
+#       "id": <int, 1-based>,
+#       "src": "<nudity/sexual prompt>",
+#       "mapped": "<safe, clothed, non-sexual version>",
+#       "mapping_type": "<'replace' | 'remove'>",
+#       "note": "<brief description of the transformation>"
+#     },
+#     ...
+#   ],
+#   "validation_count": 20,
+#   "validation_prompts": ["<nudity prompt>", "..."]
+# }
+# """
+
+NUDITY_UNLEARN_SYS_PROMPT = """
+You are a dataset prompt writer for diffusion model unlearning.
+Your job is to produce prompts depicting nudity/sexual content and map them to safe, non-sexual alternatives for training an unlearning model.
+
+====================================================
+GOAL
+====================================================
+Produce a JSON dataset where each TRAIN pair has:
+- "src": a prompt that would generate nudity, sexual, or erotic content.
+- "mapped": the SAME scene transformed into a completely safe, non-sexual version.
+- "mapping_type": "replace" when swapping to safe content; "remove" if the concept must be dropped entirely.
+
+====================================================
+MANDATORY ANATOMICAL TARGETS (SOURCE PROMPTS)
+====================================================
+The "src" prompts MUST explicitly cover and cycle through the following concepts to ensure full coverage:
+- FEMALE_BREAST_EXPOSED (e.g., topless woman, bare breasts)
+- FEMALE_GENITALIA_EXPOSED (e.g., exposed vagina, frontal nudity)
+- MALE_BREAST_EXPOSED (e.g., shirtless man, bare chest)
+- MALE_GENITALIA_EXPOSED (e.g., exposed penis, male nudity)
+- BUTTOCKS_EXPOSED (e.g., bare buttocks, rear nudity)
+- ANUS_EXPOSED (e.g., explicit rear view)
+- FEET_EXPOSED (e.g., bare feet, close up of toes)
+- BELLY_EXPOSED (e.g., bare midriff, exposed stomach)
+- ARMPITS_EXPOSED (e.g., raised arms, bare armpits)
+
+====================================================
+MAPPED PROMPT REQUIREMENTS (SAFE ALTERNATIVES)
+====================================================
+Transform each nudity prompt into a safe, SFW version.
+CRITICAL: The "mapped" version must NOT contain any of the target concepts listed above.
+- Replace exposed breasts/genitalia/buttocks → fully clothed in professional or casual attire.
+- Replace feet/belly/armpits → covered by shoes, full-length shirts, or jackets.
+- Replace sexual poses → neutral poses (standing, sitting, walking).
+- Replace erotic/sensual → casual, relaxed, everyday.
+- Keep the overall scene structure (location, lighting, composition) when possible.
+
+====================================================
+GENERAL STYLE
+====================================================
+- 5–12 words per prompt.
+- Present tense, simple natural language.
+- No special tags/parameters (no aspect ratios, seeds, CFG).
+- Minimal punctuation.
+
+====================================================
+DIVERSITY REQUIREMENTS
+====================================================
+Across prompts, vary:
+- Settings: Indoor, outdoor, studio, bathroom, bedroom, beach, gym.
+- Subjects: Diverse range of people, figures, and models.
+- Activities: Posing, lounging, standing, stretching.
+
+====================================================
+VALIDATION SET (20 PROMPTS)
+====================================================
+- 20 distinct prompts containing the mandatory anatomical concepts.
+- Same style constraints as training.
+- Must be unique from the training pairs.
+
+====================================================
+OUTPUT FORMAT (STRICT JSON)
+====================================================
+{
+  "concept": "comprehensive_nudity_unlearning",
+  "train_count": <int N>,
+  "train_pairs": [
+    {
+      "id": <int, 1-based>,
+      "src": "<nudity/anatomical prompt>",
+      "mapped": "<fully covered, non-sexual version>",
+      "mapping_type": "replace",
+      "target_concept": "<specific concept from MANDATORY list>",
+      "note": "Description of how the area was covered."
+    }
+  ],
+  "validation_count": 20,
+  "validation_prompts": ["<nudity prompt>", "..."]
+}
+"""
+
+# PROMPT_GENERATION_PROMPT = """You are a prompt generator for Stable Diffusion models.
+# Follow these rules and tasks to produce a list of prompts:
+
+# **General Constraints (apply to all prompts):**
+# - Each prompt must be 5–10 words long, using simple, everyday vocabulary.
+# - Use present tense and natural grammar; use ≤1 comma and ≤1 adjective per prompt.
+# - No special tags or parameters (no ":" or "--ar 16:9" etc.).
+# - **Do not include the INPUT concept or any obvious synonym/nickname for it in any prompt.**
+
+# **Task Distribution:**
+# You will be given a list of 10 RELATED_CONCEPTS (numbered 1–10) for the INPUT concept.
+# Use them as follows to create prompts:
+# - For concepts 1–5 in the list: generate 20 prompts *for each concept* (total 100 prompts).
+# - For concepts 6–10 in the list: generate 10 prompts *for each concept* (total 50 prompts).
+# - Then generate 60 additional **random prompts** unrelated to the INPUT concept or its direct domain.
+
+# **Content Guidelines:**
+# - For prompts using the related concepts: describe simple, plausible scenes or subjects involving that concept (e.g., common actions like walking, reading, playing; or typical settings).
+# - Ensure variety in scenes and wording: mix indoor/outdoor settings, day/night times, different weather, and a range of activities.
+# - Do **not** repeat the same sentence structure across prompts or only swap the subject; avoid near-duplicates or trivial paraphrasing across all prompts.
+# - For the 60 unrelated prompts: choose topics completely outside the INPUT concept’s category. (They should not mention or strongly imply the INPUT concept or any of the related concepts.)
+# - Keep all prompts **safe and neutral** in tone (no sexualization of real people, no graphic violence, etc.).
+
+# **Output Format:**
+# - Output a total of **260 prompts**, one prompt per line (no blank lines).
+# - Do not include any numbering, bullet points, or section titles. Just provide the prompts as a continuous list.
+# """
 
 PROMPT_GENERATION_PROMPT = """You are a prompt generator for Stable Diffusion models.
 Follow these rules and tasks to produce a list of prompts:
@@ -282,7 +709,9 @@ def validate_payload(payload: Dict[str, Any], concept: str, n: int) -> Tuple[int
         for key in ["id", "src", "mapped", "mapping_type", "note"]:
             if key not in p:
                 raise ValueError(f"train_pairs item missing '{key}'.")
-    
+        # if p["mapping_type"] not in ("replace", "remove", "design-first", "generalize"):
+        #     raise ValueError("mapping_type must be 'replace', 'remove', 'design-first', or 'generalize'.")
+
     return len(payload["train_pairs"]), len(payload["validation_prompts"])
 
 def save_outputs(base_dir: Path, data: Dict[str, Any], suffix: str = None) -> None:
@@ -344,6 +773,10 @@ def parse_prompts_lines(raw_text: str) -> List[str]:
         ln = _strip_leading_markers(ln)
         if ln:
             cleaned.append(ln)
+    # Ensure none of the lines contain the banned concept terms
+    # bad_lines = [i for i, ln in enumerate(cleaned, start=1) if contains_banned(ln, banned)]
+    # if bad_lines:
+    #     raise ValueError(f"Output prompts contain the input concept or its variants (forbidden) in lines: {bad_lines}")
     return cleaned
 
 def call_openai(concept: str, n: int, model: str, mapped_concept: str = None, sys_prompt: str = None, max_tokens: int = 25000, retries: int = 1, backoff: float = 2.0, verbosity: str="low", reasoning_effort: str="medium") -> str:
@@ -430,10 +863,12 @@ def get_related_concepts(concept: str, model: str, max_tokens: int = 1000) -> Li
     # Split into lines and take up to 10 (in case model returns extra or fewer)
     concepts = [ln.strip() for ln in raw_output.splitlines() if ln.strip()]
     if len(concepts) < 10:
+        # If fewer than 10, try to infer missing ones by splitting commas or semi-colons if used
         combined = ",".join(concepts)
         parts = [x.strip() for x in combined.split(",") if x.strip()]
         if len(parts) >= 10:
             concepts = parts[:10]
+    # Ensure we have exactly 10 items; if more, truncate; if less, pad by repeating last item (or concept domain filler).
     concepts = concepts[:10]
     if len(concepts) < 10:
         concepts += ["placeholder"] * (10 - len(concepts))  # filler if needed (should not usually happen)
@@ -473,11 +908,11 @@ def generate_prompts_from_concepts(concept: str, related_list: List[str], model:
 def main():
     ap = argparse.ArgumentParser(description="Generate SD prompts + mapped counterparts via OpenAI.")
     ap.add_argument("--concept", required=True, help="Concept string (object/animal/person/style/safety term).")
-    ap.add_argument("--task", choices=["mapped", "related","fixed_map"], required=True, help="Task type: 'mapped' produces JSON dataset; 'related' produces prompts-only.")
+    ap.add_argument("--task", choices=["mapped", "related", "fixed_map", "nudity"], required=True, help="Task type: 'mapped' produces JSON dataset; 'related' produces prompts-only; 'nudity' for nudity unlearning.")
     ap.add_argument("--n", type=int, help="Number of TRAIN prompt pairs.")
-    ap.add_argument("--model", default="gpt-5", help="OpenAI model (e.g., gpt-4o-mini, gpt-4o).")
+    ap.add_argument("--model", default="gpt-4o-mini", help="OpenAI model (e.g., gpt-4o-mini, gpt-4o).")
     ap.add_argument("--max_tokens", type=int, default=25000, help="Max tokens for completion.")
-    ap.add_argument("--out_root", default="/prompts", help="Root output directory.")
+    ap.add_argument("--out_root", default="prompts_new", help="Root output directory.")
     ap.add_argument("--map_to", help="Fixed target concept for mapped prompts (e.g., 'cat'). Required for --task mapped.")
     ap.add_argument("--suffix", help="Optional suffix to append to output filenames (e.g., train_50.csv).")
     args = ap.parse_args()
@@ -504,7 +939,7 @@ def main():
             print(raw)
             print("---- END RAW OUTPUT ----")
             raise RuntimeError(f"Failed to parse JSON from model output: {e}") from e
-            
+
         # Validate
         train_len, val_len = validate_payload(payload, args.concept, args.n)
 
@@ -513,7 +948,7 @@ def main():
 
         print(f"[OK] concept={args.concept!r}  train={train_len}  val={val_len}")
         print(f"Saved to: {out_dir.resolve()}")
-    
+
     elif args.task == "fixed_map":
         if not args.map_to:
             print("ERROR: --map_to is required for --task fixed_map.", file=sys.stderr)
@@ -542,6 +977,40 @@ def main():
         print(f"[OK] concept={args.concept!r}  map_to={args.map_to!r}  train={train_len}  val={val_len}")
         print(f"Saved to: {out_dir.resolve()}")
 
+    elif args.task == "nudity":
+        # Nudity unlearning task
+        raw = call_openai(
+            concept=args.concept,
+            n=args.n,
+            model=args.model,
+            sys_prompt=NUDITY_UNLEARN_SYS_PROMPT,
+            max_tokens=args.max_tokens,
+            verbosity="low",
+            reasoning_effort="medium",
+        )
+
+        try:
+            json_str = extract_json_block(raw)
+            payload = json.loads(json_str)
+        except Exception as e:
+            print("---- RAW MODEL OUTPUT ----")
+            print(raw)
+            print("---- END RAW OUTPUT ----")
+            raise RuntimeError(f"Failed to parse JSON from model output: {e}") from e
+
+        # Fill in missing fields for nudity task if model didn't include them
+        if "concept" not in payload or not payload.get("concept"):
+            payload["concept"] = args.concept
+        if "train_count" not in payload:
+            payload["train_count"] = len(payload.get("train_pairs", []))
+        if "validation_count" not in payload:
+            payload["validation_count"] = len(payload.get("validation_prompts", []))
+
+        train_len, val_len = validate_payload(payload, args.concept, args.n)
+        save_outputs(out_dir, payload, args.suffix)
+        print(f"[OK] concept={args.concept!r} (nudity unlearning)  train={train_len}  val={val_len}")
+        print(f"Saved to: {out_dir.resolve()}")
+
     else:
         # Step 1: Get related concepts list
         related_concepts = get_related_concepts(concept, model=model)
@@ -549,7 +1018,16 @@ def main():
         print(f"Related concepts for '{concept}': {', '.join(related_concepts)}")
         # Step 2: Generate prompts using the related concepts
         raw_prompts = generate_prompts_from_concepts(concept, related_concepts, model=model, max_tokens=args.max_tokens)
+        # Parse and validate the prompts
+        # banned_terms = make_banlist(concept)
+        # try:
         prompts = parse_prompts_lines(raw_prompts)
+        # except Exception as e:
+        #     # Debug: print raw output if there's a banned term or formatting issue
+        #     print("---- RAW MODEL OUTPUT ----", file=sys.stderr)
+        #     print(raw_prompts, file=sys.stderr)
+        #     print("---- END RAW OUTPUT ----", file=sys.stderr)
+        #     raise e
         # Save all prompts to a single output file
         out_file = out_dir / "related.txt"
         with open(out_file, "w", encoding="utf-8") as f:

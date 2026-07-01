@@ -1,92 +1,133 @@
 <div align="center">
-      
-# Distill, Forget, Repeat: A Framework for Continual Unlearning in Text-to-Image Diffusion Models
 
-<div align="left">
+# [ECCV 2026] Locality-Aware Continual Unlearning for Diffusion Models
 
-<div align="center">
-
-###  [Arxiv Preprint](https://arxiv.org/abs/2512.02657) <br>
-Distill, Forget, Repeat proposes a distillation-based framework utilizing contextual trajectory re-steering, generative replay, and parameter regularization to enable stable sequential unlearning. This approach effectively removes targeted concepts while preventing catastrophic retention collapse and compounding ripple effects, ensuring the model's general generative quality remains intact.
+[ArXiv Preprint](https://arxiv.org/abs/2512.02657)
 
 </div>
 
+LACU is a continual unlearning framework for text-to-image diffusion models. It uses model-aware score-prediction distance to select local mapping targets and local replay prompts, then trains with teacher-student distillation and lightweight parameter regularization.
+
 <div align="center">
-  <img
-    src="Teaser.png"
-    alt="Continual Unlearning performance"
-  >
+  <img src="images/flow.png" alt="LACU training flow">
+  <br>
+  <sub>LACU builds a local unlearn path and a local preservation path at each continual step.</sub>
 </div>
 
-## Prepare
+## Setup
 
-### Environment Setup
-A suitable conda environment named ```ldm``` can be created and activated with:
+Create the training environment:
 
-```
+```bash
 conda env create -f ldm_environment.yml
-conda activate ldm
+conda activate lacu-train
 ```
 
-### Prompt Preparation
-Use the prompts listed in the paper’s Supplementary Section to generate the full prompt set.
-A script for generating them ```prompt_gen.py``` is included. Running it will produce the prompts and save them into a folder named ```prompts/```. Change the ```--task``` argument to change the mapping technique and related prompts for training.
+Create the evaluation environment:
 
-Before running the script, ensure that your OpenAI API key is available in the environment (e.g., export OPENAI_API_KEY=...).
+```bash
+conda env create -f qwenvl_environment.yml
+conda activate lacu-eval
+```
 
-## Code Implementation
+The scripts download model weights from Hugging Face when a model id such as `runwayml/stable-diffusion-v1-5` is used. If you regenerate prompts or mappings, set:
 
-### Continual Unlearning
-To start training, run the ```train.bash``` script.
-All hyperparameters can be modified directly inside the script.
+```bash
+export OPENAI_API_KEY=...
+```
 
-If you’re using different GPU hardware from our setup, adjust the batch size and gradient accumulation steps accordingly.
-Our experiments used 3× H100 (80 GB) GPUs; smaller or lower-memory GPUs will require proportionally smaller batch sizes or higher accumulation.
+## Continual Unlearning
+
+The release runner uses the first 10 concepts from the paper sequence:
+
+```text
+pikachu, brad_pitt, golf_ball, van_gogh_style, apple,
+spiderman, lionel_messi, cartoon_style, banana, mickey_mouse
+```
+
+Cached prompt assets for these concepts are included under `prompts_new/`, so the default run does not need to call the OpenAI API unless a required prompt file is missing.
+
+Run the 10-step SD v1.5 LACU sequence:
+
+```bash
+conda activate lacu-train
+./train.sh
+```
+
+Useful overrides:
+
+```bash
+BASE_MODEL=runwayml/stable-diffusion-v1-5 \
+OUTPUT_ROOT=outputs/lacu_sd15_10 \
+ACCELERATE_NUM_PROCESSES=1 \
+TRAIN_BATCH_SIZE=18 \
+GRADIENT_ACCUMULATION_STEPS=2 \
+./train.sh
+```
+
+The final checkpoint path is printed at the end of the run.
+
+`BASE_MODEL` is only the initial checkpoint for the sequence. The runner feeds
+each completed checkpoint back into `train.py` as `--pretrained_model_name_or_path`
+for the next concept.
+
+Our reported runs used 3 H100 GPUs. If you run on smaller GPUs, including 48 GB cards, reduce `TRAIN_BATCH_SIZE` and compensate with `GRADIENT_ACCUMULATION_STEPS`. Very small per-device batches can make it difficult to reproduce the same numbers, even when the effective batch size is similar.
+
+## Method
+
+<div align="center">
+  <img src="images/visual_4.png" alt="Locality-aware target selection">
+  <br>
+  <sub>Locality-aware target selection chooses nearby safe prompts in the model score-prediction space.</sub>
+</div>
 
 ## Evaluation
 
-### Environment Setup
-Due to version conflicts between previous diffusers and recent Qwen model, evaluation is run in a separate Conda environment.
-Create and activate it with:
+Evaluate a single Diffusers checkpoint folder:
 
-```
-conda env create -f qwenvl_environment.yml
-conda activate qwenvl
+```bash
+conda activate lacu-eval
+./evaluate_checkpoint.sh outputs/lacu_sd15_10/10_mickey_mouse/checkpoints/step_350
 ```
 
-### Code implementation
-To evaluate a single checkpoint, run:
+Useful overrides:
 
-```
-python eval.py \
---model_folder "$model_dir"  \
---prompts_csv "$PROMPTS_CSV"  \
---output_root "$out_dir"  \
---gpu 0  \
---use_confusables  \
---log_file "$out_dir/eval_log.txt"  \
---wandb_project "$WANDP"  \
---wandb_run_name "$run_name"  \
---wandb_mode online  \
---batch_size 64    \
---vlm_batch_size 32   \
---gen_prompt_batch 16   \
---save_workers 6
+```bash
+PROMPTS_CSV=prompts_new/eval.csv \
+PROMPTS_EXTRA_ROOT=prompts_new \
+OUTPUT_ROOT=eval_outputs/mickey_mouse_step_350 \
+GPU=0 \
+NUM_IMAGES_PER_PROMPT=8 \
+./evaluate_checkpoint.sh /path/to/diffusers/checkpoint
 ```
 
-where:
-- ```model_dir``` is the path to the checkpoint folder.
-- ```PROMPTS_CSV``` is the prompts CSV file.
-- ```out_dir``` is the output directory.
+The evaluator generates images, computes CLIP scores, and runs Qwen2.5-VL yes/no classification with confusables-aware prompts.
 
+## Qualitative Results
 
-## Cite Our Work
-The preprint can be cited as follows:
-```
-@article{george2025distillforgetrepeatframework,
-  title={Distill, Forget, Repeat: A Framework for Continual Unlearning in Text-to-Image Diffusion Models},
+<div align="center">
+  <img src="images/results.png" alt="Qualitative continual unlearning and retention results">
+</div>
+
+## Key Files
+
+- `train.sh`: portable first-10-concept LACU training runner.
+- `train.py`: current LACU training implementation.
+- `prompt_gen.py`: forget/validation prompt generation.
+- `clip_map_gen.py`: candidate mapping prompt generation.
+- `model_score_map_gen.py`: score-prediction mapping selection.
+- `retain_prompt_gen.py`: score-prediction local replay prompt generation.
+- `evaluate_checkpoint.sh`: single-checkpoint evaluation wrapper.
+- `eval.py`: image generation, CLIP scoring, and Qwen2.5-VL evaluation.
+
+## Citation
+
+```bibtex
+@inproceedings{george2026locality,
+  title={Locality-Aware Continual Unlearning for Diffusion Models},
   author={George, Naveen and Murata, Naoki and Takida, Yuhta and Mopuri, Konda Reddy and Mitsufuji, Yuki},
-  journal={arXiv preprint arXiv:2512.02657},
-  year={2025}
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2026},
+  organization={Springer}
 }
 ```

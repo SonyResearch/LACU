@@ -1,0 +1,6702 @@
+[
+  {
+    "id": "1",
+    "source": "A sunflower field in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A sunflower field in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8644
+      },
+      {
+        "prompt": "A sunflower field in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.8392
+      },
+      {
+        "prompt": "A sunflower field in classical style",
+        "mapping_type": "replace",
+        "replacement": "classical style",
+        "clip_score": 0.8152
+      },
+      {
+        "prompt": "A sunflower field in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.771
+      },
+      {
+        "prompt": "A sunflower field in expressionist style",
+        "mapping_type": "replace",
+        "replacement": "expressionist style",
+        "clip_score": 0.8462
+      },
+      {
+        "prompt": "A sunflower field in pastel style",
+        "mapping_type": "replace",
+        "replacement": "pastel style",
+        "clip_score": 0.777
+      },
+      {
+        "prompt": "A sunflower field in modern style",
+        "mapping_type": "replace",
+        "replacement": "modern style",
+        "clip_score": 0.8076
+      },
+      {
+        "prompt": "A sunflower field in folk art style",
+        "mapping_type": "replace",
+        "replacement": "folk art style",
+        "clip_score": 0.8022
+      },
+      {
+        "prompt": "A sunflower field in art style",
+        "mapping_type": "replace",
+        "replacement": "art style",
+        "clip_score": 0.8515
+      },
+      {
+        "prompt": "A sunflower field",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8256
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "2",
+    "source": "A red barn in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A red barn in rustic style",
+        "mapping_type": "replace",
+        "replacement": "rustic style",
+        "clip_score": 0.7798
+      },
+      {
+        "prompt": "A red barn in vintage style",
+        "mapping_type": "replace",
+        "replacement": "vintage style",
+        "clip_score": 0.8025
+      },
+      {
+        "prompt": "A red barn in modern style",
+        "mapping_type": "replace",
+        "replacement": "modern style",
+        "clip_score": 0.7329
+      },
+      {
+        "prompt": "A red barn in folk art style",
+        "mapping_type": "replace",
+        "replacement": "folk art style",
+        "clip_score": 0.8204
+      },
+      {
+        "prompt": "A red barn in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.744
+      },
+      {
+        "prompt": "A red barn in contemporary style",
+        "mapping_type": "replace",
+        "replacement": "contemporary style",
+        "clip_score": 0.6818
+      },
+      {
+        "prompt": "A red barn in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.8306
+      },
+      {
+        "prompt": "A red barn in traditional style",
+        "mapping_type": "replace",
+        "replacement": "traditional style",
+        "clip_score": 0.7794
+      },
+      {
+        "prompt": "A red barn in architectural style",
+        "mapping_type": "replace",
+        "replacement": "architectural style",
+        "clip_score": 0.7586
+      },
+      {
+        "prompt": "A red barn",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.78
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "3",
+    "source": "A city street in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A city street in bustling atmosphere",
+        "mapping_type": "replace",
+        "replacement": "bustling atmosphere",
+        "clip_score": 0.6433
+      },
+      {
+        "prompt": "A city street in historic style",
+        "mapping_type": "replace",
+        "replacement": "historic style",
+        "clip_score": 0.692
+      },
+      {
+        "prompt": "A city street in urban style",
+        "mapping_type": "replace",
+        "replacement": "urban style",
+        "clip_score": 0.7006
+      },
+      {
+        "prompt": "A city street in modern design",
+        "mapping_type": "replace",
+        "replacement": "modern design",
+        "clip_score": 0.6856
+      },
+      {
+        "prompt": "A city street in surreal ambiance",
+        "mapping_type": "replace",
+        "replacement": "surreal ambiance",
+        "clip_score": 0.724
+      },
+      {
+        "prompt": "A city street in lively atmosphere",
+        "mapping_type": "replace",
+        "replacement": "lively atmosphere",
+        "clip_score": 0.671
+      },
+      {
+        "prompt": "A city street in scenic view",
+        "mapping_type": "replace",
+        "replacement": "scenic view",
+        "clip_score": 0.6487
+      },
+      {
+        "prompt": "A city street in artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.7692
+      },
+      {
+        "prompt": "A city street in street scene",
+        "mapping_type": "replace",
+        "replacement": "street scene",
+        "clip_score": 0.6863
+      },
+      {
+        "prompt": "A city street",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6755
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "4",
+    "source": "A night cafe in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A night cafe in cozy ambiance",
+        "mapping_type": "replace",
+        "replacement": "cozy ambiance",
+        "clip_score": 0.704
+      },
+      {
+        "prompt": "A night cafe in vintage decor",
+        "mapping_type": "replace",
+        "replacement": "vintage decor",
+        "clip_score": 0.7022
+      },
+      {
+        "prompt": "A night cafe in modern style",
+        "mapping_type": "replace",
+        "replacement": "modern style",
+        "clip_score": 0.7302
+      },
+      {
+        "prompt": "A night cafe in artistic theme",
+        "mapping_type": "replace",
+        "replacement": "artistic theme",
+        "clip_score": 0.7555
+      },
+      {
+        "prompt": "A night cafe in relaxed mood",
+        "mapping_type": "replace",
+        "replacement": "relaxed mood",
+        "clip_score": 0.7153
+      },
+      {
+        "prompt": "A night cafe in eclectic style",
+        "mapping_type": "replace",
+        "replacement": "eclectic style",
+        "clip_score": 0.7111
+      },
+      {
+        "prompt": "A night cafe in festive atmosphere",
+        "mapping_type": "replace",
+        "replacement": "festive atmosphere",
+        "clip_score": 0.7172
+      },
+      {
+        "prompt": "A night cafe in artistic vibe",
+        "mapping_type": "replace",
+        "replacement": "artistic vibe",
+        "clip_score": 0.7678
+      },
+      {
+        "prompt": "A night cafe in venue space",
+        "mapping_type": "replace",
+        "replacement": "venue space",
+        "clip_score": 0.6556
+      },
+      {
+        "prompt": "A night cafe",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7202
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "5",
+    "source": "A starry sky in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A starry sky in serene view",
+        "mapping_type": "replace",
+        "replacement": "serene view",
+        "clip_score": 0.7279
+      },
+      {
+        "prompt": "A starry sky in dreamy ambiance",
+        "mapping_type": "replace",
+        "replacement": "dreamy ambiance",
+        "clip_score": 0.7712
+      },
+      {
+        "prompt": "A starry sky in magical scene",
+        "mapping_type": "replace",
+        "replacement": "magical scene",
+        "clip_score": 0.7477
+      },
+      {
+        "prompt": "A starry sky in tranquil mood",
+        "mapping_type": "replace",
+        "replacement": "tranquil mood",
+        "clip_score": 0.7445
+      },
+      {
+        "prompt": "A starry sky in vast expanse",
+        "mapping_type": "replace",
+        "replacement": "vast expanse",
+        "clip_score": 0.7155
+      },
+      {
+        "prompt": "A starry sky in peaceful night",
+        "mapping_type": "replace",
+        "replacement": "peaceful night",
+        "clip_score": 0.7441
+      },
+      {
+        "prompt": "A starry sky in night scene",
+        "mapping_type": "replace",
+        "replacement": "night scene",
+        "clip_score": 0.7627
+      },
+      {
+        "prompt": "A starry sky in nighttime display",
+        "mapping_type": "replace",
+        "replacement": "nighttime display",
+        "clip_score": 0.6469
+      },
+      {
+        "prompt": "A starry sky in night sky",
+        "mapping_type": "replace",
+        "replacement": "night sky",
+        "clip_score": 0.7486
+      },
+      {
+        "prompt": "A starry sky",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7694
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "6",
+    "source": "A small boat in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A small boat in tranquil waters",
+        "mapping_type": "replace",
+        "replacement": "tranquil waters",
+        "clip_score": 0.6699
+      },
+      {
+        "prompt": "A small boat in lively harbor",
+        "mapping_type": "replace",
+        "replacement": "lively harbor",
+        "clip_score": 0.6152
+      },
+      {
+        "prompt": "A small boat in serene lake",
+        "mapping_type": "replace",
+        "replacement": "serene lake",
+        "clip_score": 0.6515
+      },
+      {
+        "prompt": "A small boat in playful waves",
+        "mapping_type": "replace",
+        "replacement": "playful waves",
+        "clip_score": 0.6838
+      },
+      {
+        "prompt": "A small boat in gentle sea",
+        "mapping_type": "replace",
+        "replacement": "gentle sea",
+        "clip_score": 0.6721
+      },
+      {
+        "prompt": "A small boat in picturesque setting",
+        "mapping_type": "replace",
+        "replacement": "picturesque setting",
+        "clip_score": 0.6682
+      },
+      {
+        "prompt": "A small boat in coastal view",
+        "mapping_type": "replace",
+        "replacement": "coastal view",
+        "clip_score": 0.6828
+      },
+      {
+        "prompt": "A small boat in scenic bay",
+        "mapping_type": "replace",
+        "replacement": "scenic bay",
+        "clip_score": 0.6545
+      },
+      {
+        "prompt": "A small boat in water scene",
+        "mapping_type": "replace",
+        "replacement": "water scene",
+        "clip_score": 0.6984
+      },
+      {
+        "prompt": "A small boat",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6519
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "7",
+    "source": "A windmill by canal in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A windmill by canal in historical setting",
+        "mapping_type": "replace",
+        "replacement": "historical setting",
+        "clip_score": 0.8234
+      },
+      {
+        "prompt": "A windmill by canal in charming view",
+        "mapping_type": "replace",
+        "replacement": "charming view",
+        "clip_score": 0.8371
+      },
+      {
+        "prompt": "A windmill by canal in pastoral scene",
+        "mapping_type": "replace",
+        "replacement": "pastoral scene",
+        "clip_score": 0.8228
+      },
+      {
+        "prompt": "A windmill by canal in rural landscape",
+        "mapping_type": "replace",
+        "replacement": "rural landscape",
+        "clip_score": 0.7944
+      },
+      {
+        "prompt": "A windmill by canal in scenic backdrop",
+        "mapping_type": "replace",
+        "replacement": "scenic backdrop",
+        "clip_score": 0.7855
+      },
+      {
+        "prompt": "A windmill by canal in idyllic setting",
+        "mapping_type": "replace",
+        "replacement": "idyllic setting",
+        "clip_score": 0.825
+      },
+      {
+        "prompt": "A windmill by canal in natural surroundings",
+        "mapping_type": "replace",
+        "replacement": "natural surroundings",
+        "clip_score": 0.8154
+      },
+      {
+        "prompt": "A windmill by canal in vintage style",
+        "mapping_type": "replace",
+        "replacement": "vintage style",
+        "clip_score": 0.8373
+      },
+      {
+        "prompt": "A windmill by canal in landscape scene",
+        "mapping_type": "replace",
+        "replacement": "landscape scene",
+        "clip_score": 0.8078
+      },
+      {
+        "prompt": "A windmill by canal",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8553
+      }
+    ],
+    "selected": 10
+  },
+  {
+    "id": "8",
+    "source": "A lighthouse by sea in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A lighthouse by sea in coastal scenery",
+        "mapping_type": "replace",
+        "replacement": "coastal scenery",
+        "clip_score": 0.7314
+      },
+      {
+        "prompt": "A lighthouse by sea in dramatic atmosphere",
+        "mapping_type": "replace",
+        "replacement": "dramatic atmosphere",
+        "clip_score": 0.7066
+      },
+      {
+        "prompt": "A lighthouse by sea in serene view",
+        "mapping_type": "replace",
+        "replacement": "serene view",
+        "clip_score": 0.7262
+      },
+      {
+        "prompt": "A lighthouse by sea in picturesque setting",
+        "mapping_type": "replace",
+        "replacement": "picturesque setting",
+        "clip_score": 0.7241
+      },
+      {
+        "prompt": "A lighthouse by sea in whimsical style",
+        "mapping_type": "replace",
+        "replacement": "whimsical style",
+        "clip_score": 0.6506
+      },
+      {
+        "prompt": "A lighthouse by sea in vibrant scene",
+        "mapping_type": "replace",
+        "replacement": "vibrant scene",
+        "clip_score": 0.7512
+      },
+      {
+        "prompt": "A lighthouse by sea in moody setting",
+        "mapping_type": "replace",
+        "replacement": "moody setting",
+        "clip_score": 0.741
+      },
+      {
+        "prompt": "A lighthouse by sea in charming coastal view",
+        "mapping_type": "replace",
+        "replacement": "charming coastal view",
+        "clip_score": 0.6744
+      },
+      {
+        "prompt": "A lighthouse by sea in ocean view",
+        "mapping_type": "replace",
+        "replacement": "ocean view",
+        "clip_score": 0.7377
+      },
+      {
+        "prompt": "A lighthouse by sea",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7415
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "9",
+    "source": "A mountain lake in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A mountain lake in peaceful setting",
+        "mapping_type": "replace",
+        "replacement": "peaceful setting",
+        "clip_score": 0.6613
+      },
+      {
+        "prompt": "A mountain lake in tranquil atmosphere",
+        "mapping_type": "replace",
+        "replacement": "tranquil atmosphere",
+        "clip_score": 0.622
+      },
+      {
+        "prompt": "A mountain lake in serene location",
+        "mapping_type": "replace",
+        "replacement": "serene location",
+        "clip_score": 0.6573
+      },
+      {
+        "prompt": "A mountain lake in scenic view",
+        "mapping_type": "replace",
+        "replacement": "scenic view",
+        "clip_score": 0.6349
+      },
+      {
+        "prompt": "A mountain lake in natural beauty",
+        "mapping_type": "replace",
+        "replacement": "natural beauty",
+        "clip_score": 0.6712
+      },
+      {
+        "prompt": "A mountain lake in idyllic scenery",
+        "mapping_type": "replace",
+        "replacement": "idyllic scenery",
+        "clip_score": 0.6605
+      },
+      {
+        "prompt": "A mountain lake in remote area",
+        "mapping_type": "replace",
+        "replacement": "remote area",
+        "clip_score": 0.6325
+      },
+      {
+        "prompt": "A mountain lake in beautiful landscape",
+        "mapping_type": "replace",
+        "replacement": "beautiful landscape",
+        "clip_score": 0.6743
+      },
+      {
+        "prompt": "A mountain lake in nature scene",
+        "mapping_type": "replace",
+        "replacement": "nature scene",
+        "clip_score": 0.6778
+      },
+      {
+        "prompt": "A mountain lake",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6642
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "10",
+    "source": "A forest path in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A forest path in natural setting",
+        "mapping_type": "replace",
+        "replacement": "natural setting",
+        "clip_score": 0.6915
+      },
+      {
+        "prompt": "A forest path in tranquil environment",
+        "mapping_type": "replace",
+        "replacement": "tranquil environment",
+        "clip_score": 0.6676
+      },
+      {
+        "prompt": "A forest path in serene atmosphere",
+        "mapping_type": "replace",
+        "replacement": "serene atmosphere",
+        "clip_score": 0.6911
+      },
+      {
+        "prompt": "A forest path in picturesque scene",
+        "mapping_type": "replace",
+        "replacement": "picturesque scene",
+        "clip_score": 0.6847
+      },
+      {
+        "prompt": "A forest path in dappled light",
+        "mapping_type": "replace",
+        "replacement": "dappled light",
+        "clip_score": 0.6397
+      },
+      {
+        "prompt": "A forest path in scenic view",
+        "mapping_type": "replace",
+        "replacement": "scenic view",
+        "clip_score": 0.6517
+      },
+      {
+        "prompt": "A forest path in lush greenery",
+        "mapping_type": "replace",
+        "replacement": "lush greenery",
+        "clip_score": 0.6667
+      },
+      {
+        "prompt": "A forest path in woodland area",
+        "mapping_type": "replace",
+        "replacement": "woodland area",
+        "clip_score": 0.6883
+      },
+      {
+        "prompt": "A forest path in nature trail",
+        "mapping_type": "replace",
+        "replacement": "nature trail",
+        "clip_score": 0.6738
+      },
+      {
+        "prompt": "A forest path",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6759
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "11",
+    "source": "A desert road in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A desert road in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7571
+      },
+      {
+        "prompt": "A desert road in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7232
+      },
+      {
+        "prompt": "A desert road in surreal style",
+        "mapping_type": "replace",
+        "replacement": "surreal style",
+        "clip_score": 0.7309
+      },
+      {
+        "prompt": "A desert road in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.651
+      },
+      {
+        "prompt": "A desert road in modern style",
+        "mapping_type": "replace",
+        "replacement": "modern style",
+        "clip_score": 0.6731
+      },
+      {
+        "prompt": "A desert road in naturalistic style",
+        "mapping_type": "replace",
+        "replacement": "naturalistic style",
+        "clip_score": 0.6921
+      },
+      {
+        "prompt": "A desert road in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.6803
+      },
+      {
+        "prompt": "A desert road in contemporary style",
+        "mapping_type": "replace",
+        "replacement": "contemporary style",
+        "clip_score": 0.6508
+      },
+      {
+        "prompt": "A desert road in artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.7542
+      },
+      {
+        "prompt": "A desert road",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6739
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "12",
+    "source": "A rainy street in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A rainy street in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8014
+      },
+      {
+        "prompt": "A rainy street in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7574
+      },
+      {
+        "prompt": "A rainy street in surreal style",
+        "mapping_type": "replace",
+        "replacement": "surreal style",
+        "clip_score": 0.7618
+      },
+      {
+        "prompt": "A rainy street in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.6769
+      },
+      {
+        "prompt": "A rainy street in modern style",
+        "mapping_type": "replace",
+        "replacement": "modern style",
+        "clip_score": 0.7031
+      },
+      {
+        "prompt": "A rainy street in naturalistic style",
+        "mapping_type": "replace",
+        "replacement": "naturalistic style",
+        "clip_score": 0.7093
+      },
+      {
+        "prompt": "A rainy street in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7297
+      },
+      {
+        "prompt": "A rainy street in contemporary style",
+        "mapping_type": "replace",
+        "replacement": "contemporary style",
+        "clip_score": 0.6953
+      },
+      {
+        "prompt": "A rainy street in artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.7887
+      },
+      {
+        "prompt": "A rainy street",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6852
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "13",
+    "source": "A snowman outside in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A snowman outside in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7847
+      },
+      {
+        "prompt": "A snowman outside in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7606
+      },
+      {
+        "prompt": "A snowman outside in surreal style",
+        "mapping_type": "replace",
+        "replacement": "surreal style",
+        "clip_score": 0.7538
+      },
+      {
+        "prompt": "A snowman outside in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.6702
+      },
+      {
+        "prompt": "A snowman outside in modern style",
+        "mapping_type": "replace",
+        "replacement": "modern style",
+        "clip_score": 0.6784
+      },
+      {
+        "prompt": "A snowman outside in naturalistic style",
+        "mapping_type": "replace",
+        "replacement": "naturalistic style",
+        "clip_score": 0.7017
+      },
+      {
+        "prompt": "A snowman outside in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7649
+      },
+      {
+        "prompt": "A snowman outside in contemporary style",
+        "mapping_type": "replace",
+        "replacement": "contemporary style",
+        "clip_score": 0.6915
+      },
+      {
+        "prompt": "A snowman outside in artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.7913
+      },
+      {
+        "prompt": "A snowman outside",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6678
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "14",
+    "source": "A pumpkin patch in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A pumpkin patch in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8084
+      },
+      {
+        "prompt": "A pumpkin patch in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7698
+      },
+      {
+        "prompt": "A pumpkin patch in surreal style",
+        "mapping_type": "replace",
+        "replacement": "surreal style",
+        "clip_score": 0.7749
+      },
+      {
+        "prompt": "A pumpkin patch in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.7118
+      },
+      {
+        "prompt": "A pumpkin patch in modern style",
+        "mapping_type": "replace",
+        "replacement": "modern style",
+        "clip_score": 0.6825
+      },
+      {
+        "prompt": "A pumpkin patch in naturalistic style",
+        "mapping_type": "replace",
+        "replacement": "naturalistic style",
+        "clip_score": 0.7437
+      },
+      {
+        "prompt": "A pumpkin patch in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7628
+      },
+      {
+        "prompt": "A pumpkin patch in contemporary style",
+        "mapping_type": "replace",
+        "replacement": "contemporary style",
+        "clip_score": 0.6753
+      },
+      {
+        "prompt": "A pumpkin patch in artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.7945
+      },
+      {
+        "prompt": "A pumpkin patch",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7233
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "15",
+    "source": "A home kitchen in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A home kitchen in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8024
+      },
+      {
+        "prompt": "A home kitchen in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7596
+      },
+      {
+        "prompt": "A home kitchen in surreal style",
+        "mapping_type": "replace",
+        "replacement": "surreal style",
+        "clip_score": 0.755
+      },
+      {
+        "prompt": "A home kitchen in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.6748
+      },
+      {
+        "prompt": "A home kitchen in modern style",
+        "mapping_type": "replace",
+        "replacement": "modern style",
+        "clip_score": 0.7316
+      },
+      {
+        "prompt": "A home kitchen in naturalistic style",
+        "mapping_type": "replace",
+        "replacement": "naturalistic style",
+        "clip_score": 0.6926
+      },
+      {
+        "prompt": "A home kitchen in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7327
+      },
+      {
+        "prompt": "A home kitchen in contemporary style",
+        "mapping_type": "replace",
+        "replacement": "contemporary style",
+        "clip_score": 0.7184
+      },
+      {
+        "prompt": "A home kitchen in artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.7764
+      },
+      {
+        "prompt": "A home kitchen",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7221
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "16",
+    "source": "A dining table in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A dining table in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7611
+      },
+      {
+        "prompt": "A dining table in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7037
+      },
+      {
+        "prompt": "A dining table in surreal style",
+        "mapping_type": "replace",
+        "replacement": "surreal style",
+        "clip_score": 0.7217
+      },
+      {
+        "prompt": "A dining table in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.6538
+      },
+      {
+        "prompt": "A dining table in modern style",
+        "mapping_type": "replace",
+        "replacement": "modern style",
+        "clip_score": 0.682
+      },
+      {
+        "prompt": "A dining table in naturalistic style",
+        "mapping_type": "replace",
+        "replacement": "naturalistic style",
+        "clip_score": 0.6719
+      },
+      {
+        "prompt": "A dining table in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.693
+      },
+      {
+        "prompt": "A dining table in contemporary style",
+        "mapping_type": "replace",
+        "replacement": "contemporary style",
+        "clip_score": 0.6734
+      },
+      {
+        "prompt": "A dining table in artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.7271
+      },
+      {
+        "prompt": "A dining table",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6412
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "17",
+    "source": "A coffee mug in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A coffee mug in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7519
+      },
+      {
+        "prompt": "A coffee mug in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7133
+      },
+      {
+        "prompt": "A coffee mug in surreal style",
+        "mapping_type": "replace",
+        "replacement": "surreal style",
+        "clip_score": 0.7375
+      },
+      {
+        "prompt": "A coffee mug in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.6289
+      },
+      {
+        "prompt": "A coffee mug in modern style",
+        "mapping_type": "replace",
+        "replacement": "modern style",
+        "clip_score": 0.6412
+      },
+      {
+        "prompt": "A coffee mug in naturalistic style",
+        "mapping_type": "replace",
+        "replacement": "naturalistic style",
+        "clip_score": 0.6936
+      },
+      {
+        "prompt": "A coffee mug in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7335
+      },
+      {
+        "prompt": "A coffee mug in contemporary style",
+        "mapping_type": "replace",
+        "replacement": "contemporary style",
+        "clip_score": 0.6434
+      },
+      {
+        "prompt": "A coffee mug in artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.7438
+      },
+      {
+        "prompt": "A coffee mug",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.5933
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "18",
+    "source": "A loaf of bread in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A loaf of bread in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7656
+      },
+      {
+        "prompt": "A loaf of bread in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7341
+      },
+      {
+        "prompt": "A loaf of bread in surreal style",
+        "mapping_type": "replace",
+        "replacement": "surreal style",
+        "clip_score": 0.7125
+      },
+      {
+        "prompt": "A loaf of bread in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.6473
+      },
+      {
+        "prompt": "A loaf of bread in modern style",
+        "mapping_type": "replace",
+        "replacement": "modern style",
+        "clip_score": 0.6386
+      },
+      {
+        "prompt": "A loaf of bread in naturalistic style",
+        "mapping_type": "replace",
+        "replacement": "naturalistic style",
+        "clip_score": 0.6645
+      },
+      {
+        "prompt": "A loaf of bread in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7152
+      },
+      {
+        "prompt": "A loaf of bread in contemporary style",
+        "mapping_type": "replace",
+        "replacement": "contemporary style",
+        "clip_score": 0.6501
+      },
+      {
+        "prompt": "A loaf of bread in artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.7478
+      },
+      {
+        "prompt": "A loaf of bread",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6178
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "19",
+    "source": "A bowl of apples in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A bowl of apples in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8402
+      },
+      {
+        "prompt": "A bowl of apples in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.815
+      },
+      {
+        "prompt": "A bowl of apples in surreal style",
+        "mapping_type": "replace",
+        "replacement": "surreal style",
+        "clip_score": 0.7948
+      },
+      {
+        "prompt": "A bowl of apples in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.7451
+      },
+      {
+        "prompt": "A bowl of apples in modern style",
+        "mapping_type": "replace",
+        "replacement": "modern style",
+        "clip_score": 0.74
+      },
+      {
+        "prompt": "A bowl of apples in naturalistic style",
+        "mapping_type": "replace",
+        "replacement": "naturalistic style",
+        "clip_score": 0.7906
+      },
+      {
+        "prompt": "A bowl of apples in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7632
+      },
+      {
+        "prompt": "A bowl of apples in contemporary style",
+        "mapping_type": "replace",
+        "replacement": "contemporary style",
+        "clip_score": 0.7478
+      },
+      {
+        "prompt": "A bowl of apples in artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.8328
+      },
+      {
+        "prompt": "A bowl of apples",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7554
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "20",
+    "source": "A vase of tulips in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A vase of tulips in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8494
+      },
+      {
+        "prompt": "A vase of tulips in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.8179
+      },
+      {
+        "prompt": "A vase of tulips in surreal style",
+        "mapping_type": "replace",
+        "replacement": "surreal style",
+        "clip_score": 0.8245
+      },
+      {
+        "prompt": "A vase of tulips in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.7658
+      },
+      {
+        "prompt": "A vase of tulips in modern style",
+        "mapping_type": "replace",
+        "replacement": "modern style",
+        "clip_score": 0.7989
+      },
+      {
+        "prompt": "A vase of tulips in naturalistic style",
+        "mapping_type": "replace",
+        "replacement": "naturalistic style",
+        "clip_score": 0.8151
+      },
+      {
+        "prompt": "A vase of tulips in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.8117
+      },
+      {
+        "prompt": "A vase of tulips in contemporary style",
+        "mapping_type": "replace",
+        "replacement": "contemporary style",
+        "clip_score": 0.7949
+      },
+      {
+        "prompt": "A vase of tulips in artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.8504
+      },
+      {
+        "prompt": "A vase of tulips",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7935
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "21",
+    "source": "A pair of shoes in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A pair of shoes in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.7325
+      },
+      {
+        "prompt": "A pair of shoes in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7354
+      },
+      {
+        "prompt": "A pair of shoes in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.7236
+      },
+      {
+        "prompt": "A pair of shoes in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7025
+      },
+      {
+        "prompt": "A pair of shoes in surrealistic style",
+        "mapping_type": "replace",
+        "replacement": "surrealistic style",
+        "clip_score": 0.6807
+      },
+      {
+        "prompt": "A pair of shoes in cubism",
+        "mapping_type": "replace",
+        "replacement": "cubism",
+        "clip_score": 0.6627
+      },
+      {
+        "prompt": "A pair of shoes in playful doodles",
+        "mapping_type": "replace",
+        "replacement": "playful doodles",
+        "clip_score": 0.6069
+      },
+      {
+        "prompt": "A pair of shoes in floral pattern",
+        "mapping_type": "replace",
+        "replacement": "floral pattern",
+        "clip_score": 0.6627
+      },
+      {
+        "prompt": "A pair of shoes in an artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.7378
+      },
+      {
+        "prompt": "A pair of shoes on a floor",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.5832
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "22",
+    "source": "A blue bicycle in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A blue bicycle in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.7738
+      },
+      {
+        "prompt": "A blue bicycle in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7984
+      },
+      {
+        "prompt": "A blue bicycle in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.7909
+      },
+      {
+        "prompt": "A blue bicycle in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7626
+      },
+      {
+        "prompt": "A blue bicycle in surrealistic style",
+        "mapping_type": "replace",
+        "replacement": "surrealistic style",
+        "clip_score": 0.7464
+      },
+      {
+        "prompt": "A blue bicycle in cubism",
+        "mapping_type": "replace",
+        "replacement": "cubism",
+        "clip_score": 0.7228
+      },
+      {
+        "prompt": "A blue bicycle in playful doodles",
+        "mapping_type": "replace",
+        "replacement": "playful doodles",
+        "clip_score": 0.6484
+      },
+      {
+        "prompt": "A blue bicycle in floral pattern",
+        "mapping_type": "replace",
+        "replacement": "floral pattern",
+        "clip_score": 0.7151
+      },
+      {
+        "prompt": "A blue bicycle in an artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.8009
+      },
+      {
+        "prompt": "A blue bicycle parked by the road",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7024
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "23",
+    "source": "A parked taxi in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A parked taxi in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.7865
+      },
+      {
+        "prompt": "A parked taxi in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7576
+      },
+      {
+        "prompt": "A parked taxi in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.7724
+      },
+      {
+        "prompt": "A parked taxi in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7647
+      },
+      {
+        "prompt": "A parked taxi in surrealistic style",
+        "mapping_type": "replace",
+        "replacement": "surrealistic style",
+        "clip_score": 0.7266
+      },
+      {
+        "prompt": "A parked taxi in cubism",
+        "mapping_type": "replace",
+        "replacement": "cubism",
+        "clip_score": 0.7281
+      },
+      {
+        "prompt": "A parked taxi in playful doodles",
+        "mapping_type": "replace",
+        "replacement": "playful doodles",
+        "clip_score": 0.6525
+      },
+      {
+        "prompt": "A parked taxi in floral pattern",
+        "mapping_type": "replace",
+        "replacement": "floral pattern",
+        "clip_score": 0.6941
+      },
+      {
+        "prompt": "A parked taxi in an artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.7967
+      },
+      {
+        "prompt": "A taxi parked on the street",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.616
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "24",
+    "source": "A train station in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A train station in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.7946
+      },
+      {
+        "prompt": "A train station in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8166
+      },
+      {
+        "prompt": "A train station in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.807
+      },
+      {
+        "prompt": "A train station in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7661
+      },
+      {
+        "prompt": "A train station in surrealistic style",
+        "mapping_type": "replace",
+        "replacement": "surrealistic style",
+        "clip_score": 0.7608
+      },
+      {
+        "prompt": "A train station in cubism",
+        "mapping_type": "replace",
+        "replacement": "cubism",
+        "clip_score": 0.7344
+      },
+      {
+        "prompt": "A train station in playful doodles",
+        "mapping_type": "replace",
+        "replacement": "playful doodles",
+        "clip_score": 0.704
+      },
+      {
+        "prompt": "A train station in floral pattern",
+        "mapping_type": "replace",
+        "replacement": "floral pattern",
+        "clip_score": 0.6866
+      },
+      {
+        "prompt": "A train station in an artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.829
+      },
+      {
+        "prompt": "A bustling train station with passengers",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6364
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "25",
+    "source": "A streetcar in rain in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A streetcar in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.6115
+      },
+      {
+        "prompt": "A streetcar in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7065
+      },
+      {
+        "prompt": "A streetcar in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.588
+      },
+      {
+        "prompt": "A streetcar in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.6179
+      },
+      {
+        "prompt": "A streetcar in surrealistic style",
+        "mapping_type": "replace",
+        "replacement": "surrealistic style",
+        "clip_score": 0.558
+      },
+      {
+        "prompt": "A streetcar in cubism",
+        "mapping_type": "replace",
+        "replacement": "cubism",
+        "clip_score": 0.5605
+      },
+      {
+        "prompt": "A streetcar in playful doodles",
+        "mapping_type": "replace",
+        "replacement": "playful doodles",
+        "clip_score": 0.5264
+      },
+      {
+        "prompt": "A streetcar in floral pattern",
+        "mapping_type": "replace",
+        "replacement": "floral pattern",
+        "clip_score": 0.5325
+      },
+      {
+        "prompt": "A streetcar in an artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.6312
+      },
+      {
+        "prompt": "A streetcar moving through the city",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.5371
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "26",
+    "source": "A bridge over river in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A bridge over river in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.7742
+      },
+      {
+        "prompt": "A bridge over river in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7698
+      },
+      {
+        "prompt": "A bridge over river in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.7486
+      },
+      {
+        "prompt": "A bridge over river in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7288
+      },
+      {
+        "prompt": "A bridge over river in surrealistic style",
+        "mapping_type": "replace",
+        "replacement": "surrealistic style",
+        "clip_score": 0.7412
+      },
+      {
+        "prompt": "A bridge over river in cubism",
+        "mapping_type": "replace",
+        "replacement": "cubism",
+        "clip_score": 0.7208
+      },
+      {
+        "prompt": "A bridge over river in playful doodles",
+        "mapping_type": "replace",
+        "replacement": "playful doodles",
+        "clip_score": 0.7035
+      },
+      {
+        "prompt": "A bridge over river in floral pattern",
+        "mapping_type": "replace",
+        "replacement": "floral pattern",
+        "clip_score": 0.6914
+      },
+      {
+        "prompt": "A bridge over river in an artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.7855
+      },
+      {
+        "prompt": "A bridge spans over a flowing river",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6979
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "27",
+    "source": "A city skyline at night in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A city skyline at night in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.8055
+      },
+      {
+        "prompt": "A city skyline at night in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8026
+      },
+      {
+        "prompt": "A city skyline at night in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.8221
+      },
+      {
+        "prompt": "A city skyline at night in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7736
+      },
+      {
+        "prompt": "A city skyline at night in surrealistic style",
+        "mapping_type": "replace",
+        "replacement": "surrealistic style",
+        "clip_score": 0.7863
+      },
+      {
+        "prompt": "A city skyline at night in cubism",
+        "mapping_type": "replace",
+        "replacement": "cubism",
+        "clip_score": 0.731
+      },
+      {
+        "prompt": "A city skyline at night in playful doodles",
+        "mapping_type": "replace",
+        "replacement": "playful doodles",
+        "clip_score": 0.6732
+      },
+      {
+        "prompt": "A city skyline at night in floral pattern",
+        "mapping_type": "replace",
+        "replacement": "floral pattern",
+        "clip_score": 0.6818
+      },
+      {
+        "prompt": "A city skyline at night in an artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.8164
+      },
+      {
+        "prompt": "A city skyline lights twinkling at night",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.736
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "28",
+    "source": "Fireworks over river in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "Fireworks over river in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.782
+      },
+      {
+        "prompt": "Fireworks over river in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7891
+      },
+      {
+        "prompt": "Fireworks over river in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.802
+      },
+      {
+        "prompt": "Fireworks over river in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7699
+      },
+      {
+        "prompt": "Fireworks over river in surrealistic style",
+        "mapping_type": "replace",
+        "replacement": "surrealistic style",
+        "clip_score": 0.7848
+      },
+      {
+        "prompt": "Fireworks over river in cubism",
+        "mapping_type": "replace",
+        "replacement": "cubism",
+        "clip_score": 0.7294
+      },
+      {
+        "prompt": "Fireworks over river in playful doodles",
+        "mapping_type": "replace",
+        "replacement": "playful doodles",
+        "clip_score": 0.7244
+      },
+      {
+        "prompt": "Fireworks over river in floral pattern",
+        "mapping_type": "replace",
+        "replacement": "floral pattern",
+        "clip_score": 0.7194
+      },
+      {
+        "prompt": "Fireworks over river in an artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.8028
+      },
+      {
+        "prompt": "Fireworks bursting over a calm river",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7336
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "29",
+    "source": "A beach at sunset in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A beach at sunset in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.7786
+      },
+      {
+        "prompt": "A beach at sunset in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7878
+      },
+      {
+        "prompt": "A beach at sunset in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.7874
+      },
+      {
+        "prompt": "A beach at sunset in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7602
+      },
+      {
+        "prompt": "A beach at sunset in surrealistic style",
+        "mapping_type": "replace",
+        "replacement": "surrealistic style",
+        "clip_score": 0.7431
+      },
+      {
+        "prompt": "A beach at sunset in cubism",
+        "mapping_type": "replace",
+        "replacement": "cubism",
+        "clip_score": 0.7167
+      },
+      {
+        "prompt": "A beach at sunset in playful doodles",
+        "mapping_type": "replace",
+        "replacement": "playful doodles",
+        "clip_score": 0.6565
+      },
+      {
+        "prompt": "A beach at sunset in floral pattern",
+        "mapping_type": "replace",
+        "replacement": "floral pattern",
+        "clip_score": 0.6533
+      },
+      {
+        "prompt": "A beach at sunset in an artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.7815
+      },
+      {
+        "prompt": "A scenic beach with warm colors",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6293
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "30",
+    "source": "A surfer on wave in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A surfer on wave in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.7903
+      },
+      {
+        "prompt": "A surfer on wave in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8215
+      },
+      {
+        "prompt": "A surfer on wave in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.766
+      },
+      {
+        "prompt": "A surfer on wave in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7798
+      },
+      {
+        "prompt": "A surfer on wave in surrealistic style",
+        "mapping_type": "replace",
+        "replacement": "surrealistic style",
+        "clip_score": 0.7553
+      },
+      {
+        "prompt": "A surfer on wave in cubism",
+        "mapping_type": "replace",
+        "replacement": "cubism",
+        "clip_score": 0.7197
+      },
+      {
+        "prompt": "A surfer on wave in playful doodles",
+        "mapping_type": "replace",
+        "replacement": "playful doodles",
+        "clip_score": 0.6999
+      },
+      {
+        "prompt": "A surfer on wave in floral pattern",
+        "mapping_type": "replace",
+        "replacement": "floral pattern",
+        "clip_score": 0.7073
+      },
+      {
+        "prompt": "A surfer on wave in an artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.801
+      },
+      {
+        "prompt": "A surfer riding a wave in the ocean",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7398
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "31",
+    "source": "A sailboat on water in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A sailboat on water in Impressionist style",
+        "mapping_type": "replace",
+        "replacement": "Impressionist style",
+        "clip_score": 0.7984
+      },
+      {
+        "prompt": "A sailboat on water in abstract colors",
+        "mapping_type": "replace",
+        "replacement": "abstract colors",
+        "clip_score": 0.7423
+      },
+      {
+        "prompt": "A sailboat on water in watercolor effect",
+        "mapping_type": "replace",
+        "replacement": "watercolor effect",
+        "clip_score": 0.7274
+      },
+      {
+        "prompt": "A sailboat on water in dreamy tones",
+        "mapping_type": "replace",
+        "replacement": "dreamy tones",
+        "clip_score": 0.7346
+      },
+      {
+        "prompt": "A sailboat on water in vibrant hues",
+        "mapping_type": "replace",
+        "replacement": "vibrant hues",
+        "clip_score": 0.7455
+      },
+      {
+        "prompt": "A sailboat on water in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.7913
+      },
+      {
+        "prompt": "A sailboat on water in colorful patterns",
+        "mapping_type": "replace",
+        "replacement": "colorful patterns",
+        "clip_score": 0.7481
+      },
+      {
+        "prompt": "A sailboat on water in surrealist style",
+        "mapping_type": "replace",
+        "replacement": "surrealist style",
+        "clip_score": 0.7529
+      },
+      {
+        "prompt": "A sailboat on water in artistic expression",
+        "mapping_type": "replace",
+        "replacement": "artistic expression",
+        "clip_score": 0.7808
+      },
+      {
+        "prompt": "A sailboat on water",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7572
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "32",
+    "source": "A pier at dusk in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A pier at dusk in Impressionist style",
+        "mapping_type": "replace",
+        "replacement": "Impressionist style",
+        "clip_score": 0.8075
+      },
+      {
+        "prompt": "A pier at dusk in warm colors",
+        "mapping_type": "replace",
+        "replacement": "warm colors",
+        "clip_score": 0.7257
+      },
+      {
+        "prompt": "A pier at dusk in abstract impression",
+        "mapping_type": "replace",
+        "replacement": "abstract impression",
+        "clip_score": 0.7687
+      },
+      {
+        "prompt": "A pier at dusk in soothing tones",
+        "mapping_type": "replace",
+        "replacement": "soothing tones",
+        "clip_score": 0.737
+      },
+      {
+        "prompt": "A pier at dusk in twilight shades",
+        "mapping_type": "replace",
+        "replacement": "twilight shades",
+        "clip_score": 0.7687
+      },
+      {
+        "prompt": "A pier at dusk in vibrant brushstrokes",
+        "mapping_type": "replace",
+        "replacement": "vibrant brushstrokes",
+        "clip_score": 0.7741
+      },
+      {
+        "prompt": "A pier at dusk in tranquil colors",
+        "mapping_type": "replace",
+        "replacement": "tranquil colors",
+        "clip_score": 0.7365
+      },
+      {
+        "prompt": "A pier at dusk in romantic style",
+        "mapping_type": "replace",
+        "replacement": "romantic style",
+        "clip_score": 0.7643
+      },
+      {
+        "prompt": "A pier at dusk in artistic representation",
+        "mapping_type": "replace",
+        "replacement": "artistic representation",
+        "clip_score": 0.7796
+      },
+      {
+        "prompt": "A pier at dusk",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7561
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "33",
+    "source": "A campfire at night in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A campfire at night in Impressionist style",
+        "mapping_type": "replace",
+        "replacement": "Impressionist style",
+        "clip_score": 0.7926
+      },
+      {
+        "prompt": "A campfire at night in warm tones",
+        "mapping_type": "replace",
+        "replacement": "warm tones",
+        "clip_score": 0.689
+      },
+      {
+        "prompt": "A campfire at night in colorful glow",
+        "mapping_type": "replace",
+        "replacement": "colorful glow",
+        "clip_score": 0.6901
+      },
+      {
+        "prompt": "A campfire at night in soft light",
+        "mapping_type": "replace",
+        "replacement": "soft light",
+        "clip_score": 0.664
+      },
+      {
+        "prompt": "A campfire at night in cozy ambiance",
+        "mapping_type": "replace",
+        "replacement": "cozy ambiance",
+        "clip_score": 0.6936
+      },
+      {
+        "prompt": "A campfire at night in flickering flames",
+        "mapping_type": "replace",
+        "replacement": "flickering flames",
+        "clip_score": 0.6638
+      },
+      {
+        "prompt": "A campfire at night in rustic style",
+        "mapping_type": "replace",
+        "replacement": "rustic style",
+        "clip_score": 0.6928
+      },
+      {
+        "prompt": "A campfire at night in dreamlike colors",
+        "mapping_type": "replace",
+        "replacement": "dreamlike colors",
+        "clip_score": 0.7069
+      },
+      {
+        "prompt": "A campfire at night in artistic interpretation",
+        "mapping_type": "replace",
+        "replacement": "artistic interpretation",
+        "clip_score": 0.7136
+      },
+      {
+        "prompt": "A campfire at night",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7009
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "34",
+    "source": "Northern lights in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "Northern lights in Impressionist style",
+        "mapping_type": "replace",
+        "replacement": "Impressionist style",
+        "clip_score": 0.7858
+      },
+      {
+        "prompt": "Northern lights in dreamy colors",
+        "mapping_type": "replace",
+        "replacement": "dreamy colors",
+        "clip_score": 0.6763
+      },
+      {
+        "prompt": "Northern lights in soft pastels",
+        "mapping_type": "replace",
+        "replacement": "soft pastels",
+        "clip_score": 0.6084
+      },
+      {
+        "prompt": "Northern lights in abstract form",
+        "mapping_type": "replace",
+        "replacement": "abstract form",
+        "clip_score": 0.7146
+      },
+      {
+        "prompt": "Northern lights in vibrant hue",
+        "mapping_type": "replace",
+        "replacement": "vibrant hue",
+        "clip_score": 0.7027
+      },
+      {
+        "prompt": "Northern lights in cosmic display",
+        "mapping_type": "replace",
+        "replacement": "cosmic display",
+        "clip_score": 0.6886
+      },
+      {
+        "prompt": "Northern lights in colorful waves",
+        "mapping_type": "replace",
+        "replacement": "colorful waves",
+        "clip_score": 0.6609
+      },
+      {
+        "prompt": "Northern lights in surreal light",
+        "mapping_type": "replace",
+        "replacement": "surreal light",
+        "clip_score": 0.6947
+      },
+      {
+        "prompt": "Northern lights in natural phenomenon",
+        "mapping_type": "replace",
+        "replacement": "natural phenomenon",
+        "clip_score": 0.6807
+      },
+      {
+        "prompt": "Northern lights",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.668
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "35",
+    "source": "A waterfall in forest in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A waterfall in forest in Impressionist style",
+        "mapping_type": "replace",
+        "replacement": "Impressionist style",
+        "clip_score": 0.8146
+      },
+      {
+        "prompt": "A waterfall in forest in lush greens",
+        "mapping_type": "replace",
+        "replacement": "lush greens",
+        "clip_score": 0.726
+      },
+      {
+        "prompt": "A waterfall in forest in serene blue",
+        "mapping_type": "replace",
+        "replacement": "serene blue",
+        "clip_score": 0.713
+      },
+      {
+        "prompt": "A waterfall in forest in tranquil setting",
+        "mapping_type": "replace",
+        "replacement": "tranquil setting",
+        "clip_score": 0.7155
+      },
+      {
+        "prompt": "A waterfall in forest in vibrant flow",
+        "mapping_type": "replace",
+        "replacement": "vibrant flow",
+        "clip_score": 0.7591
+      },
+      {
+        "prompt": "A waterfall in forest in flowing water",
+        "mapping_type": "replace",
+        "replacement": "flowing water",
+        "clip_score": 0.7273
+      },
+      {
+        "prompt": "A waterfall in forest in nature's beauty",
+        "mapping_type": "replace",
+        "replacement": "nature's beauty",
+        "clip_score": 0.7301
+      },
+      {
+        "prompt": "A waterfall in forest in calming scene",
+        "mapping_type": "replace",
+        "replacement": "calming scene",
+        "clip_score": 0.7337
+      },
+      {
+        "prompt": "A waterfall in forest in natural setting",
+        "mapping_type": "replace",
+        "replacement": "natural setting",
+        "clip_score": 0.7422
+      },
+      {
+        "prompt": "A waterfall in forest",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7583
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "36",
+    "source": "A garden gate in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A garden gate in Impressionist style",
+        "mapping_type": "replace",
+        "replacement": "Impressionist style",
+        "clip_score": 0.7654
+      },
+      {
+        "prompt": "A garden gate in rustic design",
+        "mapping_type": "replace",
+        "replacement": "rustic design",
+        "clip_score": 0.7076
+      },
+      {
+        "prompt": "A garden gate in enchanting colors",
+        "mapping_type": "replace",
+        "replacement": "enchanting colors",
+        "clip_score": 0.7234
+      },
+      {
+        "prompt": "A garden gate in natural wood",
+        "mapping_type": "replace",
+        "replacement": "natural wood",
+        "clip_score": 0.6673
+      },
+      {
+        "prompt": "A garden gate in vibrant patterns",
+        "mapping_type": "replace",
+        "replacement": "vibrant patterns",
+        "clip_score": 0.7444
+      },
+      {
+        "prompt": "A garden gate in whimsical style",
+        "mapping_type": "replace",
+        "replacement": "whimsical style",
+        "clip_score": 0.7552
+      },
+      {
+        "prompt": "A garden gate in colorful flair",
+        "mapping_type": "replace",
+        "replacement": "colorful flair",
+        "clip_score": 0.7289
+      },
+      {
+        "prompt": "A garden gate in serene setting",
+        "mapping_type": "replace",
+        "replacement": "serene setting",
+        "clip_score": 0.7095
+      },
+      {
+        "prompt": "A garden gate in artistic form",
+        "mapping_type": "replace",
+        "replacement": "artistic form",
+        "clip_score": 0.738
+      },
+      {
+        "prompt": "A garden gate",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6942
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "37",
+    "source": "A stone cottage in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A stone cottage in Impressionist style",
+        "mapping_type": "replace",
+        "replacement": "Impressionist style",
+        "clip_score": 0.7947
+      },
+      {
+        "prompt": "A stone cottage in rustic charm",
+        "mapping_type": "replace",
+        "replacement": "rustic charm",
+        "clip_score": 0.6983
+      },
+      {
+        "prompt": "A stone cottage in natural stone",
+        "mapping_type": "replace",
+        "replacement": "natural stone",
+        "clip_score": 0.6873
+      },
+      {
+        "prompt": "A stone cottage in warm ambiance",
+        "mapping_type": "replace",
+        "replacement": "warm ambiance",
+        "clip_score": 0.7094
+      },
+      {
+        "prompt": "A stone cottage in picturesque setting",
+        "mapping_type": "replace",
+        "replacement": "picturesque setting",
+        "clip_score": 0.7164
+      },
+      {
+        "prompt": "A stone cottage in cozy details",
+        "mapping_type": "replace",
+        "replacement": "cozy details",
+        "clip_score": 0.708
+      },
+      {
+        "prompt": "A stone cottage in colorful style",
+        "mapping_type": "replace",
+        "replacement": "colorful style",
+        "clip_score": 0.7217
+      },
+      {
+        "prompt": "A stone cottage in charming light",
+        "mapping_type": "replace",
+        "replacement": "charming light",
+        "clip_score": 0.6816
+      },
+      {
+        "prompt": "A stone cottage in artistic interpretation",
+        "mapping_type": "replace",
+        "replacement": "artistic interpretation",
+        "clip_score": 0.768
+      },
+      {
+        "prompt": "A stone cottage",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7459
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "38",
+    "source": "A castle on hill in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A castle on hill in Impressionist style",
+        "mapping_type": "replace",
+        "replacement": "Impressionist style",
+        "clip_score": 0.7945
+      },
+      {
+        "prompt": "A castle on hill in majestic view",
+        "mapping_type": "replace",
+        "replacement": "majestic view",
+        "clip_score": 0.741
+      },
+      {
+        "prompt": "A castle on hill in royal colors",
+        "mapping_type": "replace",
+        "replacement": "royal colors",
+        "clip_score": 0.7483
+      },
+      {
+        "prompt": "A castle on hill in dramatic light",
+        "mapping_type": "replace",
+        "replacement": "dramatic light",
+        "clip_score": 0.6757
+      },
+      {
+        "prompt": "A castle on hill in enchanting landscape",
+        "mapping_type": "replace",
+        "replacement": "enchanting landscape",
+        "clip_score": 0.7442
+      },
+      {
+        "prompt": "A castle on hill in scenic backdrop",
+        "mapping_type": "replace",
+        "replacement": "scenic backdrop",
+        "clip_score": 0.691
+      },
+      {
+        "prompt": "A castle on hill in fairy tale setting",
+        "mapping_type": "replace",
+        "replacement": "fairy tale setting",
+        "clip_score": 0.7445
+      },
+      {
+        "prompt": "A castle on hill in historical architecture",
+        "mapping_type": "replace",
+        "replacement": "historical architecture",
+        "clip_score": 0.7169
+      },
+      {
+        "prompt": "A castle on hill in artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.8051
+      },
+      {
+        "prompt": "A castle on hill",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7372
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "39",
+    "source": "A temple courtyard in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A temple courtyard in Impressionist style",
+        "mapping_type": "replace",
+        "replacement": "Impressionist style",
+        "clip_score": 0.7951
+      },
+      {
+        "prompt": "A temple courtyard in serene environment",
+        "mapping_type": "replace",
+        "replacement": "serene environment",
+        "clip_score": 0.7109
+      },
+      {
+        "prompt": "A temple courtyard in tranquil setting",
+        "mapping_type": "replace",
+        "replacement": "tranquil setting",
+        "clip_score": 0.7358
+      },
+      {
+        "prompt": "A temple courtyard in peaceful atmosphere",
+        "mapping_type": "replace",
+        "replacement": "peaceful atmosphere",
+        "clip_score": 0.7286
+      },
+      {
+        "prompt": "A temple courtyard in meditative space",
+        "mapping_type": "replace",
+        "replacement": "meditative space",
+        "clip_score": 0.7351
+      },
+      {
+        "prompt": "A temple courtyard in cultural heritage",
+        "mapping_type": "replace",
+        "replacement": "cultural heritage",
+        "clip_score": 0.7442
+      },
+      {
+        "prompt": "A temple courtyard in traditional style",
+        "mapping_type": "replace",
+        "replacement": "traditional style",
+        "clip_score": 0.7466
+      },
+      {
+        "prompt": "A temple courtyard in historical context",
+        "mapping_type": "replace",
+        "replacement": "historical context",
+        "clip_score": 0.7263
+      },
+      {
+        "prompt": "A temple courtyard in artistic interpretation",
+        "mapping_type": "replace",
+        "replacement": "artistic interpretation",
+        "clip_score": 0.7727
+      },
+      {
+        "prompt": "A temple courtyard",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7325
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "40",
+    "source": "A market street in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A market street in Impressionist style",
+        "mapping_type": "replace",
+        "replacement": "Impressionist style",
+        "clip_score": 0.8052
+      },
+      {
+        "prompt": "A market street in bustling atmosphere",
+        "mapping_type": "replace",
+        "replacement": "bustling atmosphere",
+        "clip_score": 0.7044
+      },
+      {
+        "prompt": "A market street in vibrant colors",
+        "mapping_type": "replace",
+        "replacement": "vibrant colors",
+        "clip_score": 0.7545
+      },
+      {
+        "prompt": "A market street in lively scene",
+        "mapping_type": "replace",
+        "replacement": "lively scene",
+        "clip_score": 0.7214
+      },
+      {
+        "prompt": "A market street in colorful display",
+        "mapping_type": "replace",
+        "replacement": "colorful display",
+        "clip_score": 0.7318
+      },
+      {
+        "prompt": "A market street in dynamic setting",
+        "mapping_type": "replace",
+        "replacement": "dynamic setting",
+        "clip_score": 0.7394
+      },
+      {
+        "prompt": "A market street in everyday life",
+        "mapping_type": "replace",
+        "replacement": "everyday life",
+        "clip_score": 0.7316
+      },
+      {
+        "prompt": "A market street in urban landscape",
+        "mapping_type": "replace",
+        "replacement": "urban landscape",
+        "clip_score": 0.7485
+      },
+      {
+        "prompt": "A market street in cultural scene",
+        "mapping_type": "replace",
+        "replacement": "cultural scene",
+        "clip_score": 0.7085
+      },
+      {
+        "prompt": "A market street",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7111
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "41",
+    "source": "A fruit stand in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A fruit stand in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8064
+      },
+      {
+        "prompt": "A fruit stand in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7763
+      },
+      {
+        "prompt": "A fruit stand in collage style",
+        "mapping_type": "replace",
+        "replacement": "collage style",
+        "clip_score": 0.6835
+      },
+      {
+        "prompt": "A fruit stand in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.7286
+      },
+      {
+        "prompt": "A fruit stand in contemporary style",
+        "mapping_type": "replace",
+        "replacement": "contemporary style",
+        "clip_score": 0.7262
+      },
+      {
+        "prompt": "A fruit stand in pop art style",
+        "mapping_type": "replace",
+        "replacement": "pop art style",
+        "clip_score": 0.7547
+      },
+      {
+        "prompt": "A fruit stand in surreal style",
+        "mapping_type": "replace",
+        "replacement": "surreal style",
+        "clip_score": 0.7803
+      },
+      {
+        "prompt": "A fruit stand in traditional style",
+        "mapping_type": "replace",
+        "replacement": "traditional style",
+        "clip_score": 0.7529
+      },
+      {
+        "prompt": "A fruit stand in art style",
+        "mapping_type": "replace",
+        "replacement": "art style",
+        "clip_score": 0.8063
+      },
+      {
+        "prompt": "A fruit stand",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7318
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "42",
+    "source": "A baker icing cake in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A baker icing cake in modern style",
+        "mapping_type": "replace",
+        "replacement": "modern style",
+        "clip_score": 0.6279
+      },
+      {
+        "prompt": "A baker icing cake in rustic style",
+        "mapping_type": "replace",
+        "replacement": "rustic style",
+        "clip_score": 0.6485
+      },
+      {
+        "prompt": "A baker icing cake in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.5869
+      },
+      {
+        "prompt": "A baker icing cake in whimsical style",
+        "mapping_type": "replace",
+        "replacement": "whimsical style",
+        "clip_score": 0.6798
+      },
+      {
+        "prompt": "A baker icing cake in vintage style",
+        "mapping_type": "replace",
+        "replacement": "vintage style",
+        "clip_score": 0.6797
+      },
+      {
+        "prompt": "A baker icing cake in graphic style",
+        "mapping_type": "replace",
+        "replacement": "graphic style",
+        "clip_score": 0.64
+      },
+      {
+        "prompt": "A baker icing cake in decorative style",
+        "mapping_type": "replace",
+        "replacement": "decorative style",
+        "clip_score": 0.6751
+      },
+      {
+        "prompt": "A baker icing cake in artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.7175
+      },
+      {
+        "prompt": "A baker icing cake in culinary style",
+        "mapping_type": "replace",
+        "replacement": "culinary style",
+        "clip_score": 0.6616
+      },
+      {
+        "prompt": "A baker icing cake",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6054
+      }
+    ],
+    "selected": 8
+  },
+  {
+    "id": "43",
+    "source": "A chef at stove in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A chef at stove in farmhouse style",
+        "mapping_type": "replace",
+        "replacement": "farmhouse style",
+        "clip_score": 0.7031
+      },
+      {
+        "prompt": "A chef at stove in eclectic style",
+        "mapping_type": "replace",
+        "replacement": "eclectic style",
+        "clip_score": 0.7341
+      },
+      {
+        "prompt": "A chef at stove in bold style",
+        "mapping_type": "replace",
+        "replacement": "bold style",
+        "clip_score": 0.7106
+      },
+      {
+        "prompt": "A chef at stove in tropical style",
+        "mapping_type": "replace",
+        "replacement": "tropical style",
+        "clip_score": 0.7355
+      },
+      {
+        "prompt": "A chef at stove in retro style",
+        "mapping_type": "replace",
+        "replacement": "retro style",
+        "clip_score": 0.7653
+      },
+      {
+        "prompt": "A chef at stove in bright style",
+        "mapping_type": "replace",
+        "replacement": "bright style",
+        "clip_score": 0.7446
+      },
+      {
+        "prompt": "A chef at stove in festive style",
+        "mapping_type": "replace",
+        "replacement": "festive style",
+        "clip_score": 0.7004
+      },
+      {
+        "prompt": "A chef at stove in organic style",
+        "mapping_type": "replace",
+        "replacement": "organic style",
+        "clip_score": 0.7563
+      },
+      {
+        "prompt": "A chef at stove in kitchen style",
+        "mapping_type": "replace",
+        "replacement": "kitchen style",
+        "clip_score": 0.7516
+      },
+      {
+        "prompt": "A chef at stove",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7191
+      }
+    ],
+    "selected": 5
+  },
+  {
+    "id": "44",
+    "source": "A barista pouring coffee in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A barista pouring coffee in artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.772
+      },
+      {
+        "prompt": "A barista pouring coffee in creative style",
+        "mapping_type": "replace",
+        "replacement": "creative style",
+        "clip_score": 0.6984
+      },
+      {
+        "prompt": "A barista pouring coffee in lively style",
+        "mapping_type": "replace",
+        "replacement": "lively style",
+        "clip_score": 0.7312
+      },
+      {
+        "prompt": "A barista pouring coffee in cozy style",
+        "mapping_type": "replace",
+        "replacement": "cozy style",
+        "clip_score": 0.6981
+      },
+      {
+        "prompt": "A barista pouring coffee in bold style",
+        "mapping_type": "replace",
+        "replacement": "bold style",
+        "clip_score": 0.6742
+      },
+      {
+        "prompt": "A barista pouring coffee in sunny style",
+        "mapping_type": "replace",
+        "replacement": "sunny style",
+        "clip_score": 0.6781
+      },
+      {
+        "prompt": "A barista pouring coffee in vibrant style",
+        "mapping_type": "replace",
+        "replacement": "vibrant style",
+        "clip_score": 0.7537
+      },
+      {
+        "prompt": "A barista pouring coffee in contemporary style",
+        "mapping_type": "replace",
+        "replacement": "contemporary style",
+        "clip_score": 0.7209
+      },
+      {
+        "prompt": "A barista pouring coffee in brew style",
+        "mapping_type": "replace",
+        "replacement": "brew style",
+        "clip_score": 0.7226
+      },
+      {
+        "prompt": "A barista pouring coffee",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7207
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "45",
+    "source": "A teacher at chalkboard in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A teacher at chalkboard in educational style",
+        "mapping_type": "replace",
+        "replacement": "educational style",
+        "clip_score": 0.7259
+      },
+      {
+        "prompt": "A teacher at chalkboard in classic style",
+        "mapping_type": "replace",
+        "replacement": "classic style",
+        "clip_score": 0.7893
+      },
+      {
+        "prompt": "A teacher at chalkboard in creative style",
+        "mapping_type": "replace",
+        "replacement": "creative style",
+        "clip_score": 0.7818
+      },
+      {
+        "prompt": "A teacher at chalkboard in engaging style",
+        "mapping_type": "replace",
+        "replacement": "engaging style",
+        "clip_score": 0.6959
+      },
+      {
+        "prompt": "A teacher at chalkboard in inspiring style",
+        "mapping_type": "replace",
+        "replacement": "inspiring style",
+        "clip_score": 0.7472
+      },
+      {
+        "prompt": "A teacher at chalkboard in interactive style",
+        "mapping_type": "replace",
+        "replacement": "interactive style",
+        "clip_score": 0.7404
+      },
+      {
+        "prompt": "A teacher at chalkboard in friendly style",
+        "mapping_type": "replace",
+        "replacement": "friendly style",
+        "clip_score": 0.7289
+      },
+      {
+        "prompt": "A teacher at chalkboard in lively style",
+        "mapping_type": "replace",
+        "replacement": "lively style",
+        "clip_score": 0.7797
+      },
+      {
+        "prompt": "A teacher at chalkboard in classroom style",
+        "mapping_type": "replace",
+        "replacement": "classroom style",
+        "clip_score": 0.7349
+      },
+      {
+        "prompt": "A teacher at chalkboard",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7194
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "46",
+    "source": "A reader in library in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A reader in library in cozy atmosphere",
+        "mapping_type": "replace",
+        "replacement": "cozy atmosphere",
+        "clip_score": 0.714
+      },
+      {
+        "prompt": "A reader in library in serene environment",
+        "mapping_type": "replace",
+        "replacement": "serene environment",
+        "clip_score": 0.6631
+      },
+      {
+        "prompt": "A reader in library in warm setting",
+        "mapping_type": "replace",
+        "replacement": "warm setting",
+        "clip_score": 0.7024
+      },
+      {
+        "prompt": "A reader in library in tranquil style",
+        "mapping_type": "replace",
+        "replacement": "tranquil style",
+        "clip_score": 0.7402
+      },
+      {
+        "prompt": "A reader in library in inviting atmosphere",
+        "mapping_type": "replace",
+        "replacement": "inviting atmosphere",
+        "clip_score": 0.7009
+      },
+      {
+        "prompt": "A reader in library in peaceful environment",
+        "mapping_type": "replace",
+        "replacement": "peaceful environment",
+        "clip_score": 0.7036
+      },
+      {
+        "prompt": "A reader in library in warm ambiance",
+        "mapping_type": "replace",
+        "replacement": "warm ambiance",
+        "clip_score": 0.711
+      },
+      {
+        "prompt": "A reader in library in charming style",
+        "mapping_type": "replace",
+        "replacement": "charming style",
+        "clip_score": 0.6933
+      },
+      {
+        "prompt": "A reader in library in study style",
+        "mapping_type": "replace",
+        "replacement": "study style",
+        "clip_score": 0.6679
+      },
+      {
+        "prompt": "A reader in library",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7012
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "47",
+    "source": "A child flying kite in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A child flying kite in sunny day",
+        "mapping_type": "replace",
+        "replacement": "sunny day",
+        "clip_score": 0.667
+      },
+      {
+        "prompt": "A child flying kite in bright sky",
+        "mapping_type": "replace",
+        "replacement": "bright sky",
+        "clip_score": 0.6734
+      },
+      {
+        "prompt": "A child flying kite in open field",
+        "mapping_type": "replace",
+        "replacement": "open field",
+        "clip_score": 0.7098
+      },
+      {
+        "prompt": "A child flying kite in playful mood",
+        "mapping_type": "replace",
+        "replacement": "playful mood",
+        "clip_score": 0.674
+      },
+      {
+        "prompt": "A child flying kite in lovely weather",
+        "mapping_type": "replace",
+        "replacement": "lovely weather",
+        "clip_score": 0.7001
+      },
+      {
+        "prompt": "A child flying kite in outdoor setting",
+        "mapping_type": "replace",
+        "replacement": "outdoor setting",
+        "clip_score": 0.7166
+      },
+      {
+        "prompt": "A child flying kite in family park",
+        "mapping_type": "replace",
+        "replacement": "family park",
+        "clip_score": 0.6404
+      },
+      {
+        "prompt": "A child flying kite in green meadow",
+        "mapping_type": "replace",
+        "replacement": "green meadow",
+        "clip_score": 0.6975
+      },
+      {
+        "prompt": "A child flying kite in joyful atmosphere",
+        "mapping_type": "replace",
+        "replacement": "joyful atmosphere",
+        "clip_score": 0.7023
+      },
+      {
+        "prompt": "A child flying kite",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6655
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "48",
+    "source": "A couple under umbrellas in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A couple under umbrellas in rainy weather",
+        "mapping_type": "replace",
+        "replacement": "rainy weather",
+        "clip_score": 0.6928
+      },
+      {
+        "prompt": "A couple under umbrellas in cloudy sky",
+        "mapping_type": "replace",
+        "replacement": "cloudy sky",
+        "clip_score": 0.6824
+      },
+      {
+        "prompt": "A couple under umbrellas in chilly day",
+        "mapping_type": "replace",
+        "replacement": "chilly day",
+        "clip_score": 0.6907
+      },
+      {
+        "prompt": "A couple under umbrellas in spring day",
+        "mapping_type": "replace",
+        "replacement": "spring day",
+        "clip_score": 0.6356
+      },
+      {
+        "prompt": "A couple under umbrellas in drizzly weather",
+        "mapping_type": "replace",
+        "replacement": "drizzly weather",
+        "clip_score": 0.6931
+      },
+      {
+        "prompt": "A couple under umbrellas in warm atmosphere",
+        "mapping_type": "replace",
+        "replacement": "warm atmosphere",
+        "clip_score": 0.6977
+      },
+      {
+        "prompt": "A couple under umbrellas in cozy setting",
+        "mapping_type": "replace",
+        "replacement": "cozy setting",
+        "clip_score": 0.7073
+      },
+      {
+        "prompt": "A couple under umbrellas in pleasant weather",
+        "mapping_type": "replace",
+        "replacement": "pleasant weather",
+        "clip_score": 0.6635
+      },
+      {
+        "prompt": "A couple under umbrellas in outdoor setting",
+        "mapping_type": "replace",
+        "replacement": "outdoor setting",
+        "clip_score": 0.6915
+      },
+      {
+        "prompt": "A couple under umbrellas",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6916
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "49",
+    "source": "A cyclist on trail in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A cyclist on trail in scenic landscape",
+        "mapping_type": "replace",
+        "replacement": "scenic landscape",
+        "clip_score": 0.6865
+      },
+      {
+        "prompt": "A cyclist on trail in mountain view",
+        "mapping_type": "replace",
+        "replacement": "mountain view",
+        "clip_score": 0.6164
+      },
+      {
+        "prompt": "A cyclist on trail in forest path",
+        "mapping_type": "replace",
+        "replacement": "forest path",
+        "clip_score": 0.6684
+      },
+      {
+        "prompt": "A cyclist on trail in beautiful scenery",
+        "mapping_type": "replace",
+        "replacement": "beautiful scenery",
+        "clip_score": 0.6766
+      },
+      {
+        "prompt": "A cyclist on trail in sunny day",
+        "mapping_type": "replace",
+        "replacement": "sunny day",
+        "clip_score": 0.6541
+      },
+      {
+        "prompt": "A cyclist on trail in clear skies",
+        "mapping_type": "replace",
+        "replacement": "clear skies",
+        "clip_score": 0.6385
+      },
+      {
+        "prompt": "A cyclist on trail in vibrant surroundings",
+        "mapping_type": "replace",
+        "replacement": "vibrant surroundings",
+        "clip_score": 0.7051
+      },
+      {
+        "prompt": "A cyclist on trail in open landscape",
+        "mapping_type": "replace",
+        "replacement": "open landscape",
+        "clip_score": 0.6799
+      },
+      {
+        "prompt": "A cyclist on trail in nature setting",
+        "mapping_type": "replace",
+        "replacement": "nature setting",
+        "clip_score": 0.6753
+      },
+      {
+        "prompt": "A cyclist on trail",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6565
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "50",
+    "source": "A hiker on bridge in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A hiker on bridge in natural environment",
+        "mapping_type": "replace",
+        "replacement": "natural environment",
+        "clip_score": 0.6304
+      },
+      {
+        "prompt": "A hiker on bridge in serene place",
+        "mapping_type": "replace",
+        "replacement": "serene place",
+        "clip_score": 0.6757
+      },
+      {
+        "prompt": "A hiker on bridge in stunning landscape",
+        "mapping_type": "replace",
+        "replacement": "stunning landscape",
+        "clip_score": 0.6928
+      },
+      {
+        "prompt": "A hiker on bridge in beautiful scenery",
+        "mapping_type": "replace",
+        "replacement": "beautiful scenery",
+        "clip_score": 0.6721
+      },
+      {
+        "prompt": "A hiker on bridge in sunny atmosphere",
+        "mapping_type": "replace",
+        "replacement": "sunny atmosphere",
+        "clip_score": 0.6637
+      },
+      {
+        "prompt": "A hiker on bridge in tranquil scene",
+        "mapping_type": "replace",
+        "replacement": "tranquil scene",
+        "clip_score": 0.6894
+      },
+      {
+        "prompt": "A hiker on bridge in lush greenery",
+        "mapping_type": "replace",
+        "replacement": "lush greenery",
+        "clip_score": 0.6488
+      },
+      {
+        "prompt": "A hiker on bridge in picturesque area",
+        "mapping_type": "replace",
+        "replacement": "picturesque area",
+        "clip_score": 0.6759
+      },
+      {
+        "prompt": "A hiker on bridge in outdoor setting",
+        "mapping_type": "replace",
+        "replacement": "outdoor setting",
+        "clip_score": 0.685
+      },
+      {
+        "prompt": "A hiker on bridge",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.687
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "51",
+    "source": "A runner on sidewalk in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A runner on sidewalk in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.7351
+      },
+      {
+        "prompt": "A runner on sidewalk in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8057
+      },
+      {
+        "prompt": "A runner on sidewalk in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7663
+      },
+      {
+        "prompt": "A runner on sidewalk in graffiti style",
+        "mapping_type": "replace",
+        "replacement": "graffiti style",
+        "clip_score": 0.6845
+      },
+      {
+        "prompt": "A runner on sidewalk in digital art style",
+        "mapping_type": "replace",
+        "replacement": "digital art style",
+        "clip_score": 0.7335
+      },
+      {
+        "prompt": "A runner on sidewalk in surrealist style",
+        "mapping_type": "replace",
+        "replacement": "surrealist style",
+        "clip_score": 0.7635
+      },
+      {
+        "prompt": "A runner on sidewalk in collage style",
+        "mapping_type": "replace",
+        "replacement": "collage style",
+        "clip_score": 0.6792
+      },
+      {
+        "prompt": "A runner on sidewalk in photo-realistic style",
+        "mapping_type": "replace",
+        "replacement": "photo-realistic style",
+        "clip_score": 0.6851
+      },
+      {
+        "prompt": "A runner on sidewalk in artistic expression",
+        "mapping_type": "replace",
+        "replacement": "artistic expression",
+        "clip_score": 0.7471
+      },
+      {
+        "prompt": "A runner on sidewalk",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6989
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "52",
+    "source": "A dancer in studio in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A dancer in studio in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.7271
+      },
+      {
+        "prompt": "A dancer in studio in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8367
+      },
+      {
+        "prompt": "A dancer in studio in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7786
+      },
+      {
+        "prompt": "A dancer in studio in graffiti style",
+        "mapping_type": "replace",
+        "replacement": "graffiti style",
+        "clip_score": 0.712
+      },
+      {
+        "prompt": "A dancer in studio in digital art style",
+        "mapping_type": "replace",
+        "replacement": "digital art style",
+        "clip_score": 0.755
+      },
+      {
+        "prompt": "A dancer in studio in surrealist style",
+        "mapping_type": "replace",
+        "replacement": "surrealist style",
+        "clip_score": 0.7634
+      },
+      {
+        "prompt": "A dancer in studio in collage style",
+        "mapping_type": "replace",
+        "replacement": "collage style",
+        "clip_score": 0.6854
+      },
+      {
+        "prompt": "A dancer in studio in photo-realistic style",
+        "mapping_type": "replace",
+        "replacement": "photo-realistic style",
+        "clip_score": 0.6961
+      },
+      {
+        "prompt": "A dancer in studio in artistic expression",
+        "mapping_type": "replace",
+        "replacement": "artistic expression",
+        "clip_score": 0.7278
+      },
+      {
+        "prompt": "A dancer in studio",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7432
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "53",
+    "source": "A drummer on stage in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A drummer on stage in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.7577
+      },
+      {
+        "prompt": "A drummer on stage in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8448
+      },
+      {
+        "prompt": "A drummer on stage in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7722
+      },
+      {
+        "prompt": "A drummer on stage in graffiti style",
+        "mapping_type": "replace",
+        "replacement": "graffiti style",
+        "clip_score": 0.708
+      },
+      {
+        "prompt": "A drummer on stage in digital art style",
+        "mapping_type": "replace",
+        "replacement": "digital art style",
+        "clip_score": 0.7756
+      },
+      {
+        "prompt": "A drummer on stage in surrealist style",
+        "mapping_type": "replace",
+        "replacement": "surrealist style",
+        "clip_score": 0.7863
+      },
+      {
+        "prompt": "A drummer on stage in collage style",
+        "mapping_type": "replace",
+        "replacement": "collage style",
+        "clip_score": 0.7462
+      },
+      {
+        "prompt": "A drummer on stage in photo-realistic style",
+        "mapping_type": "replace",
+        "replacement": "photo-realistic style",
+        "clip_score": 0.7095
+      },
+      {
+        "prompt": "A drummer on stage in artistic expression",
+        "mapping_type": "replace",
+        "replacement": "artistic expression",
+        "clip_score": 0.7444
+      },
+      {
+        "prompt": "A drummer on stage",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7249
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "54",
+    "source": "A singer with microphone in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A singer with microphone in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.6689
+      },
+      {
+        "prompt": "A singer with microphone in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7918
+      },
+      {
+        "prompt": "A singer with microphone in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7281
+      },
+      {
+        "prompt": "A singer with microphone in graffiti style",
+        "mapping_type": "replace",
+        "replacement": "graffiti style",
+        "clip_score": 0.6519
+      },
+      {
+        "prompt": "A singer with microphone in digital art style",
+        "mapping_type": "replace",
+        "replacement": "digital art style",
+        "clip_score": 0.7059
+      },
+      {
+        "prompt": "A singer with microphone in surrealist style",
+        "mapping_type": "replace",
+        "replacement": "surrealist style",
+        "clip_score": 0.7448
+      },
+      {
+        "prompt": "A singer with microphone in collage style",
+        "mapping_type": "replace",
+        "replacement": "collage style",
+        "clip_score": 0.6251
+      },
+      {
+        "prompt": "A singer with microphone in photo-realistic style",
+        "mapping_type": "replace",
+        "replacement": "photo-realistic style",
+        "clip_score": 0.6772
+      },
+      {
+        "prompt": "A singer with microphone in artistic expression",
+        "mapping_type": "replace",
+        "replacement": "artistic expression",
+        "clip_score": 0.6968
+      },
+      {
+        "prompt": "A singer with microphone",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6864
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "55",
+    "source": "A guitarist on stool in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A guitarist on stool in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.698
+      },
+      {
+        "prompt": "A guitarist on stool in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8255
+      },
+      {
+        "prompt": "A guitarist on stool in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7358
+      },
+      {
+        "prompt": "A guitarist on stool in graffiti style",
+        "mapping_type": "replace",
+        "replacement": "graffiti style",
+        "clip_score": 0.6729
+      },
+      {
+        "prompt": "A guitarist on stool in digital art style",
+        "mapping_type": "replace",
+        "replacement": "digital art style",
+        "clip_score": 0.7214
+      },
+      {
+        "prompt": "A guitarist on stool in surrealist style",
+        "mapping_type": "replace",
+        "replacement": "surrealist style",
+        "clip_score": 0.7441
+      },
+      {
+        "prompt": "A guitarist on stool in collage style",
+        "mapping_type": "replace",
+        "replacement": "collage style",
+        "clip_score": 0.6753
+      },
+      {
+        "prompt": "A guitarist on stool in photo-realistic style",
+        "mapping_type": "replace",
+        "replacement": "photo-realistic style",
+        "clip_score": 0.6748
+      },
+      {
+        "prompt": "A guitarist on stool in artistic expression",
+        "mapping_type": "replace",
+        "replacement": "artistic expression",
+        "clip_score": 0.7266
+      },
+      {
+        "prompt": "A guitarist on stool",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6936
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "56",
+    "source": "A pianist on stage in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A pianist on stage in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.7223
+      },
+      {
+        "prompt": "A pianist on stage in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8272
+      },
+      {
+        "prompt": "A pianist on stage in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7835
+      },
+      {
+        "prompt": "A pianist on stage in graffiti style",
+        "mapping_type": "replace",
+        "replacement": "graffiti style",
+        "clip_score": 0.7108
+      },
+      {
+        "prompt": "A pianist on stage in digital art style",
+        "mapping_type": "replace",
+        "replacement": "digital art style",
+        "clip_score": 0.773
+      },
+      {
+        "prompt": "A pianist on stage in surrealist style",
+        "mapping_type": "replace",
+        "replacement": "surrealist style",
+        "clip_score": 0.7762
+      },
+      {
+        "prompt": "A pianist on stage in collage style",
+        "mapping_type": "replace",
+        "replacement": "collage style",
+        "clip_score": 0.7477
+      },
+      {
+        "prompt": "A pianist on stage in photo-realistic style",
+        "mapping_type": "replace",
+        "replacement": "photo-realistic style",
+        "clip_score": 0.7246
+      },
+      {
+        "prompt": "A pianist on stage in artistic expression",
+        "mapping_type": "replace",
+        "replacement": "artistic expression",
+        "clip_score": 0.7293
+      },
+      {
+        "prompt": "A pianist on stage",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7555
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "57",
+    "source": "A painter at easel in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A painter at easel in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.7674
+      },
+      {
+        "prompt": "A painter at easel in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8717
+      },
+      {
+        "prompt": "A painter at easel in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7876
+      },
+      {
+        "prompt": "A painter at easel in graffiti style",
+        "mapping_type": "replace",
+        "replacement": "graffiti style",
+        "clip_score": 0.7614
+      },
+      {
+        "prompt": "A painter at easel in digital art style",
+        "mapping_type": "replace",
+        "replacement": "digital art style",
+        "clip_score": 0.7713
+      },
+      {
+        "prompt": "A painter at easel in surrealist style",
+        "mapping_type": "replace",
+        "replacement": "surrealist style",
+        "clip_score": 0.7921
+      },
+      {
+        "prompt": "A painter at easel in collage style",
+        "mapping_type": "replace",
+        "replacement": "collage style",
+        "clip_score": 0.73
+      },
+      {
+        "prompt": "A painter at easel in photo-realistic style",
+        "mapping_type": "replace",
+        "replacement": "photo-realistic style",
+        "clip_score": 0.7536
+      },
+      {
+        "prompt": "A painter at easel in artistic expression",
+        "mapping_type": "replace",
+        "replacement": "artistic expression",
+        "clip_score": 0.7812
+      },
+      {
+        "prompt": "A painter at easel",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.8087
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "58",
+    "source": "A photographer by lake in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A photographer by lake in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.7259
+      },
+      {
+        "prompt": "A photographer by lake in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7652
+      },
+      {
+        "prompt": "A photographer by lake in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7298
+      },
+      {
+        "prompt": "A photographer by lake in graffiti style",
+        "mapping_type": "replace",
+        "replacement": "graffiti style",
+        "clip_score": 0.674
+      },
+      {
+        "prompt": "A photographer by lake in digital art style",
+        "mapping_type": "replace",
+        "replacement": "digital art style",
+        "clip_score": 0.7329
+      },
+      {
+        "prompt": "A photographer by lake in surrealist style",
+        "mapping_type": "replace",
+        "replacement": "surrealist style",
+        "clip_score": 0.7227
+      },
+      {
+        "prompt": "A photographer by lake in collage style",
+        "mapping_type": "replace",
+        "replacement": "collage style",
+        "clip_score": 0.7184
+      },
+      {
+        "prompt": "A photographer by lake in photo-realistic style",
+        "mapping_type": "replace",
+        "replacement": "photo-realistic style",
+        "clip_score": 0.6524
+      },
+      {
+        "prompt": "A photographer by lake in artistic expression",
+        "mapping_type": "replace",
+        "replacement": "artistic expression",
+        "clip_score": 0.7165
+      },
+      {
+        "prompt": "A photographer by lake",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6676
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "59",
+    "source": "A busker playing guitar in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A busker playing guitar in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.7224
+      },
+      {
+        "prompt": "A busker playing guitar in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8045
+      },
+      {
+        "prompt": "A busker playing guitar in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7339
+      },
+      {
+        "prompt": "A busker playing guitar in graffiti style",
+        "mapping_type": "replace",
+        "replacement": "graffiti style",
+        "clip_score": 0.7077
+      },
+      {
+        "prompt": "A busker playing guitar in digital art style",
+        "mapping_type": "replace",
+        "replacement": "digital art style",
+        "clip_score": 0.735
+      },
+      {
+        "prompt": "A busker playing guitar in surrealist style",
+        "mapping_type": "replace",
+        "replacement": "surrealist style",
+        "clip_score": 0.7392
+      },
+      {
+        "prompt": "A busker playing guitar in collage style",
+        "mapping_type": "replace",
+        "replacement": "collage style",
+        "clip_score": 0.6978
+      },
+      {
+        "prompt": "A busker playing guitar in photo-realistic style",
+        "mapping_type": "replace",
+        "replacement": "photo-realistic style",
+        "clip_score": 0.7113
+      },
+      {
+        "prompt": "A busker playing guitar in artistic expression",
+        "mapping_type": "replace",
+        "replacement": "artistic expression",
+        "clip_score": 0.7258
+      },
+      {
+        "prompt": "A busker playing guitar",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.708
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "60",
+    "source": "A vendor selling fruit in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A vendor selling fruit in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.7867
+      },
+      {
+        "prompt": "A vendor selling fruit in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8423
+      },
+      {
+        "prompt": "A vendor selling fruit in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7605
+      },
+      {
+        "prompt": "A vendor selling fruit in graffiti style",
+        "mapping_type": "replace",
+        "replacement": "graffiti style",
+        "clip_score": 0.7291
+      },
+      {
+        "prompt": "A vendor selling fruit in digital art style",
+        "mapping_type": "replace",
+        "replacement": "digital art style",
+        "clip_score": 0.7814
+      },
+      {
+        "prompt": "A vendor selling fruit in surrealist style",
+        "mapping_type": "replace",
+        "replacement": "surrealist style",
+        "clip_score": 0.7852
+      },
+      {
+        "prompt": "A vendor selling fruit in collage style",
+        "mapping_type": "replace",
+        "replacement": "collage style",
+        "clip_score": 0.7582
+      },
+      {
+        "prompt": "A vendor selling fruit in photo-realistic style",
+        "mapping_type": "replace",
+        "replacement": "photo-realistic style",
+        "clip_score": 0.7426
+      },
+      {
+        "prompt": "A vendor selling fruit in artistic expression",
+        "mapping_type": "replace",
+        "replacement": "artistic expression",
+        "clip_score": 0.7508
+      },
+      {
+        "prompt": "A vendor selling fruit",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7199
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "61",
+    "source": "A shopper with cart in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A shopper with cart in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8197
+      },
+      {
+        "prompt": "A shopper with cart in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7893
+      },
+      {
+        "prompt": "A shopper with cart in realistic style",
+        "mapping_type": "replace",
+        "replacement": "realistic style",
+        "clip_score": 0.7776
+      },
+      {
+        "prompt": "A shopper with cart in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.7787
+      },
+      {
+        "prompt": "A shopper with cart in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7793
+      },
+      {
+        "prompt": "A shopper with cart in traditional style",
+        "mapping_type": "replace",
+        "replacement": "traditional style",
+        "clip_score": 0.7645
+      },
+      {
+        "prompt": "A shopper with cart in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7784
+      },
+      {
+        "prompt": "A shopper with cart in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.7021
+      },
+      {
+        "prompt": "A shopper with cart in art",
+        "mapping_type": "replace",
+        "replacement": "art",
+        "clip_score": 0.7815
+      },
+      {
+        "prompt": "A shopper with cart",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7236
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "62",
+    "source": "A barber cutting hair in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A barber cutting hair in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.735
+      },
+      {
+        "prompt": "A barber cutting hair in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.6874
+      },
+      {
+        "prompt": "A barber cutting hair in realistic style",
+        "mapping_type": "replace",
+        "replacement": "realistic style",
+        "clip_score": 0.6667
+      },
+      {
+        "prompt": "A barber cutting hair in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.7153
+      },
+      {
+        "prompt": "A barber cutting hair in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.6966
+      },
+      {
+        "prompt": "A barber cutting hair in traditional style",
+        "mapping_type": "replace",
+        "replacement": "traditional style",
+        "clip_score": 0.6818
+      },
+      {
+        "prompt": "A barber cutting hair in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.6844
+      },
+      {
+        "prompt": "A barber cutting hair in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.5774
+      },
+      {
+        "prompt": "A barber cutting hair in art",
+        "mapping_type": "replace",
+        "replacement": "art",
+        "clip_score": 0.6594
+      },
+      {
+        "prompt": "A barber cutting hair",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6621
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "63",
+    "source": "A doctor with stethoscope in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A doctor with stethoscope in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8249
+      },
+      {
+        "prompt": "A doctor with stethoscope in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.749
+      },
+      {
+        "prompt": "A doctor with stethoscope in realistic style",
+        "mapping_type": "replace",
+        "replacement": "realistic style",
+        "clip_score": 0.7276
+      },
+      {
+        "prompt": "A doctor with stethoscope in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.7484
+      },
+      {
+        "prompt": "A doctor with stethoscope in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7173
+      },
+      {
+        "prompt": "A doctor with stethoscope in traditional style",
+        "mapping_type": "replace",
+        "replacement": "traditional style",
+        "clip_score": 0.6959
+      },
+      {
+        "prompt": "A doctor with stethoscope in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7404
+      },
+      {
+        "prompt": "A doctor with stethoscope in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.6569
+      },
+      {
+        "prompt": "A doctor with stethoscope in art",
+        "mapping_type": "replace",
+        "replacement": "art",
+        "clip_score": 0.7281
+      },
+      {
+        "prompt": "A doctor with stethoscope",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6772
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "64",
+    "source": "A firefighter by truck in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A firefighter by truck in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8192
+      },
+      {
+        "prompt": "A firefighter by truck in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7723
+      },
+      {
+        "prompt": "A firefighter by truck in realistic style",
+        "mapping_type": "replace",
+        "replacement": "realistic style",
+        "clip_score": 0.7711
+      },
+      {
+        "prompt": "A firefighter by truck in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.8025
+      },
+      {
+        "prompt": "A firefighter by truck in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7691
+      },
+      {
+        "prompt": "A firefighter by truck in traditional style",
+        "mapping_type": "replace",
+        "replacement": "traditional style",
+        "clip_score": 0.7295
+      },
+      {
+        "prompt": "A firefighter by truck in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7875
+      },
+      {
+        "prompt": "A firefighter by truck in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.7007
+      },
+      {
+        "prompt": "A firefighter by truck in art",
+        "mapping_type": "replace",
+        "replacement": "art",
+        "clip_score": 0.8066
+      },
+      {
+        "prompt": "A firefighter by truck",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7364
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "65",
+    "source": "An officer directing traffic in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "An officer directing traffic in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7902
+      },
+      {
+        "prompt": "An officer directing traffic in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7519
+      },
+      {
+        "prompt": "An officer directing traffic in realistic style",
+        "mapping_type": "replace",
+        "replacement": "realistic style",
+        "clip_score": 0.7421
+      },
+      {
+        "prompt": "An officer directing traffic in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.7798
+      },
+      {
+        "prompt": "An officer directing traffic in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7208
+      },
+      {
+        "prompt": "An officer directing traffic in traditional style",
+        "mapping_type": "replace",
+        "replacement": "traditional style",
+        "clip_score": 0.7087
+      },
+      {
+        "prompt": "An officer directing traffic in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7373
+      },
+      {
+        "prompt": "An officer directing traffic in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.6953
+      },
+      {
+        "prompt": "An officer directing traffic in art",
+        "mapping_type": "replace",
+        "replacement": "art",
+        "clip_score": 0.7248
+      },
+      {
+        "prompt": "An officer directing traffic",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6963
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "66",
+    "source": "A construction worker with shovel in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A construction worker with shovel in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8282
+      },
+      {
+        "prompt": "A construction worker with shovel in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7809
+      },
+      {
+        "prompt": "A construction worker with shovel in realistic style",
+        "mapping_type": "replace",
+        "replacement": "realistic style",
+        "clip_score": 0.782
+      },
+      {
+        "prompt": "A construction worker with shovel in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.8135
+      },
+      {
+        "prompt": "A construction worker with shovel in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7868
+      },
+      {
+        "prompt": "A construction worker with shovel in traditional style",
+        "mapping_type": "replace",
+        "replacement": "traditional style",
+        "clip_score": 0.7197
+      },
+      {
+        "prompt": "A construction worker with shovel in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7891
+      },
+      {
+        "prompt": "A construction worker with shovel in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.7543
+      },
+      {
+        "prompt": "A construction worker with shovel in art",
+        "mapping_type": "replace",
+        "replacement": "art",
+        "clip_score": 0.8165
+      },
+      {
+        "prompt": "A construction worker with shovel",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7476
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "67",
+    "source": "A mail carrier with packages in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A mail carrier with packages in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8262
+      },
+      {
+        "prompt": "A mail carrier with packages in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7742
+      },
+      {
+        "prompt": "A mail carrier with packages in realistic style",
+        "mapping_type": "replace",
+        "replacement": "realistic style",
+        "clip_score": 0.7569
+      },
+      {
+        "prompt": "A mail carrier with packages in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.7856
+      },
+      {
+        "prompt": "A mail carrier with packages in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7642
+      },
+      {
+        "prompt": "A mail carrier with packages in traditional style",
+        "mapping_type": "replace",
+        "replacement": "traditional style",
+        "clip_score": 0.7363
+      },
+      {
+        "prompt": "A mail carrier with packages in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7609
+      },
+      {
+        "prompt": "A mail carrier with packages in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.6723
+      },
+      {
+        "prompt": "A mail carrier with packages in art",
+        "mapping_type": "replace",
+        "replacement": "art",
+        "clip_score": 0.7937
+      },
+      {
+        "prompt": "A mail carrier with packages",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7146
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "68",
+    "source": "A farmer picking apples in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A farmer picking apples in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7918
+      },
+      {
+        "prompt": "A farmer picking apples in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.742
+      },
+      {
+        "prompt": "A farmer picking apples in realistic style",
+        "mapping_type": "replace",
+        "replacement": "realistic style",
+        "clip_score": 0.7523
+      },
+      {
+        "prompt": "A farmer picking apples in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.7549
+      },
+      {
+        "prompt": "A farmer picking apples in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7152
+      },
+      {
+        "prompt": "A farmer picking apples in traditional style",
+        "mapping_type": "replace",
+        "replacement": "traditional style",
+        "clip_score": 0.7501
+      },
+      {
+        "prompt": "A farmer picking apples in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7452
+      },
+      {
+        "prompt": "A farmer picking apples in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.6994
+      },
+      {
+        "prompt": "A farmer picking apples in art",
+        "mapping_type": "replace",
+        "replacement": "art",
+        "clip_score": 0.752
+      },
+      {
+        "prompt": "A farmer picking apples",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7096
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "69",
+    "source": "A gardener watering plants in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A gardener watering plants in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7768
+      },
+      {
+        "prompt": "A gardener watering plants in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7397
+      },
+      {
+        "prompt": "A gardener watering plants in realistic style",
+        "mapping_type": "replace",
+        "replacement": "realistic style",
+        "clip_score": 0.7113
+      },
+      {
+        "prompt": "A gardener watering plants in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.7221
+      },
+      {
+        "prompt": "A gardener watering plants in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7031
+      },
+      {
+        "prompt": "A gardener watering plants in traditional style",
+        "mapping_type": "replace",
+        "replacement": "traditional style",
+        "clip_score": 0.7066
+      },
+      {
+        "prompt": "A gardener watering plants in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7381
+      },
+      {
+        "prompt": "A gardener watering plants in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.6509
+      },
+      {
+        "prompt": "A gardener watering plants in art",
+        "mapping_type": "replace",
+        "replacement": "art",
+        "clip_score": 0.7043
+      },
+      {
+        "prompt": "A gardener watering plants",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7012
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "70",
+    "source": "A dog fetching stick in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A hound fetching stick in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7157
+      },
+      {
+        "prompt": "A puppy fetching stick in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.6688
+      },
+      {
+        "prompt": "A feline fetching stick in realistic style",
+        "mapping_type": "replace",
+        "replacement": "realistic style",
+        "clip_score": 0.5731
+      },
+      {
+        "prompt": "A bird fetching stick in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.5662
+      },
+      {
+        "prompt": "A rabbit fetching stick in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.518
+      },
+      {
+        "prompt": "A turtle fetching stick in traditional style",
+        "mapping_type": "replace",
+        "replacement": "traditional style",
+        "clip_score": 0.5353
+      },
+      {
+        "prompt": "A horse fetching stick in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.6192
+      },
+      {
+        "prompt": "A fish fetching stick in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.4912
+      },
+      {
+        "prompt": "A creature fetching stick in art",
+        "mapping_type": "replace",
+        "replacement": "art",
+        "clip_score": 0.5029
+      },
+      {
+        "prompt": "A creature fetching stick",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.5437
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "71",
+    "source": "A cat on windowsill in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A cat on windowsill in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.814
+      },
+      {
+        "prompt": "A cat on windowsill in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.7975
+      },
+      {
+        "prompt": "A cat on windowsill in watercolor painting",
+        "mapping_type": "replace",
+        "replacement": "watercolor painting",
+        "clip_score": 0.6787
+      },
+      {
+        "prompt": "A cat on windowsill in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.7769
+      },
+      {
+        "prompt": "A cat on windowsill in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7797
+      },
+      {
+        "prompt": "A cat on windowsill in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.772
+      },
+      {
+        "prompt": "A cat on windowsill in surrealistic art",
+        "mapping_type": "replace",
+        "replacement": "surrealistic art",
+        "clip_score": 0.7845
+      },
+      {
+        "prompt": "A cat on windowsill in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.7273
+      },
+      {
+        "prompt": "A cat on windowsill in art",
+        "mapping_type": "replace",
+        "replacement": "art",
+        "clip_score": 0.7321
+      },
+      {
+        "prompt": "A scene with a cat on windowsill",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.699
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "72",
+    "source": "A horse in meadow in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A horse in meadow in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8159
+      },
+      {
+        "prompt": "A horse in meadow in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.8123
+      },
+      {
+        "prompt": "A horse in meadow in watercolor painting",
+        "mapping_type": "replace",
+        "replacement": "watercolor painting",
+        "clip_score": 0.6734
+      },
+      {
+        "prompt": "A horse in meadow in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.7996
+      },
+      {
+        "prompt": "A horse in meadow in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7922
+      },
+      {
+        "prompt": "A horse in meadow in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7883
+      },
+      {
+        "prompt": "A horse in meadow in surrealistic art",
+        "mapping_type": "replace",
+        "replacement": "surrealistic art",
+        "clip_score": 0.7876
+      },
+      {
+        "prompt": "A horse in meadow in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.7159
+      },
+      {
+        "prompt": "A horse in meadow in scene",
+        "mapping_type": "replace",
+        "replacement": "scene",
+        "clip_score": 0.7637
+      },
+      {
+        "prompt": "A scene with a horse in meadow",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7406
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "73",
+    "source": "A cow by fence in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A cow by fence in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.809
+      },
+      {
+        "prompt": "A cow by fence in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.8211
+      },
+      {
+        "prompt": "A cow by fence in watercolor painting",
+        "mapping_type": "replace",
+        "replacement": "watercolor painting",
+        "clip_score": 0.6926
+      },
+      {
+        "prompt": "A cow by fence in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.7954
+      },
+      {
+        "prompt": "A cow by fence in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.792
+      },
+      {
+        "prompt": "A cow by fence in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.8073
+      },
+      {
+        "prompt": "A cow by fence in surrealistic art",
+        "mapping_type": "replace",
+        "replacement": "surrealistic art",
+        "clip_score": 0.7994
+      },
+      {
+        "prompt": "A cow by fence in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.7325
+      },
+      {
+        "prompt": "A cow by fence in scene",
+        "mapping_type": "replace",
+        "replacement": "scene",
+        "clip_score": 0.7695
+      },
+      {
+        "prompt": "A scene with a cow by fence",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7498
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "74",
+    "source": "Sheep on a hill in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "Sheep on a hill in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8319
+      },
+      {
+        "prompt": "Sheep on a hill in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.7976
+      },
+      {
+        "prompt": "Sheep on a hill in watercolor painting",
+        "mapping_type": "replace",
+        "replacement": "watercolor painting",
+        "clip_score": 0.6648
+      },
+      {
+        "prompt": "Sheep on a hill in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.7725
+      },
+      {
+        "prompt": "Sheep on a hill in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7801
+      },
+      {
+        "prompt": "Sheep on a hill in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7868
+      },
+      {
+        "prompt": "Sheep on a hill in surrealistic art",
+        "mapping_type": "replace",
+        "replacement": "surrealistic art",
+        "clip_score": 0.778
+      },
+      {
+        "prompt": "Sheep on a hill in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.723
+      },
+      {
+        "prompt": "Sheep on a hill in scene",
+        "mapping_type": "replace",
+        "replacement": "scene",
+        "clip_score": 0.727
+      },
+      {
+        "prompt": "A scene with sheep on a hill",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7169
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "75",
+    "source": "Ducks on a pond in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "Ducks on a pond in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8218
+      },
+      {
+        "prompt": "Ducks on a pond in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.8062
+      },
+      {
+        "prompt": "Ducks on a pond in watercolor painting",
+        "mapping_type": "replace",
+        "replacement": "watercolor painting",
+        "clip_score": 0.6856
+      },
+      {
+        "prompt": "Ducks on a pond in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.8026
+      },
+      {
+        "prompt": "Ducks on a pond in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7926
+      },
+      {
+        "prompt": "Ducks on a pond in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7812
+      },
+      {
+        "prompt": "Ducks on a pond in surrealistic art",
+        "mapping_type": "replace",
+        "replacement": "surrealistic art",
+        "clip_score": 0.7967
+      },
+      {
+        "prompt": "Ducks on a pond in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.7176
+      },
+      {
+        "prompt": "Ducks on a pond in scene",
+        "mapping_type": "replace",
+        "replacement": "scene",
+        "clip_score": 0.7236
+      },
+      {
+        "prompt": "A scene with ducks on a pond",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7339
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "76",
+    "source": "A bird on branch in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A bird on branch in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7956
+      },
+      {
+        "prompt": "A bird on branch in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.7969
+      },
+      {
+        "prompt": "A bird on branch in watercolor painting",
+        "mapping_type": "replace",
+        "replacement": "watercolor painting",
+        "clip_score": 0.6711
+      },
+      {
+        "prompt": "A bird on branch in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.7784
+      },
+      {
+        "prompt": "A bird on branch in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.765
+      },
+      {
+        "prompt": "A bird on branch in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7641
+      },
+      {
+        "prompt": "A bird on branch in surrealistic art",
+        "mapping_type": "replace",
+        "replacement": "surrealistic art",
+        "clip_score": 0.7684
+      },
+      {
+        "prompt": "A bird on branch in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.6953
+      },
+      {
+        "prompt": "A bird on branch in scene",
+        "mapping_type": "replace",
+        "replacement": "scene",
+        "clip_score": 0.6673
+      },
+      {
+        "prompt": "A scene with a bird on branch",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6722
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "77",
+    "source": "A fox in clearing in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A fox in clearing in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7608
+      },
+      {
+        "prompt": "A fox in clearing in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.7401
+      },
+      {
+        "prompt": "A fox in clearing in watercolor painting",
+        "mapping_type": "replace",
+        "replacement": "watercolor painting",
+        "clip_score": 0.6193
+      },
+      {
+        "prompt": "A fox in clearing in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.7249
+      },
+      {
+        "prompt": "A fox in clearing in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7192
+      },
+      {
+        "prompt": "A fox in clearing in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7177
+      },
+      {
+        "prompt": "A fox in clearing in surrealistic art",
+        "mapping_type": "replace",
+        "replacement": "surrealistic art",
+        "clip_score": 0.685
+      },
+      {
+        "prompt": "A fox in clearing in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.6373
+      },
+      {
+        "prompt": "A fox in clearing in scene",
+        "mapping_type": "replace",
+        "replacement": "scene",
+        "clip_score": 0.6538
+      },
+      {
+        "prompt": "A scene with a fox in clearing",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6535
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "78",
+    "source": "A deer near stream in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A deer near stream in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7996
+      },
+      {
+        "prompt": "A deer near stream in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.8238
+      },
+      {
+        "prompt": "A deer near stream in watercolor painting",
+        "mapping_type": "replace",
+        "replacement": "watercolor painting",
+        "clip_score": 0.6714
+      },
+      {
+        "prompt": "A deer near stream in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.8079
+      },
+      {
+        "prompt": "A deer near stream in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7958
+      },
+      {
+        "prompt": "A deer near stream in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7995
+      },
+      {
+        "prompt": "A deer near stream in surrealistic art",
+        "mapping_type": "replace",
+        "replacement": "surrealistic art",
+        "clip_score": 0.7962
+      },
+      {
+        "prompt": "A deer near stream in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.7352
+      },
+      {
+        "prompt": "A deer near stream in scene",
+        "mapping_type": "replace",
+        "replacement": "scene",
+        "clip_score": 0.7661
+      },
+      {
+        "prompt": "A scene with a deer near stream",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7475
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "79",
+    "source": "A rabbit in garden in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A rabbit in garden in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8136
+      },
+      {
+        "prompt": "A rabbit in garden in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.826
+      },
+      {
+        "prompt": "A rabbit in garden in watercolor painting",
+        "mapping_type": "replace",
+        "replacement": "watercolor painting",
+        "clip_score": 0.6958
+      },
+      {
+        "prompt": "A rabbit in garden in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.8117
+      },
+      {
+        "prompt": "A rabbit in garden in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.7895
+      },
+      {
+        "prompt": "A rabbit in garden in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7947
+      },
+      {
+        "prompt": "A rabbit in garden in surrealistic art",
+        "mapping_type": "replace",
+        "replacement": "surrealistic art",
+        "clip_score": 0.7919
+      },
+      {
+        "prompt": "A rabbit in garden in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.7235
+      },
+      {
+        "prompt": "A rabbit in garden in scene",
+        "mapping_type": "replace",
+        "replacement": "scene",
+        "clip_score": 0.7532
+      },
+      {
+        "prompt": "A scene with a rabbit in garden",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7233
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "80",
+    "source": "A turtle on log in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A turtle on log in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8175
+      },
+      {
+        "prompt": "A turtle on log in abstract art",
+        "mapping_type": "replace",
+        "replacement": "abstract art",
+        "clip_score": 0.8333
+      },
+      {
+        "prompt": "A turtle on log in watercolor painting",
+        "mapping_type": "replace",
+        "replacement": "watercolor painting",
+        "clip_score": 0.659
+      },
+      {
+        "prompt": "A turtle on log in modern art",
+        "mapping_type": "replace",
+        "replacement": "modern art",
+        "clip_score": 0.8327
+      },
+      {
+        "prompt": "A turtle on log in pop art",
+        "mapping_type": "replace",
+        "replacement": "pop art",
+        "clip_score": 0.8016
+      },
+      {
+        "prompt": "A turtle on log in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.8028
+      },
+      {
+        "prompt": "A turtle on log in surrealistic art",
+        "mapping_type": "replace",
+        "replacement": "surrealistic art",
+        "clip_score": 0.8107
+      },
+      {
+        "prompt": "A turtle on log in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.7433
+      },
+      {
+        "prompt": "A turtle on log in scene",
+        "mapping_type": "replace",
+        "replacement": "scene",
+        "clip_score": 0.7704
+      },
+      {
+        "prompt": "A scene with a turtle on log",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7327
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "81",
+    "source": "A butterfly on flower in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A butterfly on flower in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.777
+      },
+      {
+        "prompt": "A butterfly on flower in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7889
+      },
+      {
+        "prompt": "A butterfly on flower in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.8092
+      },
+      {
+        "prompt": "A butterfly on flower in pastel colors",
+        "mapping_type": "replace",
+        "replacement": "pastel colors",
+        "clip_score": 0.736
+      },
+      {
+        "prompt": "A butterfly on flower in pop art style",
+        "mapping_type": "replace",
+        "replacement": "pop art style",
+        "clip_score": 0.8152
+      },
+      {
+        "prompt": "A butterfly on flower in surrealism",
+        "mapping_type": "replace",
+        "replacement": "surrealism",
+        "clip_score": 0.757
+      },
+      {
+        "prompt": "A butterfly on flower in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.8171
+      },
+      {
+        "prompt": "A butterfly on flower in charcoal drawing",
+        "mapping_type": "replace",
+        "replacement": "charcoal drawing",
+        "clip_score": 0.68
+      },
+      {
+        "prompt": "A butterfly on flower in style",
+        "mapping_type": "replace",
+        "replacement": "style",
+        "clip_score": 0.7917
+      },
+      {
+        "prompt": "A butterfly on flower",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7918
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "82",
+    "source": "A bouquet on table in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A bouquet on table in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.7358
+      },
+      {
+        "prompt": "A bouquet on table in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8277
+      },
+      {
+        "prompt": "A bouquet on table in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7926
+      },
+      {
+        "prompt": "A bouquet on table in pastel colors",
+        "mapping_type": "replace",
+        "replacement": "pastel colors",
+        "clip_score": 0.7031
+      },
+      {
+        "prompt": "A bouquet on table in pop art style",
+        "mapping_type": "replace",
+        "replacement": "pop art style",
+        "clip_score": 0.7895
+      },
+      {
+        "prompt": "A bouquet on table in surrealism",
+        "mapping_type": "replace",
+        "replacement": "surrealism",
+        "clip_score": 0.745
+      },
+      {
+        "prompt": "A bouquet on table in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7873
+      },
+      {
+        "prompt": "A bouquet on table in charcoal drawing",
+        "mapping_type": "replace",
+        "replacement": "charcoal drawing",
+        "clip_score": 0.63
+      },
+      {
+        "prompt": "A bouquet on table in style",
+        "mapping_type": "replace",
+        "replacement": "style",
+        "clip_score": 0.7544
+      },
+      {
+        "prompt": "A bouquet on table",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7678
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "83",
+    "source": "A candle on table in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A candle on table in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.74
+      },
+      {
+        "prompt": "A candle on table in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7931
+      },
+      {
+        "prompt": "A candle on table in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7971
+      },
+      {
+        "prompt": "A candle on table in pastel colors",
+        "mapping_type": "replace",
+        "replacement": "pastel colors",
+        "clip_score": 0.7002
+      },
+      {
+        "prompt": "A candle on table in pop art style",
+        "mapping_type": "replace",
+        "replacement": "pop art style",
+        "clip_score": 0.7706
+      },
+      {
+        "prompt": "A candle on table in surrealism",
+        "mapping_type": "replace",
+        "replacement": "surrealism",
+        "clip_score": 0.7376
+      },
+      {
+        "prompt": "A candle on table in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7666
+      },
+      {
+        "prompt": "A candle on table in charcoal drawing",
+        "mapping_type": "replace",
+        "replacement": "charcoal drawing",
+        "clip_score": 0.6767
+      },
+      {
+        "prompt": "A candle on table in style",
+        "mapping_type": "replace",
+        "replacement": "style",
+        "clip_score": 0.7434
+      },
+      {
+        "prompt": "A candle on table",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7445
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "84",
+    "source": "A lantern by door in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A lantern by door in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.676
+      },
+      {
+        "prompt": "A lantern by door in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7823
+      },
+      {
+        "prompt": "A lantern by door in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7017
+      },
+      {
+        "prompt": "A lantern by door in pastel colors",
+        "mapping_type": "replace",
+        "replacement": "pastel colors",
+        "clip_score": 0.622
+      },
+      {
+        "prompt": "A lantern by door in pop art style",
+        "mapping_type": "replace",
+        "replacement": "pop art style",
+        "clip_score": 0.7055
+      },
+      {
+        "prompt": "A lantern by door in surrealism",
+        "mapping_type": "replace",
+        "replacement": "surrealism",
+        "clip_score": 0.6613
+      },
+      {
+        "prompt": "A lantern by door in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7052
+      },
+      {
+        "prompt": "A lantern by door in charcoal drawing",
+        "mapping_type": "replace",
+        "replacement": "charcoal drawing",
+        "clip_score": 0.5773
+      },
+      {
+        "prompt": "A lantern by door in style",
+        "mapping_type": "replace",
+        "replacement": "style",
+        "clip_score": 0.6876
+      },
+      {
+        "prompt": "A lantern by door",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6938
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "85",
+    "source": "A clock on wall in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A clock on wall in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.7225
+      },
+      {
+        "prompt": "A clock on wall in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8182
+      },
+      {
+        "prompt": "A clock on wall in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7909
+      },
+      {
+        "prompt": "A clock on wall in pastel colors",
+        "mapping_type": "replace",
+        "replacement": "pastel colors",
+        "clip_score": 0.7006
+      },
+      {
+        "prompt": "A clock on wall in pop art style",
+        "mapping_type": "replace",
+        "replacement": "pop art style",
+        "clip_score": 0.7799
+      },
+      {
+        "prompt": "A clock on wall in surrealism",
+        "mapping_type": "replace",
+        "replacement": "surrealism",
+        "clip_score": 0.7523
+      },
+      {
+        "prompt": "A clock on wall in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7934
+      },
+      {
+        "prompt": "A clock on wall in charcoal drawing",
+        "mapping_type": "replace",
+        "replacement": "charcoal drawing",
+        "clip_score": 0.6283
+      },
+      {
+        "prompt": "A clock on wall in style",
+        "mapping_type": "replace",
+        "replacement": "style",
+        "clip_score": 0.7669
+      },
+      {
+        "prompt": "A clock on wall",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7725
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "86",
+    "source": "A violin on table in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A violin on table in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.702
+      },
+      {
+        "prompt": "A violin on table in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8161
+      },
+      {
+        "prompt": "A violin on table in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7454
+      },
+      {
+        "prompt": "A violin on table in pastel colors",
+        "mapping_type": "replace",
+        "replacement": "pastel colors",
+        "clip_score": 0.6703
+      },
+      {
+        "prompt": "A violin on table in pop art style",
+        "mapping_type": "replace",
+        "replacement": "pop art style",
+        "clip_score": 0.7347
+      },
+      {
+        "prompt": "A violin on table in surrealism",
+        "mapping_type": "replace",
+        "replacement": "surrealism",
+        "clip_score": 0.701
+      },
+      {
+        "prompt": "A violin on table in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7323
+      },
+      {
+        "prompt": "A violin on table in charcoal drawing",
+        "mapping_type": "replace",
+        "replacement": "charcoal drawing",
+        "clip_score": 0.6392
+      },
+      {
+        "prompt": "A violin on table in style",
+        "mapping_type": "replace",
+        "replacement": "style",
+        "clip_score": 0.7373
+      },
+      {
+        "prompt": "A violin on table",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7542
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "87",
+    "source": "A guitar on chair in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A guitar on chair in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.685
+      },
+      {
+        "prompt": "A guitar on chair in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7729
+      },
+      {
+        "prompt": "A guitar on chair in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7176
+      },
+      {
+        "prompt": "A guitar on chair in pastel colors",
+        "mapping_type": "replace",
+        "replacement": "pastel colors",
+        "clip_score": 0.6077
+      },
+      {
+        "prompt": "A guitar on chair in pop art style",
+        "mapping_type": "replace",
+        "replacement": "pop art style",
+        "clip_score": 0.7222
+      },
+      {
+        "prompt": "A guitar on chair in surrealism",
+        "mapping_type": "replace",
+        "replacement": "surrealism",
+        "clip_score": 0.6777
+      },
+      {
+        "prompt": "A guitar on chair in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7193
+      },
+      {
+        "prompt": "A guitar on chair in charcoal drawing",
+        "mapping_type": "replace",
+        "replacement": "charcoal drawing",
+        "clip_score": 0.614
+      },
+      {
+        "prompt": "A guitar on chair in style",
+        "mapping_type": "replace",
+        "replacement": "style",
+        "clip_score": 0.6817
+      },
+      {
+        "prompt": "A guitar on chair",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6799
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "88",
+    "source": "A camera on tripod in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A camera on tripod in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.7411
+      },
+      {
+        "prompt": "A camera on tripod in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.7771
+      },
+      {
+        "prompt": "A camera on tripod in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7735
+      },
+      {
+        "prompt": "A camera on tripod in pastel colors",
+        "mapping_type": "replace",
+        "replacement": "pastel colors",
+        "clip_score": 0.6463
+      },
+      {
+        "prompt": "A camera on tripod in pop art style",
+        "mapping_type": "replace",
+        "replacement": "pop art style",
+        "clip_score": 0.7637
+      },
+      {
+        "prompt": "A camera on tripod in surrealism",
+        "mapping_type": "replace",
+        "replacement": "surrealism",
+        "clip_score": 0.7588
+      },
+      {
+        "prompt": "A camera on tripod in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7995
+      },
+      {
+        "prompt": "A camera on tripod in charcoal drawing",
+        "mapping_type": "replace",
+        "replacement": "charcoal drawing",
+        "clip_score": 0.6304
+      },
+      {
+        "prompt": "A camera on tripod in style",
+        "mapping_type": "replace",
+        "replacement": "style",
+        "clip_score": 0.7688
+      },
+      {
+        "prompt": "A camera on tripod",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7887
+      }
+    ],
+    "selected": 7
+  },
+  {
+    "id": "89",
+    "source": "A laptop on desk in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A laptop on desk in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.7337
+      },
+      {
+        "prompt": "A laptop on desk in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8121
+      },
+      {
+        "prompt": "A laptop on desk in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.777
+      },
+      {
+        "prompt": "A laptop on desk in pastel colors",
+        "mapping_type": "replace",
+        "replacement": "pastel colors",
+        "clip_score": 0.6426
+      },
+      {
+        "prompt": "A laptop on desk in pop art style",
+        "mapping_type": "replace",
+        "replacement": "pop art style",
+        "clip_score": 0.7839
+      },
+      {
+        "prompt": "A laptop on desk in surrealism",
+        "mapping_type": "replace",
+        "replacement": "surrealism",
+        "clip_score": 0.7449
+      },
+      {
+        "prompt": "A laptop on desk in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7605
+      },
+      {
+        "prompt": "A laptop on desk in charcoal drawing",
+        "mapping_type": "replace",
+        "replacement": "charcoal drawing",
+        "clip_score": 0.6812
+      },
+      {
+        "prompt": "A laptop on desk in style",
+        "mapping_type": "replace",
+        "replacement": "style",
+        "clip_score": 0.7123
+      },
+      {
+        "prompt": "A laptop on desk",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7253
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "90",
+    "source": "Glasses on a book in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "Glasses on a book in watercolor style",
+        "mapping_type": "replace",
+        "replacement": "watercolor style",
+        "clip_score": 0.7739
+      },
+      {
+        "prompt": "Glasses on a book in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.817
+      },
+      {
+        "prompt": "Glasses on a book in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7948
+      },
+      {
+        "prompt": "Glasses on a book in pastel colors",
+        "mapping_type": "replace",
+        "replacement": "pastel colors",
+        "clip_score": 0.7045
+      },
+      {
+        "prompt": "Glasses on a book in pop art style",
+        "mapping_type": "replace",
+        "replacement": "pop art style",
+        "clip_score": 0.8054
+      },
+      {
+        "prompt": "Glasses on a book in surrealism",
+        "mapping_type": "replace",
+        "replacement": "surrealism",
+        "clip_score": 0.7425
+      },
+      {
+        "prompt": "Glasses on a book in cubist style",
+        "mapping_type": "replace",
+        "replacement": "cubist style",
+        "clip_score": 0.7993
+      },
+      {
+        "prompt": "Glasses on a book in charcoal drawing",
+        "mapping_type": "replace",
+        "replacement": "charcoal drawing",
+        "clip_score": 0.6817
+      },
+      {
+        "prompt": "Glasses on a book in style",
+        "mapping_type": "replace",
+        "replacement": "style",
+        "clip_score": 0.7123
+      },
+      {
+        "prompt": "Glasses on a book",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7523
+      }
+    ],
+    "selected": 2
+  },
+  {
+    "id": "91",
+    "source": "A book open on desk in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A book open on desk in impressionist style",
+        "mapping_type": "replace",
+        "replacement": "impressionist style",
+        "clip_score": 0.8343
+      },
+      {
+        "prompt": "A book open on desk in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7742
+      },
+      {
+        "prompt": "A book open on desk in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.7384
+      },
+      {
+        "prompt": "A book open on desk in realistic style",
+        "mapping_type": "replace",
+        "replacement": "realistic style",
+        "clip_score": 0.7498
+      },
+      {
+        "prompt": "A book open on desk in futuristic style",
+        "mapping_type": "replace",
+        "replacement": "futuristic style",
+        "clip_score": 0.7249
+      },
+      {
+        "prompt": "A book open on desk in classic style",
+        "mapping_type": "replace",
+        "replacement": "classic style",
+        "clip_score": 0.7579
+      },
+      {
+        "prompt": "A book open on desk in surreal style",
+        "mapping_type": "replace",
+        "replacement": "surreal style",
+        "clip_score": 0.7896
+      },
+      {
+        "prompt": "A book open on desk in vibrant color style",
+        "mapping_type": "replace",
+        "replacement": "vibrant color style",
+        "clip_score": 0.7316
+      },
+      {
+        "prompt": "A book open on desk in art style",
+        "mapping_type": "replace",
+        "replacement": "art style",
+        "clip_score": 0.8089
+      },
+      {
+        "prompt": "A book open on desk",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7468
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "92",
+    "source": "A pizza on peel in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A pizza on peel in abstract style",
+        "mapping_type": "replace",
+        "replacement": "abstract style",
+        "clip_score": 0.7488
+      },
+      {
+        "prompt": "A pizza on peel in modern style",
+        "mapping_type": "replace",
+        "replacement": "modern style",
+        "clip_score": 0.6919
+      },
+      {
+        "prompt": "A pizza on peel in rustic style",
+        "mapping_type": "replace",
+        "replacement": "rustic style",
+        "clip_score": 0.6757
+      },
+      {
+        "prompt": "A pizza on peel in geometric style",
+        "mapping_type": "replace",
+        "replacement": "geometric style",
+        "clip_score": 0.6916
+      },
+      {
+        "prompt": "A pizza on peel in organic style",
+        "mapping_type": "replace",
+        "replacement": "organic style",
+        "clip_score": 0.7079
+      },
+      {
+        "prompt": "A pizza on peel in playful style",
+        "mapping_type": "replace",
+        "replacement": "playful style",
+        "clip_score": 0.6739
+      },
+      {
+        "prompt": "A pizza on peel in traditional style",
+        "mapping_type": "replace",
+        "replacement": "traditional style",
+        "clip_score": 0.71
+      },
+      {
+        "prompt": "A pizza on peel in colorful style",
+        "mapping_type": "replace",
+        "replacement": "colorful style",
+        "clip_score": 0.7221
+      },
+      {
+        "prompt": "A pizza on peel in food style",
+        "mapping_type": "replace",
+        "replacement": "food style",
+        "clip_score": 0.6938
+      },
+      {
+        "prompt": "A pizza on peel",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6894
+      }
+    ],
+    "selected": 1
+  },
+  {
+    "id": "93",
+    "source": "A burger on plate in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A burger on plate in modern style",
+        "mapping_type": "replace",
+        "replacement": "modern style",
+        "clip_score": 0.7837
+      },
+      {
+        "prompt": "A burger on plate in clean style",
+        "mapping_type": "replace",
+        "replacement": "clean style",
+        "clip_score": 0.7687
+      },
+      {
+        "prompt": "A burger on plate in classic style",
+        "mapping_type": "replace",
+        "replacement": "classic style",
+        "clip_score": 0.7948
+      },
+      {
+        "prompt": "A burger on plate in artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.8488
+      },
+      {
+        "prompt": "A burger on plate in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.7407
+      },
+      {
+        "prompt": "A burger on plate in vibrant style",
+        "mapping_type": "replace",
+        "replacement": "vibrant style",
+        "clip_score": 0.808
+      },
+      {
+        "prompt": "A burger on plate in playful style",
+        "mapping_type": "replace",
+        "replacement": "playful style",
+        "clip_score": 0.7599
+      },
+      {
+        "prompt": "A burger on plate in monochrome style",
+        "mapping_type": "replace",
+        "replacement": "monochrome style",
+        "clip_score": 0.6809
+      },
+      {
+        "prompt": "A burger on plate in food style",
+        "mapping_type": "replace",
+        "replacement": "food style",
+        "clip_score": 0.7962
+      },
+      {
+        "prompt": "A burger on plate",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7863
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "94",
+    "source": "A salad in bowl in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A salad in bowl in rustic style",
+        "mapping_type": "replace",
+        "replacement": "rustic style",
+        "clip_score": 0.8147
+      },
+      {
+        "prompt": "A salad in bowl in fresh style",
+        "mapping_type": "replace",
+        "replacement": "fresh style",
+        "clip_score": 0.8308
+      },
+      {
+        "prompt": "A salad in bowl in gourmet style",
+        "mapping_type": "replace",
+        "replacement": "gourmet style",
+        "clip_score": 0.8331
+      },
+      {
+        "prompt": "A salad in bowl in organic style",
+        "mapping_type": "replace",
+        "replacement": "organic style",
+        "clip_score": 0.8328
+      },
+      {
+        "prompt": "A salad in bowl in playful style",
+        "mapping_type": "replace",
+        "replacement": "playful style",
+        "clip_score": 0.7991
+      },
+      {
+        "prompt": "A salad in bowl in colorful style",
+        "mapping_type": "replace",
+        "replacement": "colorful style",
+        "clip_score": 0.8339
+      },
+      {
+        "prompt": "A salad in bowl in traditional style",
+        "mapping_type": "replace",
+        "replacement": "traditional style",
+        "clip_score": 0.8138
+      },
+      {
+        "prompt": "A salad in bowl in clean style",
+        "mapping_type": "replace",
+        "replacement": "clean style",
+        "clip_score": 0.8244
+      },
+      {
+        "prompt": "A salad in bowl in food style",
+        "mapping_type": "replace",
+        "replacement": "food style",
+        "clip_score": 0.8375
+      },
+      {
+        "prompt": "A salad in bowl",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.821
+      }
+    ],
+    "selected": 9
+  },
+  {
+    "id": "95",
+    "source": "A wine bottle on table in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A wine bottle on table in modern style",
+        "mapping_type": "replace",
+        "replacement": "modern style",
+        "clip_score": 0.7098
+      },
+      {
+        "prompt": "A wine bottle on table in vintage style",
+        "mapping_type": "replace",
+        "replacement": "vintage style",
+        "clip_score": 0.7227
+      },
+      {
+        "prompt": "A wine bottle on table in classic style",
+        "mapping_type": "replace",
+        "replacement": "classic style",
+        "clip_score": 0.7134
+      },
+      {
+        "prompt": "A wine bottle on table in artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.7713
+      },
+      {
+        "prompt": "A wine bottle on table in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.6824
+      },
+      {
+        "prompt": "A wine bottle on table in rustic style",
+        "mapping_type": "replace",
+        "replacement": "rustic style",
+        "clip_score": 0.7096
+      },
+      {
+        "prompt": "A wine bottle on table in elegant style",
+        "mapping_type": "replace",
+        "replacement": "elegant style",
+        "clip_score": 0.6922
+      },
+      {
+        "prompt": "A wine bottle on table in contemporary style",
+        "mapping_type": "replace",
+        "replacement": "contemporary style",
+        "clip_score": 0.7007
+      },
+      {
+        "prompt": "A wine bottle on table in item style",
+        "mapping_type": "replace",
+        "replacement": "item style",
+        "clip_score": 0.674
+      },
+      {
+        "prompt": "A wine bottle on table",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6876
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "96",
+    "source": "A teapot on stove in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A teapot on stove in antique style",
+        "mapping_type": "replace",
+        "replacement": "antique style",
+        "clip_score": 0.7742
+      },
+      {
+        "prompt": "A teapot on stove in vibrant style",
+        "mapping_type": "replace",
+        "replacement": "vibrant style",
+        "clip_score": 0.7858
+      },
+      {
+        "prompt": "A teapot on stove in modern style",
+        "mapping_type": "replace",
+        "replacement": "modern style",
+        "clip_score": 0.7279
+      },
+      {
+        "prompt": "A teapot on stove in colorful style",
+        "mapping_type": "replace",
+        "replacement": "colorful style",
+        "clip_score": 0.7512
+      },
+      {
+        "prompt": "A teapot on stove in traditional style",
+        "mapping_type": "replace",
+        "replacement": "traditional style",
+        "clip_score": 0.7597
+      },
+      {
+        "prompt": "A teapot on stove in artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.8081
+      },
+      {
+        "prompt": "A teapot on stove in contemporary style",
+        "mapping_type": "replace",
+        "replacement": "contemporary style",
+        "clip_score": 0.7257
+      },
+      {
+        "prompt": "A teapot on stove in playful style",
+        "mapping_type": "replace",
+        "replacement": "playful style",
+        "clip_score": 0.7339
+      },
+      {
+        "prompt": "A teapot on stove in object style",
+        "mapping_type": "replace",
+        "replacement": "object style",
+        "clip_score": 0.7409
+      },
+      {
+        "prompt": "A teapot on stove",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7625
+      }
+    ],
+    "selected": 6
+  },
+  {
+    "id": "97",
+    "source": "A frying pan on burner in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A frying pan on burner in modern style",
+        "mapping_type": "replace",
+        "replacement": "modern style",
+        "clip_score": 0.6938
+      },
+      {
+        "prompt": "A frying pan on burner in vintage style",
+        "mapping_type": "replace",
+        "replacement": "vintage style",
+        "clip_score": 0.7336
+      },
+      {
+        "prompt": "A frying pan on burner in artistic style",
+        "mapping_type": "replace",
+        "replacement": "artistic style",
+        "clip_score": 0.7837
+      },
+      {
+        "prompt": "A frying pan on burner in minimalist style",
+        "mapping_type": "replace",
+        "replacement": "minimalist style",
+        "clip_score": 0.6988
+      },
+      {
+        "prompt": "A frying pan on burner in colorful style",
+        "mapping_type": "replace",
+        "replacement": "colorful style",
+        "clip_score": 0.7068
+      },
+      {
+        "prompt": "A frying pan on burner in playful style",
+        "mapping_type": "replace",
+        "replacement": "playful style",
+        "clip_score": 0.6916
+      },
+      {
+        "prompt": "A frying pan on burner in clean style",
+        "mapping_type": "replace",
+        "replacement": "clean style",
+        "clip_score": 0.655
+      },
+      {
+        "prompt": "A frying pan on burner in sleek style",
+        "mapping_type": "replace",
+        "replacement": "sleek style",
+        "clip_score": 0.6727
+      },
+      {
+        "prompt": "A frying pan on burner in kitchen style",
+        "mapping_type": "replace",
+        "replacement": "kitchen style",
+        "clip_score": 0.7145
+      },
+      {
+        "prompt": "A frying pan on burner",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6972
+      }
+    ],
+    "selected": 3
+  },
+  {
+    "id": "98",
+    "source": "A soccer match in park in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A soccer match in park in lively style",
+        "mapping_type": "replace",
+        "replacement": "lively style",
+        "clip_score": 0.6846
+      },
+      {
+        "prompt": "A soccer match in park in realistic style",
+        "mapping_type": "replace",
+        "replacement": "realistic style",
+        "clip_score": 0.6892
+      },
+      {
+        "prompt": "A soccer match in park in dynamic style",
+        "mapping_type": "replace",
+        "replacement": "dynamic style",
+        "clip_score": 0.6866
+      },
+      {
+        "prompt": "A soccer match in park in colorful style",
+        "mapping_type": "replace",
+        "replacement": "colorful style",
+        "clip_score": 0.7238
+      },
+      {
+        "prompt": "A soccer match in park in energetic style",
+        "mapping_type": "replace",
+        "replacement": "energetic style",
+        "clip_score": 0.6776
+      },
+      {
+        "prompt": "A soccer match in park in playful style",
+        "mapping_type": "replace",
+        "replacement": "playful style",
+        "clip_score": 0.7022
+      },
+      {
+        "prompt": "A soccer match in park in vibrant style",
+        "mapping_type": "replace",
+        "replacement": "vibrant style",
+        "clip_score": 0.7235
+      },
+      {
+        "prompt": "A soccer match in park in fun style",
+        "mapping_type": "replace",
+        "replacement": "fun style",
+        "clip_score": 0.6762
+      },
+      {
+        "prompt": "A soccer match in park in sport style",
+        "mapping_type": "replace",
+        "replacement": "sport style",
+        "clip_score": 0.6984
+      },
+      {
+        "prompt": "A soccer match in park",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.693
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "99",
+    "source": "A basketball game in gym in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A basketball game in gym in lively style",
+        "mapping_type": "replace",
+        "replacement": "lively style",
+        "clip_score": 0.6923
+      },
+      {
+        "prompt": "A basketball game in gym in energetic style",
+        "mapping_type": "replace",
+        "replacement": "energetic style",
+        "clip_score": 0.6866
+      },
+      {
+        "prompt": "A basketball game in gym in dynamic style",
+        "mapping_type": "replace",
+        "replacement": "dynamic style",
+        "clip_score": 0.6978
+      },
+      {
+        "prompt": "A basketball game in gym in colorful style",
+        "mapping_type": "replace",
+        "replacement": "colorful style",
+        "clip_score": 0.715
+      },
+      {
+        "prompt": "A basketball game in gym in realistic style",
+        "mapping_type": "replace",
+        "replacement": "realistic style",
+        "clip_score": 0.6879
+      },
+      {
+        "prompt": "A basketball game in gym in playful style",
+        "mapping_type": "replace",
+        "replacement": "playful style",
+        "clip_score": 0.6985
+      },
+      {
+        "prompt": "A basketball game in gym in intense style",
+        "mapping_type": "replace",
+        "replacement": "intense style",
+        "clip_score": 0.6875
+      },
+      {
+        "prompt": "A basketball game in gym in sport style",
+        "mapping_type": "replace",
+        "replacement": "sport style",
+        "clip_score": 0.7139
+      },
+      {
+        "prompt": "A basketball game in gym in activity style",
+        "mapping_type": "replace",
+        "replacement": "activity style",
+        "clip_score": 0.6778
+      },
+      {
+        "prompt": "A basketball game in gym",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.6715
+      }
+    ],
+    "selected": 4
+  },
+  {
+    "id": "100",
+    "source": "A tennis serve in court in Van Gogh Style",
+    "candidates": [
+      {
+        "prompt": "A tennis serve in court in dynamic style",
+        "mapping_type": "replace",
+        "replacement": "dynamic style",
+        "clip_score": 0.7507
+      },
+      {
+        "prompt": "A tennis serve in court in energetic style",
+        "mapping_type": "replace",
+        "replacement": "energetic style",
+        "clip_score": 0.7425
+      },
+      {
+        "prompt": "A tennis serve in court in sporty style",
+        "mapping_type": "replace",
+        "replacement": "sporty style",
+        "clip_score": 0.7264
+      },
+      {
+        "prompt": "A tennis serve in court in lively style",
+        "mapping_type": "replace",
+        "replacement": "lively style",
+        "clip_score": 0.7584
+      },
+      {
+        "prompt": "A tennis serve in court in vibrant style",
+        "mapping_type": "replace",
+        "replacement": "vibrant style",
+        "clip_score": 0.769
+      },
+      {
+        "prompt": "A tennis serve in court in playful style",
+        "mapping_type": "replace",
+        "replacement": "playful style",
+        "clip_score": 0.7323
+      },
+      {
+        "prompt": "A tennis serve in court in fun style",
+        "mapping_type": "replace",
+        "replacement": "fun style",
+        "clip_score": 0.7481
+      },
+      {
+        "prompt": "A tennis serve in court in action style",
+        "mapping_type": "replace",
+        "replacement": "action style",
+        "clip_score": 0.7525
+      },
+      {
+        "prompt": "A tennis serve in court in sport style",
+        "mapping_type": "replace",
+        "replacement": "sport style",
+        "clip_score": 0.7342
+      },
+      {
+        "prompt": "A tennis serve in court",
+        "mapping_type": "remove",
+        "replacement": "none",
+        "clip_score": 0.7506
+      }
+    ],
+    "selected": 5
+  }
+]
