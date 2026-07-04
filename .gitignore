@@ -6,3 +6,10 @@ __pycache__/
 .cache/
 .ipynb_checkpoints/
 *.pdf
+prompts/*/map_model.csv
+prompts/*/candidates_model_scores.json
+prompts/*/map_clip.csv
+prompts/*/related_score.txt
+prompts/*/related_concepts_score_top10.txt
+prompts/*/related_clip.txt
+prompts/*/related_concepts_clip_top10.txt

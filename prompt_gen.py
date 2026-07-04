@@ -714,33 +714,28 @@ def validate_payload(payload: Dict[str, Any], concept: str, n: int) -> Tuple[int
 
     return len(payload["train_pairs"]), len(payload["validation_prompts"])
 
-def save_outputs(base_dir: Path, data: Dict[str, Any], suffix: str = None) -> None:
+def save_outputs(base_dir: Path, data: Dict[str, Any]) -> None:
     base_dir.mkdir(parents=True, exist_ok=True)
     # Full JSON
     with open(base_dir / "dataset.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    # Determine filenames with optional suffix
-    train_filename = f"train_{suffix}.csv" if suffix else "train.csv"
-    map_filename = f"map_{suffix}.csv" if suffix else "map.csv"
-    val_filename = f"val_{suffix}.csv" if suffix else "val.csv"
-
     # Train (source)
-    with open(base_dir / train_filename, "w", newline="", encoding="utf-8") as f1:
+    with open(base_dir / "train.csv", "w", newline="", encoding="utf-8") as f1:
         w = csv.writer(f1)
         w.writerow(["id", "prompt"])
         for p in data["train_pairs"]:
             w.writerow([p["id"], p["src"]])
 
     # Train (mapped)
-    with open(base_dir / map_filename, "w", newline="", encoding="utf-8") as f2:
+    with open(base_dir / "map.csv", "w", newline="", encoding="utf-8") as f2:
         w = csv.writer(f2)
         w.writerow(["id", "prompt", "mapping_type", "note"])
         for p in data["train_pairs"]:
             w.writerow([p["id"], p["mapped"], p["mapping_type"], p["note"]])
 
     # Validation
-    with open(base_dir / val_filename, "w", newline="", encoding="utf-8") as fv:
+    with open(base_dir / "val.csv", "w", newline="", encoding="utf-8") as fv:
         w = csv.writer(fv)
         w.writerow(["id", "prompt"])
         for i, s in enumerate(data["validation_prompts"], 1):
@@ -909,12 +904,11 @@ def main():
     ap = argparse.ArgumentParser(description="Generate SD prompts + mapped counterparts via OpenAI.")
     ap.add_argument("--concept", required=True, help="Concept string (object/animal/person/style/safety term).")
     ap.add_argument("--task", choices=["mapped", "related", "fixed_map", "nudity"], required=True, help="Task type: 'mapped' produces JSON dataset; 'related' produces prompts-only; 'nudity' for nudity unlearning.")
-    ap.add_argument("--n", type=int, help="Number of TRAIN prompt pairs.")
+    ap.add_argument("--n", type=int, default=100, help="Number of TRAIN prompt pairs.")
     ap.add_argument("--model", default="gpt-4o-mini", help="OpenAI model (e.g., gpt-4o-mini, gpt-4o).")
     ap.add_argument("--max_tokens", type=int, default=25000, help="Max tokens for completion.")
-    ap.add_argument("--out_root", default="prompts_new", help="Root output directory.")
+    ap.add_argument("--out_root", default="prompts", help="Root output directory.")
     ap.add_argument("--map_to", help="Fixed target concept for mapped prompts (e.g., 'cat'). Required for --task mapped.")
-    ap.add_argument("--suffix", help="Optional suffix to append to output filenames (e.g., train_50.csv).")
     args = ap.parse_args()
 
     slug = slugify(args.concept)
@@ -944,7 +938,7 @@ def main():
         train_len, val_len = validate_payload(payload, args.concept, args.n)
 
         # Save
-        save_outputs(out_dir, payload, args.suffix)
+        save_outputs(out_dir, payload)
 
         print(f"[OK] concept={args.concept!r}  train={train_len}  val={val_len}")
         print(f"Saved to: {out_dir.resolve()}")
@@ -973,7 +967,7 @@ def main():
             raise RuntimeError(f"Failed to parse JSON from model output: {e}") from e
 
         train_len, val_len = validate_payload(payload, args.concept, args.n)
-        save_outputs(out_dir, payload, args.suffix)
+        save_outputs(out_dir, payload)
         print(f"[OK] concept={args.concept!r}  map_to={args.map_to!r}  train={train_len}  val={val_len}")
         print(f"Saved to: {out_dir.resolve()}")
 
@@ -1007,7 +1001,7 @@ def main():
             payload["validation_count"] = len(payload.get("validation_prompts", []))
 
         train_len, val_len = validate_payload(payload, args.concept, args.n)
-        save_outputs(out_dir, payload, args.suffix)
+        save_outputs(out_dir, payload)
         print(f"[OK] concept={args.concept!r} (nudity unlearning)  train={train_len}  val={val_len}")
         print(f"Saved to: {out_dir.resolve()}")
 

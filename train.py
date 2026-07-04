@@ -38,7 +38,7 @@ def parse_args():
     # --- Unlearning & Preservation Config ---
     parser.add_argument("--forget_prompts_path", type=str, required=True, help="Path to a text file containing prompts for the concept to unlearn.")
     parser.add_argument("--retain_prompts_path", type=str, required=True, help="Path to a text file containing prompts for preservation.")
-    parser.add_argument("--neutral_prompts_path", type=str, required=True, help="Path to score-selected neutral mapping prompts, aligned with forget prompts.")
+    parser.add_argument("--map_prompts_path", type=str, required=True, help="Path to score-selected mapping prompts, aligned with forget prompts.")
     # --- Loss Configuration ---
     parser.add_argument("--lambda_unlearn", type=float, default=1.0, help="Weight for the unlearning loss.")
     parser.add_argument("--lambda_preserve", type=float, default=1.0, help="Weight for the preservation loss.")
@@ -87,16 +87,6 @@ def parse_args():
         help=("Maximum timestep index (inclusive) to sample during UNLEARNING. "
             "Examples: 50, 100, 150, 300. If None, uses the scheduler's max (e.g., 999).")
     )
-    parser.add_argument(
-        "--unlearning_cutoff", type=int, default=200,
-        help="Upper bound (inclusive) for the early-biased bucket used with --unlearning_bias."
-    )
-    parser.add_argument(
-        "--unlearning_bias", type=float, default=0.7,
-        help=("Probability to bias UNLEARNING sampling toward earlier steps. "
-            "If >0, with this probability we sample from "
-            "[unlearning_t_min, min(unlearning_t_early_cutoff, unlearning_t_max)].")
-    )
 
     return parser.parse_args()
 
@@ -104,22 +94,15 @@ def parse_args():
 def make_replay_scheduler(base_model_path: str):
     return DDIMScheduler.from_pretrained(base_model_path, subfolder="scheduler")
 
-def sample_timesteps(bs, T, device, t_min=0, t_max=None, early_bias_p=0.0, early_cutoff=200):
+def sample_timesteps(bs, T, device, t_min=0, t_max=None):
     """
     Sample diffusion timesteps for training.
     - [t_min, t_max] are INCLUSIVE bounds (int indices).
-    - If early_bias_p > 0, with that probability we sample from the 'early' bucket:
-      [t_min, min(early_cutoff, t_max)].
     """
     t_min = max(0, int(t_min))
     t_max = int(T - 1 if t_max is None else min(t_max, T - 1))
     if t_min > t_max:
         raise ValueError(f"Invalid timestep range: t_min={t_min} > t_max={t_max} (T={T})")
-
-    # Early-bias bucket
-    if early_bias_p > 0.0 and torch.rand(1, device=device) < early_bias_p:
-        hi = min(early_cutoff, t_max)
-        return torch.randint(t_min, hi + 1, (bs,), device=device)  # inclusive hi
 
     # Uniform in [t_min, t_max] (inclusive)
     return torch.randint(t_min, t_max + 1, (bs,), device=device)
@@ -191,20 +174,22 @@ def main():
     text_encoder = CLIPTextModel.from_pretrained(model_path, subfolder="text_encoder")
     vae = AutoencoderKL.from_pretrained(model_path, subfolder="vae")
 
-    # Student Model (the one we train)
+    # Student M_t starts from the previous continual checkpoint M_{t-1}.
+    # LACU only updates the UNet; text encoder and VAE stay fixed.
     student_unet = UNet2DConditionModel.from_pretrained(model_path, subfolder="unet")
 
-    # Previous Task Teacher (frozen, for unlearning loss)
+    # Frozen teacher M_{t-1}. It provides both score-space targets:
+    # 1) local unlearning target: teacher(for selected mapping prompt)
+    # 2) local replay target: teacher(for nearby retain prompts)
+    # A separate base_teacher_unet is unnecessary here because both roles use
+    # the same previous-step checkpoint in the released LACU training flow.
     previous_task_unet = UNet2DConditionModel.from_pretrained(model_path, subfolder="unet")
 
-    # Base Teacher (frozen, for preservation loss)
-    base_teacher_unet = UNet2DConditionModel.from_pretrained(model_path, subfolder="unet")
-
-    # Freeze all teacher models and non-UNet components
+    # Freeze all teacher/non-UNet components. Gradients should only update the
+    # student UNet so the optimization matches the paper losses directly.
     vae.requires_grad_(False)
     text_encoder.requires_grad_(False)
     previous_task_unet.requires_grad_(False)
-    base_teacher_unet.requires_grad_(False)
 
     # --- Setup Optimizer and Scheduler ---
     optimizer = torch.optim.AdamW(
@@ -232,7 +217,6 @@ def main():
     )
 
     previous_task_unet.to(accelerator.device)
-    base_teacher_unet.to(accelerator.device)
     text_encoder.to(accelerator.device)
     vae.to(accelerator.device)
 
@@ -242,12 +226,15 @@ def main():
     logger.info(f"Loaded {len(retain_prompts)} prompts for preservation.")
     logger.info(f"Loaded {len(forget_prompts)} prompts for the concept to unlearn.")
 
-    neutral_prompts = load_prompts_from_file(args.neutral_prompts_path)
-    logger.info(f"Loaded {len(neutral_prompts)} score-selected neutral prompts.")
-    if len(forget_prompts) != len(neutral_prompts):
-        raise ValueError("The forget prompts file and neutral prompts file must have the same number of lines.")
+    map_prompts = load_prompts_from_file(args.map_prompts_path)
+    logger.info(f"Loaded {len(map_prompts)} score-selected mapping prompts.")
+    if len(forget_prompts) != len(map_prompts):
+        raise ValueError("The forget prompts file and mapping prompts file must have the same number of lines.")
 
     # --- Setup Generative Replay Pipeline ---
+    # Local replay samples latents from M_{t-1} for related retain prompts.
+    # The preservation loss then asks the student to keep the same score
+    # predictions on those nearby concepts, limiting locality damage.
     replay_pipeline = StableDiffusionPipeline(
         vae=vae,
         text_encoder=text_encoder,
@@ -267,7 +254,10 @@ def main():
     while global_step < args.max_train_steps:
         student_unet.train()
         with accelerator.accumulate(student_unet):
-            # 1. PRESERVATION STEP
+            # 1. LOCAL PRESERVATION / REPLAY
+            # Related retain prompts are selected before training by trajectory
+            # similarity. Distilling M_{t-1} on these prompts protects concepts
+            # close to the erased one, which is the locality term in LACU.
             with torch.no_grad():
                 current_retain_prompts = [random.choice(retain_prompts) for _ in range(args.train_batch_size)]
                 replay_latents = replay_pipeline(
@@ -286,16 +276,21 @@ def main():
                 retain_embeds = text_encoder(retain_input_ids.to(accelerator.device)).last_hidden_state
 
             student_pred_preserve = student_unet(noisy_latents_preserve, timesteps_preserve, retain_embeds).sample
-            base_teacher_pred_preserve = base_teacher_unet(noisy_latents_preserve, timesteps_preserve, retain_embeds).sample
+            teacher_pred_preserve = previous_task_unet(noisy_latents_preserve, timesteps_preserve, retain_embeds).sample
 
-            loss_preserve = get_preservation_loss(student_pred_preserve, base_teacher_pred_preserve)
+            loss_preserve = get_preservation_loss(student_pred_preserve, teacher_pred_preserve)
 
-            # 2. UNLEARNING STEP
+            # 2. LOCAL UNLEARNING
+            # Each forget prompt is paired with a score-selected mapping prompt.
+            # On the same noisy latent, the student conditioned on the forget
+            # prompt is trained to match M_{t-1} conditioned on the mapping
+            # prompt. This moves the erased concept locally instead of forcing
+            # every prompt toward one global anchor.
             with torch.no_grad():
-                # Sample paired forget/neutral prompts
+                # Sample paired forget/mapping prompts
                 indices = [random.randint(0, len(forget_prompts) - 1) for _ in range(args.train_batch_size)]
                 current_forget_prompts = [forget_prompts[i] for i in indices]
-                current_neutral_prompts = [neutral_prompts[i] for i in indices]
+                current_map_prompts = [map_prompts[i] for i in indices]
                 latents_unlearn = replay_pipeline(
                     prompt=current_forget_prompts,
                     num_inference_steps=args.num_inference_steps_replay,
@@ -313,27 +308,27 @@ def main():
                     device=accelerator.device,
                     t_min=args.unlearning_t_min,
                     t_max=args.unlearning_t_max,
-                    early_bias_p=args.unlearning_bias,
-                    early_cutoff=args.unlearning_cutoff,
                 )
                 noisy_latents_unlearn = noise_scheduler.add_noise(latents_unlearn, noise_unlearn, timesteps_unlearn)
 
                 forget_input_ids = tokenizer(current_forget_prompts, padding="max_length", truncation=True, max_length=tokenizer.model_max_length, return_tensors="pt").input_ids
                 forget_embeds = text_encoder(forget_input_ids.to(accelerator.device)).last_hidden_state
 
-                neutral_input_ids = tokenizer(current_neutral_prompts, padding="max_length", truncation=True, max_length=tokenizer.model_max_length, return_tensors="pt").input_ids
-                neutral_embeds = text_encoder(neutral_input_ids.to(accelerator.device)).last_hidden_state
+                map_input_ids = tokenizer(current_map_prompts, padding="max_length", truncation=True, max_length=tokenizer.model_max_length, return_tensors="pt").input_ids
+                map_embeds = text_encoder(map_input_ids.to(accelerator.device)).last_hidden_state
 
             student_pred_unlearn = student_unet(noisy_latents_unlearn, timesteps_unlearn, forget_embeds).sample
-            previous_task_pred_neutral = previous_task_unet(noisy_latents_unlearn, timesteps_unlearn, neutral_embeds).sample
+            previous_task_pred_map = previous_task_unet(noisy_latents_unlearn, timesteps_unlearn, map_embeds).sample
 
-            loss_unlearn = get_unlearning_loss(student_pred_unlearn, previous_task_pred_neutral)
+            loss_unlearn = get_unlearning_loss(student_pred_unlearn, previous_task_pred_map)
 
-            # 3. REGULARIZATION STEP
+            # 3. PARAMETER REGULARIZATION
+            # This lightweight L2 penalty keeps M_t close to M_{t-1}, reducing
+            # accumulated drift across the continual deletion sequence.
             student_raw = accelerator.unwrap_model(student_unet)
             loss_reg = get_regularization_loss(student_raw, previous_task_unet)
 
-            # 4. COMBINE LOSSES AND UPDATE
+            # 4. COMBINE LACU OBJECTIVE TERMS AND UPDATE STUDENT
             total_loss = (
                 args.lambda_preserve * loss_preserve +
                 args.lambda_unlearn * loss_unlearn +
@@ -361,9 +356,7 @@ def main():
                     "loss_reg": float(loss_reg.detach().item()),
                     "lr": float(lr_scalar),
                     "unlearning_timestep_sampling": (
-                        f"[{args.unlearning_t_min}, {args.unlearning_t_max}] inclusive; "
-                        f"early_bias_p={args.unlearning_bias}, "
-                        f"early_cutoff={args.unlearning_cutoff}"
+                        f"[{args.unlearning_t_min}, {args.unlearning_t_max}] inclusive"
                     ),
                 }
                 accelerator.log(logs, step=global_step)   # this feeds W&B/TB

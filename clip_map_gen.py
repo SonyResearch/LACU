@@ -3,8 +3,8 @@
 """
 CLIP-based mapping prompt generator.
 
-For each concept in prompts_new/:
-  1. Reads train_100.csv (source prompts for the concept to unlearn).
+For each concept in prompts/:
+  1. Reads train.csv (source prompts for the concept to unlearn).
   2. For each source prompt, calls OpenAI to generate 10 candidate mapping
      prompts (concept replaced or removed), including one "removal-only" variant.
   3. Computes CLIP text-similarity between the source prompt and each candidate.
@@ -110,7 +110,7 @@ def extract_json_block(s: str) -> str:
 
 
 def read_train_csv(path: Path) -> List[Dict[str, str]]:
-    """Read train_100.csv → list of {id, prompt}."""
+    """Read train.csv → list of {id, prompt}."""
     rows = []
     with open(path, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
@@ -329,7 +329,7 @@ def process_concept(
     """Process a single concept: generate candidates, score, save best."""
     slug = slugify(concept)
     concept_dir = prompts_root / slug
-    train_csv = concept_dir / "train_100.csv"
+    train_csv = concept_dir / "train.csv"
 
     if not train_csv.exists():
         print(f"[SKIP] {concept} – {train_csv} not found.")
@@ -490,10 +490,10 @@ def process_concept(
 
 
 def get_all_concepts(prompts_root: Path) -> List[str]:
-    """Discover all concept folders under prompts_root that have train_100.csv."""
+    """Discover all concept folders under prompts_root that have train.csv."""
     concepts = []
     for d in sorted(prompts_root.iterdir()):
-        if d.is_dir() and (d / "train_100.csv").exists():
+        if d.is_dir() and (d / "train.csv").exists():
             concepts.append(d.name)
     return concepts
 
@@ -506,7 +506,7 @@ def main():
         "--concept",
         default=None,
         help="Single concept to process (folder name or display name). "
-             "If omitted, processes ALL concepts in prompts_new/.",
+             "If omitted, processes ALL concepts in prompts/.",
     )
     ap.add_argument(
         "--model",
@@ -526,7 +526,7 @@ def main():
     )
     ap.add_argument(
         "--prompts_root",
-        default="prompts_new",
+        default="prompts",
         help="Root directory containing concept folders.",
     )
     ap.add_argument(
@@ -569,7 +569,7 @@ def main():
     else:
         concepts = get_all_concepts(prompts_root)
         if not concepts:
-            print("No concept folders with train_100.csv found.", file=sys.stderr)
+            print("No concept folders with train.csv found.", file=sys.stderr)
             sys.exit(1)
         print(f"Found {len(concepts)} concepts: {', '.join(concepts)}")
 

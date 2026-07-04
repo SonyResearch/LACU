@@ -3,17 +3,17 @@ import torch.nn.functional as F
 
 
 def get_unlearning_loss(student_pred, teacher_pred):
-    """LACU unlearning loss: match forget-prompt predictions to neutral-target predictions."""
+    """Match student forget-prompt scores to M_{t-1} neutral-target scores."""
     return F.mse_loss(student_pred.float(), teacher_pred.detach().float(), reduction="mean")
 
 
 def get_preservation_loss(student_pred, teacher_pred):
-    """LACU preservation loss: distill retain-prompt predictions from the base teacher."""
+    """Distill M_{t-1} on local retain prompts to preserve nearby concepts."""
     return F.mse_loss(student_pred.float(), teacher_pred.detach().float(), reduction="mean")
 
 
 def get_regularization_loss(student_model, teacher_model):
-    """Parameter-space L2 regularization against the previous continual step."""
+    """Parameter-space L2 regularization against previous checkpoint M_{t-1}."""
     l2_loss = 0.0
     student_params = dict(student_model.named_parameters())
     teacher_params = dict(teacher_model.named_parameters())

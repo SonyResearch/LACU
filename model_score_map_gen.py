@@ -1129,7 +1129,7 @@ def process_concept_cont_emb(
     Saves:
       - ``target_embeddings.pt``: dict mapping prompt-id → (1,S,D) tensor
       - ``neutral_embeddings.pt``: **ordered** stacked tensor (N,S,D)
-        index-aligned with ``train_100.csv`` / ``candidates_clip.json``
+        index-aligned with ``train.csv`` / ``candidates_clip.json``
         for direct use in training (load & index by position).
       - ``map_cont_emb_detail.json``: per-prompt metadata (weights, loss,
         nearest-text decode for inspection)
@@ -1268,7 +1268,7 @@ def main():
     )
     ap.add_argument(
         "--prompts_root",
-        default="prompts_new",
+        default="prompts",
         help="Root directory containing concept folders.",
     )
     ap.add_argument(

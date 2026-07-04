@@ -113,7 +113,7 @@ def clean_eval_df(df: pd.DataFrame) -> pd.DataFrame:
     return out[(out["concept"] != "") & (out["prompt"] != "")]
 
 
-def load_extra_prompts(root: Path, filename: str = "val_100.csv") -> pd.DataFrame:
+def load_extra_prompts(root: Path, filename: str = "val.csv") -> pd.DataFrame:
     rows = []
     if not root.is_dir():
         return pd.DataFrame(columns=["concept", "prompt"])
@@ -304,7 +304,7 @@ def main():
     parser.add_argument("--output_root", default="eval_outputs", help="Directory for images and metrics.")
     parser.add_argument("--gpu", type=int, default=0, help="GPU id for SD and CLIP.")
     parser.add_argument("--log_file", default=None, help="Optional evaluation log path.")
-    parser.add_argument("--prompts_extra_root", default="prompts_new", help="Folder with per-concept val_100.csv files.")
+    parser.add_argument("--prompts_extra_root", default="prompts", help="Folder with per-concept val.csv files.")
     parser.add_argument("--disable_prompts_extra", action="store_true", help="Use only --prompts_csv.")
     parser.add_argument("--skip_generation", action="store_true", help="Reuse existing images and manifests.")
     parser.add_argument("--skip_clip", action="store_true", help="Skip CLIP scoring.")

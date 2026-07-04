@@ -5,19 +5,16 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 BASE_MODEL="${BASE_MODEL:-runwayml/stable-diffusion-v1-5}"
 OUTPUT_ROOT="${OUTPUT_ROOT:-$SCRIPT_DIR/outputs/lacu_sd15_10}"
-PROMPTS_ROOT="${PROMPTS_ROOT:-$SCRIPT_DIR/prompts_new}"
+PROMPTS_ROOT="${PROMPTS_ROOT:-$SCRIPT_DIR/prompts}"
 OPENAI_MODEL="${OPENAI_MODEL:-gpt-4o-mini}"
 MAIN_PROCESS_PORT="${MAIN_PROCESS_PORT:-0}"
-ACCELERATE_NUM_PROCESSES="${ACCELERATE_NUM_PROCESSES:-1}"
+ACCELERATE_NUM_PROCESSES="${ACCELERATE_NUM_PROCESSES:-3}"
 
 MIXED_PRECISION="${MIXED_PRECISION:-fp16}"
 TRAIN_BATCH_SIZE="${TRAIN_BATCH_SIZE:-18}"
 GRADIENT_ACCUMULATION_STEPS="${GRADIENT_ACCUMULATION_STEPS:-2}"
 LR_SCHEDULER="${LR_SCHEDULER:-constant_with_warmup}"
 T_MAX="${T_MAX:-600}"
-T_CUTOFF="${T_CUTOFF:-600}"
-T_BIAS="${T_BIAS:-1.0}"
-NUM_MAPPING_PROMPTS="${NUM_MAPPING_PROMPTS:-100}"
 MAP_K="${MAP_K:-32}"
 RETAIN_K="${RETAIN_K:-16}"
 
@@ -64,7 +61,7 @@ require_file() {
 ensure_forget_prompts() {
   local concept="$1"
   local concept_dir="$PROMPTS_ROOT/$concept"
-  local train_csv="$concept_dir/train_${NUM_MAPPING_PROMPTS}.csv"
+  local train_csv="$concept_dir/train.csv"
 
   if [[ -f "$train_csv" ]]; then
     return
@@ -78,8 +75,6 @@ ensure_forget_prompts() {
   python "$SCRIPT_DIR/prompt_gen.py" \
     --concept "$(display_name "$concept")" \
     --task mapped \
-    --n "$NUM_MAPPING_PROMPTS" \
-    --suffix "$NUM_MAPPING_PROMPTS" \
     --model "$OPENAI_MODEL" \
     --out_root "$PROMPTS_ROOT"
 }
@@ -95,7 +90,7 @@ ensure_mapping() {
 
   if [[ ! -f "$candidates_json" ]]; then
     if [[ -z "${OPENAI_API_KEY:-}" ]]; then
-      echo "[fatal] $candidates_json is missing and OPENAI_API_KEY is not set." >&2
+      echo "[fatal] $map_csv and $candidates_json are missing, and OPENAI_API_KEY is not set." >&2
       exit 1
     fi
     python "$SCRIPT_DIR/clip_map_gen.py" \
@@ -105,30 +100,35 @@ ensure_mapping() {
       --save_candidates
   fi
 
-  if [[ ! -f "$map_csv" ]]; then
-    python "$SCRIPT_DIR/model_score_map_gen.py" \
-      --mode discrete \
-      --K "$MAP_K" \
-      --concept "$concept" \
-      --model_path "$model_path" \
-      --prompts_root "$PROMPTS_ROOT"
-  fi
+  echo "[prepare] Generating score-selected mapping prompts for $concept using $model_path" >&2
+  python "$SCRIPT_DIR/model_score_map_gen.py" \
+    --mode discrete \
+    --K "$MAP_K" \
+    --concept "$concept" \
+    --model_path "$model_path" \
+    --prompts_root "$PROMPTS_ROOT"
 }
 
 ensure_retain_prompts() {
   local model_path="$1"
   local concept="$2"
-  local retain_txt="$PROMPTS_ROOT/$concept/related_score.txt"
-
-  if [[ -f "$retain_txt" ]]; then
-    return
-  fi
+  local concept_dir="$PROMPTS_ROOT/$concept"
+  local retain_txt="$concept_dir/related_score.txt"
+  local retain_rank_txt="$concept_dir/related_concepts_score_top10.txt"
+  local related_concepts_txt="$concept_dir/related_concepts.txt"
 
   if [[ -z "${OPENAI_API_KEY:-}" ]]; then
-    echo "[fatal] $retain_txt is missing and OPENAI_API_KEY is not set." >&2
+    echo "[fatal] $retain_txt must be generated for the current model and OPENAI_API_KEY is not set." >&2
     exit 1
   fi
 
+  if [[ ! -f "$related_concepts_txt" ]]; then
+    echo "[prepare] $related_concepts_txt is missing; retain_prompt_gen.py will generate it." >&2
+  fi
+
+  rm -f "$retain_txt" "$retain_rank_txt"
+
+  echo "[prepare] Generating score-selected retain prompts for $concept using $model_path" >&2
   python "$SCRIPT_DIR/retain_prompt_gen.py" \
     --concept "$concept" \
     --model_path "$model_path" \
@@ -167,7 +167,7 @@ train_one() {
     exit 1
   fi
 
-  require_file "$concept_dir/train_${NUM_MAPPING_PROMPTS}.csv" "forget prompts"
+  require_file "$concept_dir/train.csv" "forget prompts"
   require_file "$concept_dir/map_model.csv" "score-selected mapping prompts"
   require_file "$concept_dir/related_score.txt" "score-selected retain prompts"
 
@@ -178,8 +178,8 @@ train_one() {
     "$SCRIPT_DIR/train.py"
     --pretrained_model_name_or_path "$model_path"
     --output_dir "$out_dir"
-    --forget_prompts_path "$concept_dir/train_${NUM_MAPPING_PROMPTS}.csv"
-    --neutral_prompts_path "$concept_dir/map_model.csv"
+    --forget_prompts_path "$concept_dir/train.csv"
+    --map_prompts_path "$concept_dir/map_model.csv"
     --retain_prompts_path "$concept_dir/related_score.txt"
     --gradient_accumulation_steps "$GRADIENT_ACCUMULATION_STEPS"
     --mixed_precision "$MIXED_PRECISION"
@@ -192,8 +192,6 @@ train_one() {
     --lr_scheduler "$LR_SCHEDULER"
     --lr_warmup_steps "$warmup"
     --unlearning_t_max "$T_MAX"
-    --unlearning_cutoff "$T_CUTOFF"
-    --unlearning_bias "$T_BIAS"
     --num_inference_steps_replay 20
     --wandb_project "$WANDB_PROJECT"
     --wandb_run_name "${order}_${concept}"

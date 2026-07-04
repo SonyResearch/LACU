@@ -11,8 +11,8 @@ For each unlearning target concept, this script:
   3. For each top-10 set, generates 10 prompts per concept (100 total)
      and saves them as retention prompts.
 
-Output (saved to prompts_new/<concept>/):
-  - related_concepts_50.txt          – all 50 LLM-generated concepts
+Output (saved to prompts/<concept>/):
+  - related_concepts.txt             – LLM-generated related concepts
   - related_concepts_clip_top10.txt  – 10 CLIP-selected concepts + scores
   - related_concepts_score_top10.txt – 10 trajectory-selected concepts + scores
   - related_clip.txt                 – 100 retain prompts (CLIP method)
@@ -833,27 +833,27 @@ def process_concept(
     print(f"[CONCEPT] {concept}")
     print(f"{'='*60}")
 
-    # ── Step 1: Get 50 related concepts from LLM ──
-    concepts_50_file = concept_dir / "related_concepts_50.txt"
-    if concepts_50_file.exists() and not force:
-        print(f"  [CACHE] Loading existing {concepts_50_file}")
-        with open(concepts_50_file, encoding="utf-8") as f:
-            all_50 = [ln.strip() for ln in f if ln.strip()]
+    # ── Step 1: Get related concepts from LLM ──
+    concepts_file = concept_dir / "related_concepts.txt"
+    if concepts_file.exists() and not force:
+        print(f"  [CACHE] Loading existing {concepts_file}")
+        with open(concepts_file, encoding="utf-8") as f:
+            all_concepts = [ln.strip() for ln in f if ln.strip()]
     else:
         print(f"  Step 1: Asking LLM for 50 related concepts …")
-        all_50 = get_50_related_concepts(concept, model=llm_model)
-        save_concepts_list(concepts_50_file, all_50)
+        all_concepts = get_50_related_concepts(concept, model=llm_model)
+        save_concepts_list(concepts_file, all_concepts)
 
-    print(f"  Got {len(all_50)} related concepts.")
+    print(f"  Got {len(all_concepts)} related concepts.")
     banned = make_banlist(concept)
 
     # Filter out any that accidentally contain the concept word
-    filtered_50 = [c for c in all_50 if not contains_banned(c, banned)]
-    if len(filtered_50) < len(all_50):
-        removed = len(all_50) - len(filtered_50)
+    filtered_concepts = [c for c in all_concepts if not contains_banned(c, banned)]
+    if len(filtered_concepts) < len(all_concepts):
+        removed = len(all_concepts) - len(filtered_concepts)
         print(f"  [FILTER] Removed {removed} concepts containing banned words.")
-    if len(filtered_50) < 10:
-        print(f"  [WARN] Only {len(filtered_50)} concepts left after filtering. "
+    if len(filtered_concepts) < 10:
+        print(f"  [WARN] Only {len(filtered_concepts)} concepts left after filtering. "
               "Need at least 10. Proceeding with what we have.")
 
     # ── Step 2a: Rank by CLIP similarity ──
@@ -867,7 +867,7 @@ def process_concept(
         else:
             print(f"  Step 2a: Ranking by CLIP text similarity …")
             clip_ranker = CLIPConceptRanker(model_name=clip_model_name, device=device)
-            clip_top10 = clip_ranker.rank(concept, filtered_50, top_k=10)
+            clip_top10 = clip_ranker.rank(concept, filtered_concepts, top_k=10)
             save_scored_concepts(clip_top10_file, clip_top10)
 
             top10_names = [name for name, _ in clip_top10]
@@ -893,7 +893,7 @@ def process_concept(
                 model_path=model_path, device=device, dtype=dtype
             )
             # Filter concepts that contain banned words before scoring
-            scoring_candidates = [c for c in filtered_50 if not contains_banned(c, banned)]
+            scoring_candidates = [c for c in filtered_concepts if not contains_banned(c, banned)]
             score_top10 = traj_ranker.rank(
                 concept, scoring_candidates, top_k=10, K=K, seed=seed
             )
@@ -943,7 +943,7 @@ def main():
     )
     ap.add_argument(
         "--prompts_root",
-        default="prompts_new",
+        default="prompts",
         help="Root directory containing concept folders.",
     )
     ap.add_argument(
