@@ -4,7 +4,7 @@
 
 [Naveen George](https://ngk2110.github.io) | [Naoki Murata](https://ai.sony/people/Naoki-Murata/) | [Yuhta Takida](https://ai.sony/people/yuhta-takida) | [Konda Reddy Mopuri](https://krmopuri.github.io/) | [Yuki Mitsufuji](https://www.yukimitsufuji.com)
 
-[Paper](https://arxiv.org/abs/2512.02657)
+[ArXiv Preprint](https://arxiv.org/abs/2512.02657)
 
 </div>
 
@@ -20,7 +20,7 @@ unlearning because damage to neighboring concepts compounds across deletion
 steps.
 
 <div align="center">
-  <img src="images/flow.png" alt="LACU training flow">
+  <img src="images/flow.png" alt="LACU unlearning flow">
   <br>
   <sub>LACU builds a local unlearn path and a local preservation path at each continual step.</sub>
 </div>
@@ -65,7 +65,7 @@ conda activate lacu-eval
 The scripts download model weights from Hugging Face when a model id such as
 `runwayml/stable-diffusion-v1-5` is used. The released prompt cache starts from
 the scoring inputs, so `train.sh` regenerates `map_model.csv` and
-`related_score.txt` for the current checkpoint before training each concept.
+`related_score.txt` for the current checkpoint before unlearning each concept.
 Set `OPENAI_API_KEY` because retain-prompt generation uses the OpenAI API after
 trajectory scoring:
 
@@ -83,8 +83,9 @@ For each concept, LACU uses three prompt paths:
 3. `retain_prompts_path`: local replay prompts for nearby concepts that should
    be preserved.
 
-During training, `train.py` loads the current checkpoint as a frozen teacher and
-a trainable student UNet. The student is optimized with three losses:
+During each unlearning step, `train.py` loads the current checkpoint as a frozen
+teacher and a student UNet to update. The student is optimized with three
+losses:
 
 - `lambda_unlearn`: makes the student prediction for a forget prompt match the
   teacher prediction for the selected mapping prompt.
@@ -98,7 +99,7 @@ because they can force large score-prediction changes. Those changes hurt
 semantically close concepts first, and the effect accumulates when many
 concepts are removed sequentially.
 
-## Continual Training
+## Continual Unlearning
 
 The release runner uses these 10 concepts:
 
@@ -141,18 +142,18 @@ default paths point inside the `LACU/` repository even if you call the script
 from another directory. You can still pass absolute paths when you want outputs
 or prompts somewhere else.
 
-### Training Variables
+### Unlearning Variables
 
 | Variable | Default | Meaning |
 | --- | --- | --- |
 | `BASE_MODEL` | `runwayml/stable-diffusion-v1-5` | Initial model for step 1. Can be a Hugging Face model id or a local Diffusers checkpoint folder. Later steps use the previous step checkpoint automatically. |
-| `OUTPUT_ROOT` | `LACU/outputs/lacu_sd15_10` | Root folder for all trained checkpoints. Each concept gets a subfolder such as `01_pikachu/`. |
+| `OUTPUT_ROOT` | `LACU/outputs/lacu_sd15_10` | Root folder for all unlearned checkpoints. Each concept gets a subfolder such as `01_pikachu/`. |
 | `PROMPTS_ROOT` | `LACU/prompts` | Root folder containing one prompt-cache folder per concept. |
 | `OPENAI_MODEL` | `gpt-4o-mini` | OpenAI model used when generating missing prompt assets or writing retain prompts after retain-concept scoring. |
 | `OPENAI_API_KEY` | unset | - |
 | `ACCELERATE_NUM_PROCESSES` | `3` | Number of Accelerate processes, usually the number of GPUs. The recommended LACU setting is 3 GPUs. |
 | `MIXED_PRECISION` | `fp16` | Precision mode passed to Accelerate. Use `bf16` if your hardware and environment support it. |
-| `TRAIN_BATCH_SIZE` | `18` | Per-process training batch size, so this is the batch size per GPU. |
+| `TRAIN_BATCH_SIZE` | `18` | Per-process unlearning batch size, so this is the batch size per GPU. |
 | `GRADIENT_ACCUMULATION_STEPS` | `2` | Number of batches accumulated before one optimizer update. Effective batch size is `ACCELERATE_NUM_PROCESSES * TRAIN_BATCH_SIZE * GRADIENT_ACCUMULATION_STEPS`. |
 | `LR_SCHEDULER` | `constant_with_warmup` | Scheduler passed to Diffusers `get_scheduler`. |
 | `T_MAX` | `600` | Maximum diffusion timestep sampled for the unlearning loss. Timesteps are sampled uniformly from `[0, T_MAX]`. |
@@ -163,7 +164,7 @@ The per-concept values for steps, learning rates, warmup steps, and loss weights
 are arrays inside `train.sh`: `STEPS`, `LRS`, `WARMUPS`, `LAMBDA_UNLEARN`,
 `LAMBDA_PRESERVE`, and `LAMBDA_REG`.
 
-The default training configuration uses 3 GPUs with effective batch size
+The default unlearning configuration uses 3 GPUs with effective batch size
 `3 * 18 * 2 = 108`. This is the recommended setting for reproducing the LACU
 runs. If you run on fewer or smaller GPUs, including 48 GB cards, reduce
 `TRAIN_BATCH_SIZE` and compensate with `GRADIENT_ACCUMULATION_STEPS`, but very
@@ -216,13 +217,13 @@ Prompt assets for the released concepts are already stored under
 
 ```text
 prompts/pikachu/
-  train.csv              forget prompts used for training
+  train.csv              forget prompts used for unlearning
   val.csv                validation prompts merged into evaluation
   candidates_clip.json   candidate safe replacements generated by LLM + CLIP filtering
   related_concepts.txt   candidate retain concepts before trajectory scoring
 ```
 
-Each stored per-concept file is an input to either training, scoring, or
+Each stored per-concept file is an input to unlearning, scoring, or
 evaluation:
 
 | File | Used for |
@@ -353,8 +354,8 @@ classification with confusables-aware prompts. It writes per-concept
 
 ## Key Files
 
-- `train.sh`: 10-concept continual training runner.
-- `train.py`: LACU training loop and loss wiring.
+- `train.sh`: 10-concept continual unlearning runner.
+- `train.py`: LACU unlearning loop and loss wiring.
 - `losses.py`: unlearning, preservation, and parameter-regularization losses.
 - `prompt_gen.py`: forget and validation prompt generation.
 - `clip_map_gen.py`: candidate safe mapping prompt generation.

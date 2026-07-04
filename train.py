@@ -44,10 +44,10 @@ def parse_args():
     parser.add_argument("--lambda_preserve", type=float, default=1.0, help="Weight for the preservation loss.")
     parser.add_argument("--lambda_reg", type=float, default=1e-4, help="Weight for the parameter regularization loss.")
 
-    # --- Training Hyperparameters ---
+    # --- Unlearning Hyperparameters ---
     parser.add_argument("--resolution", type=int, default=512, help="The resolution for input images.")
-    parser.add_argument("--train_batch_size", type=int, default=1, help="Batch size for training.")
-    parser.add_argument("--max_train_steps", type=int, default=500, help="Total number of training steps to perform.")
+    parser.add_argument("--train_batch_size", type=int, default=1, help="Batch size per process for unlearning.")
+    parser.add_argument("--max_train_steps", type=int, default=500, help="Total number of unlearning steps to perform.")
     parser.add_argument("--learning_rate", type=float, default=1e-5, help="Initial learning rate.")
     parser.add_argument("--lr_scheduler", type=str, default="constant_with_warmup", help="Learning-rate scheduler.")
     parser.add_argument("--lr_warmup_steps", type=int, default=0, help="Number of steps for the warmup in the lr scheduler.")
@@ -66,7 +66,7 @@ def parse_args():
     parser.add_argument("--num_inference_steps_replay", type=int, default=20, help="Number of DDIM steps for generating replay images.")
 
     # --- Misc ---
-    parser.add_argument("--seed", type=int, default=None, help="A seed for reproducible training.")
+    parser.add_argument("--seed", type=int, default=None, help="A seed for reproducible unlearning.")
     parser.add_argument("--mixed_precision", type=str, default="no", choices=["no", "fp16", "bf16"], help="Whether to use mixed precision.")
     parser.add_argument("--report_to", type=str, default=None, help='The integration to report the results and logs to.')
 
@@ -96,7 +96,7 @@ def make_replay_scheduler(base_model_path: str):
 
 def sample_timesteps(bs, T, device, t_min=0, t_max=None):
     """
-    Sample diffusion timesteps for training.
+    Sample diffusion timesteps for the LACU unlearning loss.
     - [t_min, t_max] are INCLUSIVE bounds (int indices).
     """
     t_min = max(0, int(t_min))
@@ -182,7 +182,7 @@ def main():
     # 1) local unlearning target: teacher(for selected mapping prompt)
     # 2) local replay target: teacher(for nearby retain prompts)
     # A separate base_teacher_unet is unnecessary here because both roles use
-    # the same previous-step checkpoint in the released LACU training flow.
+    # the same previous-step checkpoint in the released LACU unlearning flow.
     previous_task_unet = UNet2DConditionModel.from_pretrained(model_path, subfolder="unet")
 
     # Freeze all teacher/non-UNet components. Gradients should only update the
@@ -211,7 +211,7 @@ def main():
         num_training_steps=args.max_train_steps,
     )
 
-    # --- Prepare for training with Accelerate ---
+    # --- Prepare model, optimizer, and scheduler with Accelerate ---
     student_unet, optimizer, lr_scheduler = accelerator.prepare(
         student_unet, optimizer, lr_scheduler
     )
@@ -246,7 +246,7 @@ def main():
     ).to(accelerator.device)
     replay_pipeline.set_progress_bar_config(disable=True)
 
-    # --- Training Loop ---
+    # --- Unlearning Loop ---
     global_step = 0
     progress_bar = tqdm(range(global_step, args.max_train_steps), disable=not accelerator.is_local_main_process)
     progress_bar.set_description("Steps")
@@ -255,7 +255,7 @@ def main():
         student_unet.train()
         with accelerator.accumulate(student_unet):
             # 1. LOCAL PRESERVATION / REPLAY
-            # Related retain prompts are selected before training by trajectory
+            # Related retain prompts are selected before unlearning by trajectory
             # similarity. Distilling M_{t-1} on these prompts protects concepts
             # close to the erased one, which is the locality term in LACU.
             with torch.no_grad():
@@ -283,7 +283,7 @@ def main():
             # 2. LOCAL UNLEARNING
             # Each forget prompt is paired with a score-selected mapping prompt.
             # On the same noisy latent, the student conditioned on the forget
-            # prompt is trained to match M_{t-1} conditioned on the mapping
+            # prompt is optimized to match M_{t-1} conditioned on the mapping
             # prompt. This moves the erased concept locally instead of forcing
             # every prompt toward one global anchor.
             with torch.no_grad():
