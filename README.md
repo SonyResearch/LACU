@@ -4,7 +4,7 @@
 
 [Naveen George](https://ngk2110.github.io) | [Naoki Murata](https://ai.sony/people/Naoki-Murata/) | [Yuhta Takida](https://ai.sony/people/yuhta-takida) | [Konda Reddy Mopuri](https://krmopuri.github.io/) | [Yuki Mitsufuji](https://www.yukimitsufuji.com)
 
-[ArXiv Preprint](https://arxiv.org/abs/2512.02657)
+[Paper](https://arxiv.org/abs/2512.02657)
 
 </div>
 
